@@ -10,23 +10,23 @@ TocOrder: 0
 
 Every *declared element* (a programming element that is defined in a declaration statement) has one or more of the following characteristics associated with it: 
 
-- Data type - (``` **Type** ```
+- Data type - (```Type```
                 keyword) The values the element can hold, and how those values are stored,
                 such as ```
                     *BINARY, *BOOLEAN, *BYTE, *CHAR, *DATE, *DECIMAL | *FLOAT, *IND,
                     *INTEGER, *OBJECT, *ONECHAR, *PACKED,  *STRING, *TIME, *TIMESTAMP
                 ```, or
                 ```*ZONED```.
-- Lifetime - (``` **Static** ```
+- Lifetime - (```Static```
                 keyword) The period the declared field will remain in existence and
                 retain their latest values after termination of the procedure in which they are
                 declared.
-- Scope - (``` **Access** ```
+- Scope - (```Access```
                 keyword) The type of access to the member, such as ```
                     *PRIVATE, *PUBLIC,
                     *PROTECTED
                 ```, or ```*INTERNAL```.
-- Accessibility (``` **Shared** ``` keyword) The permission for code
+- Accessibility (```Shared``` keyword) The permission for code
                 to use the element.<br />
 
 The following table shows the declared elements and the characteristics that apply to each one. 

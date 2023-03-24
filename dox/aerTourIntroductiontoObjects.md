@@ -16,7 +16,7 @@ The words "class" and "object" are used so much in object-oriented programming t
 ### Fields, Properties, Methods, and Events
 Classes are made of fields, properties, methods, and events. Fields and properties represent information that an object contains. Fields are like variables in that they can be read or set directly. For example, if you have an object named Car you could store its color in a field named Color. 
 
-Properties are retrieved and set like fields, but are implemented using **```BEGGET```** and ``` **BEGSET** ``` commands, which provide more control on how values are set or returned. The layer of indirection between the value being stored and the procedures that use this value helps isolate your data and allows you to validate values before they are assigned or retrieved. 
+Properties are retrieved and set like fields, but are implemented using **```BEGGET``` and ``` **BEGSET``` commands, which provide more control on how values are set or returned. The layer of indirection between the value being stored and the procedures that use this value helps isolate your data and allows you to validate values before they are assigned or retrieved. 
 
 Methods represent actions that an object can perform. For example, a ```Vehicle``` object could have ```Type, Drive```, and ```Stop``` methods. You define methods by adding procedures, either **```BEGSR``` or ```BEGFUNC```** routines or functions, to your class. 
 

@@ -14,10 +14,10 @@ Loop structures allow you to execute one or more lines of code repetitively. You
                 of times the group will be processed.  An [ENDDO](ENDDO.html)
                 statement marks the end of the group.
 - [DOWHILE](DOWHILE.html) executes a block of commands while a
-                comparison expression evaluates true. An ``` **ENDDO** ```
+                comparison expression evaluates true. An ```ENDDO```
                 statement marks the end of the group.
 - [DOUNTIL](DOUNTIL.html) executes a block of commands until a
-                comparison expression evaluates true.  An ``` **ENDDO** ```
+                comparison expression evaluates true.  An ```ENDDO```
                 statement marks the end of the group.
 - [FOR](FOR.html) executes a block of commands a specified number
                 of times, until the index value is greater than or less than the limit value,

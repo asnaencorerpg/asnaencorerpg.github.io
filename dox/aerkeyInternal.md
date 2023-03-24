@@ -8,9 +8,9 @@ TocOrder: 0
 
 ---
 
-The ```* **Internal** ``` special value for the ``` **Access** ``` parameter confers internal access on one or more declared programming elements. Internal elements are accessible from within the same project, but not from outside the project. 
+The ```*Internal``` special value for the ```Access``` parameter confers internal access on one or more declared programming elements. Internal elements are accessible from within the same project, but not from outside the project. 
 
-The ```* **Internal** ``` access type is used in the following operation codes: 
+The ```*Internal``` access type is used in the following operation codes: 
 
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html) 
 

@@ -12,7 +12,7 @@ A **property** routine is a series of Encore RPG statements that manipulate a cu
 
 A property differs from a public variable or a field in the following respects: 
 
-- You implement a property with executable code (``` **BEGPROP** ```),
+- You implement a property with executable code (```BEGPROP```),
                 rather than with a single declaration statement.
 - **Property** 
                 procedures are executed when the property value is set or retrieved. This
@@ -29,14 +29,14 @@ A property differs from a public variable or a field in the following respects:
 
 Encore RPG provides the following **Property** procedures: 
 
-- ``` **BEGGET** ```
+- ```BEGGET```
                 operations return the value of a property; they are called when the property is
                 accessed in an expression.
-- ``` **BEGSET** ```
+- ```BEGSET```
                 operations set a property to a value, including an object
                 reference; they are called when a value is assigned to the property.
 
-You usually define **Property** procedures in pairs, using the ``` **BEGGET** ``` and ``` **BEGSET** ``` op codes, but you can define either procedure alone if the property is read-only (``` **BegGet** ```) or write-only (``` **BegSet** ``` ). 
+You usually define **Property** procedures in pairs, using the ```BEGGET``` and ```BEGSET``` op codes, but you can define either procedure alone if the property is read-only (```BegGet```) or write-only (```BegSet``` ). 
 
 ### See Also
 [BEGGET](BEGGET.html)

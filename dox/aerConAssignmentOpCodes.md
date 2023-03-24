@@ -48,7 +48,7 @@ MyTextBox.Text = "This " & "is a" & "String"
    // MyTextBox.Text = "This is a string".
 ```
 
-Other assignment operation code or commands first perform an operation on an argument before assigning it to another argument. The following example illustrates one of these operators, ``` **+=** ```, which increments the value of the variable on the left side of the operator by the value of the expression on the right: 
+Other assignment operation code or commands first perform an operation on an argument before assigning it to another argument. The following example illustrates one of these operators, ```+=```, which increments the value of the variable on the left side of the operator by the value of the expression on the right: 
 
 ```
 x += 1

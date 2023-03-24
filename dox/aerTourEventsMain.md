@@ -15,8 +15,8 @@ Event-driven applications execute code in response to an event. Each form and co
 The types of events raised by an object vary, but many types are common to most controls. For example, most objects will handle a **```Click```** event — if a user clicks a form, code in the form's **Click** event handler is executed. 
 <blockquote class="dtBlock">
                 <b class="le">Note &#8211;</b> Many events
-                occur in conjunction with other events. For example, in the course of the ``` **DoubleClick** ```
-                event occurring, the ``` **MouseDown** ```, ``` **MouseUp** ```, and ``` **Click** ``` events
+                occur in conjunction with other events. For example, in the course of the ```DoubleClick```
+                event occurring, the ```MouseDown```, ```MouseUp```, and ```Click``` events
                 occur.
             </blockquote>
 

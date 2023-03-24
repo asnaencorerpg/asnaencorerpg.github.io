@@ -10,7 +10,7 @@ TocOrder: 10
 
 To support the RPG cycle in Monarch migrated applications, the Encore RPG compiler has predefined the matching record indicator ```*INMR```. This matching record indicator will be migrated as such, and does not need to be explicitly declared. 
 
-- ```* **INMR** ```
+- ```*INMR```
 
 ### Remarks
 <dl class="normal">
@@ -31,7 +31,7 @@ Statements in a file are conditioned on the
 You can specify up to 9 field(s) that are defined as the "control"
                 matching field is read from the buffer.  You can specify up to 9
                 different fields, or levels using [DclFmtCycleAttr](DCLFMTCYCLEATTR.html).   These are defined
-                as ``` **M1 .... M9** ```.  When the field is different, a level
+                as ```M1 .... M9```.  When the field is different, a level
                 break occurs, and the defined level indicators are set; thus the calculations
                 totals and output is printed.
 

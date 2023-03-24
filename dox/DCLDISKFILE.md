@@ -330,7 +330,7 @@ Optional. (For SQL Server files only). ServerCursor allows you to gain access to
 - *STATIC - defines the server cursor as Static.
 - *FASTFORWARDONLY (previously *FORWARDONLY) - Specifies that the reading of records in this file will be done only via forward reads (READ and not READP); using this kind of cursor optimizes reading performance performance. It is only valid for files opened for *Input only.
 
-Opening a file for Update or Output requires the server cursor to be ``` **Dynamic** ```.
+Opening a file for Update or Output requires the server cursor to be ```Dynamic```.
 
 For newly compiled files with this feature, running against an older version of SQL server, and for any files running against any other server (non-SQL) all values of ```ServerCursor``` are basically ignored.
 

@@ -12,7 +12,7 @@ Forms are graphical objects that make up your applications user interface. Withi
 
 **To create a new method for a form** 
 
-- Add a procedure declared as ``` **Public** ```, as in the following code:
+- Add a procedure declared as ```Public```, as in the following code:
                 
 ```
 BegProp MyProp Access (*Public)

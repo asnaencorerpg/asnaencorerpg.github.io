@@ -22,7 +22,7 @@ DclFld a string  Type(*String)
 
 You can also manipulate strings with the methods of the <a href="https://msdn.microsoft.com/en-us/library/System.String(v=vs.90).aspx">String</a> class. 
 
-There are two types of methods in ``` **String** ```: *shared* methods and *instance* methods. 
+There are two types of methods in ```String```: *shared* methods and *instance* methods. 
 
 a shared method is a method that stems from the **String** class itself and does not require an instance of that class to work. These methods can be qualified with the name of the class ( **String** ) rather than with an instance of the **String** class. For example: 
 
@@ -31,9 +31,9 @@ DclFld a string Type (*String)
   bString = String.Copy("a literal string")
 ```
 
-In the preceding example, the ``` **String.Copy** ``` method is a static method, which acts upon an expression it is given and assigns the resulting value to <code class="ce"> bString ```. 
+In the preceding example, the ```String.Copy``` method is a static method, which acts upon an expression it is given and assigns the resulting value to <code class="ce"> bString ```. 
 
-Instance methods, by contrast, stem from a particular instance of ``` **String** ``` and must be qualified with the instance name. For example: 
+Instance methods, by contrast, stem from a particular instance of ```String``` and must be qualified with the instance name. For example: 
 
 ```
 DclFld aString Type(*String) Inz("A
@@ -41,10 +41,10 @@ DclFld aString Type(*String) Inz("A
   bString = aString.SubString(2,6) // bString = "String"
 ```
 
-In this example, the ``` **SubString** ``` method is a method of the instance of ``` **String** ``` (that is, <code class="ce">aString```). It performs an operation on <code class="ce">aString``` and assigns that value to <code class="ce">bString```. 
+In this example, the ```SubString``` method is a method of the instance of ```String``` (that is, <code class="ce">aString```). It performs an operation on <code class="ce">aString``` and assigns that value to <code class="ce">bString```. 
 
 ### Nothing and Strings
-The Encore RPG runtime and the .NET Framework evaluate ```* **Nothing** ``` differently when it comes to strings. Consider the following example: 
+The Encore RPG runtime and the .NET Framework evaluate ```*Nothing``` differently when it comes to strings. Consider the following example: 
 
 ```
 DclFld MyString Type (*String) Inz("This is my string")
@@ -71,7 +71,7 @@ DclFld result As Integer
 
 This method returns an integer that indicates the relationship between the two compared strings based on the sorting order. A positive value for the result indicates that the first string is greater than the second string. A negative result indicates the first string is smaller, and zero indicates equality between the strings. Any string, including an empty string, evaluates to greater than a null reference. 
 
-Additional overloads of the ``` **String.Compare** ``` method allow you to indicate whether or not to take case or culture formatting into account, and to compare substrings within the supplied strings. For more information on how to compare strings, see <a href="https://msdn.microsoft.com/en-us/library/system.string.compare(v=vs.90).aspx">String.Compare</a> method. 
+Additional overloads of the ```String.Compare``` method allow you to indicate whether or not to take case or culture formatting into account, and to compare substrings within the supplied strings. For more information on how to compare strings, see <a href="https://msdn.microsoft.com/en-us/library/system.string.compare(v=vs.90).aspx">String.Compare</a> method. 
 
 ### Searching for Strings Within Your Strings
 There are times when it is useful to have data about the characters in your string and the positions of those characters within your string. A string can be thought of as an array of characters ( **Char** instances); you can retrieve a particular character by referencing the index of that character through the **Chars** property. For example: 
@@ -88,10 +88,10 @@ You can use the <a href="https://msdn.microsoft.com/en-us/library/system.string.
 DclFld myString Type(*String) <br />    myString ="ABCDE" <br />DclFld myInteger Type(*Integer)<br />    myInteger = myString.IndexOf("D) // myInteger = 3
 ```
 
-In the previous example, the ``` **IndexOf** ``` method of <code class="ce">myString``` was used to return the index corresponding to the first instance of the character "C" in the string. ``` **IndexOf** ``` is an overloaded method, and the other overloads provide methods to search for any of a set of characters, or to search for a string within your string, among others. The Encore RPG command ``` **InStr** ``` also allows you to perform similar functions. 
+In the previous example, the ```IndexOf``` method of <code class="ce">myString``` was used to return the index corresponding to the first instance of the character "C" in the string. ```IndexOf``` is an overloaded method, and the other overloads provide methods to search for any of a set of characters, or to search for a string within your string, among others. The Encore RPG command ```InStr``` also allows you to perform similar functions. 
 
 ### Creating New Strings from Old
-When using strings, you may want to modify your strings and create new ones. You may want to do something as simple as convert the entire string to uppercase, or trim off trailing spaces; or you may want to do something more complex, such as extracting a substring from your string. The ``` **System.String** ``` class provides a wide range of options for modifying, manipulating, and making new strings out of your old ones. 
+When using strings, you may want to modify your strings and create new ones. You may want to do something as simple as convert the entire string to uppercase, or trim off trailing spaces; or you may want to do something more complex, such as extracting a substring from your string. The ```System.String``` class provides a wide range of options for modifying, manipulating, and making new strings out of your old ones. 
 
 To combine multiple strings, you can use the concatenation operators ( **&** or **+** ). You can also use the **String.Concat** Method to concatenate a series of strings or strings contained in objects. An example of the **String.Concat** method follows: 
 
@@ -120,7 +120,7 @@ DclFld myString Type(*String) Inz("UpPeR oR LoWeR cAsE") DclFld newString Type(*
 
 The ```<a href="https://msdn.microsoft.com/en-us/library/system.string.format(v=vs.90).aspx">String.Format</a>``` method and the Visual Basic ```<a href="https://msdn.microsoft.com/en-us/library/59bz1f0h%28v=vs.90%29.aspx">Format</a>``` command can generate a new string by applying formatting to a given string. For information on these commands, see ```<a href="https://msdn.microsoft.com/en-us/library/59bz1f0h%28v=vs.90%29.aspx">Format Function</a>``` or ```<a href="https://msdn.microsoft.com/en-us/library/system.string.format(v=vs.90).aspx">String.Format</a>``` Method. 
 
-The ``` **String.Trim** ``` functions and related functions also allow you to remove instances of a specific character from the ends of your string. The following example trims all leading and trailing instances of the "#" character: 
+The ```String.Trim``` functions and related functions also allow you to remove instances of a specific character from the ends of your string. The following example trims all leading and trailing instances of the "#" character: 
 
 ```
 DclFld myString Type(*String) Inz("#####Remove

@@ -24,7 +24,7 @@ Two examples of the relationship between classes and objects in Encore RPG may m
 - The form you work with at design-time is a class. At run-time, Encore RPG
                 creates an instance of the form's class.
 
-Objects are created as identical copies of their class. Once they exist as individual objects, however, their properties can be changed. For example, if you add three check boxes to a form, each check box button object is an instance of the ``` **CheckBox** ``` class. The individual ``` **CheckBox** ``` objects share a common set of characteristics and capabilities (properties, fields, methods, and events), defined by the class. However, each has its own name, can be separately enabled and disabled, can be placed in a different location on the form. 
+Objects are created as identical copies of their class. Once they exist as individual objects, however, their properties can be changed. For example, if you add three check boxes to a form, each check box button object is an instance of the ```CheckBox``` class. The individual ```CheckBox``` objects share a common set of characteristics and capabilities (properties, fields, methods, and events), defined by the class. However, each has its own name, can be separately enabled and disabled, can be placed in a different location on the form. 
 
 ### See Also
 [The Basics of Working with Objects](aerConBasicsofObjects.html)

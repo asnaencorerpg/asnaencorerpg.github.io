@@ -25,7 +25,7 @@ If x = *True  // Compare the value of x to *True
 EndIf
 ```
 
-Comparison operators, such as ```=, **<** , **>** , **<>** , **<=** ,``` and ``` **>=** ```, produce **Boolean** expressions by comparing the expression on the left side of the operator to the expression on the right side of the operator and evaluating the result as true or false. For instance: 
+Comparison operators, such as ```=, < , > , <> , <= ,``` and ```>=```, produce **Boolean** expressions by comparing the expression on the left side of the operator to the expression on the right side of the operator and evaluating the result as true or false. For instance: 
 
 ```
 39 < 81   // Evaluates to *True
@@ -37,7 +37,7 @@ Comparison expressions can be combined using logical operators to produce more c
 x > y And x < 5000
 ```
 
-In the example, the value of the overall expression depends on the values of the expressions on each side of the ```* **And** ``` operator. If both expressions are true, then the overall expression evaluates as ``` ***True** ```. If either expression is false, then the entire expression evaluates to ``` ***False** ```. 
+In the example, the value of the overall expression depends on the values of the expressions on each side of the ```*And``` operator. If both expressions are true, then the overall expression evaluates as ```*True```. If either expression is false, then the entire expression evaluates to ```*False```. 
 
 ### Parenthetical Expressions
 You can use parentheses to control the evaluation of **Boolean** expressions. Expressions enclosed by parentheses evaluate first. For multiple levels of nesting, precedence is granted to the most deeply-nested expressions. Within parentheses, evaluation proceeds according to the rules of operator precedence. For more information, see [Operator Precedence in Encore RPG](Expression_Operators_and_their_Precedence.html). 

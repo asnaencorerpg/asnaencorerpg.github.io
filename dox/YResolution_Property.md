@@ -12,11 +12,11 @@ TocOrder: 26
 
 ```
 
- *printfile* . **YResolution =** ***<** integerVal>* 
+ printfile.YResolution = <integerVal>
 ```
 
 ### Property Value
-** *<integerVal>* ** is of type *Integer4 and contains the value that defines the y-axis resolution in dots per inch, in which graphics will be printed. 
+\<*integerVal*\> is of type *Integer4 and contains the value that defines the y-axis resolution in dots per inch, in which graphics will be printed. 
 
 ### Remarks
 **YResolution** must be set prior to opening the print file (see [OPEN](OPEN.html) command). 

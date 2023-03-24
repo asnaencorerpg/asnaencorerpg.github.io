@@ -13,7 +13,7 @@ TocOrder: 2
 ### Attributes and Metadata
 Attributes are saved with the *metadata* of Encore RPG **assemblies** . Metadata is information that describes every element managed by the system runtime. This includes information required for debugging and garbage collection, as well as security attributes, marshalling data, extended class and member definitions, version binding, and any other information the runtime requires. 
 
-With attributes, you specify the metadata in much the same way as you use special values like ```* **Public** ``` and ```* **Private** ``` to provide information about **Access** levels. However, unlike special values, most attributes are not Encore RPG-specific. Using attributes, you can extend the capabilities of the Encore RPG language without requiring changes to the compiler. 
+With attributes, you specify the metadata in much the same way as you use special values like ```*Public``` and ```*Private``` to provide information about **Access** levels. However, unlike special values, most attributes are not Encore RPG-specific. Using attributes, you can extend the capabilities of the Encore RPG language without requiring changes to the compiler. 
 
 ### Functionality and Capabilities of Attributes
 Some key points about attributes include: 
@@ -28,7 +28,7 @@ Some key points about attributes include:
                 own custom attributes if necessary.
 
 ### The Attributes Keyword
-The following commands have a new optional keyword called ``` **Attributes** ``` which allows you to provide one or more attributes on the object being defined by the command. To specify more than one attribute, simply separate them with commas. 
+The following commands have a new optional keyword called ```Attributes``` which allows you to provide one or more attributes on the object being defined by the command. To specify more than one attribute, simply separate them with commas. 
 
 - [BEGCLASS](BEGCLASS.html)
 - [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html)
@@ -45,7 +45,7 @@ You can also add attributes to the assembly by using the new command:
          SetAssemblyAttribute Attribute( attr )
 ```
 
-To specify more than one attribute for the assembly use multiple [SetAssemblyAttribute](SETASSEMBLYATTRIBUTE.html) commands. This command can be coded in any of your classes but must be come before the ``` **BEGCLASS** ``` and after any [USING](USING.html) statements. 
+To specify more than one attribute for the assembly use multiple [SetAssemblyAttribute](SETASSEMBLYATTRIBUTE.html) commands. This command can be coded in any of your classes but must be come before the ```BEGCLASS``` and after any [USING](USING.html) statements. 
 
 It is common to create a dedicated source file called AssemblyInfo.vr where all assembly attributes are grouped. This file usually lacks a class definition, i.e.: it contains no ```BegClass``` whatsoever. 
 

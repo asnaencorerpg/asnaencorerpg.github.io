@@ -9,7 +9,7 @@ TocOrder: 8
 ---
 
 ### Description
-The ``` ***FetchOverflow** ``` method is a compiler-defined, user-called method for cycle programs that indicates if the page is full and has reached overflow. 
+The ```*FetchOverflow``` method is a compiler-defined, user-called method for cycle programs that indicates if the page is full and has reached overflow. 
 
 ```
  *Begsr ** 
@@ -17,7 +17,7 @@ The ``` ***FetchOverflow** ``` method is a compiler-defined, user-called method 
 ```
 
 ### Remarks
-The purpose of ```* **FetchOverflow** ``` is to print those lines that are not "except" and which are conditioned by the print file overflow indicator. 
+The purpose of ```*FetchOverflow``` is to print those lines that are not "except" and which are conditioned by the print file overflow indicator. 
 
 The ```*FetchOverflow(<print file>)``` parameter is the print file in which the FetchOverflow should happen. This parameter will cause ```FetchOverflow``` to happen only over those specs that belong to the print file. No other print file specs should be tested nor printed. 
 

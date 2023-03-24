@@ -20,9 +20,9 @@ Optional. ```UseKeyBuffer``` specifies whether any keyed operation on the file (
 
 
 ### Example
-For example, assume a file ``` **F** ``` has two key fields, ``` **K1** ``` which is ```*char len(5)``` and ``` **K2** ``` which is ```*zoned len(2,0)```.<br /> Let ``` **B7** ``` be a field in the program with type ```*char len(7)``` and value ```"abcde32"```.<br /> Let ``` **B6** ``` be a ```*char len(6)``` with value ```"abcde3"```.<br /> Let ``` **B5** ``` be a ```*char len(5)``` with value ```"abcde"```.<br /> 
+For example, assume a file ```F``` has two key fields, ```K1``` which is ```*char len(5)``` and ```K2``` which is ```*zoned len(2,0)```.<br /> Let ```B7``` be a field in the program with type ```*char len(7)``` and value ```"abcde32"```.<br /> Let ```B6``` be a ```*char len(6)``` with value ```"abcde3"```.<br /> Let ```B5``` be a ```*char len(5)``` with value ```"abcde"```.<br /> 
 
-Assume ``` **F** ``` has the following records
+Assume ```F``` has the following records
 <table>
             <tr><td>K1</td><td>K2</td><td>...</td></tr>
             <tr><td>"aabcd"</td><td>36</td><td>...</td></tr>

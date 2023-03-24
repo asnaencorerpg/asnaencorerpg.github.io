@@ -26,9 +26,9 @@ Use **fields** when:
 - The value is of a self-validating type. For example, an error or automatic data
                 conversion occurs if a value other than **```True```** 
                 or **```False```** 
-                is assigned to a ```* **Boolean** ```
+                is assigned to a ```*Boolean```
                 variable.
-- The property is a ```* **String** ``` data type, and there are no constraints on the
+- The property is a ```*String``` data type, and there are no constraints on the
                 size or value of the string.
 
 ### See Also

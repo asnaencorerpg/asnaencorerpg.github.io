@@ -17,7 +17,7 @@ Ends an [IF](IF.html), or [ELSE](ELSE.html) group.
 ```
 
 ### Remarks
-``` **ENDIF** ``` must be the last statement within a subroutine that is preceded with an ``` **IF** ```, or ``` **ELSE** ``` group. 
+```ENDIF``` must be the last statement within a subroutine that is preceded with an ```IF```, or ```ELSE``` group. 
 
 ### Example
 

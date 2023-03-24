@@ -9,7 +9,7 @@ TocOrder: 5
 ---
 
 ### Description
-The ``` ***DetailCalc** ``` method is a user-defined method that indicates the start of Detail calculations. 
+The ```*DetailCalc``` method is a user-defined method that indicates the start of Detail calculations. 
 
 ```
  **Begsr *** <strong>DetailCalc** </strong>

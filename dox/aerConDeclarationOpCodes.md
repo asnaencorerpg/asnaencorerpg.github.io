@@ -20,7 +20,7 @@ A declaration operation code reserves the memory needed to create a variable, bu
 DCLFLD Name( MyField ) Type (*Integer) Len( 2) Inz( 45 )  
 ```
 
-If your variable is an object variable, you can explicitly create an instance of its class when you declare it by using the ``` **New** ``` keyword, as illustrated below: 
+If your variable is an object variable, you can explicitly create an instance of its class when you declare it by using the ```New``` keyword, as illustrated below: 
 
 ```
  DclFld TheOtherForm Type( Form2 ) New( *Dft )

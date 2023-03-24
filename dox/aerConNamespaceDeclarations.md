@@ -8,7 +8,7 @@ TocOrder: 05
 
 ---
 
-A namespace declaration (``` **DCLNAMESPACE** ```) consists of the name of the namespace member. If the namespace name is qualified, the namespace declaration is treated as if it is lexically nested within namespace declarations corresponding to each name in the qualified name. 
+A namespace declaration (```DCLNAMESPACE```) consists of the name of the namespace member. If the namespace name is qualified, the namespace declaration is treated as if it is lexically nested within namespace declarations corresponding to each name in the qualified name. 
 
 When dealing with the members of a namespace, it is not important where a particular member is declared. If two programs define an entity with the same name in the same namespace, attempting to resolve the name in the namespace causes an ambiguity error. 
 

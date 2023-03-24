@@ -45,7 +45,7 @@ txtPort.Text = My_Production_Database.Port
 txtUserId.Text  = My_Production_Database.User
 txtPlatform.Text  = My_Production_Database.Platform
 ```
-- However, you can make this code easier to write and read by using the ``` **With...EndWith** ``` statement, as in the following code: 
+- However, you can make this code easier to write and read by using the ```With...EndWith``` statement, as in the following code: 
 
 ```
 
@@ -59,7 +59,7 @@ txtPlatform.Text  = My_Production_Database.Platform
     txtPlatform.Text = .Platform
 EndWith    
 ```
-- You can also nest ``` **With...EndWith** ``` commands by placing objects one inside another, as in the following code: 
+- You can also nest ```With...EndWith``` commands by placing objects one inside another, as in the following code: 
 
 ```
 With myHashTable()
@@ -73,7 +73,7 @@ With myHashTable()
 EndWIth
 ```
 
-Within the nested ``` **With** ``` statement, however, the syntax refers to the nested object; properties of the object in the outer ``` **With** ``` statement are not set. 
+Within the nested ```With``` statement, however, the syntax refers to the nested object; properties of the object in the outer ```With``` statement are not set. 
 
 ### See Also
 [Assignment Operation Codes](aerConAssignmentOpCodes.html)

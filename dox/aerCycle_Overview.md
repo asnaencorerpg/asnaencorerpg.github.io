@@ -32,15 +32,15 @@ To control the cycle, you can have:
                 secondary files to be read, and all program fields have their correct values
                 including first page indicator (```*IN1P``` – it is initialized to *ON in the class
                 constructor).
-2. If ```*IN1P``` is ```*ON``` (this is the first time ```* **StartCycle** ```
+2. If ```*IN1P``` is ```*ON``` (this is the first time ```*StartCycle```
                 is called), go to step 3. Otherwise, go to step 4.
-3. Perform header and detail output (```* **DetailOutput** ```
+3. Perform header and detail output (```*DetailOutput```
                 ). Set ```*OFF *IN1P```.
-4. Set ```* **OFF** ```
+4. Set ```*OFF```
                 all record identifying and L1 through L9 indicators.
-5. If ```* **INLR** ```
+5. If ```*INLR```
                 is ```*ON```, go to step 6, otherwise go to step 7.
-6. Set ```* **ON** ```
+6. Set ```*ON```
                 the level indicators ```*INL1``` through ```*INL9```, and go to step 18.
 7. If this is not the first program cycle, read a record from the last file
                 processed.
@@ -55,25 +55,25 @@ To control the cycle, you can have:
 12. The next file is selected. It will be either the primary if it’s not at EOF, or
                 the first secondary that is not at EOF selected according to the order they are
                 specified in the program.
-13. If all files are at ``` **EOF** ```, then go to 14. Otherwise go to
+13. If all files are at ```EOF```, then go to 14. Otherwise go to
                 15.
-14. Set ```* **ON** ```
+14. Set ```*ON```
                 ```*INLR``` and all level indicators ```*INL1``` through ```*INL9```. Continue at 18.
 15. The record identifying indicator is set *ON for the record selected for
                 processing.
 16. If there is a control break, go to 17, otherwise go to 18.
-17. The appropriate level break indicator (```*INL1``` through ```*INL9```) is set ```* **ON** ```.
+17. The appropriate level break indicator (```*INL1``` through ```*INL9```) is set ```*ON```.
                 All lower level indicators are also set ```*ON```.
 18. Determine whether totals need to be executed and if so go to 19, otherwise go
                 to 20.  If no control levels are specified for any record, totals are
                 bypassed on the first cycle and are always processed after the first cycle. If
                 control levels are specified, totals are bypassed until the first record
                 containing control fields has been processed.
-19. ```* **TotalCalculations** ``` and ```* **TotalOutput** ```
+19. ```*TotalCalculations``` and ```*TotalOutput```
                 are processed.
-20. If ```* **INLR** ```
+20. If ```*INLR```
                 is ```*ON```, go to step 22.
-21. The match record indicator (```* **INMR** ```)
+21. The match record indicator (```*INMR```)
                 is set ```*ON``` or ```*OFF``` depending on whether the record read is a
                 matching record.
                 Data from the last record read is made available for processing.
