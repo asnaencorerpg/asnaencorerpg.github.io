@@ -1,0 +1,13 @@
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+### Visual Studio ###
+.vs/
+ProjectSettings.json
+.suo
+
+### Mac OS ###
+.DS_Store

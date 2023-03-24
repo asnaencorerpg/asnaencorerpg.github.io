@@ -1,0 +1,33 @@
+---
+title: ASNA Encore RPG Help
+
+Id: Welcome
+TocParent: -1
+TocOrder: 0
+
+
+---
+
+ASNA Encore RPG integrates with Microsoft Visual Studio to give you a complete suite of tools for building both Windows and Web applications using the Encore RPG language. 
+
+### In the Encore RPG Documentation
+
+[Getting Started](aerGettingStartedMain.html)
+
+Find out about topics to assist you with getting started, and
+                    the installation procedures for Encore RPG.
+
+
+### Additional Information
+
+[Language Reference](aerLrfLangRefMain.html)
+
+Find out about the new Language Concepts when using Encore RPG.
+
+[Language Concepts](aerConLanguageConceptsMain.html)
+
+Describes the Encore RPG programming language reference.
+
+
+### See Also
+[Visual Studio](VisualStudioMain.html) 

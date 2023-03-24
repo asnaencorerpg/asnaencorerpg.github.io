@@ -1,0 +1,29 @@
+# we wish we could add a theme like this one
+# theme: jekyll-theme-leap-day
+# but we need to learn how to match them with layouts.
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  
+# For local development, we build css with the "expanded" format to produce
+# human-readable output for easier debugging.
+sass:
+  sass_dir: _scss
+  style: expanded
+  
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: docs
+      toc_min: 2
+      toc_max: 3
+
+      
+collections:
+  samples:
+    output: true
+

@@ -1,0 +1,1495 @@
+
+horizontalnav:
+- title: Home
+  path: /
+  node: home
+- title: Documentation
+  path: /dox/Welcome.html
+  node: dox
+- title: Articles
+  path: /articles/articles-overview.html
+  node: Articles
+
+home: {}
+
+##
+dox:
+- sectiontitle: ASNA Encore RPG Help
+  section:
+  - title: Overview
+    path: /dox/Welcome.html
+  - sectiontitle: Introducing Encore RPG
+    section:
+    - title: Overview
+      path: /dox/aerIntroducingECR.html
+    - title: Using Visual Studio
+      path: /dox/VisualStudioMain.html
+  - sectiontitle: Getting Started in Encore RPG
+    section:
+    - title: Overview
+      path: /dox/aerGettingStartedMain.html
+    - title: Installation and Setup
+      path: /dox/aerInstallationandsetup.html
+  - sectiontitle: Language Concepts
+    section:
+    - title: Overview
+      path: /dox/aerConLanguageConceptsMain.html
+    - sectiontitle: Arrays
+      section:
+      - title: Overview
+        path: /dox/aerConArrays.html
+      - title: Arrays Overview
+        path: /dox/aerConArraysOverview.html
+      - title: Array Usage
+        path: /dox/aerConArraysUsage.html
+    - sectiontitle: Assemblies
+      section:
+      - title: Overview
+        path: /dox/aerConAssemblies.html
+      - title: Allocating Memory
+        path: /dox/aerConAllocatingMemory.html
+      - title: Namespaces
+        path: /dox/aerConNamespacesStart.html
+      - title: Custom Attributes
+        path: /dox/aerConCustomAttributes.html
+      - title: Strong-Named Assemblies
+        path: /dox/aerLrfStrongNamedAssembly.html
+    - sectiontitle: Control Flow
+      section:
+      - title: Overview
+        path: /dox/aerConControlFlow.html
+      - title: Decision Structures
+        path: /dox/aerConDecisionStructures.html
+      - title: Loop Structures
+        path: /dox/aerConLoopStructures.html
+      - title: Nested Control Statements
+        path: /dox/aerConNestedControlOpCodes.html
+    - sectiontitle: DataTypes
+      section:
+      - title: Overview
+        path: /dox/aerConDataTypes.html
+      - title: DataType Declaration
+        path: /dox/aerConDataTypeDeclaration.html
+      - sectiontitle: Elementary DataTypes
+        section:
+        - title: Overview
+          path: /dox/aerConElementaryDataTypes.html
+        - sectiontitle: Numeric DataTypes
+          section:
+          - title: Overview
+            path: /dox/aerConNumericDataTypes.html
+          - title: Integral Types
+            path: /dox/aerConIntegralTypes.html
+          - title: NonIntegral Types
+            path: /dox/aerConNonintegralTypes.html
+        - title: "*Char Data Type"
+          path: /dox/Character_Data_Type.html
+      - sectiontitle: DataType Implementation
+        section:
+        - title: Overview
+          path: /dox/aerConDataTypeImplementation.html
+        - title: Values Types and Reference Types
+          path: /dox/aerConValuesTypesandReferenceTypes.html
+        - title: Value Types vs. Reference Types
+          path: /dox/aerConValueTypesvsReferenceTypes.html
+        - title: DataTypes as Classes and Structures
+          path: /dox/aerConDataTypesasStructuresandClasses.html
+      - title: DataType Comparison
+        path: /dox/aerConFrameworkDataTypesComparison.html
+      - title: Data Structure Changes
+        path: /dox/DataStructureChanges.html
+    - sectiontitle: Declared Elements
+      section:
+      - title: Overview
+        path: /dox/aerConDeclaredElements.html
+      - title: Declared Element Characteristics
+        path: /dox/aerConDeclaredElementCharacteristics.html
+      - sectiontitle: Declared Element Lifetime
+        section:
+        - title: Overview
+          path: /dox/aerConDeclaredElementsLifetime.html
+        - title: Static Variable Initialization
+          path: /dox/aerConStaticVariableInitialization.html
+      - sectiontitle: Declared Element Scope
+        section:
+        - title: Overview
+          path: /dox/aerConDeclaredElementsScope.html
+        - title: Levels of Scope
+          path: /dox/aerConLevelsofScope.html
+      - title: Accessibility
+        path: /dox/aerConAccessibility.html
+    - title: Enumerations Overview
+      path: /dox/aerConEnumerationsOverview.html
+    - title: Events
+      path: /dox/aerConEvents.html
+    - title: Generic Types Overview
+      path: /dox/aerGenericTypesOverview.html
+    - sectiontitle: Expressions
+      section:
+      - title: Overview
+        path: /dox/aerConExpressions.html
+      - title: Calculating Numeric Values
+        path: /dox/aerConCalculatingNumericValues.html
+      - title: Value Comparisons
+        path: /dox/aerConValueComparisons.html
+      - title: Boolean Expressions
+        path: /dox/aerConBooleanExpressions.html
+    - sectiontitle: Objects
+      section:
+      - title: Overview
+        path: /dox/aerConObjects.html
+      - title: What is an Object?
+        path: /dox/aerConWhatisanObject.html
+      - title: Relation of Objects to Each Other
+        path: /dox/aerConRelationofObjects.html
+      - title: The Basics of Working with Objects
+        path: /dox/aerConBasicsofObjects.html
+      - title: Objects, Properties, Methods, and Events
+        path: /dox/aerConObjPropMethodsandEvents.html
+      - title: Using Constructors
+        path: /dox/aerConUsingConstructors.html
+      - title: Object-Oriented Programming
+        path: /dox/aerConObjectOrientedProgramming.html
+      - title: Using NetBlockFactor
+        path: /dox/aerConUsingNetblockfactor.html
+      - title: Performing Multiple Actions on an Object
+        path: /dox/aerConPerformingMultipleActionsonObject.html
+    - sectiontitle: Namespaces
+      section:
+      - title: Overview
+        path: /dox/aerConNamespaces.html
+      - title: Namespace Declarations
+        path: /dox/aerConNamespaceDeclarations.html
+      - title: Namespace Concepts
+        path: /dox/aerConNamespacesConcepts.html
+    - sectiontitle: Operators
+      section:
+      - title: Overview
+        path: /dox/aerConOperators.html
+      - title: Arithmetic Operators
+        path: /dox/aerConArithmeticOperators.html
+      - title: Comparison Operators
+        path: /dox/aerConComparisonOperators.html
+      - title: Concatenation Operators
+        path: /dox/aerConConcatenationOperators.html
+      - title: Logical Operators
+        path: /dox/aerConLogicalOperators.html
+    - sectiontitle: Properties
+      section:
+      - title: Overview
+        path: /dox/aerConProperties.html
+      - title: Setting and Retrieving Properties
+        path: /dox/aerConSettingandRetrievingProperties.html
+    - sectiontitle: Strings
+      section:
+      - title: Overview
+        path: /dox/aerConStrings.html
+      - title: Manipulating Strings
+        path: /dox/aerConManipulatingStrings.html
+    - title: Type Members
+      path: /dox/aerConTypeMembers.html
+    - sectiontitle: Variables
+      section:
+      - title: Overview
+        path: /dox/aerConVariables.html
+      - title: Variable Declaration
+        path: /dox/aerConVariableDeclaration.html
+      - sectiontitle: Object Variables
+        section:
+        - title: Overview
+          path: /dox/aerConObjectVariables.html
+        - title: Object Variable Assignment
+          path: /dox/aerConObjectVariableAssignment.html
+        - sectiontitle: Object Variable Declaration
+          section:
+          - title: Overview
+            path: /dox/aerConObjectVariableDeclaration.html
+          - title: BegUsing/EndUsing Blocks
+            path: /dox/BEGUSINGENDUSING.html
+        - title: Object Variable Values
+          path: /dox/aerConObjectVariableValues.html
+    - title: Collapsing and Hiding Code
+      path: /dox/aerConHidingandCollapsingCode.html
+    - sectiontitle: DataGate Print File Designer Overview
+      section:
+      - title: Overview
+        path: /dox/aerConDataGatePrintfileOverview.html
+      - title: Renderer Command Options
+        path: /dox/aerLrfRendererCommandOptions.html
+      - title: Using the InfSR keyword
+        path: /dox/aerConInfSRKeyword.html
+      - title: Considerations for OLE Print File Conversion
+        path: /dox/aerConsiderationsforOLEPrintFileSupport.html
+    - title: Rules of Subroutine Overloading
+      path: /dox/aerConRulesofSubroutineOverloading.html
+    - title: Unicode
+      path: /dox/aerConUnicode.html
+    - sectiontitle: RPG Cycle
+      section:
+      - title: Overview
+        path: /dox/aerCycle_Overview.html
+      - title: Level Break Indicator (*INL1...*INL9)
+        path: /dox/aerCycle_LevelBreakIndicators.html
+      - title: "*DetailCalc Method"
+        path: /dox/aerCycle_DetailCalcMethod.html
+      - title: "*FetchOverflow Method"
+        path: /dox/aerCycle_FetchOverflowMethod.html
+      - title: Matching Record Indicator (*INMR)"
+        path: /dox/aerCycle_MatchingRecordIndicators.html
+      - title: Handling Cycle Output to Database Files
+        path: /dox/aerCycle_New_Output_Handling.html
+      - title: Overflow Indicators
+        path: /dox/aerCycle_OverflowIndicators.html
+      - title: "*StartCycle Method"
+        path: /dox/aerCycle_StartCycleMethod.html
+      - title: "*TotalCalc Method"
+        path: /dox/aerCycle_TotalCalcMethod.html
+    - title: Interfaces in Encore RPG
+      path: /dox/aerConInterface.html
+    - sectiontitle: Operation Codes
+      section:
+      - title: Overview
+        path: /dox/aerConOpCodes.html
+      - title: Operation Codes Overview
+        path: /dox/aerConOpCodesOverview.html
+      - title: Assignment Operation Codes
+        path: /dox/aerConAssignmentOpCodes.html
+      - title: Declaration Operation Codes
+        path: /dox/aerConDeclarationOpCodes.html
+      - title: Executable Operation Codes
+        path: /dox/aerConExecutableOpCodes.html
+  - sectiontitle: Language Tour
+    section:
+    - title: Overview
+      path: /dox/aerLanguageTourMain.html
+    - sectiontitle: Object-Oriented Programming in Encore RPG
+      section:
+      - title: Overview
+        path: /dox/aerTourObjectOrientedProgrammingMain.html
+      - title: Early and Late Binding
+        path: /dox/aerTourEarlyandLateBinding.html
+      - title: Shared Members
+        path: /dox/aerTourSharedMembers.html
+      - sectiontitle: Understanding Classes
+        section:
+        - title: Overview
+          path: /dox/aerTourUnderstandingClassesMain.html
+        - title: Classes
+          path: /dox/aerTourClassesBlueprintsforObjects.html
+        - title: Classes vs. Standard Programs
+          path: /dox/aerTourClassesvsStandardPrograms.html
+        - title: Object Lifetime
+          path: /dox/aerTourObjectLifetime.html
+        - title: Using Constructors
+          path: /dox/aerTourUsingConstructors.html
+        - sectiontitle: Class Properties, Fields and Methods
+          section:
+          - title: Overview
+            path: /dox/aerTourClassPropertiesFieldsandMethodsMain.html
+          - title: Adding Fields and Properties to a Class
+            path: /dox/aerTourAddingFieldsandPropertiestoaClass.html
+          - title: Properties and Property Procedures
+            path: /dox/aerTourPropertiesandPropertyProcedures.html
+          - title: Property Procedures vs. fields
+            path: /dox/aerTourPropertyProceduresvsFields.html
+          - title: Properties vs. Methods
+            path: /dox/aerTourPropertiesvsMethods.html
+          - title: Overloaded Properties
+            path: /dox/aerTourOverloadedProperties.html
+          - sectiontitle: Overriding Properties and Methods
+            section:
+            - title: Overview
+              path: /dox/aerTourOverridingPropertiesandMethodsMain.html
+            - title: Override Modifiers
+              path: /dox/aerTourOverrideModifiers.html
+      - title: Events
+        path: /dox/aerTourEventsMain.html
+      - sectiontitle: Inheritance
+        section:
+        - title: Overview
+          path: /dox/aerTourInheritanceMain.html
+        - title: Inheritance (Extensibility) Basics
+          path: /dox/aerTourInheritanceBasics.html
+        - title: When to Use Inheritance
+          path: /dox/aerTourWhentoUseInheritance.html
+        - title: When to Use Interfaces
+          path: /dox/aerTourWhentouseInterfaces.html
+        - title: Inheritance and the .NET Framework
+          path: /dox/aerTourInheritanceandtheNETFramework.html
+    - sectiontitle: Creating and Using Objects
+      section:
+      - title: Overview
+        path: /dox/aerTourCreatingandUsingObjectsMain.html
+      - title: Introduction to Objects in Encore RPG
+        path: /dox/aerTourIntroductiontoObjects.html
+      - title: Setting and Retrieving Properties
+        path: /dox/aerTourSettingandRetrievingProperties.html
+      - title: Performing Actions with Methods
+        path: /dox/aerTourPerformingActionswithMethods.html
+      - title: Treating Forms as Objects
+        path: /dox/aerTourTreatingFormsasObjects.html
+  - sectiontitle: Language Reference
+    section:
+    - title: Overview
+      path: /dox/aerLrfLangRefMain.html
+    - sectiontitle: Language Elements
+      section:
+      - title: Overview
+        path: /dox/aerLrfLangElementsMain.html
+      - title: Comments
+        path: /dox/Comments.html
+      - title: File Processing
+        path: /dox/File_Processing.html
+      - title: Mainline Code
+        path: /dox/Mainline_Code.html
+      - title: Continuation Lines
+        path: /dox/Continuation_Lines.html
+      - title: Control Language
+        path: /dox/Control_Language.html
+      - title: Miscellaneous Data Types
+        path: /dox/Miscellaneous_data_types.html
+      - sectiontitle: Declarations
+        section:
+        - title: Overview
+          path: /dox/Declarations.html
+        - sectiontitle: Access Types
+          section:
+          - title: Overview
+            path: /dox/aerConAccessTypes.html
+          - title: Internal Access
+            path: /dox/aerkeyInternal.html
+          - title: Public Access
+            path: /dox/aerkeyPublic.html
+          - title: Private Access
+            path: /dox/aerkeyPrivate.html
+          - title: Protected Access
+            path: /dox/aerkeyProtected.html
+      - title: General Subroutines
+        path: /dox/General_Subroutines.html
+      - title: Multiple Occurrence Data Structures
+        path: /dox/Mult_Occur_DS.html
+      - title: Names
+        path: /dox/Lexical_Element_Names.html
+      - title: Printing
+        path: /dox/Printing.html
+      - title: Reserved Names
+        path: /dox/Reserved_Names.html
+      - title: Simple Types
+        path: /dox/Simple_Types.html
+      - title: Subroutine Parameters
+        path: /dox/white_papers_Subroutine_Parameters.html
+      - title: Type Conversions
+        path: /dox/Type_Conversions.html
+      - title: Setting Colors
+        path: /dox/aerLrfSettingColors.html
+      - title: Methods
+        path: /dox/aerLrfMethodsMain.html
+      - title: Comparison Commands
+        path: /dox/Comparison_Commands.html
+      - sectiontitle: Comparison Operators
+        section:
+        - title: Overview
+          path: /dox/Comparison_Operators.html
+        - title: Compare Operations Rules
+          path: /dox/Compare_Operations_Rules.html
+      - title: Programs
+        path: /dox/Programs.html
+      - title: Functions
+        path: /dox/aerLrfFunctionsMain.html
+      - sectiontitle: Event Subroutines
+        section:
+        - title: Overview
+          path: /dox/Event_Subroutines.html
+        - title: Event Subroutine Parameters
+          path: /dox/Event_Subroutine_Parameters.html
+      - title: Properties
+        path: /dox/aerLrfPropertiesMain.html
+      - title: Control Properties
+        path: /dox/Control_Properties.html
+      - sectiontitle: Edit Code Table
+        section:
+        - title: Overview
+          path: /dox/aerLrfEditCodeTable.html
+        - title: Edit Code Table
+          path: /dox/sharedEditCodeTable.html
+      - title: Commitment Control
+        path: /dox/Comittment_Control.html
+      - title: Edit Word Usage
+        path: /dox/aerLrfEditWordTable.html
+    - sectiontitle: Built-In Functions
+      section:
+      - title: Overview
+        path: /dox/Functions_overview.html
+      - title: "%ABS Function"
+        path: /dox/ABS_Function.html
+      - title: "%BOOL Function"
+        path: /dox/BOOL_Function.html
+      - title: "%CHAR Function"
+        path: /dox/CHAR_Function.html
+      - title: "%CHECK Function"
+        path: /dox/CHECK_Function.html
+      - title: "%CHECKR Function"
+        path: /dox/CHECKR_Function.html
+      - title: "%DATE Function"
+        path: /dox/DATE_Function.html
+      - title: "%DAYS Function"
+        path: /dox/DAYS_Function.html
+      - title: "%DEC Function"
+        path: /dox/DEC_Function.html
+      - title: "%DECH Function"
+        path: /dox/DECH_Function.html
+      - title: DECPOS Function
+        path: /dox/DECPOS_Function.html
+      - title: "%DIFF Function"
+        path: /dox/DIFF_Function.html
+      - title: "%DIGITS Function"
+        path: /dox/Digits_Function.html
+      - title: "%DIV Function"
+        path: /dox/DIV_Function.html
+      - title: "%EDITC Function"
+        path: /dox/EDITC_Function.html
+      - title: "%EDITFLT Function"
+        path: /dox/EDITFLT_Function.html
+      - title: "%EDITW Function"
+        path: /dox/EDITW_Function.html
+      - title: "%ELEM Function"
+        path: /dox/ELEM_Function.html
+      - title: "%EOF Function"
+        path: /dox/EOF_Function.html
+      - title: "%ERROR Function"
+        path: /dox/ERROR_Function.html
+      - title: "%EQUAL Function"
+        path: /dox/EQUAL_Function.html
+      - title: "%FLOAT Function"
+        path: /dox/FLOAT_Function.html
+      - title: "%FOUND Function"
+        path: /dox/FOUND_Function.html
+      - title: "%HOURS Function"
+        path: /dox/HOURS_Function.html
+      - title: "%INT Function"
+        path: /dox/INT_Function.html
+      - title: "%INTH Function"
+        path: /dox/INTH_Function.html
+      - title: "%OMITTED Function"
+        path: /dox/OMITTED_Function.html
+      - title: "%KDS Function"
+        path: /dox/KDS_Function.html
+      - title: "%LEN Function"
+        path: /dox/LEN_Function.html
+      - title: "%LOOKUP Function"
+        path: /dox/LOOKUP_Function.html
+      - title: "%MINUTES Function"
+        path: /dox/MINUTES_Function.html
+      - title: "%MONTHS Function"
+        path: /dox/MONTHS_Function.html
+      - title: "%MSECONDS Function"
+        path: /dox/MSECONDS.html
+      - title: "%NULLIND Function"
+        path: /dox/NULLIND_Function.html
+      - title: "%OCCUR Function"
+        path: /dox/OCCUR_Function.html
+      - title: "%OPEN Function"
+        path: /dox/OPEN_Function.html
+      - title: "%PARMS Function"
+        path: /dox/PARMS_Function.html
+      - title: "%REM Function"
+        path: /dox/REM_Function.html
+      - title: "%REPLACE Function"
+        path: /dox/REPLACE_Function.html
+      - title: "%SCAN Function"
+        path: /dox/SCAN_Function.html
+      - title: "%SECONDS Function"
+        path: /dox/SECONDS_Function.html
+      - title: "%SIZE Function"
+        path: /dox/SIZE_Function.html
+      - title: "%SQRT Function"
+        path: /dox/SQRT_Function.html
+      - title: "%SUBDT Function"
+        path: /dox/SUBDT_Function.html
+      - title: SUBST Function
+        path: /dox/SUBST_Function.html
+      - title: "%TIME Function"
+        path: /dox/TIME_Function.html
+      - title: "%TIMESTAMP Function"
+        path: /dox/TIMESTAMP_Function.html
+      - title: "%TLOOKUP Function"
+        path: /dox/TLOOKUP_Function.html
+      - title: "%TRIM Function"
+        path: /dox/TRIM_Function.html
+      - title: "%TRIML Function"
+        path: /dox/TRIML_Function.html
+      - title: "%TRIMR Function"
+        path: /dox/TRIMR_Function.html
+      - title: "%XFOOT_Function"
+        path: /dox/XFOOT_Function.html
+      - title: "%XLATE Function"
+        path: /dox/XLATE_Function.html
+      - title: "%YEARS Function"
+        path: /dox/YEARS_Function.html
+      - title: "%MSECONDS Function"
+        path: /dox/MSECONDS_Function.html
+    - sectiontitle: Class Library
+      section:
+      - title: Overview
+        path: /dox/aerLrfClassLibraryMain.html
+      - sectiontitle: ASNA.VisualRPG.Runtime Namespace
+        section:
+        - title: Overview
+          path: /dox/aerLrfRuntimeNamespace.html
+        - sectiontitle: Database Class
+          section:
+          - title: Overview
+            path: /dox/aerLrfDatabaseClass.html
+          - sectiontitle: Database Members
+            section:
+            - title: Overview
+              path: /dox/aerLrfDatabaseMembers.html
+            - sectiontitle: Database Constructors
+              section:
+              - title: Overview
+                path: /dox/aerLrfDatabaseConstructors.html
+              - title: Database.Database (string)
+                path: /dox/Database_DatabaseConstructor.html
+          - sectiontitle: Database Methods
+            section:
+            - title: Overview
+              path: /dox/aerLrfDatabaseMethods.html
+            - title: Database.AddMember Method
+              path: /dox/AddMember_Method.html
+            - title: Database.ClearMember Method
+              path: /dox/ClearMember_Method.html
+            - title: Database.RenameMember Method
+              path: /dox/RenameMember_Method.html
+            - title: Database.CopyFileToDb Method
+              path: /dox/CopyFileToDb_Method.html
+            - title: Database.CopyLogicalFileToDb Method
+              path: /dox/CopyLogicalFileToDb_Method.html
+            - title: Database.CreateDirectory Method
+              path: /dox/CreateDirectory_Method.html
+            - title: Database.CreateName Method
+              path: /dox/CreateName_Method.html
+            - title: Database.DeleteFile Method
+              path: /dox/DeleteFile_Method.html
+            - title: Database.DeleteName Method
+              path: /dox/DeleteName_Method.html
+            - title: Database.GetNames Method
+              path: /dox/GetNames_Method.html
+            - title: Database.InitializeMember Method
+              path: /dox/InitializeMember_Method.html
+            - title: Database.RemoveDirectory Method
+              path: /dox/RemoveDirectory_Method.html
+            - title: Database.RemoveMember Method
+              path: /dox/RemoveMember_Method.html
+            - title: Database.RenameFile Method
+              path: /dox/RenameFile_Method.html
+            - title: Database.UpdateName Method
+              path: /dox/UpdateName_Method.html
+          - sectiontitle: Database Properties
+            section:
+            - title: Overview
+              path: /dox/aerLrfDatabasePropertiesMain.html
+            - title: Database.CurrentUserLibl Property
+              path: /dox/CurrentUserLiblProperty.html
+            - title: Database.DBName Property
+              path: /dox/DBName_Property.html
+            - title: Database.InitialException Property
+              path: /dox/InitialExceptionProperty.html
+            - title: Database.InitialLibl Property
+              path: /dox/InitialLiblProperty.html
+            - title: Database.IsOpen Property
+              path: /dox/IsOpen_Property.html
+            - title: Database.Label Property
+              path: /dox/Label_Property.html
+            - title: Database.Password Property
+              path: /dox/Password_Property.html
+            - title: Database.PlatformAttribute Property
+              path: /dox/PlatformAttribute_Property.html
+            - title: Database.PoolingTimeOut Property
+              path: /dox/PoolingTimeOutProperty.html
+            - title: Database.Port Property
+              path: /dox/Port_Property.html
+            - title: Database.Server Property
+              path: /dox/Server_Property.html
+            - title: Database.Text Property
+              path: /dox/TextProperty.html
+            - title: Database.User Property
+              path: /dox/User_Property.html
+        - sectiontitle: DataGateException Class
+          section:
+          - title: Overview
+            path: /dox/aerLrfDataGateExceptionClass.html
+          - title: DataGateException Members
+            path: /dox/aerLrfDataGateExceptionMembers.html
+          - sectiontitle: DataGateException Methods
+            section:
+            - title: Overview
+              path: /dox/aerLrfDataGateExceptionMethods.html
+            - title: DataGateException.ToString Method
+              path: /dox/ToString_Method_DGEClass.html
+          - sectiontitle: DataGateException Fields
+            section:
+            - title: Overview
+              path: /dox/aerLrfDataGateExceptionFields.html
+            - title: DataGateException.CausingException Field
+              path: /dox/aerLrfCausingExceptionFieldDataGateExceptionClass.html
+            - title: DataGateException.DclFileName Field
+              path: /dox/aerLrfDclFileNameFieldDataGateExceptionClass.html
+        - sectiontitle: DBFile Class
+          section:
+          - title: Overview
+            path: /dox/aerLrfDBFileClass.html
+          - title: DBFile Members
+            path: /dox/aerLrfDBFileMembers.html
+          - sectiontitle: DBFile Properties
+            section:
+            - title: Overview
+              path: /dox/aerLrfDBFilePropertiesMain.html
+            - title: "DBFile.Overrider Property"
+              path: /dox/aerLrfDBFileClassOverriderProperty.html
+            - title: DBFile.FormatName Property
+              path: /dox/FormatName_Property.html
+            - title: IsEof Property
+              path: /dox/IsEofPropertyDbFileClass.html
+            - title: IsEqual Property
+              path: /dox/IsEqualPropertyDbFileClass.html
+            - title: IsError Property
+              path: /dox/IsErrorPropertyDbFileClass.html
+            - title: IsFound Property
+              path: /dox/IsFoundPropertyDbFileClass.html
+            - title: DBFile.RecCount Property
+              path: /dox/RecCount_Property.html
+            - title: DBFile.RecNum Property
+              path: /dox/RecNum_Property.html
+          - sectiontitle: DBFile Fields
+            section:
+            - title: Overview
+              path: /dox/aerLrfDbFileFieldsMain.html
+            - title: DBFile.BlockingFactor Field
+              path: /dox/BlockingFactorFieldDBFileClass.html
+            - title: PrintFile.DclFileName Field
+              path: /dox/DclFileNameFieldRPGFileClass.html
+            - title: DBFile.FilePath Field
+              path: /dox/FilePathFieldDBFileClass.html
+            - title: DBFile.IsDefaultRFN Field
+              path: /dox/aerLrfIsDefaultRFNFieldDBFileClass.html
+            - title: DBFile.IsFormatID Field
+              path: /dox/IsFormatIDFieldDBFileClass.html
+            - title: DBFile.IsKeyed Field
+              path: /dox/aerLrfIsKeyedFieldDBFileClass.html
+            - title: DBFile.MemberName Field
+              path: /dox/MemberNameFieldDBFileClass.html
+            - title: DBFile.QryFileName Field
+              path: /dox/QryFileNameFieldDBFileClass.html
+            - title: DBFile.QryKeyFlds Field
+              path: /dox/QryKeyFldsFieldDBFileClass.html
+            - title: DBFile.QrySelect Field
+              path: /dox/QrySelectFieldDBFileClass.html
+            - title: DBFile.ShareType Field
+              path: /dox/ShareTypeFieldDBFileClass.html
+            - title: DBFile.WaitRec Field
+              path: /dox/WaitRecFieldDBFileClass.html
+          - sectiontitle: DBFile Constructors
+            section:
+            - title: Overview
+              path: /dox/aerLrfDBFileConstructors.html
+            - title: DBFile.DBFile (string, string, string, int, string, boolean, int, string, string, string)
+              path: /dox/DBFile_DBFileConstructor.html
+        - sectiontitle: IDS Interface
+          section:
+          - title: Overview
+            path: /dox/aerLrfIDSClass.html
+          - title: IDS Members
+            path: /dox/aerLrfIDSClassMembers.html
+          - sectiontitle: IDS Methods
+            section:
+            - title: Overview
+              path: /dox/aerLrfIDSClassMethods.html
+            - title: IDS.Clear Method
+              path: /dox/aerLrfIDSClassClearMethod.html
+            - title: IDS.Dump Method
+              path: /dox/aerLrfIDSClassDumpMethod.html
+            - title: IDS.Load Method
+              path: /dox/aerLrfIDSClassLoadMethod.html
+            - title: IDS.ObjectToParm Method
+              path: /dox/aerLrfIDSClassObjectToParmMethod.html
+            - title: IDS.ParmToObject Method
+              path: /dox/aerLrfIDSClassParmToObjectMethod.html
+          - sectiontitle: IDS Properties
+            section:
+            - title: Overview
+              path: /dox/aerLrfIDSClassProperties.html
+            - title: IDS.Length Property
+              path: /dox/aerLrfIDSClassLengthProperty.html
+        - sectiontitle: IMODS Interface
+          section:
+          - title: Overview
+            path: /dox/aerLrfIMODSClass.html
+          - title: IMODS Members
+            path: /dox/aerLrfIMODSClassMembers.html
+          - sectiontitle: IMODS Methods
+            section:
+            - title: Overview
+              path: /dox/aerLrfIMODSClassMethods.html
+            - title: IMODS.ClearAll Method
+              path: /dox/aerLrfIMODSClassClearAllMethod.html
+            - title: IMODS.DumpAll Method
+              path: /dox/aerLrfIMODSClassDumpAllMethod.html
+            - title: IMODS.LoadAll Method
+              path: /dox/aerLrfIMODSClassLoadAllMethod.html
+          - sectiontitle: IMODS Properties
+            section:
+            - title: Overview
+              path: /dox/aerLrfIMODSClassProperties.html
+            - title: IMODS.Occurance Property
+              path: /dox/aerLrfIMODSClassOccuranceProperty.html
+        - sectiontitle: MessageFileReader Class
+          section:
+          - title: Overview
+            path: /dox/aerLrfMessageFileReaderClass.html
+          - title: MessageFileReader Members
+            path: /dox/aerLrfMessageFileReaderMembers.html
+          - sectiontitle: MessageFileReader Methods
+            section:
+            - title: Overview
+              path: /dox/aerLrfMessageFileReaderMethodsMain.html
+            - title: GetMessageText Method
+              path: /dox/GetMessageTextMethod.html
+            - title: GetSecondMessageText Method
+              path: /dox/GetSecondMessageTextMethod.html
+          - title: MessageFileReader Constructors
+            path: /dox/aerLrfMessageFileReaderConstructorsMain.html
+        - sectiontitle: PrintFile Class
+          section:
+          - title: Overview
+            path: /dox/aerLrfPrintFileClass.html
+          - title: PrintFile Members
+            path: /dox/aerLrfPrintFileMembers.html
+          - sectiontitle: PrintFile Properties
+            section:
+            - title: Overview
+              path: /dox/aerLrfPrintFileProperties.html
+            - title: PrintFile.Collate Property
+              path: /dox/Collate_Property.html
+            - title: File.LastException Property
+              path: /dox/LastException_Property_PrintFileClass.html
+            - title: PrintFile.Copies Property
+              path: /dox/Copies_Property.html
+            - title: PrintFile.CursorY Property
+              path: /dox/CursorY_Property.html
+            - title: PrintFile.Duplex Property
+              path: /dox/Duplex_Property.html
+            - title: PrintFile.FooterSize Property
+              path: /dox/FooterSize_Property.html
+            - title: PrintFile.FormName Property
+              path: /dox/FormName_Property.html
+            - title: PrintFile.InOverflow Property
+              path: /dox/InOverflow_Property.html
+            - title: PrintFile.ManuscriptPath Property
+              path: /dox/ManuscriptPath_Property.html
+            - title: PrintFile.Orientation Property
+              path: /dox/Orientation_Property.html
+            - title: PrintFile.PaperLength Property
+              path: /dox/PaperLength_Property.html
+            - title: PrintFile.PaperSize Property
+              path: /dox/PaperSize_Property.html
+            - title: PrintFile.PaperSource Property
+              path: /dox/PaperSource_Property.html
+            - title: PrintFile.PaperWidth Property
+              path: /dox/PaperWidth_Property.html
+            - title: PrintFile.IsOpen Property
+              path: /dox/IsOpen_Property_PrintFileClass.html
+            - title: PrintFile.Preview Property
+              path: /dox/Preview_Property.html
+            - title: PrintFile.PrintableLength Property
+              path: /dox/PrintableLength_Property.html
+            - title: PrintFile.PrintableWidth Property
+              path: /dox/PrintableWidth_Property.html
+            - title: PrintFile.Printer Property
+              path: /dox/Printer_Property.html
+            - title: PrintFile.PrintSetup Property
+              path: /dox/PrintSetup_Property.html
+            - title: PrintFile.ProcessMacro Property
+              path: /dox/ProcessMacro_Property.html
+            - title: PrintFile.Quality Property
+              path: /dox/Quality_Property.html
+            - title: PrintFile.ReportName Property
+              path: /dox/ReportName_Property.html
+            - title: PrintFile.Scale Property
+              path: /dox/Scale_Property.html
+            - title: PrintFile.TTOPTION Property
+              path: /dox/Ttoption_Property.html
+            - title: PrintFile.UseColor Property
+              path: /dox/UseColor_Property.html
+            - title: PrintFile.YResolution Property
+              path: /dox/YResolution_Property.html
+            - title: PrintFile.PageLength Property
+              path: /dox/PageLength_Property.html
+            - title: PrintFile.PageWidth Property
+              path: /dox/PageWidth_Property.html
+          - sectiontitle: PrintFile Fields
+            section:
+            - title: Overview
+              path: /dox/aerLrfPrintFileFields.html
+            - title: PrintFile.DclPrintFileName Field
+              path: /dox/DclPrintFileName_Field.html
+            - title: PrintFile.FilePath Field
+              path: /dox/FilePath_Field_PrintFileClass.html
+            - title: PrintFile.IsFormatID Field
+              path: /dox/IsFormatID_Field_PrintFileClass.html
+            - title: PrintFile.isOpen Field
+              path: /dox/isOpen_Field_PrintFileClass.html
+            - title: PrintFile.lastException Field
+              path: /dox/lastException_Field_PrintFileClass.html
+          - sectiontitle: PrintFile Constructors
+            section:
+            - title: Overview
+              path: /dox/aerLrfPrintFileConstructors.html
+            - title: PrintFile.PrintFile (string, string, string, boolean)
+              path: /dox/PrintFile_PrintFileConstructor.html
+        - title: ImplicitDecimal Property
+          path: /dox/ImplicitDecimal_Property.html
+    - sectiontitle: Constants
+      section:
+      - title: Overview
+        path: /dox/aerLrfConstantsMain.html
+      - title: Hexadecimal Numeric Constant
+        path: /dox/Hexadecimal_Numeric_Constants.html
+      - sectiontitle: Figurative Constants
+        section:
+        - title: Overview
+          path: /dox/Figurative_Constants.html
+        - title: Figurative Constants Rules
+          path: /dox/Fig_Constants_Rules.html
+      - title: Literals
+        path: /dox/Literals.html
+    - sectiontitle: DataTypes
+      section:
+      - title: Overview
+        path: /dox/aerLrfDataTypesMain.html
+      - title: "*Binary Data Type"
+        path: /dox/Binary_Data_Type.html
+      - title: Data Type Summary
+        path: /dox/Data_type_summary.html
+      - title: "*Boolean Data Type"
+        path: /dox/Boolean_Data_Type.html
+      - title: "*Byte Data Type"
+        path: /dox/Byte_Data_Type.html
+      - title: "*Date Data Type"
+        path: /dox/Date_Data_Type.html
+      - title: "*Decimal Data Type"
+        path: /dox/Decimal_Data_Type.html
+      - title: "*Float Data Type"
+        path: /dox/Float_Data_Type.html
+      - title: "*Float4 Data Type"
+        path: /dox/Float4_Data_Type.html
+      - title: "*Float8 Data Type"
+        path: /dox/Float8_Data_Type.html
+      - title: "*Ind Data Type"
+        path: /dox/Ind_Data_Type.html
+      - title: "*Integer Data Type"
+        path: /dox/Integer_Data_Type.html
+      - title: "*Integer2 Data Type"
+        path: /dox/Integer2_data_type.html
+      - title: "*Integer4 Data Type"
+        path: /dox/Integer4_Data_Type.html
+      - title: "*Integer8 Data Type"
+        path: /dox/Integer8_Data_Type.html
+      - title: "*Onechar Data Type"
+        path: /dox/Onechar_Data_Type.html
+      - title: "*Packed Data Type"
+        path: /dox/Packed_Data_Type.html
+      - title: "*String Data Type"
+        path: /dox/String_Data_Type.html
+      - title: "*Time Data Type"
+        path: /dox/Time_Data_Type.html
+      - title: "*Timestamp Data Type"
+        path: /dox/Timestamp_Data_Type.html
+      - title: "*Zoned Data Type"
+        path: /dox/Zoned_Data_Type.html
+      - title: Type Parameter
+        path: /dox/Type_Parameter.html
+    - sectiontitle: Date and Time
+      section:
+      - title: Overview
+        path: /dox/aerLrfDateandTimeMain.html
+      - title: Adding or Subtracting Dates
+        path: /dox/Adding_or_Subtracting_Dates.html
+      - title: Calculating Durations between Dates
+        path: /dox/Calculating_Durations_between_Dates.html
+      - title: Date Formats
+        path: /dox/Date_Formats.html
+      - title: Date Operations
+        path: /dox/Date_Operations.html
+      - title: Default Values for all Time Formats
+        path: /dox/default_values_for_all_time_formats.html
+      - title: Default Values for all Date Formats
+        path: /dox/Default_Values_for_all_Date_Formats.html
+      - title: Duration Codes
+        path: /dox/Duration_Codes.html
+      - title: Moving Date-Time Data
+        path: /dox/Moving_Data_Time_Data.html
+      - title: Time Formats
+        path: /dox/Time_Formats.html
+    - sectiontitle: Compiler Directives
+      section:
+      - title: Overview
+        path: /dox/aerCompilerDirectivesMain.html
+      - title: /DEFINE (Encore RPG)
+        path: /dox/aerCompilerDirectivesDefine.html
+      - title: /EOF (Encore RPG)
+        path: /dox/aerCompilerDirectivesEof.html
+      - title: /IF /ELSE /ELSEIF /ENDIF (Encore RPG)
+        path: /dox/aerCompilerDirectivesIfElseEndIf.html
+      - title: /ENDREGION (Encore RPG)
+        path: /dox/aerCompilerDirectivesEndRegion.html
+      - title: /REGION (Encore RPG)
+        path: /dox/aerCompilerDirectivesRegion.html
+      - title: /UNDEFINE (Encore RPG)
+        path: /dox/aerCompilerDirectivesUndefine.html
+    - sectiontitle: Figurative Constants
+      section:
+      - title: Overview
+        path: /dox/aerLrfFigConstantsMain.html
+      - title: "*ALL/*ALL\"x..\""
+        path: /dox/Star_ALL.html
+      - title: "*ALLU"
+        path: /dox/starALLU.html
+      - title: "*BLANK/*BLANKS"
+        path: /dox/STARBLANK.html
+      - title: "*BASE"
+        path: /dox/StarBase.html
+      - title: "*ByRef Operator"
+        path: /dox/StarByRef.html
+      - title: "*Date"
+        path: /dox/StarDate.html
+      - title: "*Day"
+        path: /dox/StarDay.html
+      - title: "*FALSE"
+        path: /dox/StarFalse.html
+      - title: "*HIVAL"
+        path: /dox/STARHIVAL.html
+      - title: "*LOVAL"
+        path: /dox/STARLOVAL.html
+      - title: "*Month"
+        path: /dox/StarMonth.html
+      - title: "*NEXT"
+        path: /dox/Star_Next.html
+      - title: "*NS"
+        path: /dox/StarNS.html
+      - title: "*NoParm"
+        path: /dox/starnoparm.html
+      - title: "*NOTHING"
+        path: /dox/Star_NOTHING.html
+      - title: "*ON"
+        path: /dox/STARON.html
+      - title: "*This"
+        path: /dox/Star_This.html
+      - title: "*Year"
+        path: /dox/StarYear.html
+      - title: "*TRUE"
+        path: /dox/StarTRUE.html
+      - title: "*ZERO/*ZEROS"
+        path: /dox/STARZERO.html
+      - title: "*OFF"
+        path: /dox/STAROFF.html
+    - sectiontitle: Operation Codes
+      section:
+      - title: Overview
+        path: /dox/aerLrfOpCodesMain.html
+      - title: ADD
+        path: /dox/ADD.html
+      - title: ADDDUR
+        path: /dox/ADDDUR.html
+      - title: BEEP
+        path: /dox/BEEP.html
+      - title: BEGCLASS
+        path: /dox/BEGCLASS.html
+      - title: BEGCONSTRUCTOR
+        path: /dox/BEGCONSTRUCTOR.html
+      - title: BEGENUM
+        path: /dox/BEGENUM.html
+      - title: BEGFUNC
+        path: /dox/BEGFUNC.html
+      - title: BEGGET
+        path: /dox/BEGGET.html
+      - title: BEGINTERFACE
+        path: /dox/BEGINTERFACE.html
+      - title: BEGPRINTATTR
+        path: /dox/BEGPRINTATTR.html
+      - title: BEGPROC
+        path: /dox/BEGPROC.html
+      - title: BEGPROP
+        path: /dox/BEGPROP.html
+      - title: DCLPROP
+        path: /dox/DCLPROP.html
+      - title: BEGSET
+        path: /dox/BEGSET.html
+      - title: BEGSR
+        path: /dox/BEGSR.html
+      - title: BITOFF
+        path: /dox/BITOFF.html
+      - title: BITON
+        path: /dox/BITON.html
+      - title: CAB
+        path: /dox/CAB.html
+      - title: CABXX
+        path: /dox/CABxx.html
+      - title: CALL
+        path: /dox/CALL.html
+      - title: CALLD
+        path: /dox/CALLD.html
+      - title: CASE
+        path: /dox/CASE.html
+      - title: CASEDFT
+        path: /dox/CASEDFT.html
+      - title: CASXX
+        path: /dox/CASxx.html
+      - title: CATCH
+        path: /dox/CATCH.html
+      - title: CHAIN
+        path: /dox/CHAIN.html
+      - title: CHECK
+        path: /dox/CHECK.html
+      - title: CHECKR
+        path: /dox/CHECKR.html
+      - title: CLEAR
+        path: /dox/CLEAR.html
+      - title: CLOSE
+        path: /dox/CLOSE.html
+      - title: COMMIT
+        path: /dox/COMIT.html
+      - title: COMPARE
+        path: /dox/COMPARE.html
+      - title: CONCAT
+        path: /dox/CONCAT.html
+      - title: CONNECT
+        path: /dox/CONNECT.html
+      - title: DCLARRAY
+        path: /dox/DCLARRAY.html
+      - title: DCLCONST
+        path: /dox/DCLCONST.html
+      - title: DCLDB
+        path: /dox/DCLDB.html
+      - title: DCLDISKFILE
+        path: /dox/DCLDISKFILE.html
+      - title: DCLDISKFILE UseKeyBuffer
+        path: /dox/DCLDISKFILEUseKeyBuffer.html
+      - title: DCLDS
+        path: /dox/DCLDS.html
+      - title: DCLDSFLD
+        path: /dox/DCLDSFLD.html
+      - title: DCLENUMFLD
+        path: /dox/DCLENUMFLD.html
+      - title: DCLFLD
+        path: /dox/DCLFLD.html
+      - title: DCLFMTCYCLEATTR
+        path: /dox/DCLFMTCYCLEATTR.html
+      - title: DCLKFLD
+        path: /dox/DCLKFLD.html
+      - title: DCLKLIST
+        path: /dox/DCLKLIST.html
+      - title: DCLNAMESPACE
+        path: /dox/DCLNAMESPACE.html
+      - title: DCLPARM
+        path: /dox/DCLPARM.html
+      - title: DCLPLIST
+        path: /dox/DCLPLIST.html
+      - title: DCLPRINTFILE
+        path: /dox/DCLPRINTFILE.html
+      - title: DCLSRPARM
+        path: /dox/DCLSRPARM.html
+      - title: DCLWORKSTNFILE
+        path: /dox/DCLWORKSTNFILE.html
+      - title: DELETE
+        path: /dox/DELETE.html
+      - title: DELETERANGE
+        path: /dox/DELETERANGE.html
+      - title: DETAILSPEC
+        path: /dox/DETAILSPEC.html
+      - title: DISCONNECT
+        path: /dox/DISCONNECT.html
+      - title: DIV
+        path: /dox/DIV.html
+      - title: DO
+        path: /dox/DO.html
+      - title: DOUNTIL
+        path: /dox/DOUNTIL.html
+      - title: DOWHILE
+        path: /dox/DOWHILE.html
+      - title: DSDUMP
+        path: /dox/DSDUMP.html
+      - title: DSLOAD
+        path: /dox/DSLOAD.html
+      - title: ELSE
+        path: /dox/ELSE.html
+      - title: ELSEIF
+        path: /dox/ELSEIF.html
+      - title: END
+        path: /dox/END.html
+      - title: ENDCLASS
+        path: /dox/ENDCLASS.html
+      - title: ENDCONSTRUCTOR
+        path: /dox/ENDCONSTRUCTOR.html
+      - title: ENDCS
+        path: /dox/ENDCS.html
+      - title: ENDDO
+        path: /dox/ENDDO.html
+      - title: ENDENUM
+        path: /dox/ENDENUM.html
+      - title: ENDFOR
+        path: /dox/ENDFOR.html
+      - title: ENDFUNC
+        path: /dox/ENDFUNC.html
+      - title: ENDGET
+        path: /dox/ENDGET.html
+      - title: ENDIF
+        path: /dox/ENDIF.html
+      - title: ENDINTERFACE
+        path: /dox/ENDINTERFACE.html
+      - title: ENDPRINTATTR
+        path: /dox/ENDPRINTATTR.html
+      - title: ENDPROC
+        path: /dox/ENDPROC.html
+      - title: ENDPROP
+        path: /dox/ENDPROP.html
+      - title: ENDSET
+        path: /dox/ENDSET.html
+      - title: ENDSL
+        path: /dox/ENDSL.html
+      - title: ENDSR
+        path: /dox/ENDSR.html
+      - title: ENDTPM
+        path: /dox/ENDTPM.html
+      - title: ENDTRY
+        path: /dox/ENDTRY.html
+      - title: ENDWITH
+        path: /dox/ENDWITH.html
+      - title: ENTERLOCK
+        path: /dox/ENTERLOCK.html
+      - title: EVAL
+        path: /dox/EVAL.html
+      - title: EVALR
+        path: /dox/EVALR.html
+      - title: EXCEPTSPEC
+        path: /dox/EXCEPTSPEC.html
+      - title: EXFMT
+        path: /dox/EXFMT.html
+      - title: EXITAPP
+        path: /dox/EXITAPP.html
+      - title: EXITLOCK
+        path: /dox/EXITLOCK.html
+      - title: EXSR
+        path: /dox/EXSR.html
+      - title: EXTRACT
+        path: /dox/EXTRACT.html
+      - title: FEOD
+        path: /dox/FEOD.html
+      - title: FINALLY
+        path: /dox/FINALLY.html
+      - title: FOR
+        path: /dox/FOR.html
+      - title: FORCE
+        path: /dox/FORCE.html
+      - title: FOREACH
+        path: /dox/FOREACH.html
+      - title: GOTO
+        path: /dox/GOTO.html
+      - title: HEADINGSPEC
+        path: /dox/HEADINGSPEC.html
+      - title: IF
+        path: /dox/IF.html
+      - title: IN
+        path: /dox/IN.html
+      - title: ITERATE
+        path: /dox/ITERATE.html
+      - title: LEAVE
+        path: /dox/LEAVE.html
+      - title: LEAVESR
+        path: /dox/LEAVESR.html
+      - title: LOOKUP
+        path: /dox/LOOKUP.html
+      - title: MOVE
+        path: /dox/MOVE.html
+      - title: MOVEARR
+        path: /dox/MOVEARR.html
+      - title: MOVEL
+        path: /dox/MOVEL.html
+      - title: MOVEREM
+        path: /dox/MOVEREM.html
+      - title: MULT
+        path: /dox/MULT.html
+      - title: OCCUR
+        path: /dox/OCCUR.html
+      - title: OPEN
+        path: /dox/OPEN.html
+      - title: OSEXEC
+        path: /dox/OsExec.html
+      - title: OTHER
+        path: /dox/OTHER.html
+      - title: OUT
+        path: /dox/OUT.html
+      - title: READ
+        path: /dox/READ.html
+      - title: READC
+        path: /dox/READC.html
+      - title: READE
+        path: /dox/READE.html
+      - title: READP
+        path: /dox/READP.html
+      - title: READPE
+        path: /dox/READPE.html
+      - title: READRAND
+        path: /dox/READRAND.html
+      - title: READRANGE
+        path: /dox/READRANGE.html
+      - title: RNMFLDS
+        path: /dox/RNMFLDS.html
+      - title: ROLLBACK
+        path: /dox/ROLBACK.html
+      - title: SCAN
+        path: /dox/SCAN.html
+      - title: SELECT
+        path: /dox/SELECT.html
+      - title: SETASSEMBLYATTRIBUTE
+        path: /dox/SETASSEMBLYATTRIBUTE.html
+      - title: SETGT
+        path: /dox/SETGT.html
+      - title: SETLL
+        path: /dox/SETLL.html
+      - title: SETOFF
+        path: /dox/SETOFF.html
+      - title: SETON
+        path: /dox/SETON.html
+      - title: SETRANGE
+        path: /dox/SETRANGE.html
+      - title: SLEEP
+        path: /dox/SLEEP.html
+      - title: SORTARR
+        path: /dox/SORTARR.html
+      - title: SQRT
+        path: /dox/SQRT.html
+      - title: STARTTPM
+        path: /dox/STARTTPM.html
+      - title: SUB
+        path: /dox/SUB.html
+      - title: SUBDUR
+        path: /dox/SUBDUR.html
+      - title: SUBSTR
+        path: /dox/SUBSTR.html
+      - title: SUMARR
+        path: /dox/SUMARR.html
+      - title: TAG
+        path: /dox/TAG.html
+      - title: TESTBITS
+        path: /dox/TESTBITS.html
+      - title: TESTNUM
+        path: /dox/TESTNUM.html
+      - title: TESTTIME
+        path: /dox/TESTTIME.html
+      - title: THROW
+        path: /dox/THROW.html
+      - title: TIME
+        path: /dox/TIME.html
+      - title: TOTALSPEC
+        path: /dox/TOTALSPEC.html
+      - title: TRY
+        path: /dox/TRY.html
+      - title: UDATE
+        path: /dox/UDATE.html
+      - title: UDAY
+        path: /dox/UDAY.html
+      - title: TRY..CATCH..FINALLY
+        path: /dox/TRYCATCHFINALLY.html
+      - title: UMONTH
+        path: /dox/UMONTH.html
+      - title: UNLOCK
+        path: /dox/UNLOCK.html
+      - title: UPDATE
+        path: /dox/UPDATE.html
+      - title: USING
+        path: /dox/USING.html
+      - title: UYEAR
+        path: /dox/UYEAR.html
+      - title: WHEN
+        path: /dox/WHEN.html
+      - title: WITH
+        path: /dox/WITH.html
+      - title: WRITE
+        path: /dox/WRITE.html
+      - title: XFOOT
+        path: /dox/XFOOT.html
+      - title: XLATE
+        path: /dox/XLATE.html
+      - title: ZADD
+        path: /dox/ZADD.html
+      - title: ZSUB
+        path: /dox/Z_SUB.html
+    - sectiontitle: Literals
+      section:
+      - title: Overview
+        path: /dox/aerLrfLiteralsMain.html
+      - title: Boolean Literal
+        path: /dox/Boolean_Literal.html
+      - title: Character Literal
+        path: /dox/Character_Literal.html
+      - title: Date Literals
+        path: /dox/Date_Literals.html
+      - title: Hexadecimal Literal
+        path: /dox/Hexadecimal_Literal.html
+      - title: Numeric Literal
+        path: /dox/Numeric_Literal.html
+      - title: OneChar Literal
+        path: /dox/OneChar_Literal.html
+      - title: String Literal
+        path: /dox/String_Literal.html
+      - title: Time Literal
+        path: /dox/Time_Literals.html
+      - title: Timestamp Literal
+        path: /dox/Timestamp_Literals.html
+      - title: Unicode Literal
+        path: /dox/Unicode_Literal.html
+    - sectiontitle: Special Values
+      section:
+      - title: Overview
+        path: /dox/aerLrfSpecialValuesMain.html
+      - title: "*END"
+        path: /dox/StarEND.html
+      - title: "*New"
+        path: /dox/starNew.html
+      - title: PropVal
+        path: /dox/Star_PROPVAL.html
+      - title: "*START"
+        path: /dox/START.html
+      - title: Special Values
+        path: /dox/Special_Values.html
+    - sectiontitle: Syntactical Elements
+      section:
+      - title: Overview
+        path: /dox/aerLrfSyntacticalElementsMain.html
+      - title: Commands
+        path: /dox/Commands.html
+      - sectiontitle: Expressions
+        section:
+        - title: Overview
+          path: /dox/Expressions.html
+        - title: Assignments
+          path: /dox/Assignment.html
+        - title: Expression Operators and their Precedence
+          path: /dox/Expression_Operators_and_their_Precedence.html
+        - title: Operands
+          path: /dox/Operands.html
+        - title: Expression Overview with QrySelect
+          path: /dox/Expression_Overview_with_QRYSELECT_or_Select_Omit_Rule.html
+    - sectiontitle: Operators
+      section:
+      - title: Overview
+        path: /dox/aerLrfOperatorsMain.html
+      - title: Logical Operators
+        path: /dox/aerLrfLogicalOperators.html
+      - title: + Operator
+        path: /dox/Plus_Operator.html
+      - title: "* Operator"
+        path: /dox/Multiply_Operator.html
+      - title: / Operator
+        path: /dox/Divide_Operator.html
+      - title: "** Operator"
+        path: /dox/StarStar_Op.html
+      - title: "<< Operator"
+        path: /dox/aerLrfLeftShiftOperator.html
+      - title: ">> Operator"
+        path: /dox/aerLrfRightShiftOperator.html
+      - title: "*As Operator"
+        path: /dox/As_Operator.html
+      - title: "*ASFLD Operator"
+        path: /dox/Star_ASFLD.html
+      - title: "*BitAnd Operator"
+        path: /dox/BitAnd_Operator.html
+      - title: "*BitNot Operator"
+        path: /dox/BitNot_Operator.html
+      - title: "*BitOr Operator"
+        path: /dox/BitOr_Operator.html
+      - title: "*BitXOr Operator"
+        path: /dox/BitXor_Operator.html
+      - title: "*Is Operator"
+        path: /dox/Is_Operator.html
+      - title: "*ISFLD Operator"
+        path: /dox/Star_ISFLD.html
+      - title: "*NOT"
+        path: /dox/Not_Operator.html
+      - title: "*TypeOf Operator"
+        path: /dox/Typeof_Operator.html
+    - title: Help Strategies
+      path: /dox/HelpStrategies.html
+    - sectiontitle: Variables
+      section:
+      - title: Overview
+        path: /dox/aerLrfVariablesMain.html
+      - title: Array Elements
+        path: /dox/Array_Element.html
+      - title: Variable Names
+        path: /dox/Variable_Names.html
+      - title: Character Expression
+        path: /dox/Character_Expression.html
+      - title: Constant Expression
+        path: /dox/Constant_Expression.html
+      - title: Data Structure Element
+        path: /dox/DS_Element.html
+      - title: Field
+        path: /dox/Field.html
+      - title: Global Scope
+        path: /dox/Variable_Scoping.html
+      - title: Indicator
+        path: /dox/Indicator.html
+      - title: Indicator Variable
+        path: /dox/Indicator_Variable.html
+      - title: "Integer Literal"
+        path: /dox/Integer_Literals.html
+      - title: Labels
+        path: /dox/Labels.html
+      - title: Lexical Elements
+        path: /dox/Lexical_Elements.html
+      - title: Numeric Expression
+        path: /dox/Num_Expression.html
+      - title: Numeric Variable
+        path: /dox/Numeric_Variable.html
+      - title: Record Format
+        path: /dox/Record_Format.html
+      - title: Rules for User Date
+        path: /dox/Rules_for_User_Date.html
+      - title: Subroutine
+        path: /dox/Subroutine.html
+      - title: User Date Special Words
+        path: /dox/User_Date_Special_Words.html
+      - title: Variable Operand
+        path: /dox/Variable_Operand.html
+      - title: Variable Length Overview
+        path: /dox/Variable_Length_Overview.html
+      - title: Variable-Length Character Fields
+        path: /dox/Variable_Length_Character_and_UCS_2_Formats.html
+      - title: Using Variable Length Fields
+        path: /dox/Using_Variable_Length_Fields.html
+  - sectiontitle: Encore RPG Copyright
+    section:
+    - title: Overview
+      path: /dox/Copyright.html
+    - title: Gardens Point Parser Generator Copyright
+      path: /dox/Copyright_GPPG.html
+    - title: Gardens Point LEX Copyright
+      path: /dox/Copyright_GPLEX.html
+
+## Other Chapters Here
+Articles:
+- sectiontitle: ASNA Articles
+  sectionpath: /articles/articles-overview.html
+  section:
+  - title: ASNA Site Articles
+    path: https://www.asna.com/us/articles
+  - sectiontitle: How-to Techniques
+    sectionpath: /articles/how-to-techniques.html
+    section:
+    - title: Logic Program Logger
+      path: /articles/how-to-technique-logger.html
+    - title: SQL Parser Explorer
+      path: /articles/sql-parser-explorer.html
+    - title: Zebra Stripe Subfiles
+      path: /articles/zebra-stripe-subfiles.html                  

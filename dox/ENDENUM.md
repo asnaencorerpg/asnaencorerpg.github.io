@@ -1,0 +1,33 @@
+---
+title: ENDENUM
+
+Id: ENDENUM
+TocParent: aerLrfOpCodesMain
+TocOrder: 820
+
+
+---
+
+Finishes an [Enumeration](aerConEnumerationsOverview.html) definition ([BEGENUM](BEGENUM.html)). 
+
+```
+
+ **ENDENUM** 
+        
+```
+
+### Remarks
+An **ENDENUM** finishes an Enumeration definition.
+
+### Example
+
+```
+BegEnum myEnum basetype( *byte )
+   DclEnumFld q4 value(4)   // &lt;--- the default value is 0
+   DclEnumFld q5            // &lt;--- this will be 5, which is 1 plus the previous one
+ **EndEnum** 
+```
+
+### See Also
+[BEGENUM](BEGENUM.html)
+[Enumeration Definition](aerConEnumerationsOverview.html) 
