@@ -74,7 +74,7 @@ hh:mm:ss
 </td>
             <td colspan="1" rowspan="1" width="54">
 
-: . , &amp; 0 
+: . , & 0 
 </td>
             <td colspan="1" rowspan="1" width="60">
 
@@ -166,7 +166,7 @@ hh:mm:ss
 </table>
         </p>
 
-The ampersand (&amp;) separator is replaced with a blank character. E.g., * **HMS&amp;** results in the example time formated as **01 05 PM** . 
+The ampersand (&) separator is replaced with a blank character. E.g., * **HMS&** results in the example time formated as **01 05 PM** . 
 
 The zero (0) separator is replaced with no character. E.g., * **EURO** results in the example time formated as **130521** . 
 

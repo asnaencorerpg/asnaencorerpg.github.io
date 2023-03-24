@@ -36,7 +36,7 @@ When a file is network blocked, the block is delivered when the database engine 
 
 It is prudent to set the blocking factor to a value less than or equal to the number of records being processed at one time. For instance, if your application is adding 50 records at a time to a DataGrid, then the blocking factor should not be greater than 50. 
 
-When you employ [SETRANGE](SETRANGE.html) &amp; [READ](READ.html)/[READP](READP.html) and [READRANGE](READRANGE.html) &amp; [READ](READ.html)/[READP](READP.html) idioms, the database engine will place no more records in the block than needed to satisfy the range. 
+When you employ [SETRANGE](SETRANGE.html) & [READ](READ.html)/[READP](READP.html) and [READRANGE](READRANGE.html) & [READ](READ.html)/[READP](READP.html) idioms, the database engine will place no more records in the block than needed to satisfy the range. 
 
 **Hint:** If you are using a **progress bar** to show the progress of reading the next *n* records, make the blocking factor a fraction of the total records to be processed. For example, if processing 50 records at a time, set BlockingFactor to 10. 
 

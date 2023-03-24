@@ -40,7 +40,7 @@ Discusses operators that compare two expressions and return a **Boolean**  value
 
 [Concatenation Operators](aerConConcatenationOperators.html)
 
-Provides information on the **+**  and **&amp;**  operators, which join 			multiple strings into
+Provides information on the **+**  and **&**  operators, which join 			multiple strings into
                 a single string.
 
 

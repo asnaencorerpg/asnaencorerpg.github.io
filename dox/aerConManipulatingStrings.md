@@ -93,7 +93,7 @@ In the previous example, the <code> **IndexOf** </code> method of <code class="c
 ### Creating New Strings from Old
 When using strings, you may want to modify your strings and create new ones. You may want to do something as simple as convert the entire string to uppercase, or trim off trailing spaces; or you may want to do something more complex, such as extracting a substring from your string. The <code> **System.String** </code> class provides a wide range of options for modifying, manipulating, and making new strings out of your old ones. 
 
-To combine multiple strings, you can use the concatenation operators ( **&amp;** or **+** ). You can also use the **String.Concat** Method to concatenate a series of strings or strings contained in objects. An example of the **String.Concat** method follows: 
+To combine multiple strings, you can use the concatenation operators ( **&** or **+** ). You can also use the **String.Concat** Method to concatenate a series of strings or strings contained in objects. An example of the **String.Concat** method follows: 
 
 ```
 DclFld a string Type(*String)

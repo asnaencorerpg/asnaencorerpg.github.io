@@ -63,7 +63,7 @@ yyyy-mm-dd
 </td>
                 <td colspan="1" rowspan="1" width="85">
 
-- &amp; 0 
+- & 0 
 </td>
                 <td colspan="1" rowspan="1" width="57">
 
@@ -180,7 +180,7 @@ mm/dd/yy
 </td>
                 <td colspan="1" rowspan="1" width="85" height="17">
 
-/ - . , &amp; 0 
+/ - . , & 0 
 </td>
                 <td colspan="1" rowspan="1" width="57" height="17">
 
@@ -206,7 +206,7 @@ dd/mm/yy
 </td>
                 <td colspan="1" rowspan="1" width="85">
 
-/ - . , &amp; 0 
+/ - . , & 0 
 </td>
                 <td colspan="1" rowspan="1" width="57">
 
@@ -232,7 +232,7 @@ yy/mm/dd
 </td>
                 <td colspan="1" rowspan="1" width="85">
 
-/ - . , &amp; 0 
+/ - . , & 0 
 </td>
                 <td colspan="1" rowspan="1" width="57">
 
@@ -258,7 +258,7 @@ yy/ddd
 </td>
                 <td colspan="1" rowspan="1" width="85">
 
-/ - . , &amp; 0 
+/ - . , & 0 
 
 </td> <td colspan="1" rowspan="1" width="57"> <p align="left"> 6 
 </td>
@@ -269,7 +269,7 @@ yy/ddd
             </tr>
 </table>
 
-The ampersand (&amp;) separator is replaced with a blank character. E.g., * **MDY&amp;** results in the example date formated as **01 15 07** . 
+The ampersand (&) separator is replaced with a blank character. E.g., * **MDY&** results in the example date formated as **01 15 07** . 
 
 The zero (0) separator is replaced with no character. E.g., * **MDY0** results in the example date formated as **011507** . 
 

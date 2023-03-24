@@ -40,7 +40,7 @@ Describes operation codes, or commands that initiate action by executing
 [Assignment Op Codes](aerConAssignmentOpCodes.html)
 
 Provides links to Language Reference topics covering assignment operators such
-                as <code> **=** </code>, <code> ***=** </code>, and <code> **&amp;=** </code>.
+                as <code> **=** </code>, <code> ***=** </code>, and <code> **&=** </code>.
 
 
 [Expressions](aerConExpressions.html)

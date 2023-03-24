@@ -10,7 +10,7 @@ TocOrder: 0
 
 File processing in Encore RPG is no different than in RPG/400. Extensions to incorporate client/server processing have been added in the [DCLDISKFILE](DCLDISKFILE.html) statement. An application can dynamically open and process database files and members from specific databases defined at run-time. The database, file and member can be defined as variables. 
 
-**DBDESC &amp; FILEDESC** - Because the file name (FileName) is a variable, the compiler must be provided the name of the file and its database paths where the file description is located. The DBDESC and FILEDESC parameter values must be literals. 
+**DBDESC & FILEDESC** - Because the file name (FileName) is a variable, the compiler must be provided the name of the file and its database paths where the file description is located. The DBDESC and FILEDESC parameter values must be literals. 
 
 **DB** - Database name is the variable into which the application will identify the database location of the file before opening the file. Values may be *NONE (defaults to *LOCALDFT), *SYSDFT (defaults to *REMOTEDFT), a literal database name, or a variable database name identifying the client/workstation Acceler8DB database, server Acceler8DB database or AS/400 database name. 
 

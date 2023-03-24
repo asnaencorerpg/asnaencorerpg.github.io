@@ -8,11 +8,11 @@ TocOrder: 2
 
 ---
 
-Concatenation operators join multiple strings into a single string. There are two concatenation operators, **+** and **&amp;** ; both carry out the basic concatenation operation, as shown below: 
+Concatenation operators join multiple strings into a single string. There are two concatenation operators, **+** and **&** ; both carry out the basic concatenation operation, as shown below: 
 
 ```
 DCLFLD x Type (*String) 
-   x = "Con" &amp; "caten" &amp; "ation" // x equals "Concatenation". 
+   x = "Con" & "caten" & "ation" // x equals "Concatenation". 
    x = "Con" + "caten" + "ation" // x equals "Concatenation".
 ```
 
@@ -24,7 +24,7 @@ DCLFLD y Type (*String)
    x = "abc"
    y = "def"  
 DCLFLD zType (*String)
-   z = x &amp; y   // z equals "abcdef".
+   z = x & y   // z equals "abcdef".
    z = x + y   // z equals "abcdef".
 ```
 

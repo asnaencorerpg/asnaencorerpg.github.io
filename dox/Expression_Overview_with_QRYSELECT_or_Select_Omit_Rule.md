@@ -8,7 +8,7 @@ TocOrder: 3
 
 ---
 
-An **expression** to be used with a **QrySelect** within [DCLDISKFILE](DCLDISKFILE.html) is a logical expression consisting of one or more relational expressions optionally combined with the "&amp;" (and) and "|" (or) operators. Since "&amp;" has a higher priority than "|", you can use parentheses to force the order in which the expression is evaluated. 
+An **expression** to be used with a **QrySelect** within [DCLDISKFILE](DCLDISKFILE.html) is a logical expression consisting of one or more relational expressions optionally combined with the "&" (and) and "|" (or) operators. Since "&" has a higher priority than "|", you can use parentheses to force the order in which the expression is evaluated. 
 
 An **expression** is defined by a single or double quote, followed by any combination of characters, and terminated by a single or double quote. Note that a numeric field can be compared against numeric constants, and a character field must be compared against a **quoted character constant** . 
 
@@ -27,7 +27,7 @@ The valid relational operators are:<br />
 | =        | EQ  | Equal Condition 
 | !=       | NE  | Not Equal Condition 
 | &lt;&gt; | NE  | Not Equal Condition 
-| &amp;    | AND | And 
+| &    | AND | And 
 | &#124;,  | OR  | Or 
 
 

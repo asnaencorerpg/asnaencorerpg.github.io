@@ -23,7 +23,7 @@ DclFld String2 Type (*String)
 String1 = "one, two, three, four, five"
 String2 = OneString.Substring(5,3)  // Evaluates to "two".
 String1 = "1"
-String2 = OneString &amp; "1"  // Evaluates to "11".
+String2 = OneString & "1"  // Evaluates to "11".
 ```
 
 Any literal that is assigned to a ***String** variable must be enclosed by quotation marks (""). Naturally, this makes creating a literal that contains quotation marks somewhat problematic. For example, the following code returns a compiler error: 

@@ -29,7 +29,7 @@ The assignment operator can also assign values to **String** variables and **Str
 ```
 Name(x) Type (*CHAR) Len (10)
 x = "String variable assignment"
-x = "Con" &amp; "cat" &amp; "enation" // x equals "Concatenation".
+x = "Con" & "cat" & "enation" // x equals "Concatenation".
 ```
 
 The values of **Boolean** variables can be assigned as well, using either a **Boolean** literal or a **Boolean** expression as the right argument: 
@@ -44,7 +44,7 @@ x = 45 &gt; 1003 Or 45 &gt; 17 // x equals *True.
 The argument on the left side of the operator can be any valid variable or property. The following example demonstrates setting the value of the text property of a text box: 
 
 ```
-MyTextBox.Text = "This " &amp; "is a" &amp; "String" 
+MyTextBox.Text = "This " & "is a" & "String" 
    // MyTextBox.Text = "This is a string".
 ```
 
@@ -66,7 +66,7 @@ Lastly, the concatenation assignment operator is useful for adding a string to t
 
 ```
 DCLFLD x Type (*String) = ("My ")
-x &amp;= ("String"    ') x = ("My String").
+x &= ("String"    ') x = ("My String").
 ```
 
 If the variable on the left side of the concatenation assignment operator has not been assigned a value, it is treated as an empty string (<code>""</code>). 

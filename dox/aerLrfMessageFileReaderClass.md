@@ -39,7 +39,7 @@ To create a message, you can use any text editor - including the IDE - to create
 
 Second level text must be entered on the line following the message details listed above. It also allows any combination of letters and numbers. 
 
-To specify substitution text in either first- or send-level message text, enter the ampersand character (&amp;) followed immediately by aone or two digit number. If you provide more substitution variables than the number of replacement identifiers (&amp;1...&amp;99), the extra variables are ignored. If you provide fewer substitution variables than the number of replacement identifiers, the identifiers are removed and no text is replaced. 
+To specify substitution text in either first- or send-level message text, enter the ampersand character (&) followed immediately by aone or two digit number. If you provide more substitution variables than the number of replacement identifiers (&1...&99), the extra variables are ignored. If you provide fewer substitution variables than the number of replacement identifiers, the identifiers are removed and no text is replaced. 
 
 **Example:** 
 <table>
@@ -49,12 +49,12 @@ To specify substitution text in either first- or send-level message text, enter 
                 <td>2034</td>
                 <td>50</td>
                 <td>
-                    Invalid array index value: &amp;1&amp;nExpected array index is between 1 and
-                    &amp;2
+                    Invalid array index value: &1&nExpected array index is between 1 and
+                    &2
                 </td>
             </tr>
-            <tr><td>VRT</td><td>2035</td><td>50</td><td>Runtime error occurred in Program &amp;1 at Line &amp;2: </td></tr>
-            <tr><td>FRM</td><td>10</td><td>00</td><td>E&amp;&amp;xit</td></tr>
+            <tr><td>VRT</td><td>2035</td><td>50</td><td>Runtime error occurred in Program &1 at Line &2: </td></tr>
+            <tr><td>FRM</td><td>10</td><td>00</td><td>E&&xit</td></tr>
 </table>
 
 ### 3 Character Prefix
@@ -91,9 +91,9 @@ Level 1 text is usually a brief message text. It follows the severity and stops 
 Level 2 is extended message information. It is entered on the line immediately following Level 1 message text. All Level 2 message text must be indented by at least one space or TAB. You may start as many new lines as you wish for Level-2 message text as long as each line is indented as noted. 
 **Replacement Text:**  You can specify any number of replacement text tokens
         for each message text. Replacement text is specified by a single ampersand,
-        followed by the replacement number; i.e., &amp;1, &amp;2, … , &amp;99.
+        followed by the replacement number; i.e., &1, &2, … , &99.
 
-The replacement text is replaced at run-time by the **GetMessageText** method. <p /> **Keyboard Navigation Keys:** <p /> Within the message text, you can specify access keys by entering two ampersands (&amp;&amp;) in front of the character you wish to assign to the access key. Typically for use with menu and button text; for example, "E<u>x</u>it" would be in the message text as "E&amp;&amp;xit". <p /> If you actually want an ampersand to display as part of the text, merely enter "&amp;&amp;&amp;". If you want 2 ampersands to display, then you will need to enter "&amp;&amp;&amp;&amp;", and so on. <p /> **Display Text on Next Line:** <p> You can specify an (&amp;n) anywhere in the message text for a new line just prior to the text you want to display on the next line. 
+The replacement text is replaced at run-time by the **GetMessageText** method. <p /> **Keyboard Navigation Keys:** <p /> Within the message text, you can specify access keys by entering two ampersands (&&) in front of the character you wish to assign to the access key. Typically for use with menu and button text; for example, "E<u>x</u>it" would be in the message text as "E&&xit". <p /> If you actually want an ampersand to display as part of the text, merely enter "&&&". If you want 2 ampersands to display, then you will need to enter "&&&&", and so on. <p /> **Display Text on Next Line:** <p> You can specify an (&n) anywhere in the message text for a new line just prior to the text you want to display on the next line. 
 
 **Compiling the message file:** 
 

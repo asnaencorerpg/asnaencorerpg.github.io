@@ -29,10 +29,10 @@ Setting **ProcessMacro** property **True** will cause the DataGate print engine 
 
 The following macros are currently available: 
 
-- &amp;# - This is replaced with the current page number.
-- &amp;$ - This is replaced with the page count.
+- &# - This is replaced with the current page number.
+- &$ - This is replaced with the page count.
 
-Macros may only be described in a Print file label control. Only one macro per Label control is allowed (e.g. "Page &amp;# of &amp;$" is not valid). You may, however, describe the same macro more than once per format and/or per print file. 
+Macros may only be described in a Print file label control. Only one macro per Label control is allowed (e.g. "Page &# of &$" is not valid). You may, however, describe the same macro more than once per format and/or per print file. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

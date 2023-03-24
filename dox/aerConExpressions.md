@@ -34,7 +34,7 @@ Discusses expressions that evaluate to the **Boolean**  values **True**  or **Fa
 [Assignment Operators](aerConAssignmentOpCodes.html)
 
 Provides links to Language Reference topics covering assignment operators such
-                as **=** , ***=** , and **&amp;=** .
+                as **=** , ***=** , and **&=** .
 
 
 [Operators](aerLrfOperatorsMain.html)
