@@ -11,18 +11,18 @@ TocOrder: 3
 Objects, properties, methods, and events are the basic units of object-oriented programming. An object is an element of an application, representing an *instance* of a class. Properties, methods, and events are the building blocks of objects, and constitute their *members* . 
 
 ### Objects
-An object represents an instance of a class such as an <code> **ArrayList** </code> or <code> **Queue** </code>. In Encore RPG code, you must *instantiate* an object before you can apply one of the object's methods or change the value of one of its properties. Instantiation is the process by which an instance of a class is created and assigned to an object variable. An example is shown below: 
+An object represents an instance of a class such as an ``` **ArrayList** ``` or ``` **Queue** ```. In Encore RPG code, you must *instantiate* an object before you can apply one of the object's methods or change the value of one of its properties. Instantiation is the process by which an instance of a class is created and assigned to an object variable. An example is shown below: 
 
 ```
 DclFld MyList Type (Sytem.Collections.ArrayList) New (*Dft)
 ```
 
-In this example, the variable <code>x</code> is assigned to refer to a new instance of the <code>ArrayList</code> class. 
+In this example, the variable ```x``` is assigned to refer to a new instance of the ```ArrayList``` class. 
 
 ### Properties
 A property is an attribute of an object that defines one of the object's characteristics, such as size, value, location, or anaspect of its behavior, such as whether it is expandable or fixed size. To change the characteristics of an object, you change the values of its corresponding properties. 
 
-To set the value of a property, affix the reference to an object with a period, the property name, an equal sign (=), and the new property value. For example, the following code changes the capacity of an ArrayList by setting the <code> **Capacity** </code> property: 
+To set the value of a property, affix the reference to an object with a period, the property name, an equal sign (=), and the new property value. For example, the following code changes the capacity of an ArrayList by setting the ``` **Capacity** ``` property: 
 
 ```
 Begsr DoubleCapacity
@@ -41,9 +41,9 @@ EndSr
 ```
 
 ### Methods
-A method is an action that an object can perform. For example, <code> **Add** </code> is a method of the <code>ArrayList</code> object, which as you can imagine, it adds an object at the end of the ArrayList. The ArrayList class belongs to a namespace called System.Collections, this namespace has other similar classes. 
+A method is an action that an object can perform. For example, ``` **Add** ``` is a method of the ```ArrayList``` object, which as you can imagine, it adds an object at the end of the ArrayList. The ArrayList class belongs to a namespace called System.Collections, this namespace has other similar classes. 
 
-The following example demonstrates the <code> **Add** </code> method of a <code>System.Collections.Queue</code> object: 
+The following example demonstrates the ``` **Add** ``` method of a ```System.Collections.Queue``` object: 
 
 ```
 // Instantiates a timer object. 

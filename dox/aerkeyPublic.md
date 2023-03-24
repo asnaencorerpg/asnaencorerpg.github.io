@@ -8,9 +8,9 @@ TocOrder: 0
 
 ---
 
-The <code>* **Public** </code> special value for the <code> **Access** </code> parameter confers public access on one or more declared programming elements. Public elements are accessible from anywhere within the same project, from other projects that reference the project, and from an assembly built from the project.. 
+The ```* **Public** ``` special value for the ``` **Access** ``` parameter confers public access on one or more declared programming elements. Public elements are accessible from anywhere within the same project, from other projects that reference the project, and from an assembly built from the project.. 
 
-The <code>* **Public** </code> access type is used in the following operation codes: 
+The ```* **Public** ``` access type is used in the following operation codes: 
 
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html) 
 

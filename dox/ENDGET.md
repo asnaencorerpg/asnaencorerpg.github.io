@@ -15,7 +15,7 @@ Terminates a [BEGGET](BEGGET.html) procedure.
 ```
 
 ### Remarks
-An <code> **ENDGET** </code> routine **must** begin with a <code> **BEGGET** </code>. 
+An ``` **ENDGET** ``` routine **must** begin with a ``` **BEGGET** ```. 
 
 ### Example
 

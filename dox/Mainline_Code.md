@@ -19,7 +19,7 @@ In **Main** , you can determine:
 
 **Main** <u> **must be** </u> either a [BEGSR](BEGSR.html) or a [BEGFUNC](BEGFUNC.html) with ***Integer4** type, such as: 
 
-<code> BegFunc Main Type( *Integer4 ) Access( *Public ) Shared( *Yes ) </code> 
+``` BegFunc Main Type( *Integer4 ) Access( *Public ) Shared( *Yes ) ``` 
 
 **Note** If **Type** is not *Integer4 you will receive a compiler error stating "Main not found…". 
 

@@ -10,23 +10,23 @@ TocOrder: 0
 
 Every *declared element* (a programming element that is defined in a declaration statement) has one or more of the following characteristics associated with it: 
 
-- Data type - (<code> **Type** </code>
+- Data type - (``` **Type** ```
                 keyword) The values the element can hold, and how those values are stored,
-                such as <code>
+                such as ```
                     *BINARY, *BOOLEAN, *BYTE, *CHAR, *DATE, *DECIMAL | *FLOAT, *IND,
                     *INTEGER, *OBJECT, *ONECHAR, *PACKED,  *STRING, *TIME, *TIMESTAMP
-                </code>, or
-                <code>*ZONED</code>.
-- Lifetime - (<code> **Static** </code>
+                ```, or
+                ```*ZONED```.
+- Lifetime - (``` **Static** ```
                 keyword) The period the declared field will remain in existence and
                 retain their latest values after termination of the procedure in which they are
                 declared.
-- Scope - (<code> **Access** </code>
-                keyword) The type of access to the member, such as <code>
+- Scope - (``` **Access** ```
+                keyword) The type of access to the member, such as ```
                     *PRIVATE, *PUBLIC,
                     *PROTECTED
-                </code>, or <code>*INTERNAL</code>.
-- Accessibility (<code> **Shared** </code> keyword) The permission for code
+                ```, or ```*INTERNAL```.
+- Accessibility (``` **Shared** ``` keyword) The permission for code
                 to use the element.<br />
 
 The following table shows the declared elements and the characteristics that apply to each one. 
@@ -39,19 +39,19 @@ The following table shows the declared elements and the characteristics that app
                     </th>
                     <th colspan="1" rowspan="1" width="13%">
                         Data type<br />
-                        (<code>Type</code>)
+                        (```Type```)
                     </th>
                     <th colspan="1" rowspan="1" width="13%">
                         Lifetime<br />
-                        (<code>Static</code>)
+                        (```Static```)
                     </th>
                     <th colspan="1" rowspan="1" width="13%">
                         Scope<br />
-                        (<code>Access</code>)
+                        (```Access```)
                     </th>
                     <th colspan="1" rowspan="1" width="13%">
                         Accessibility<br />
-                        (<code>Shared</code>)
+                        (```Shared```)
                     </th>
                 </tr>
                 <tr>

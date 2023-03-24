@@ -28,34 +28,34 @@ The following are the command line required and optional parameters:
 
 **Required options:** 
 
-- <code>/src -</code> Path of the OLE Print File.
-- <code>/rdb -</code> Database name where <code>/src</code> is located.
+- ```/src -``` Path of the OLE Print File.
+- ```/rdb -``` Database name where ```/src``` is located.
 
 **Additional options:** 
 
-- <code>/dest -</code> Path where the converted file will be
+- ```/dest -``` Path where the converted file will be
                 placed.
 
-Default is the value of <code>/src</code>.
-- <code>/wdb -</code> Database name where <code>/dest</code> will be
+Default is the value of ```/src```.
+- ```/wdb -``` Database name where ```/dest``` will be
                 placed.
 
-Default is the value of <code>/rdb</code>.
-- <code>/bak -</code>    Path to a library where original file
+Default is the value of ```/rdb```.
+- ```/bak -```    Path to a library where original file
                 will be placed.
 
 Library is created if it does not exist.
 
-If this switch is used, the value of <code>/dest</code> is ignored.
-- <code>/wlocal</code> - Path of a file where the converted Ole Print file will
+If this switch is used, the value of ```/dest``` is ignored.
+- ```/wlocal``` - Path of a file where the converted Ole Print file will
                 be placed.
 
 If this switch is used, a file is not created in the database.
-- <code>/lsdb</code> -    List available database names.
+- ```/lsdb``` -    List available database names.
 
-**Note** &#8212; If an object exists at <code>/dest</code> in <code>/wdb</code>, the converter will overwrite it. 
+**Note** &#8212; If an object exists at ```/dest``` in ```/wdb```, the converter will overwrite it. 
 
-The converter has the capability of accepting a file for the value of <code>/rdb</code> and/or <code>/wdb</code>. 
+The converter has the capability of accepting a file for the value of ```/rdb``` and/or ```/wdb```. 
 
 This file should contain a serialized Source Profile (used internally for now).
 
@@ -66,18 +66,18 @@ Assuming the current command prompt directory is set to "C:\Program Files\Common
 
 Assuming the batch file is called **ConvertMyOlePrintfiles.bat** , the contents would look like the following: 
 
-- <code>
+- ```
                 OlePrintfileToNetPrintfile /src Payroll20/PayrollReport /dest
                 Payroll30/PayrollReportNet /owr MyOldDbName > result.txt
-            </code>
-- <code>
+            ```
+- ```
                 OlePrintfileToNetPrintfile /src AC20/CustomerReport /dest AC30/ CustomerReport
                 Net /owr MyOldDbName >> result.txt
-            </code>
-- <code>
+            ```
+- ```
                 OlePrintfileToNetPrintfile /src Inv20/PartsReport /dest Inv30/PartsReport Net
                 /owr MyOldDbName >> result.txt
-            </code>
+            ```
 
 To start the batch process, type **ConvertMyOlePrintfiles.bat** from the command line. 
 

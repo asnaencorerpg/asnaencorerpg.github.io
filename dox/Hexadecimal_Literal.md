@@ -25,7 +25,7 @@ TocOrder: 3
 ```
 
 ### Remarks
-Double quotes will be parsed the same way, so <code>U"0009" = U"0009".</code>
+Double quotes will be parsed the same way, so ```U"0009" = U"0009".```
 
 The syntax: H"<hex digits>" is not supported.
 

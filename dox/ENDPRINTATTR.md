@@ -12,12 +12,12 @@ Defines the **end** of a **cycle's** print attributes.
 
 ```
 
- **<code>ENDPRINTATTR</code>** 
+ **```ENDPRINTATTR```** 
         
 ```
 
 ### Remarks
-<code> **ENDPRINTATTR** </code> must be the **last** statement in a [BEGPRINTATTR](BEGPRINTATTR.html). The <code> **BEGPRINTATTR** </code> section of migrated code controls printing. Each <code>HeadingSpec</code>, <code>DetailSpec</code> and <code>TotalSpec</code> command contain the conditions in which each is printed. 
+``` **ENDPRINTATTR** ``` must be the **last** statement in a [BEGPRINTATTR](BEGPRINTATTR.html). The ``` **BEGPRINTATTR** ``` section of migrated code controls printing. Each ```HeadingSpec```, ```DetailSpec``` and ```TotalSpec``` command contain the conditions in which each is printed. 
 
 ### Example
 

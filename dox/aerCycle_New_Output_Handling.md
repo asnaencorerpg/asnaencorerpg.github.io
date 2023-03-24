@@ -10,7 +10,7 @@ TocOrder: 20
 
 A file may be program described or externally described; in either case, the program may be performing output operations on the file using O-Specs. These O-specs may be Except type (E) or Cycle type (D, H, T). 
 
-As of version 7.0, ECR (and therefore Monarch) support "program described" database files via the <code>InputHandler</code> and <code>OutputHandler</code> keywords of the DclDiskFile. Print and Workstation files are only supported when they are externally described. 
+As of version 7.0, ECR (and therefore Monarch) support "program described" database files via the ```InputHandler``` and ```OutputHandler``` keywords of the DclDiskFile. Print and Workstation files are only supported when they are externally described. 
 
 For (externally described) printer files, ECR provides specialized constructs to handle the cycle type output, but there is no support for database cycle driven output. 
 
@@ -19,31 +19,31 @@ For (externally described) printer files, ECR provides specialized constructs to
 1. Add new Commands, similar to those used with printer output, as follows:
                     <ol>
                         <li>
-                            <code>BegCycleOutPut</code> (replaces <code>BegPrintAttr</code>)
-2. <code>EndCycleOutput</code> (replaces <code>EndPrintAttr</code>)
+                            ```BegCycleOutPut``` (replaces ```BegPrintAttr```)
+2. ```EndCycleOutput``` (replaces ```EndPrintAttr```)
 
 Between these commands, a group of the following (also new) commands can be entered:
 
-- <code>DetailPrintSpec</code>
-- <code>HeaderPrintSpec</code>
-- <code>TotalPrintSpec</code>
-- <code>DetailPrintSpec</code>
-- <code>TotalDiskSpec</code>
+- ```DetailPrintSpec```
+- ```HeaderPrintSpec```
+- ```TotalPrintSpec```
+- ```DetailPrintSpec```
+- ```TotalDiskSpec```
 
 </li>
                 <li>
-                    <code>BegPrintAttr</code>, <code>EndPrintAttr</code>, <code>DetailSpec</code>,
-                    <code>HeadingSpec</code> and <code>TotalSpec</code> are all now obsolete.
+                    ```BegPrintAttr```, ```EndPrintAttr```, ```DetailSpec```,
+                    ```HeadingSpec``` and ```TotalSpec``` are all now obsolete.
                 </li>
-                <li>The keywords for the <code> *Xxx* PrintSpec</code> are identical to their corresponding <code> *Xxx* Spec</code>.</li>
+                <li>The keywords for the ``` *Xxx* PrintSpec``` are identical to their corresponding ``` *Xxx* Spec```.</li>
                 <li>
-                    The keywords for the <code> *Xxx* DiskSpec</code> are:
+                    The keywords for the ``` *Xxx* DiskSpec``` are:
 
 3. File &#8211; The File parameter can be a DiskFile or a Record Format of a DiskFile.
-4. Cond (<code><u>*NONE</u></code>, Boolean Expression)
-5. <code>Op(*ADD, *DELETE, *UPDATE)</code>
+4. Cond (```<u>*NONE</u>```, Boolean Expression)
+5. ```Op(*ADD, *DELETE, *UPDATE)```
 |
-6. <code>Flds(*ALL, {names}+ )</code>
+6. ```Flds(*ALL, {names}+ )```
 
 </li>
             </ol>

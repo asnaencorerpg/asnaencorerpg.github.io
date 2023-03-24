@@ -34,7 +34,7 @@ DclDiskFile Name( CUSTMAST ) Type( *Input ) Org( *Indexed ) DBDesc ( "ASNA LOCAL
 MsgBox %OPEN ( CUSTMAST )
 Close File   ( CUSTMAST )
 MsgBox **%OPEN**  ( CUSTMAST )
-ENDSR      </code>?</pre>
+ENDSR      ```?</pre>
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)

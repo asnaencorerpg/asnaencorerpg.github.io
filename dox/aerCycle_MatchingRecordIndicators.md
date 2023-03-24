@@ -8,9 +8,9 @@ TocOrder: 10
 
 ---
 
-To support the RPG cycle in Monarch migrated applications, the Encore RPG compiler has predefined the matching record indicator <code>*INMR</code>. This matching record indicator will be migrated as such, and does not need to be explicitly declared. 
+To support the RPG cycle in Monarch migrated applications, the Encore RPG compiler has predefined the matching record indicator ```*INMR```. This matching record indicator will be migrated as such, and does not need to be explicitly declared. 
 
-- <code>* **INMR** </code>
+- ```* **INMR** ```
 
 ### Remarks
 <dl class="normal">
@@ -31,7 +31,7 @@ Statements in a file are conditioned on the
 You can specify up to 9 field(s) that are defined as the "control"
                 matching field is read from the buffer.  You can specify up to 9
                 different fields, or levels using [DclFmtCycleAttr](DCLFMTCYCLEATTR.html).   These are defined
-                as <code> **M1 .... M9** </code>.  When the field is different, a level
+                as ``` **M1 .... M9** ```.  When the field is different, a level
                 break occurs, and the defined level indicators are set; thus the calculations
                 totals and output is printed.
 
@@ -39,7 +39,7 @@ When a level indicator gets turned on, then all level indicators
                 underneath that level will turn on as well.
 
 
-The following image shows the Matching Record field as <code>M1</code> is defined by <code>Item#</code>; <code>OOItem#</code> and <code>DOrder#</code> and <code>BOOrder#</code>. 
+The following image shows the Matching Record field as ```M1``` is defined by ```Item#```; ```OOItem#``` and ```DOrder#``` and ```BOOrder#```. 
 
 
 ![](Images/Level_Break.jpg" border="0) 

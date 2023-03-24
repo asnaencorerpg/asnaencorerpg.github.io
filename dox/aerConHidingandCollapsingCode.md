@@ -25,7 +25,7 @@ The syntax for / **Region** is as follows:
 /EndRegion
 ```
 
-The <code class="ce">identifier string</code> requires the quotes and acts as the title of the region when it is collapsed. The region is collapsed by default. 
+The <code class="ce">identifier string``` requires the quotes and acts as the title of the region when it is collapsed. The region is collapsed by default. 
 
 **To collapse and hide a section of code** 
 

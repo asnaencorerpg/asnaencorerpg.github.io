@@ -17,7 +17,7 @@ TocOrder: 70
 
 Supported languages include, but are not limited to, German, French, English, Greek, Chinese, and Japanese. Among the scripts supported by Unicode are Latin, Greek, Han, Hiragana, and Katakana. 
 
-Unicode has replaced ascii as the base character set for <code>*char</code>, <code>*string</code>, and <code>*onechar</code>. 
+Unicode has replaced ascii as the base character set for ```*char```, ```*string```, and ```*onechar```. 
 
 ### See Also
 <a href="Character_Data_Type.html)

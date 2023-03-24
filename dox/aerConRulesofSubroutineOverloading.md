@@ -26,16 +26,16 @@ The compiler uses the subroutine name and the argument list to check that the ca
 
 You cannot overload a subroutine without varying the argument list. In particular, you cannot overload a subroutine by varying only one or more of the following items: 
 
-- Access modifier keywords, such as <code>* **Public** </code>, <code>* **Shared.** </code>
+- Access modifier keywords, such as ```* **Public** ```, ```* **Shared.** ```
 - Argument names.
-- Argument modifier keywords, such as <code>* **ByRef.** </code>
+- Argument modifier keywords, such as ```* **ByRef.** ```
 - The data type of the return value.
 
 The items in the preceding list are not part of the signature.
 <blockquote class="dtBlock">
             <b class="le">Note</b> &#8211; If you intend
             to pass a late-bound object variable to an overloaded subroutine, you must
-            declare the appropriate argument as <code>* **Object** </code>.
+            declare the appropriate argument as ```* **Object** ```.
             <br />
         </blockquote>
 

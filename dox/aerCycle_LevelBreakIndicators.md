@@ -10,7 +10,7 @@ TocOrder: 0
 
 To support the RPG cycle in Monarch migrated applications, the Encore RPG compiler has predefined the following print file level break indicators. For example, these level break indicators will be migrated as such, and do not need to be explicitly declared. 
 
-- <code>*INL1, *INL2</code>, ... through <code>*INL9</code>
+- ```*INL1, *INL2```, ... through ```*INL9```
 
 ### Remarks
 <dl class="normal">
@@ -56,11 +56,11 @@ When a level indicator gets turned on, all level
 
 To perform calculations, you want to know when you're moving from 1 line to another. As in the following example: 
 
-- if <code>Item#</code> changes (<code>BOItem#</code>), then you want to print order and backorder changes. 
+- if ```Item#``` changes (```BOItem#```), then you want to print order and backorder changes. 
 
-- if <code>Order#</code> changes, then you want to print the Invoice total for that <code>Order#</code>. 
+- if ```Order#``` changes, then you want to print the Invoice total for that ```Order#```. 
 
-The following image shows the level break fields defined for L1 is defined by <code>BOItem#</code> and <code>BOOrder#</code>; and L2 is <code>OOrder#</code>. 
+The following image shows the level break fields defined for L1 is defined by ```BOItem#``` and ```BOOrder#```; and L2 is ```OOrder#```. 
 
 
 ![](Images/Level_Break.jpg" border="0) 

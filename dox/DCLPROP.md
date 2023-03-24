@@ -136,7 +136,7 @@ Attributes use required, and optional arguments. The required parameters are pro
 
 BegClass MyClass Attributes(Developer("Joe Cool", 17)) 
 
-You can also use named arguments, which are optional, to directly set the value of properties and fields of the attributes. You specify a named argument by appending ":=" to the name of the argument, followed by the value being specified. Unlike positional arguments, named arguments can be specified in any order. For example, the following code sets the value * **True** for the reviewed property of the Developer Attribute, and ***False** for the <code>Keep</code> field: 
+You can also use named arguments, which are optional, to directly set the value of properties and fields of the attributes. You specify a named argument by appending ":=" to the name of the argument, followed by the value being specified. Unlike positional arguments, named arguments can be specified in any order. For example, the following code sets the value * **True** for the reviewed property of the Developer Attribute, and ***False** for the ```Keep``` field: 
 
 BegClass MyClass Attributes(Developer("Joe Cool", 17, Reviewed:=*True)) 
 

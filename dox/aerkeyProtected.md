@@ -8,9 +8,9 @@ TocOrder: 2
 
 ---
 
-The <code>* **Protected** </code> special value for the <code> **Access** </code> parameter confers protected access on one or more declared programming elements. Protected elements are accessible only from within their declaration context, including from members of any nested types, for example from within a nested procedure or from an assignment expression in a nested enumeration. 
+The ```* **Protected** ``` special value for the ``` **Access** ``` parameter confers protected access on one or more declared programming elements. Protected elements are accessible only from within their declaration context, including from members of any nested types, for example from within a nested procedure or from an assignment expression in a nested enumeration. 
 
-The <code>* **Protected** </code> access type is used in the following operation codes: 
+The ```* **Protected** ``` access type is used in the following operation codes: 
 
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html) 
 

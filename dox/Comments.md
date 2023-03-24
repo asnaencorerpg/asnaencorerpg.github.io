@@ -22,11 +22,11 @@ Comments can follow a statement on the same line, or occupy an entire line. Both
 <pre class="prettyprint"><code class="language=avr">// This comment occupies an entire line. 
 System.Windows.Forms.Application.DoEvents()
       - or -
-System.Windows.Forms.Application.DoEvents()  //This comment is on the same line.</code></pre>
+System.Windows.Forms.Application.DoEvents()  //This comment is on the same line.```</pre>
  **<br />Comments using /* to Start and */ to End Comment:** 
         <pre class="prettyprint"><code class="language=avr">/* This comment occupies an entire line.  You must end with a */.        
  System.Windows.Forms.Application.DoEvents() 
-<br />- or - System.Windows.Forms.Application.DoEvents() /* This comment is on the same line. */</code></pre>
+<br />- or - System.Windows.Forms.Application.DoEvents() /* This comment is on the same line. */```</pre>
         If your comment expands more than one line, simply use the // symbol at the beginning or each <br />line, or add the */ symbol at the end of the last line of comments.
 
         

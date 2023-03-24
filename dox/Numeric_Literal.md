@@ -12,24 +12,24 @@ TocOrder: 4
 
 **Integers** are entered:
 
-- <code><nnn>S </code>: short number (16-bit integer)
-- <code><nnn>I</code> : integer number (32-bit integer)
-- <code><nnn>L</code> : long number (64-bit integer)
+- ```<nnn>S ```: short number (16-bit integer)
+- ```<nnn>I``` : integer number (32-bit integer)
+- ```<nnn>L``` : long number (64-bit integer)
 - Examples: 123s,
                 3i, 97L, etc.
 
 **Fixed Decimals** are entered:
 
-- <code><nnn> </code>: fixed decimal of size (<digits>, 0 )
-- <code><nnn>.</code> : fixed decimal of size (<digits>, 0 )
-- <code>.<nnn></code> : fixed decimal of size (<digits>, <digits>)
-- <code><nnn>.<nnn></code> : fixed decimal of size (<total digits>, <right hand digits> )
+- ```<nnn> ```: fixed decimal of size (<digits>, 0 )
+- ```<nnn>.``` : fixed decimal of size (<digits>, 0 )
+- ```.<nnn>``` : fixed decimal of size (<digits>, <digits>)
+- ```<nnn>.<nnn>``` : fixed decimal of size (<total digits>, <right hand digits> )
 - Examples: 9 (1, 0), 34. (2, 0), .6512 (4, 4),
                 764.45 (5, 2)
 
 **Floating Point** numbers are entered:
 
-<code><nnn>.<nnn>E<sign><nnn></code> : depending on the number magnitude the compiler creates either a single precision or a double precision floating point constant. The <code><sign></code> is optional. The syntax of the left hand side of the E follows the rules for fixed decimals 
+```<nnn>.<nnn>E<sign><nnn>``` : depending on the number magnitude the compiler creates either a single precision or a double precision floating point constant. The ```<sign>``` is optional. The syntax of the left hand side of the E follows the rules for fixed decimals 
 
 ### Remarks
 

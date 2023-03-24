@@ -84,11 +84,11 @@ Optional. Like must be the name of a procedure or field already defined in the c
 
 **BEGPROC** is only available to support the Monarch migration of RPG ILE procedures and subprocedures from System i. The procedure, (which is the main entry point into a program), is migrated as a **BegProc *Entry Access (*Public)** routine, as shown below. A **BEGPROC** routine must always end with an [ENDPROC](ENDPROC.html). 
 
-<code> BegProc *Entry Access(*Public)</code> 
+``` BegProc *Entry Access(*Public)``` 
 
-<code> . . .</code> 
+``` . . .``` 
 
-<code> EndProc</code> 
+``` EndProc``` 
 
 If the original program has a * **Entry** PList (RPG 400), or the RPG ILE main procedure contains parameters, they are migrated as [DclSrParm's](DCLSRPARM.html) in the BegProc **without a type** specification, as the fields in the PList refer to ** global ** fields in the System i source code. 
 

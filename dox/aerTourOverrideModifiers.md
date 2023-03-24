@@ -8,15 +8,15 @@ TocOrder: 5
 
 ---
 
-The **<code>Override</code>** keyword for the **<code>BEGFUNC</code>** , **<code>BEGPROP</code>** , **<code>BEGSR</code>** and **<code>DCLEVENT</code>** commands control how properties and methods are overridden in derived classes. <code>*NONE</code> is the default, which specifies that none of the override options are available for properties and methods. The other options are <code> *MUSTOVERRIDE, *NOTOVERRIDABLE, *OVERRIDABLE </code>, and <code>*OVERRIDES</code>. 
+The **```Override```** keyword for the **```BEGFUNC```** , **```BEGPROP```** , **```BEGSR```** and **```DCLEVENT```** commands control how properties and methods are overridden in derived classes. ```*NONE``` is the default, which specifies that none of the override options are available for properties and methods. The other options are ``` *MUSTOVERRIDE, *NOTOVERRIDABLE, *OVERRIDABLE ```, and ```*OVERRIDES```. 
 
-The <code> **Override (** ***NOTOVERRIDABLE)** </code> option specifies that a property or method cannot be overridden in a derived class. You can use the <code>*NOTOVERRIDABLE</code> option when you do not want to allow an **overridden** method to be overridden again in a derived class. 
+The ``` **Override (** ***NOTOVERRIDABLE)** ``` option specifies that a property or method cannot be overridden in a derived class. You can use the ```*NOTOVERRIDABLE``` option when you do not want to allow an **overridden** method to be overridden again in a derived class. 
 
-Properties and Methods defined with the <code> **Override (** ***MUSTOVERRIDE)** </code> option have no implementation in the base class and must be implemented in derived classes before it can be used. 
+Properties and Methods defined with the ``` **Override (** ***MUSTOVERRIDE)** ``` option have no implementation in the base class and must be implemented in derived classes before it can be used. 
 
-The <code> **Override (** ***OVERRIDABLE)** </code> option specifies that a property or method can be overridden in a derived class. 
+The ``` **Override (** ***OVERRIDABLE)** ``` option specifies that a property or method can be overridden in a derived class. 
 
-The <code> **Override (** ***OVERRIDES)** </code> option specifies that a property or method overrides a member inherited from a base class. You can use the <code>* **NOTOVERRIDABLE** </code> and <code>* **MUSTOVERRIDE** </code> modifiers to control how properties and methods are overridden in derived classes. 
+The ``` **Override (** ***OVERRIDES)** ``` option specifies that a property or method overrides a member inherited from a base class. You can use the ```* **NOTOVERRIDABLE** ``` and ```* **MUSTOVERRIDE** ``` modifiers to control how properties and methods are overridden in derived classes. 
 
 ### See Also
 [BEGFUNC](BEGFUNC.html)

@@ -10,7 +10,7 @@ TocOrder: 20
 
 An operator performs an operation on one or more value-returning code elements. This can mean an arithmetic operation such as addition or multiplication; a concatenation operation that combines two strings into a new string; a comparison operation that determines which of two values is greater; a logical operation evaluating whether two expressions are both true. Operators combined with value-returning code elements such as literals or variables form [expressions](aerConExpressions.html). 
 
-The following is an example of a statement that uses the simple assignment operator (<code> **=** </code>): 
+The following is an example of a statement that uses the simple assignment operator (``` **=** ```): 
 
 ```
 x = 85
@@ -22,7 +22,7 @@ In the preceding example, the assignment operator performs the assignment operat
 x = 85 + y * z ^ 2
 ```
 
-In this example, the operations in the expression on the right side of the assignment operator are performed, and the resulting value is assigned to the variable <code class="ce">x</code>, on the left. There is no limit to the number of operators that can be combined into an expression, but an understanding of **Operator Precedence** is necessary to ensure that you get the results you expect. 
+In this example, the operations in the expression on the right side of the assignment operator are performed, and the resulting value is assigned to the variable <code class="ce">x```, on the left. There is no limit to the number of operators that can be combined into an expression, but an understanding of **Operator Precedence** is necessary to ensure that you get the results you expect. 
 
 ### In This Section
 

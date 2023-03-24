@@ -12,12 +12,12 @@ Ends an [IF](IF.html), or [ELSE](ELSE.html) group.
 
 ```
 
-        <code><span style="FONT-WEIGHT: bold">ENDIF</span></code>
+        ```<span style="FONT-WEIGHT: bold">ENDIF</span>```
         
 ```
 
 ### Remarks
-<code> **ENDIF** </code> must be the last statement within a subroutine that is preceded with an <code> **IF** </code>, or <code> **ELSE** </code> group. 
+``` **ENDIF** ``` must be the last statement within a subroutine that is preceded with an ``` **IF** ```, or ``` **ELSE** ``` group. 
 
 ### Example
 

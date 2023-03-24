@@ -8,11 +8,11 @@ TocOrder: 15
 
 ---
 
-Forms are graphical objects that make up your applications user interface. Within Encore RPG, classes define how forms are displayed and what they can do. When a form is displayed at runtime, Encore RPG .NET creates an instance of the **<code>Form</code>** class that you can use like any other object. You can add custom methods and properties to forms and access them from other forms or classes in your application. 
+Forms are graphical objects that make up your applications user interface. Within Encore RPG, classes define how forms are displayed and what they can do. When a form is displayed at runtime, Encore RPG .NET creates an instance of the **```Form```** class that you can use like any other object. You can add custom methods and properties to forms and access them from other forms or classes in your application. 
 
 **To create a new method for a form** 
 
-- Add a procedure declared as <code> **Public** </code>, as in the following code:
+- Add a procedure declared as ``` **Public** ```, as in the following code:
                 
 ```
 BegProp MyProp Access (*Public)

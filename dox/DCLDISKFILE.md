@@ -326,13 +326,13 @@ Optional. Shared specifies whether or not this file is to be shared. *NO is the 
 Optional. (For SQL Server files only). ServerCursor allows you to gain access to a table or view that isn't supported by Dynamic cursors. *Dft is the default, which relates to Dynamic cursors. Please refer to your SQL Server documentation for information on Dynamic vs. Static cursors.
 
 
-- *DFT (default) - Attempts to use a Dynamic server cursor. If the <code>QryKeFlds</code> parameter provides a key sequence, the server will be made static.
+- *DFT (default) - Attempts to use a Dynamic server cursor. If the ```QryKeFlds``` parameter provides a key sequence, the server will be made static.
 - *STATIC - defines the server cursor as Static.
 - *FASTFORWARDONLY (previously *FORWARDONLY) - Specifies that the reading of records in this file will be done only via forward reads (READ and not READP); using this kind of cursor optimizes reading performance performance. It is only valid for files opened for *Input only.
 
-Opening a file for Update or Output requires the server cursor to be <code> **Dynamic** </code>.
+Opening a file for Update or Output requires the server cursor to be ``` **Dynamic** ```.
 
-For newly compiled files with this feature, running against an older version of SQL server, and for any files running against any other server (non-SQL) all values of <code>ServerCursor</code> are basically ignored.
+For newly compiled files with this feature, running against an older version of SQL server, and for any files running against any other server (non-SQL) all values of ```ServerCursor``` are basically ignored.
 
 
 
@@ -409,10 +409,10 @@ Optional. Sets a method to be called during an output operation (Write, Update, 
 
 [**UseKeyBuffer**](DCLDISKFILEUseKeyBuffer.html)
 
-Optional. <code>UseKeyBuffer</code> specifies whether any keyed operation on the file (e.g. <code>CHAIN</code>) will consider its key parameter to be a key buffer, i.e. it will be considered as containing pieces of the key up to its length. <code>*NO</code> is the default. 
+Optional. ```UseKeyBuffer``` specifies whether any keyed operation on the file (e.g. ```CHAIN```) will consider its key parameter to be a key buffer, i.e. it will be considered as containing pieces of the key up to its length. ```*NO``` is the default. 
 
-- <code>*NO</code> (default) - indicates that the key parameter will not be considered a key buffer.
-- <code>*YES</code> - indicates that any keyed operation on the file (e.g. <code>CHAIN</code>) will consider its key parameter to be a key buffer. See the
+- ```*NO``` (default) - indicates that the key parameter will not be considered a key buffer.
+- ```*YES``` - indicates that any keyed operation on the file (e.g. ```CHAIN```) will consider its key parameter to be a key buffer. See the
 
 
 **InfSR** 

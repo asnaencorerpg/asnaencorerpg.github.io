@@ -14,7 +14,7 @@ TocOrder: 11
 Use the [DCLNAMESPACE](DCLNAMESPACE.html) command to declare a particular namespace in code. 
 
 It is used most commonly in conjunction with [CALLD](CALLD.html) where the program to call has the same namespace as the caller: 
-<code class="language-aer">CALLD Pgm(*NS + "OtherPgm")</code>
+<code class="language-aer">CALLD Pgm(*NS + "OtherPgm")```
 
 ### See Also
 [Figurative Constants](aerLrfFigConstantsMain.html)

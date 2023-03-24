@@ -49,7 +49,7 @@ Use [QrySelect](QrySelectFieldDBFileClass.html) in conjunction with **QryKeyFlds
 <code class="language-aer">
             myFile.QryKeyFlds = "CMActive *DESCEND CMState *ASCEND CMCity
             *ASCEND CMFax *ABSVAL *DESCEND"
-        </code>
+        ```
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

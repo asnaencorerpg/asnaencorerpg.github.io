@@ -18,9 +18,9 @@ Properties are divided into 3 categories:
 
 3. Properties you can write but not read are called *write-only* properties.
 
-You **get** the value of a property when you want to **find** the state of an object before your code performs additional actions, such as assigning the value to another object. For example, you can return the **<code>Text</code>** property of a text box control to determine the contents of the text box before running specific code. 
+You **get** the value of a property when you want to **find** the state of an object before your code performs additional actions, such as assigning the value to another object. For example, you can return the **```Text```** property of a text box control to determine the contents of the text box before running specific code. 
 
-You **set** the value of a property when you want to **change** the appearance or behavior of an object. For example, you change the **<code>Visible</code>** property of a text box control to control whether the text box will display or not. 
+You **set** the value of a property when you want to **change** the appearance or behavior of an object. For example, you change the **```Visible```** property of a text box control to control whether the text box will display or not. 
 
 **To Get property values** 
 

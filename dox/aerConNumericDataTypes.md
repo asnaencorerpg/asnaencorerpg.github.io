@@ -14,13 +14,13 @@ Encore RPG supplies several numeric data types for handling numbers in various r
 
 [Integral Types](aerConIntegralTypes.html)
 
-Discusses using <code>* **Integer** </code>, and <code> ***Byte** </code> to
+Discusses using ```* **Integer** ```, and ``` ***Byte** ``` to
                 represent integers.
 
 
 [Nonintegral Types](aerConNonintegralTypes.html)
 
-Discusses using <code>* **Float** </code> to represent numbers with both integer 	and fractional parts.
+Discusses using ```* **Float** ``` to represent numbers with both integer 	and fractional parts.
 
 
 ### Related Sections

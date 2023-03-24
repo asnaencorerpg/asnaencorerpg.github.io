@@ -21,8 +21,8 @@ UnitsSold = UnitsSold + 1  // The variable is incremented.
 
             <blockquote>
  **Note &#8212;**  The equal sign
-                (<code> **=** </code>) in this example is an assignment operator, not an equality operator.
-                The value is being assigned to the variable Units <code>Sold</code>.
+                (``` **=** ```) in this example is an assignment operator, not an equality operator.
+                The value is being assigned to the variable Units ```Sold```.
             </blockquote>
 
 ### In This Section

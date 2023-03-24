@@ -8,20 +8,20 @@ TocOrder: 100
 
 ---
 
-As of 2017, the file declaration commands for DB files, print files, and workstation files have been enhanced with the <code>INFSR</code> keyword (last position). This keyword supports the automatic calling of a parameterless subroutine when a file operation fails. 
+As of 2017, the file declaration commands for DB files, print files, and workstation files have been enhanced with the ```INFSR``` keyword (last position). This keyword supports the automatic calling of a parameterless subroutine when a file operation fails. 
 <pre>DclDiskFile … UseKeyBufer(…) InfSR(…)
 DclPrintFile … IndDS(…) InfSR(…)
 DclWorkStnFile … IndDS(…) InfSR(…)</pre>
 
-The default value is <code>‘not given’</code>.
+The default value is ```‘not given’```.
 
-When used, <code>InfSR</code> indicates the subroutine that is called when a file error occurs in a file operation that is NOT using an error indicator. For example, an error here will invoke <code>InfSR</code> (if given): 
+When used, ```InfSR``` indicates the subroutine that is called when a file error occurs in a file operation that is NOT using an error indicator. For example, an error here will invoke ```InfSR``` (if given): 
 <pre>Chain Customerl1 Key(CmCustNo)</pre>
 
-While an error here will **not** call <code>InfSR</code> but will set <code>*IN33</code> instead:
+While an error here will **not** call ```InfSR``` but will set ```*IN33``` instead:
 <pre>Chain Customerl1 Key(CmCustNo) Err(*in33)</pre>
 
-In RPG the <code>INFSR</code> subroutine specifies where to continue execution as an optional Factor 2 in the <code>ENDSR</code> command, using either a character constant or a character field containing a special value that indicates the point in the cycle where execution should continue. In ECR, instead of using <code>ENDSR</code> with Factor 2, you explicitly code a throw of the <code>ASNA.VisualRPG.Runtime.InfSrException</code>. The argument to the exception describes the point in the cycle where the program execution should continue. <code>*CANCEL</code> terminates the program, and <blanks> re-throws the file exception. In case of <blanks> it is not necessary to code the <code>InfSrException</code> throw. See the table for accepted values: 
+In RPG the ```INFSR``` subroutine specifies where to continue execution as an optional Factor 2 in the ```ENDSR``` command, using either a character constant or a character field containing a special value that indicates the point in the cycle where execution should continue. In ECR, instead of using ```ENDSR``` with Factor 2, you explicitly code a throw of the ```ASNA.VisualRPG.Runtime.InfSrException```. The argument to the exception describes the point in the cycle where the program execution should continue. ```*CANCEL``` terminates the program, and <blanks> re-throws the file exception. In case of <blanks> it is not necessary to code the ```InfSrException``` throw. See the table for accepted values: 
 <table>
             <tr><th>RPG values in ENDSR Factor 2</th>	<th colspan="2">ECR exception arguments</th></tr>
             <tr><td>*DETL</td>	<td>"*DETL"</td>	<td>ASNA.VisualRPG.Runtime.InFSrReturnPoint.StarDetL</td></tr>

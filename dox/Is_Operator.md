@@ -33,9 +33,9 @@ An ***Is** expression evaluates to true if both of the following conditions are 
 
 - *expression*  is not **null** .
 - *expression* can be cast to *type* . That is, a cast expression of the form
-                <code class="ce">(type)(expression)</code> will complete without throwing an exception.
+                <code class="ce">(type)(expression)``` will complete without throwing an exception.
 
-A compile-time warning will be issued if the expression <code class="ce">expression is type</code> is known to always be **True** or always be **False** . 
+A compile-time warning will be issued if the expression <code class="ce">expression is type``` is known to always be **True** or always be **False** . 
 
 The ***Is** operator cannot be overloaded. 
 

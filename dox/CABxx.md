@@ -8,7 +8,7 @@ TocOrder: 180
 
 ---
 
-Compares F1 with F2 according to the condition given by <code> **Relop** </code>, and branches to the location specified in <code> **Label** </code>. 
+Compares F1 with F2 according to the condition given by ``` **Relop** ```, and branches to the location specified in ``` **Label** ```. 
 
 ```
 
@@ -27,9 +27,9 @@ Eq (Indicator Variable)
 Optional. Must contain a valid operand.
 
 
-<code> **Relop** </code>
+``` **Relop** ```
 
-Optional. A comparison operator that must be one of the accepted ECR relational operators, such as <code>>, =, *NE, *GT</code>, etc.
+Optional. A comparison operator that must be one of the accepted ECR relational operators, such as ```>, =, *NE, *GT```, etc.
 
 
 **F2** 
@@ -37,28 +37,28 @@ Optional. A comparison operator that must be one of the accepted ECR relational 
 **Required** . Must contain a valid operand.
 
 
-<code> **Label** </code>
+``` **Label** ```
 
-Optional. A name specified in a program that can allow commands to be the target of a <code> **GOTO** </code> command.
-
-
-<code> **Hi** </code>
-
-Optional. As a result of the comparison, the <code> **Hi** </code> indicator is set on if **F1** is greater than **F2** .
+Optional. A name specified in a program that can allow commands to be the target of a ``` **GOTO** ``` command.
 
 
-<code> **Lo** </code>
+``` **Hi** ```
 
-Required. As a result of the comparison, the <code> **Lo** </code> indicator is set on if **F1** is less than **F2** .
+Optional. As a result of the comparison, the ``` **Hi** ``` indicator is set on if **F1** is greater than **F2** .
 
 
-<code> **Eq** </code>
+``` **Lo** ```
 
-Optional. As a result of the comparison, the <code> **Eq** </code> indicator is set on if **F1** is equal to **F2** .
+Required. As a result of the comparison, the ``` **Lo** ``` indicator is set on if **F1** is less than **F2** .
+
+
+``` **Eq** ```
+
+Optional. As a result of the comparison, the ``` **Eq** ``` indicator is set on if **F1** is equal to **F2** .
 
 
 ### Remarks
-The <code> **CABXX** </code> operation is functionally identical to a <code> **GOTO** </code> operation. 
+The ``` **CABXX** ``` operation is functionally identical to a ``` **GOTO** ``` operation. 
 
 ### See Also
 [GOTO](GOTO.html) 

@@ -8,9 +8,9 @@ TocOrder: 1
 
 ---
 
-The <code>* **Private** </code> special value for the <code> **Access** </code> parameter confers private access on one or more declared programming elements. Private elements are accessible only from within their declaration context, including from members of any nested types, for example from within a nested procedure or from an assignment expression in a nested enumeration. 
+The ```* **Private** ``` special value for the ``` **Access** ``` parameter confers private access on one or more declared programming elements. Private elements are accessible only from within their declaration context, including from members of any nested types, for example from within a nested procedure or from an assignment expression in a nested enumeration. 
 
-The <code>* **Private** </code> access type is used in the following operation codes: 
+The ```* **Private** ``` access type is used in the following operation codes: 
 
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html) 
 

@@ -14,7 +14,7 @@ Assignment operation code or commands carry out assignment operations. Simple as
 x = 42
 ```
 
-Here, the variable <code class="ce">x</code> is assigned the literal value <code>42</code>. 
+Here, the variable <code class="ce">x``` is assigned the literal value ```42```. 
 
 The value on the right side of the operator can be any literal, variable, expression, or function call that returns a value, as in this example: 
 
@@ -22,7 +22,7 @@ The value on the right side of the operator can be any literal, variable, expres
 x = y + z + MyFunction(3)
 ```
 
-Here, the value represented by <code>y</code> is added to the value represented by <code>z</code>, which is added to the value returned by the call to <code>MyFunction(3)</code>. The total value of this expression is then assigned to the variable <code>x</code>. 
+Here, the value represented by ```y``` is added to the value represented by ```z```, which is added to the value returned by the call to ```MyFunction(3)```. The total value of this expression is then assigned to the variable ```x```. 
 
 The assignment operator can also assign values to **String** variables and **String** expressions, as in this example: 
 
@@ -48,13 +48,13 @@ MyTextBox.Text = "This " & "is a" & "String"
    // MyTextBox.Text = "This is a string".
 ```
 
-Other assignment operation code or commands first perform an operation on an argument before assigning it to another argument. The following example illustrates one of these operators, <code> **+=** </code>, which increments the value of the variable on the left side of the operator by the value of the expression on the right: 
+Other assignment operation code or commands first perform an operation on an argument before assigning it to another argument. The following example illustrates one of these operators, ``` **+=** ```, which increments the value of the variable on the left side of the operator by the value of the expression on the right: 
 
 ```
 x += 1
 ```
 
-In this example, 1 is added to the value of <code class="ce">x</code>, and that new value is then assigned to <code class="ce">x</code>. It is a shorthand equivalent of the following operation code or command: 
+In this example, 1 is added to the value of <code class="ce">x```, and that new value is then assigned to <code class="ce">x```. It is a shorthand equivalent of the following operation code or command: 
 
 ```
 x = x + 1
@@ -69,7 +69,7 @@ DCLFLD x Type (*String) = ("My ")
 x &= ("String"    ') x = ("My String").
 ```
 
-If the variable on the left side of the concatenation assignment operator has not been assigned a value, it is treated as an empty string (<code>""</code>). 
+If the variable on the left side of the concatenation assignment operator has not been assigned a value, it is treated as an empty string (```""```). 
 
 ### See Also
 [Operation Code Overview](aerConOpCodesOverview.html)

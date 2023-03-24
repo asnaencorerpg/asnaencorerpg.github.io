@@ -15,7 +15,7 @@ Shared fields and properties are useful when you have information that is part o
 Shared procedures are not implicitly passed instances of the class. For this reason, no unqualified references to non-shared data members are allowed in shared methods. 
 
 ### Shared Members Example
-The following example creates a shared field (<code>Barney</code>) in another class (<code>PublicFields</code>), and shows how to instance, or use that shared field to demonstrate how shared members operate in code: 
+The following example creates a shared field (```Barney```) in another class (```PublicFields```), and shows how to instance, or use that shared field to demonstrate how shared members operate in code: 
 
 ```
 BegClass Form1 Extends(System.Windows.Forms.Form) Access(*Public)

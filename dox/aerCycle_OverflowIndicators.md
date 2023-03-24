@@ -8,10 +8,10 @@ TocOrder: 20
 
 ---
 
-To support the RPG cycle in Monarch migrated applications, the Encore RPG compiler has predefined the following print file overflow indicators that are used with the <code> **OverflowInd** </code> parameter of [DCLPRINTFILE](aerCycle_DetailCalcMethod.html). For example, these overflow indicators will be migrated as such, and do not need to be explicitly declared. 
+To support the RPG cycle in Monarch migrated applications, the Encore RPG compiler has predefined the following print file overflow indicators that are used with the ``` **OverflowInd** ``` parameter of [DCLPRINTFILE](aerCycle_DetailCalcMethod.html). For example, these overflow indicators will be migrated as such, and do not need to be explicitly declared. 
 
-- <code>*INOA, *INOB, *INOC</code>, ... through <code>*INOG</code>
-- <code>*INOV</code>
+- ```*INOA, *INOB, *INOC```, ... through ```*INOG```
+- ```*INOV```
 
 ### Remarks
 <dl class="normal">
