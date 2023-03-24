@@ -12,11 +12,11 @@ TocOrder: 9
 
 ```
 
- *database* . **Port =** *&lt;integerVal&gt;* 
+ *database* . **Port =** *<integerVal>* 
 ```
 
 ### Property Value
-***&lt;integerVal&gt;*** is of type *Integer and contains the TCP port number that is to be used for TCP/IP-based transport. 
+***<integerVal>*** is of type *Integer and contains the TCP port number that is to be used for TCP/IP-based transport. 
 
 ### Remarks
 The **Port** property is also used in conjunction with the [CreateName](CreateName_Method.html) and [UpdateName](UpdateName_Method.html) methods. 

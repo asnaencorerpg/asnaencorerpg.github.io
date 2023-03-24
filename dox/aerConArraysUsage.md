@@ -8,7 +8,7 @@ TocOrder: 1
 
 ---
 
-Because automatic array indexing is a compile-time operation, it applies only when the resulting field is an array declared using the <code> **DIM** </code> keyword, and does **NOT** apply when resulting fields are arrays that use the <code> **RANK** </code> keyword. This is particularly important on assignments of the form <code>array1 = &lt;some expression&gt;</code>. 
+Because automatic array indexing is a compile-time operation, it applies only when the resulting field is an array declared using the <code> **DIM** </code> keyword, and does **NOT** apply when resulting fields are arrays that use the <code> **RANK** </code> keyword. This is particularly important on assignments of the form <code>array1 = <some expression></code>. 
 
 - If <code>array1</code> is a <code> **DIM** </code>-declared array, then the assignment expression **WILL** be indexed and follow the RPG rules (shorter array, etc). Any <code>RANK</code>-declared array in the expression will participate in indexing, and the user must be sure that the rank array contains sufficient elements, or a run-time error will occur.
 - If <code>array1</code> is a **RANK** -declared array, then no automatic indexing will take place in expressions that have arrays as operands. E.g. <code>"myArr1 = myArr2 * myArr3"</code>. 
@@ -23,7 +23,7 @@ For the commands that operate on arrays, the array in the <code> **RESULT** </co
 // Example 1
  **dimArray1 = dimArray2 + rankArray1** 
     becomes... 
- DO 0 &lt;shorter length of dimArray1 and dimArray2 minus 1&gt; Index
+ DO 0 <shorter length of dimArray1 and dimArray2 minus 1> Index
   dimArray1[ Index ] = dimArray2[ Index ] + rankArray1[ Index ]
  ENDDO
 
@@ -33,7 +33,7 @@ For the commands that operate on arrays, the array in the <code> **RESULT** </co
 
 // Example 4 **ZADD 3 dimArray1** 
    becomes...
- DO 0 &lt;length of dimArray1 minus 1&gt; Index 
+ DO 0 <length of dimArray1 minus 1> Index 
  **ZADD 3 dimArray1[ Index ]** 
  ENDDO
 

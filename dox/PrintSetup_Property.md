@@ -12,11 +12,11 @@ TocOrder: 19
 
 ```
 
- *printfile* . **PrintSetup =** *&lt;booleanVal&gt;* 
+ *printfile* . **PrintSetup =** *<booleanVal>* 
 ```
 
 ### Property Value
-***&lt;booleanVal&gt;*** is of type *Boolean. 
+***<booleanVal>*** is of type *Boolean. 
 
 **True** will display the setup dialog. 
 

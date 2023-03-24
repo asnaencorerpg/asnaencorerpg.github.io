@@ -12,7 +12,7 @@ TocOrder: 38
 
 ```
 
- ** *&lt;pos&gt;*  = %SCAN (SearchArgument, SourceString,**  {Start})
+ ** *<pos>*  = %SCAN (SearchArgument, SourceString,**  {Start})
 ```
 
 ### Parts
@@ -33,7 +33,7 @@ Optional. Must be numeric with zero decimal positions.
 
 
 ### Returns
-***&lt;pos&gt;***  is an unsigned integer value
+***<pos>***  is an unsigned integer value
         containing the first position of the **SearchArgument**  in **SourceString** .  If the **SearchArgument**  is not
         found, 0 will be returned.
 

@@ -11,8 +11,8 @@ TocOrder: 120
 The BegUsing/EndUsing block provides a convenient way to use IDisposable objects correctly. Its syntax is: 
 <br />
         <code class="language-aer">
-            BegUsing Name(&lt;variable name&gt;)
-            Type(&lt;object type&gt;) Value(&lt;expression&gt;) <br />… <br />EndUsing <br />
+            BegUsing Name(<variable name>)
+            Type(<object type>) Value(<expression>) <br />… <br />EndUsing <br />
         </code>
 
 The **Name** parameter is required. Name specifies the name of a property or field, visible in the scope and declared with the proper type. You can specify **Type** instead if this is a new name in the scope (keep in mind that this declaration is valid in the whole method body). 
@@ -28,7 +28,7 @@ myFld = *new myDisposableClass()
 Try 
   ... 
 Finally 
-  If myFld &lt;&gt; *nothing 
+  If myFld <> *nothing 
      myFld.Dispose() 
      myFld = *nothing 
   EndIf

@@ -12,11 +12,11 @@ TocOrder: 15
 
 ```
 
- *&lt;booleanVal&gt;*  = *printfile*  **.IsOpen** 
+ *<booleanVal>*  = *printfile*  **.IsOpen** 
 ```
 
 ### Property Value
-***&lt;booleanVal&gt;*** is of type *Boolean. 
+***<booleanVal>*** is of type *Boolean. 
 
 **True** indicating the printfile is currently open for print operations. 
 

@@ -13,13 +13,13 @@ The <code> ***FetchOverflow** </code> method is a compiler-defined, user-called 
 
 ```
  *Begsr ** 
- **FetchOverflow**  (&lt;print file&gt;)
+ **FetchOverflow**  (<print file>)
 ```
 
 ### Remarks
 The purpose of <code>* **FetchOverflow** </code> is to print those lines that are not "except" and which are conditioned by the print file overflow indicator. 
 
-The <code>*FetchOverflow(&lt;print file&gt;)</code> parameter is the print file in which the FetchOverflow should happen. This parameter will cause <code>FetchOverflow</code> to happen only over those specs that belong to the print file. No other print file specs should be tested nor printed. 
+The <code>*FetchOverflow(<print file>)</code> parameter is the print file in which the FetchOverflow should happen. This parameter will cause <code>FetchOverflow</code> to happen only over those specs that belong to the print file. No other print file specs should be tested nor printed. 
 
 The following operations occur when the overflow indicator is on and the overflow routine is fetched. 
 

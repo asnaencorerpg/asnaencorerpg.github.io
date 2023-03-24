@@ -11,11 +11,11 @@ TocOrder: 8
 **PoolingTimeOut** gets or sets the amount of time (in minutes) in which a connection will remain idle in the pool until it is closed and removed from the pool. 
 
 ```
- *database* . **PoolingTimeOut =** *&lt;integerVal&gt;* 
+ *database* . **PoolingTimeOut =** *<integerVal>* 
 ```
 
 ### Property Value
-***&lt;integerVal&gt;** is of type ** Integer and contains the amount of time (in minutes) in which a connection will remain idle in the pool until it is closed and removed from the pool. 
+***<integerVal>** is of type ** Integer and contains the amount of time (in minutes) in which a connection will remain idle in the pool until it is closed and removed from the pool. 
 
 ### Remarks
 Connection pooling timeout applies only to DataGate connections to the System i. When a pooled DataGate job is idle for the timeout period, the job is terminated. 

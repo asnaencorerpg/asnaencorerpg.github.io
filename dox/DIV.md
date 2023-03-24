@@ -95,7 +95,7 @@ DclFld Name (E) Len(7,2) Inz(35)
 Divide A by B giving C. If *RNDUP is specified, the **rem** value will be zero and should be set to *none. The value of C will be 1.84. 
 
 ```
- If B &lt;&gt; *Zeros
+ If B <> *Zeros
  Div A B C rem(*none) adj(*rndup)
  Endif
 ```
@@ -103,7 +103,7 @@ Divide A by B giving C. If *RNDUP is specified, the **rem** value will be zero a
 Divide A by B giving C. Adj(*RNDUP) is not specified, and the REM parameter will be used. The value of C will be 1.83 and the value of D will be 2.6. 
 
 ```
- If B &lt;&gt; *Zeros
+ If B <> *Zeros
  Div A B C rem(D)
  Endif
 ```
@@ -111,7 +111,7 @@ Divide A by B giving C. Adj(*RNDUP) is not specified, and the REM parameter will
 Divide E by B giving E. If *RNDUP is specified, the rem value will be zero and should be set to *none. The value of E will be 0.13 and there is no remainder. When all values (Factor 1, Factor 2 and result) are not used, the keywords **F2** and **Result** must be specified. 
 
 ```
- If B &lt;&gt; *Zeros
+ If B <> *Zeros
  Div F2(B) Result(E) rem(*none) adj(*rndup)
  Endif
 ```
@@ -119,7 +119,7 @@ Divide E by B giving E. If *RNDUP is specified, the rem value will be zero and s
 Divide E by B giving E. Adj(*RNDUP) is not specified, and the REM parameter will be used. The value of E will be 0.12 and the remainder will be 1.4. When all values (Factor 1, Factor 2 and result) are not used, the keywords **F2** and **Result** must be specified. 
 
 ```
- If B &lt;&gt; *Zeros
+ If B <> *Zeros
  Div F2(B) Result(E) rem(D)
  Endif
 ```

@@ -68,15 +68,15 @@ Assuming the batch file is called **ConvertMyOlePrintfiles.bat** , the contents 
 
 - <code>
                 OlePrintfileToNetPrintfile /src Payroll20/PayrollReport /dest
-                Payroll30/PayrollReportNet /owr MyOldDbName &gt; result.txt
+                Payroll30/PayrollReportNet /owr MyOldDbName > result.txt
             </code>
 - <code>
                 OlePrintfileToNetPrintfile /src AC20/CustomerReport /dest AC30/ CustomerReport
-                Net /owr MyOldDbName &gt;&gt; result.txt
+                Net /owr MyOldDbName >> result.txt
             </code>
 - <code>
                 OlePrintfileToNetPrintfile /src Inv20/PartsReport /dest Inv30/PartsReport Net
-                /owr MyOldDbName &gt;&gt; result.txt
+                /owr MyOldDbName >> result.txt
             </code>
 
 To start the batch process, type **ConvertMyOlePrintfiles.bat** from the command line. 

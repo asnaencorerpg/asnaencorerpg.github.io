@@ -13,14 +13,14 @@ Provides a way to trap possible errors that may occur in code segments, while st
 ```
 
  **TRY** 
- &lt; **Try statements** &gt;
-[CATCH [Name( &lt;exception field name&gt; )] Type( &lt;exception type&gt; )
-     [&lt;Catch statements&gt;]
+ < **Try statements** >
+[CATCH [Name( <exception field name> )] Type( <exception type> )
+     [<Catch statements>]
 [CATCH ... 
        ... 
 ]] 
 [FINALLY 
-     &lt;Finally statements&gt;
+     <Finally statements>
 ]
  **ENDTRY** 
 ```

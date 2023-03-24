@@ -12,11 +12,11 @@ TocOrder: 7
 
 ```
 
- *database* . **PlatformAttribute =** *&lt;stringVal&gt;*  
+ *database* . **PlatformAttribute =** *<stringVal>*  
 ```
 
 ### Property Value
-***&lt;stringVal&gt;*** is of type *String and contains the platform-specific attribute of the database engine. 
+***<stringVal>*** is of type *String and contains the platform-specific attribute of the database engine. 
 
 ### Remarks
 The **PlatformAttribute** property is used to distinguish between different database engines that can reside on the same machine. For instance, both DataGate for Windows and SQL Server can reside on the same machine. When accessing SQL Server databases, **PlatformAttribute** must be set to "* **SQLOLEDB** ". The setting of assumed "*DATALINK" is used for DataGate for Windows and DataGate for IBM System i. Any value other than "*SQLOLEDB" is presumed to be "*DATALINK". 

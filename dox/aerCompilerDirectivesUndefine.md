@@ -11,7 +11,7 @@ TocOrder: 7
 **/UNDEFINE** defines conditions for conditional compilation. 
 
 ```
- **/UNDEFINE &lt;symbol&gt;**       
+ **/UNDEFINE <symbol>**       
 ```
 
 ### Parts

@@ -12,11 +12,11 @@ TocOrder: 24
 
 ```
 
- *printfile* . **TTOption= ASNA.DataGate.Common.PrintTrueType** . *&lt;value&gt;* 
+ *printfile* . **TTOption= ASNA.DataGate.Common.PrintTrueType** . *<value>* 
 ```
 
 ### Property Value
-***&lt;value&gt;*** is of type . 
+***<value>*** is of type . 
 
 - *FILE indicates that the True Type option specified for the print file will be used. (If *DEFAULT is specified for the print file, then the True Type option specified for the printer will be used).
 - BITMAP indicates that True Type fonts will print as graphics.

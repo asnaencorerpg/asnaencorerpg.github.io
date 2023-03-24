@@ -24,7 +24,7 @@ Like (Field name)
 Overlay (parentField, startPos | *Next)
 OverlayArray (parentField, startPos | *Next) 
 DataAreaDB (database name)
-DataArea (*Libl/&lt;name&gt; | &lt;string literal&gt; | *YES | *VAR&lt;name&gt; | *LDA)
+DataArea (*Libl/<name> | <string literal> | *YES | *VAR<name> | *LDA)
 ```
 
 ### Parts
@@ -149,12 +149,12 @@ Optional. Specifies the database in which the data area resides.
 Optional. Specifies the data area. Valid values are:
 
 
-- A name - in which case the data area is *LIBL/&lt;name&gt;.
-- A string literal - in which case the data area is &lt;string literal&gt;
-                        or *LIBL/&lt;string literal&gt; if the string literal doesn’t contain a library name.
+- A name - in which case the data area is *LIBL/<name>.
+- A string literal - in which case the data area is <string literal>
+                        or *LIBL/<string literal> if the string literal doesn’t contain a library name.
 - *YES -  to specify that the data area has the same name as the field.
-- *VAR &lt;name&gt; - the name of the data area is whatever the value of
-                        member &lt;name&gt; is at runtime.
+- *VAR <name> - the name of the data area is whatever the value of
+                        member <name> is at runtime.
 - *LDA to specify the local data area.
 
 

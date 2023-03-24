@@ -39,7 +39,7 @@ A **WHEN** operation cannot be specified after an **OTHER** operation in the sam
 	  :
 
 // In the following example, if SALESType equals 1, do the operations in sequence 1;
- if SALESType does NOT equal 1, and if PROD_Type=2 and SALESType&lt;10, do the operations in sequence 2.
+ if SALESType does NOT equal 1, and if PROD_Type=2 and SALESType<10, do the operations in sequence 2.
  If neither condition is true, do the operations in sequence 3.       
      SELECT
  	WHEN SALES
@@ -48,7 +48,7 @@ A **WHEN** operation cannot be specified after an **OTHER** operation in the sam
         YearSales = "1996"
         NameOfValue = "Sales"
         :
-        WHEN PROD_Type = 2 *And SALESType &lt; 10
+        WHEN PROD_Type = 2 *And SALESType < 10
         :
         OTHER
         :

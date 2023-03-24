@@ -12,13 +12,13 @@ TocOrder: 6
 
 ```
 
- *&lt;booleanVal&gt;* 
+ *<booleanVal>* 
  **=** 
  *printfile* . **InOverflow** 
 ```
 
 ### Property Value
-***&lt;booleanVal&gt;*** is of type *Boolean. 
+***<booleanVal>*** is of type *Boolean. 
 
 **True** if the printer has entered the overflow area. 
 

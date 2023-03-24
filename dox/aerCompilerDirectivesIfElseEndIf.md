@@ -11,15 +11,15 @@ TocOrder: 4
 The /IF /ELSE /ELSEIF /ENDIF directives conditionally compile selected blocks of Encore RPG code. 
 
 ### Remarks
-**/IF** &lt;condition&gt; - tests a condition expression for conditional compilation. 
+**/IF** <condition> - tests a condition expression for conditional compilation. 
 
-**/ELSEIF** &lt;condition&gt; - tests a subsequent condition inside a /IF or /ELSEIF group 
+**/ELSEIF** <condition> - tests a subsequent condition inside a /IF or /ELSEIF group 
 
 **/ELSE** - unconditionally selects source lines to be read following afailed /IF or /ELSEIF test. 
 
 **/ENDIF** - ends the most recent /IF, /ELSEIF or /ELSE group. 
 
-where &lt;condition&gt; is **DEFINED** (&lt;symbol&gt;) or **NOT DEFINED** (&lt;symbol&gt;) 
+where <condition> is **DEFINED** (<symbol>) or **NOT DEFINED** (<symbol>) 
 
 Code that is passed over due to a /IF /ELSE /ENDIF isn’t just skipped during execution (like a normal if else endif), but it is totally skipped over during **compilation** . So a block of code held by a /IF that evaluates to false can have anything at all within it (c#, pascal, gibberish, etc.) and the compiler will **not let the user know** because it is simply not compiled. Thus, the very act of changing a defined symbol to undefined, or vice versa could potentially cause huge differences in the compilation results. 
 

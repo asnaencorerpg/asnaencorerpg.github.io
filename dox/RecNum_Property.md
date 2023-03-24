@@ -12,13 +12,13 @@ TocOrder: 8
 
 ```
 
- *&lt;integerVal&gt;* 
+ *<integerVal>* 
  **=** 
  *dbfile* . **RecNum**   
 ```
 
 ### Property Value
-***&lt;integerVal&gt;*** is of type *Integer8 and contains the current RRN for the last input operation to a file. 
+***<integerVal>*** is of type *Integer8 and contains the current RRN for the last input operation to a file. 
 
 ### Remarks
 The Relative Record Number ( RRN ) is relative to 1.

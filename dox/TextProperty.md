@@ -12,11 +12,11 @@ TocOrder: 11
 
 ```
 
- database. **Text =**  &lt; *stringVal&gt;* 
+ database. **Text =**  < *stringVal>* 
 ```
 
 ### Property Value
-***&lt;stringVal&gt;*** is of type *String and contains a description of the database name. 
+***<stringVal>*** is of type *String and contains a description of the database name. 
 
 ### Remarks
 The **Text** property is also used in conjunction with the [CreateName](CreateName_Method.html) and [UpdateName](UpdateName_Method.html) methods. 

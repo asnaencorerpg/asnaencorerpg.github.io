@@ -24,7 +24,7 @@ Optional. If given, Object must be an expression that evaluates to an object (an
 
 - If it's in the body of an instance method, then the default value is ***This** .
 
-- If it's in the body of a shared method, then the default value is ***typeof(&lt;current class&gt;).** This ensures serialization at a coarse level.
+- If it's in the body of a shared method, then the default value is ***typeof(<current class>).** This ensures serialization at a coarse level.
 
 
 ### Remarks

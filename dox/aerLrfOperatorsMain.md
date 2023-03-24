@@ -19,8 +19,8 @@ TocOrder: 20
 [** Operator](StarStar_Op.html)
 
 
-[&lt;&lt; Operator](aerLrfLeftShiftOperator.html)
-[&gt;&gt; Operator](aerLrfRightShiftOperator.html)
+[<< Operator](aerLrfLeftShiftOperator.html)
+[>> Operator](aerLrfRightShiftOperator.html)
 
 
 [*As Operator](As_Operator.html)

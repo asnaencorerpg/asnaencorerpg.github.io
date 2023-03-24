@@ -12,7 +12,7 @@ TocOrder: 36
 
 ```
 
- ** *&lt;result&gt;*  = %REM**  (n,m)
+ ** *<result>*  = %REM**  (n,m)
 ```
 
 ### Parts
@@ -23,7 +23,7 @@ Optional. Must be numeric values with zero decimal positions.
 
 
 ### Returns
-** *&lt;result&gt;* ** contains the remainder that results from dividing **n** by **m** . If either operand is a packed, zoned, or binary numeric value, the result is packed numeric. If either operand is an integer numeric value, the result is integer. Otherwise, the result is unsigned numeric. Float numeric operands are not allowed.. 
+** *<result>* ** contains the remainder that results from dividing **n** by **m** . If either operand is a packed, zoned, or binary numeric value, the result is packed numeric. If either operand is an integer numeric value, the result is integer. Otherwise, the result is unsigned numeric. Float numeric operands are not allowed.. 
 
 ### Remarks
 % **REM** and [%DIV](DIV.html) have the following relationship: 

@@ -29,7 +29,7 @@ Optional. Must contain a valid operand.
 
 <code> **Relop** </code>
 
-Optional. A comparison operator that must be one of the accepted ECR relational operators, such as <code>&gt;, =, *NE, *GT</code>, etc.
+Optional. A comparison operator that must be one of the accepted ECR relational operators, such as <code>>, =, *NE, *GT</code>, etc.
 
 
 **F2** 

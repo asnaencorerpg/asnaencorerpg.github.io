@@ -26,7 +26,7 @@ Select
    When X = 1
    B = A + B
    Exsr UpdateMaster
-   When X &lt; 10 *and Y = 2
+   When X < 10 *and Y = 2
    B = B - A
    Other
    Exsr ErrorRoutine

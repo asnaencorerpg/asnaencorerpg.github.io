@@ -47,10 +47,10 @@ Select
   //Nested select group.
 
   Select
-    When Yearsworked &lt; 2
-    When YearsWorked &lt;= 5
+    When Yearsworked < 2
+    When YearsWorked <= 5
       DaysWorked = DaysWorked + 5  
-	When YearsWorked &lt;= 10
+	When YearsWorked <= 10
 	  DaysWorked = DaysWorked + 10
 	Other 
 	  DaysWorked = DaysWorked + 20

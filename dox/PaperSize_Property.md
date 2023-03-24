@@ -12,11 +12,11 @@ TocOrder: 12
 
 ```
 
- *printfile* . **PaperSize = System.Drawing.Printing.PaperKind.** *&lt;value&gt;* 
+ *printfile* . **PaperSize = System.Drawing.Printing.PaperKind.** *<value>* 
 ```
 
 ### Property Value
-***&lt;value&gt;*** is of type enum and is the enumeration value indicating the paper size. 
+***<value>*** is of type enum and is the enumeration value indicating the paper size. 
 
 Please note that not all of the possible values for this enumeration may be valid for your printer. Each printer has a limited set of acceptable values. It is up to the programmer to select the value adequate to the actual printer used to render the output of the print file. 
 

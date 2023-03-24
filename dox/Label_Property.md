@@ -12,11 +12,11 @@ Gets or sets a string containing the label of the database to connect to.
 
 ```
 
- *database* . **Label = *&lt;* ** *stringVal&gt;*  
+ *database* . **Label = *<* ** *stringVal>*  
 ```
 
 ### Property Value
-*&lt;stringVal&gt;* of type *String ** containing the label of the database to connect to. 
+*<stringVal>* of type *String ** containing the label of the database to connect to. 
 
 ### Remarks
 The **Label** property specifies a particular database instance on the server platform, for platforms that allow more than one server instance, such as DataGate for Windows Server and Microsoft SQL Server. 

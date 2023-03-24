@@ -12,13 +12,13 @@ TocOrder: 4
 
 ```
 
- *&lt;integerVal&gt;* 
+ *<integerVal>* 
  **=** 
  *printfile* . **FooterSize** 
 ```
 
 ### Property Value
-***&lt;integerVal&gt;*** is of type *Integer4 and contains the size of the page footer. 
+***<integerVal>*** is of type *Integer4 and contains the size of the page footer. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

@@ -20,13 +20,13 @@ The valid relational operators are:<br />
 
 
 | -------- | --- | ------------- |
-| &lt;     | LT  | Less Than 
-| &gt;     | GT  | Great Than 
-| &lt;=    | LE  | Less Than or Equal To 
-| &gt;=    | GE  | Greater Than or Equal To 
+| <     | LT  | Less Than 
+| >     | GT  | Great Than 
+| <=    | LE  | Less Than or Equal To 
+| >=    | GE  | Greater Than or Equal To 
 | =        | EQ  | Equal Condition 
 | !=       | NE  | Not Equal Condition 
-| &lt;&gt; | NE  | Not Equal Condition 
+| <> | NE  | Not Equal Condition 
 | &    | AND | And 
 | &#124;,  | OR  | Or 
 

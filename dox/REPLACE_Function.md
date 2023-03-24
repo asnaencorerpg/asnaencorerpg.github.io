@@ -11,7 +11,7 @@ TocOrder: 37
 **%REPLACE** [built-in function](Functions_overview.html) returns the character string produced by inserting a replacement string into the source string, starting at the position specified and replacing the specified number of characters. 
 
 ```
- **&lt;stringVal&gt; = %REPLACE (ReplaceString, SourceString,**  {StartPos, {SourceLengthToReplace})
+ **<stringVal> = %REPLACE (ReplaceString, SourceString,**  {StartPos, {SourceLengthToReplace})
 ```
 
 ### Parts
@@ -34,7 +34,7 @@ The starting position and source length may be any numeric value or numeric expr
 
 
 ### Returns
-**&lt;stringVal&gt;** contains the character string produced by inserting a replacement string into the source string, starting at the position specified and replacing the specified number of characters. **** The returned value is varying length if the source string or replacement string are varying length, or if the start position or source length to replace are variables. Otherwise, the result is fixed length. 
+**<stringVal>** contains the character string produced by inserting a replacement string into the source string, starting at the position specified and replacing the specified number of characters. **** The returned value is varying length if the source string or replacement string are varying length, or if the start position or source length to replace are variables. Otherwise, the result is fixed length. 
 
 ### Example
 

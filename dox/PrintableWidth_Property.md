@@ -12,13 +12,13 @@ TocOrder: 17
 
 ```
 
- *&lt;integerVal&gt;* 
+ *<integerVal>* 
  **=** 
  *printfile* . **PrintableWidth** 
 ```
 
 ### Property Value
-***&lt;integerVal&gt;*** is of type *Integer4 and contains the width of the printer's printable area. 
+***<integerVal>*** is of type *Integer4 and contains the width of the printer's printable area. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

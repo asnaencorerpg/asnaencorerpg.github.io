@@ -12,11 +12,11 @@ TocOrder: 5
 
 ```
 
- *printfile* . **FormName**  = *&lt;stringVal&gt;* 
+ *printfile* . **FormName**  = *<stringVal>* 
 ```
 
 ### Property Value
-*&lt;stringVal&gt;* is of type *String containing the name of the customized page size to use (see [PaperSize](PaperSize_Property.html)). 
+*<stringVal>* is of type *String containing the name of the customized page size to use (see [PaperSize](PaperSize_Property.html)). 
 
 ### Remarks
 Must be set prior to opening the printer file (see [OPEN](OPEN.html) command).

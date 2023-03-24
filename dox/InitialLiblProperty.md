@@ -10,10 +10,10 @@ TocOrder: 3
 
 **InitialLibl** gets or sets the current database’s initial library list. 
 <pre class="prettyprint">
- *database* . **InitialLibl**  **=**  &lt; *stringVal* &gt; **[]** </pre>
+ *database* . **InitialLibl**  **=**  < *stringVal* > **[]** </pre>
 
 ### Property Value
-**&lt; *stringVal* &gt;** is a string array containing the current database’s initial library list. This list is associated with the Database name contained in the client registry. 
+**< *stringVal* >** is a string array containing the current database’s initial library list. This list is associated with the Database name contained in the client registry. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

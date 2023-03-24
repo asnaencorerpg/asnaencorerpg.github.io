@@ -12,7 +12,7 @@ TocOrder: 4
 
 ```
 
- *&lt;booleanVal&gt;* 
+ *<booleanVal>* 
  **=** 
  *database* 
  **.IsOpen** 
@@ -20,7 +20,7 @@ TocOrder: 4
 ```
 
 ### Returns
-** *&lt;booleanVal&gt;* ** . 
+** *<booleanVal>* ** . 
 
 **True** indicates the file is currently open for I/O operations. 
 

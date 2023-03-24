@@ -12,11 +12,11 @@ TocOrder: 12
 
 ```
 
- *database* . **User =** *&lt;stringVal&gt;* 
+ *database* . **User =** *<stringVal>* 
 ```
 
 ### Property Value
-***&lt;stringVal&gt;*** is of type *String containing the authenticated user profile used to authorize the current database connection. 
+***<stringVal>*** is of type *String containing the authenticated user profile used to authorize the current database connection. 
 
 ### Remarks
 Authentication is the process of verifying that a user with a unique name is the actual user that the name implies. This verification process is also applied to applications running in the security context of a user. Typically, authentication is implemented by giving the user a [password](Password_Property.html). 

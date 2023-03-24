@@ -11,11 +11,11 @@ TocOrder: 0
 **Length** returns the length of the data structure. 
 
 ```
- *database* . **Length =** *&lt;integer&gt;* 
+ *database* . **Length =** *<integer>* 
 ```
 
 ### Property Value
-***&lt;integer&gt;*** is of type *Integer and contains the length of the data structure. 
+***<integer>*** is of type *Integer and contains the length of the data structure. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

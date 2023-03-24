@@ -8,11 +8,11 @@ TocOrder: 14
 
 ---
 
-The * **ISFLD** operator evaluates to * **True** if &lt;expression&gt; can be cast to the type of &lt;field or property&gt;; otherwise it's * **False** . 
+The * **ISFLD** operator evaluates to * **True** if <expression> can be cast to the type of <field or property>; otherwise it's * **False** . 
 
 ```
 
- ** *expression*  *ISFLD *&lt;field or property&gt;* ** 
+ ** *expression*  *ISFLD *<field or property>* ** 
         
 ```
 

@@ -12,11 +12,11 @@ TocOrder: 0
 
 ```
 
- *&lt;stringVal&gt;*  = *dbfile*  **.**  **FormatName**   
+ *<stringVal>*  = *dbfile*  **.**  **FormatName**   
 ```
 
 ### Property Value
-***&lt;stringVal&gt;*** of type *String containing the name of the record format last read or written. 
+***<stringVal>*** of type *String containing the name of the record format last read or written. 
 
 ### Remarks
 The System i database engine supports a logical file type called " **multiformat** ". This file is based upon two or more physical files. The contents of the **FormatName** property are useful when reading from a multiformat file. When reading sequentially through a multiformat file, you can determine the format last read from the content of **FormatName** . 

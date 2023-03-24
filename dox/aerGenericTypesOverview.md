@@ -15,7 +15,7 @@ The advantages of using generics is that they enforce type consistency at compil
 ### Using Generic Types
 The syntax for using generic types is:
 
-&lt; *type name* &gt; ( ***Of** &lt; *list of types* &gt; ) 
+< *type name* > ( ***Of** < *list of types* > ) 
 
 e.g. List( ***Of** Customer) 
 
@@ -34,7 +34,7 @@ DclFld MyFld type( List **(*Of** PurchaseOrder))
 ### Calling Generic Types
 The syntax for calling generic methods is:
 
-&lt; *method name* &gt;( *Of&lt; *list of types* &gt;) (&lt; *method parms* &gt;) 
+< *method name* >( *Of< *list of types* >) (< *method parms* >) 
 
 e.g. CreateList( ***Of** *integer4)( 1i, 2i, 3i, 4i) 
 <span style="FONT-SIZE: 10pt; COLOR: navy; FONT-FAMILY: Arial" />

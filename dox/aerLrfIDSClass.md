@@ -13,7 +13,7 @@ The **IDS** Interface is implemented by a data structure.
 For a list of all members of this type, see [IDS Members](aerLrfIDSClassMembers.html). 
 
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> ASNA.VisualRPG.Runtime. **IDS** 
-<pre style="DISPLAY: block" interface="syntax">&lt;Serializable&gt;
+<pre style="DISPLAY: block" interface="syntax"><Serializable>
  **Syntax** </pre>
 
 ### Thread Safety

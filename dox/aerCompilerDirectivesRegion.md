@@ -11,7 +11,7 @@ TocOrder: 6
 **/REGION** marks the beginning of a collapsible region.
 
 ```
- **/REGION &lt;text&gt;**   
+ **/REGION <text>**   
 ```
 
 ### See Also

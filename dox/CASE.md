@@ -42,7 +42,7 @@ The **CASE** operation allows you to use a comparison expression.
 /* The **Case**  operation compares OnHand with UnitSold. If OnHand is greater than or equal to UnitSold, 
 ReturnNow is processed and the program continues with the operation after the Endcs operation. */
 
-      Case Cond(OnHand &gt;= UnitSold) Sr(ReturnNow)
+      Case Cond(OnHand >= UnitSold) Sr(ReturnNow)
 
 /* If OnHand is not greater than or equal to UnitSold, the program compares OnHand with OnOrder. 
 If OnHand is equal to OnOrder, CutOrder is processed and the program continues with the operation 

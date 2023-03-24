@@ -20,7 +20,7 @@ DownTo (Expression)<br />By (Expression)
 
 **Index** 
 
-Required. The index expression is either an assignment expression (&lt;field&gt; = &lt;expression&gt;), or a field (&lt;field&gt;). &lt;field&gt; represents a valid numeric field with 0 decimal positions (any of the integral types is allowed). &lt;expression&gt;, if given, represents the initial value of the field.
+Required. The index expression is either an assignment expression (<field> = <expression>), or a field (<field>). <field> represents a valid numeric field with 0 decimal positions (any of the integral types is allowed). <expression>, if given, represents the initial value of the field.
 
 
 **To** 

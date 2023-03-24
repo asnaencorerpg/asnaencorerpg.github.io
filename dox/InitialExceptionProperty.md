@@ -11,11 +11,11 @@ TocOrder: 2
 **InitialException** gets the **InitialException** source object of a database. 
 
 ```
- *&lt;dgException&gt;*   = *database* . **InitialException** 
+ *<dgException>*   = *database* . **InitialException** 
 ```
 
 ### Property Value
-*&lt;dgException&gt;* is of type **ASNA.DataGate.Common.dgException** and contains the description of the database InitialException. 
+*<dgException>* is of type **ASNA.DataGate.Common.dgException** and contains the description of the database InitialException. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

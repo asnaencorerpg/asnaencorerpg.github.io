@@ -25,16 +25,16 @@ If x = *True  // Compare the value of x to *True
 EndIf
 ```
 
-Comparison operators, such as <code>=, **&lt;** , **&gt;** , **&lt;&gt;** , **&lt;=** ,</code> and <code> **&gt;=** </code>, produce **Boolean** expressions by comparing the expression on the left side of the operator to the expression on the right side of the operator and evaluating the result as true or false. For instance: 
+Comparison operators, such as <code>=, **<** , **>** , **<>** , **<=** ,</code> and <code> **>=** </code>, produce **Boolean** expressions by comparing the expression on the left side of the operator to the expression on the right side of the operator and evaluating the result as true or false. For instance: 
 
 ```
-39 &lt; 81   // Evaluates to *True
+39 < 81   // Evaluates to *True
 ```
 
 Comparison expressions can be combined using logical operators to produce more complex **Boolean** expressions. The following example demonstrates the use of comparison operators in conjunction with a logical operator: 
 
 ```
-x &gt; y And x &lt; 5000
+x > y And x < 5000
 ```
 
 In the example, the value of the overall expression depends on the values of the expressions on each side of the <code>* **And** </code> operator. If both expressions are true, then the overall expression evaluates as <code> ***True** </code>. If either expression is false, then the entire expression evaluates to <code> ***False** </code>. 

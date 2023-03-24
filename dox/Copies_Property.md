@@ -12,11 +12,11 @@ TocOrder: 1
 
 ```
 
- *printfile* . **Copies**  = *&lt;integerVal&gt;* 
+ *printfile* . **Copies**  = *<integerVal>* 
 ```
 
 ### Settings
-***&lt;integerVal&gt;*** containing the number of copies to print. 
+***<integerVal>*** containing the number of copies to print. 
 
 ### Remarks
 Must be set prior to opening the printer file, or prior to **FEOD** with reset (see [OPEN](OPEN.html) and [FEOD](FEOD.html) command). 

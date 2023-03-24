@@ -9,7 +9,7 @@ Id: Connection_Property
 *RESERVED . Returns the AdgConnection object for the connection. 
 
 ```
-&lt;Database name&gt;. **Connection**  
+<Database name>. **Connection**  
 ```
 
 ### Property Value

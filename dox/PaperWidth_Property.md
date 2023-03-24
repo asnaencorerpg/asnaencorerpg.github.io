@@ -10,10 +10,10 @@ TocOrder: 14
 
 **PaperWidth** gets or sets the physical width of the paper. 
 <pre class="prettyprint">
- *printfile* . **PaperWidth =** *&lt;integerVal&gt;* </pre>
+ *printfile* . **PaperWidth =** *<integerVal>* </pre>
 
 ### Property Value
-***&lt;integerVal&gt;*** is of type *Integer4 and contains the physical width of the paper. Valid only with a continuous-form printer. 
+***<integerVal>*** is of type *Integer4 and contains the physical width of the paper. Valid only with a continuous-form printer. 
 
 ### Remarks
 Must be set prior to opening the printer file (see [OPEN](OPEN.html) command).

@@ -72,23 +72,23 @@ public IDBFileOverrider Overrider {
 <span class="identifier">Overrider</span> 
 <span class="keyword">As</span> 
 <span class="identifier">IDBFileOverrider</span>
-        &lt;
+        <
 <span class="identifier">EditorBrowsableAttribute</span>(
-<span class="identifier">EditorBrowsableState</span>.Never)&gt; 
+<span class="identifier">EditorBrowsableState</span>.Never)> 
 
 <span class="keyword">Get</span>
-        &lt;
+        <
 <span class="identifier">EditorBrowsableAttribute</span>(
-<span class="identifier">EditorBrowsableState</span>.Never)&gt; 
+<span class="identifier">EditorBrowsableState</span>.Never)> 
 
 <span class="keyword">Set</span>
 </pre>
 
 <pre>
 Public Property Overrider As IDBFileOverrider
-        &lt;EditorBrowsableAttribute(EditorBrowsableState.Never)&gt; 
+        <EditorBrowsableAttribute(EditorBrowsableState.Never)> 
         Get
-        &lt;EditorBrowsableAttribute(EditorBrowsableState.Never)&gt; 
+        <EditorBrowsableAttribute(EditorBrowsableState.Never)> 
         Set
 </pre>
 

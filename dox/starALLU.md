@@ -32,25 +32,25 @@ BegClass starall Access(*Public)
 		If *in03
 			console.WriteLine( Chara + " compare = ABCABCABCA CharA")
 		else
-			console.WriteLine( Chara + " compare &lt;&gt; ABCABCABCA CharA")
+			console.WriteLine( Chara + " compare <> ABCABCABCA CharA")
 		endif
 
 		If *in04
 			console.WriteLine( CharB + " compare = ABCABCABCA CharB")
 		else
-			console.WriteLine( CharB + " compare &lt;&gt; ABCABCABCA CharB")
+			console.WriteLine( CharB + " compare <> ABCABCABCA CharB")
 		endif
 
 		If CharA = *allU"004100420043"
 			console.WriteLine( Chara + " If = ABCABCABCA CharA")
 		else
-			console.WriteLine( Chara + " If &lt;&gt; ABCABCABCA CharA")
+			console.WriteLine( Chara + " If <> ABCABCABCA CharA")
 		endif
 
 		If CharB = *ALL"ABC"
 			console.WriteLine( CharB + " If = ABCABCABCA CharB")
 		else
-			console.WriteLine( CharB + " If &lt;&gt; ABCABCABCA CharB")
+			console.WriteLine( CharB + " If <> ABCABCABCA CharB")
 		endif	
 
 		move *allU"0030003100320034" CharA
@@ -69,7 +69,7 @@ BegClass starall Access(*Public)
 	begsr Main Access( *Public )  Shared( *Yes )
 		dclSRParm  Args  *string  Rank( 1 )
 		*new starAll()
-		Console.WriteLine ( "Press &lt;enter&gt; to exit." )
+		Console.WriteLine ( "Press <enter> to exit." )
 		Console.ReadLine()
 	EndSR	
 EndClass

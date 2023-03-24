@@ -12,11 +12,11 @@ TocOrder: 10
 
 ```
 
- *printfile* . **Orientation = ASNA.DataGate.Common.PaperOrientation** *.&lt;value&gt;* 
+ *printfile* . **Orientation = ASNA.DataGate.Common.PaperOrientation** *.<value>* 
 ```
 
 ### Property Value
-*&lt;value&gt;* is of type and is the enumeration value indicating the print orientation. 
+*<value>* is of type and is the enumeration value indicating the print orientation. 
 
 ### Remarks
 **Orientation** must be set prior to opening the printer file (see [OPEN](OPEN.html) command). 

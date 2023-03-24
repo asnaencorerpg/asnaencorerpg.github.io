@@ -37,8 +37,8 @@ The values of **Boolean** variables can be assigned as well, using either a **Bo
 ```
 DCLFLD x Type (*Boolean)
 x = True
-x = 45 &gt; 1003 // x equals *False.
-x = 45 &gt; 1003 Or 45 &gt; 17 // x equals *True.
+x = 45 > 1003 // x equals *False.
+x = 45 > 1003 Or 45 > 17 // x equals *True.
 ```
 
 The argument on the left side of the operator can be any valid variable or property. The following example demonstrates setting the value of the text property of a text box: 

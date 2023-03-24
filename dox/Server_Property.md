@@ -12,11 +12,11 @@ TocOrder: 10
 
 ```
 
- *database* . **Server =** *&lt;stringVal&gt;*   
+ *database* . **Server =** *<stringVal>*   
 ```
 
 ### Property Value
-***&lt;stringVal&gt;*** is of type *String and contains either a DNS host name or a TCP/IP address in "dotted decimal" notation. 
+***<stringVal>*** is of type *String and contains either a DNS host name or a TCP/IP address in "dotted decimal" notation. 
 
 ### Remarks
 The **Server** property is also used in conjunction with the [CreateName](CreateName_Method.html) and [UpdateName](UpdateName_Method.html) methods. 

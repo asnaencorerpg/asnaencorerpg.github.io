@@ -30,7 +30,7 @@ Optional. Must contain a valid operand.
 
 **Relop** 
 
-Optional. A comparison operator that must be one of the accepted ECR relational operators, such as &gt;, =, *NE, *GT, etc.
+Optional. A comparison operator that must be one of the accepted ECR relational operators, such as >, =, *NE, *GT, etc.
 
 
 **F2** 
@@ -66,7 +66,7 @@ Optional. As a result of the comparison, the **Eq** indicator is set on if **F1*
 ### Remarks
 The **CASxx** operation is functionally identical to a **CASEDFT** operation when the **F1** , **Relop** , and **F2** keywords are not used. 
 
-CASXX is similar to the ECR Classic CASxx, except that RELOP is now conditional and must be one of the accepted ECR relational operators, such as &gt;, =, *NE, *GT, etc. Also,the **Parmlist** parameter was added to allow the passing of arguments to the subroutine. 
+CASXX is similar to the ECR Classic CASxx, except that RELOP is now conditional and must be one of the accepted ECR relational operators, such as >, =, *NE, *GT, etc. Also,the **Parmlist** parameter was added to allow the passing of arguments to the subroutine. 
 
 ### See Also
 [BEGSR](BEGSR.html)

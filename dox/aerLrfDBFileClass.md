@@ -15,7 +15,7 @@ For a list of all members of this type, see [DBFile Members](aerLrfDBFileMembers
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> ASNA.VisualRPG.Runtime. **DBFile** 
 
 ```
- &lt;Serializable&gt;
+ <Serializable>
  **Syntax** 
 ```
 

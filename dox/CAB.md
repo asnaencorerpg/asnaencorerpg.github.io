@@ -35,7 +35,7 @@ The **CAB** command is **not** allowed within a TRY/CATCH block.
 ### Example
 
 ```
- CAB COND( DollarsEarned &lt;&gt; 0 ) LABEL( OK )
+ CAB COND( DollarsEarned <> 0 ) LABEL( OK )
       MSGBOX MSG( "Error - DollarsEarned = 0. Press OK to abort")
 	MOVE Source( *ON ) Target( *INLR )
 	RETURN

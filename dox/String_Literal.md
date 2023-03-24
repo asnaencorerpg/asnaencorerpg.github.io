@@ -12,12 +12,12 @@ A **String literal** can take three formats, where ccc is a string with no newli
 
 **Without Newlines:** 
 
-- <code>"&lt;ccc&gt;"</code> : single line string. To have a ‘ inside it, write it twice, e.g. ‘bob’’s office’
-- <code>"&lt;ccc&gt;"</code> : single line string. To have a " inside it, write it twice e.g. "bob said ""hello world"""
+- <code>"<ccc>"</code> : single line string. To have a ‘ inside it, write it twice, e.g. ‘bob’’s office’
+- <code>"<ccc>"</code> : single line string. To have a " inside it, write it twice e.g. "bob said ""hello world"""
 
 **With Newlines:** 
 
-- <code>@"&lt;mmm&gt;"</code> : multiline string. To have a " inside it, write it twice e.g. "bob said ""hello world"""
+- <code>@"<mmm>"</code> : multiline string. To have a " inside it, write it twice e.g. "bob said ""hello world"""
 
 ### Remarks
 Single line strings can be continued on the next line if and only if the last non-blank character of the line is a + sign. In this case, the string contains the characters up to the +, excluding the +, and the characters starting in the first column onwards of the continuation line. 

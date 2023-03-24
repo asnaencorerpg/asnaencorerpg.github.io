@@ -51,8 +51,8 @@ Enums are used to describe enumeration constants. Their only members are **DclEn
 
 ```
 BegEnum myEnum basetype(*byte) 
- **DclEnumFld**  q4 value(4) //&lt;--- the default value is 0
- **DclEnumFld**  q5 	   // &lt;--- this will be 5, which is 1 plus the previous one
+ **DclEnumFld**  q4 value(4) //<--- the default value is 0
+ **DclEnumFld**  q5 	   // <--- this will be 5, which is 1 plus the previous one
 EndEnum			
 ```
 

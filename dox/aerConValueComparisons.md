@@ -11,8 +11,8 @@ TocOrder: 1
 Comparison operators can be used to construct expressions that compare the values of numeric variables. These expressions return a **Boolean** value based on whether the comparison is true or false. Examples of such an expression would be: 
 
 ```
-88 &gt; 76
-34 &gt; 55
+88 > 76
+34 > 55
 ```
 
 The first expression evaluates to <code> **True** </code>, because 88 is greater than 76. The second example evaluates to <code> **False** </code>, because 34 is not greater than 55. 
@@ -20,15 +20,15 @@ The first expression evaluates to <code> **True** </code>, because 88 is greater
 You can compare any two numeric expressions in this fashion. The expressions you compare can themselves be complex expressions, as in this example: 
 
 ```
-x / 55 * (y +11) &gt;= System.Math.Sqrt(z) / (p - (x * 16))
+x / 55 * (y +11) >= System.Math.Sqrt(z) / (p - (x * 16))
 ```
 
-This complex expression includes literals, variables, and function calls. The expressions on both sides of the comparison operator are evaluated, and the resulting values are then compared using the <code> **&gt;=** </code> comparison operator. If the value of the expression on the left side is greater than or equal to the value of the expression on the right, the entire expression evaluates to <code> **True** </code>; otherwise, it evaluates to <code> **False** </code>. 
+This complex expression includes literals, variables, and function calls. The expressions on both sides of the comparison operator are evaluated, and the resulting values are then compared using the <code> **>=** </code> comparison operator. If the value of the expression on the left side is greater than or equal to the value of the expression on the right, the entire expression evaluates to <code> **True** </code>; otherwise, it evaluates to <code> **False** </code>. 
 
 Expressions that compare values are most commonly used in <code> **If...Then** </code> statements, as in the following example: 
 
 ```
-If x &gt; 30 Then
+If x > 30 Then
    // Insert code to be executed if x is greater than 30.
 Else
    // Insert code to be executed if x is less than or equal to 30.
@@ -47,7 +47,7 @@ You can also use a comparison expression anywhere that a **Boolean** value is ne
 
 ```
 DclFld x *As (*Boolean)
-x = 55 &lt; 30   // x is assigned False.
+x = 55 < 30   // x is assigned False.
 ```
 
 ### See Also

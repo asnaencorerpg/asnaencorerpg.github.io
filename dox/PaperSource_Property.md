@@ -12,11 +12,11 @@ TocOrder: 13
 
 ```
 
- *printfile* . **PaperSource = System.Drawing.Printing.PaperSourceKind.** *&lt;value&gt;* 
+ *printfile* . **PaperSource = System.Drawing.Printing.PaperSourceKind.** *<value>* 
 ```
 
 ### Property Value
-***&lt;value&gt;*** is of type enum and is the enumeration value indicating the source of the paper tray. 
+***<value>*** is of type enum and is the enumeration value indicating the source of the paper tray. 
 
 Please note that not all of the possible values for this enumeration may be valid for your printer. Each printer has a limited set of acceptable values. It is up to the programmer to select the value adequate to the actual printer used to render the output of the print file. 
 

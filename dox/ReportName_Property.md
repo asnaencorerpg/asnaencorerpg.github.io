@@ -13,12 +13,12 @@ TocOrder: 22
 ```
 
  *printfile* 
- **.ReportName = *&lt;stringVal&gt;* ** 
+ **.ReportName = *<stringVal>* ** 
         
 ```
 
 ### Property Value
-***&lt;stringVal&gt;*** is of type *String and contains the name of the report. 
+***<stringVal>*** is of type *String and contains the name of the report. 
 
 ### Remarks
 If **ReportName** is not assigned, the default name is the name given when the print file was declared. This is the name of the print file seen on the printer spool. 

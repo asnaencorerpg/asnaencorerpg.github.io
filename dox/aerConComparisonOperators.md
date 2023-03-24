@@ -38,65 +38,65 @@ Numeric values are compared using six numeric comparison operators. The followin
                 </tr>
                 <tr valign="top">
                     <td colspan="1" rowspan="1" style="width: 19%">
-                        <code> **&lt;&gt;** </code> (Inequality)
+                        <code> **<>** </code> (Inequality)
                     </td>
                     <td colspan="1" rowspan="1" width="34%">Is the value represented by the first expression not equal to the value represented by the second?</td>
                     <td colspan="1" rowspan="1" style="width: 28%">
-                        <pre class="prettyprint">59 &lt;&gt; 72  // True
+                        <pre class="prettyprint">59 <> 72  // True
 </pre>
-                        <pre class="prettyprint">59 &lt;&gt; 59  // False
-59 &lt;&gt; 8 // True</pre>
+                        <pre class="prettyprint">59 <> 59  // False
+59 <> 8 // True</pre>
                     </td>
                 </tr>
                 <tr valign="top">
                     <td colspan="1" rowspan="1" style="width: 19%">
-                        <code> **&lt;** </code> (Less than)
+                        <code> **<** </code> (Less than)
                     </td>
                     <td colspan="1" rowspan="1" width="34%">
                         Is the value represented by the first expression less than
                         the value represented by the second?
                     </td>
                     <td colspan="1" rowspan="1" style="width: 28%">
-                        <pre class="prettyprint">59 &lt; 72  // True
+                        <pre class="prettyprint">59 < 72  // True
 </pre>
-                        <pre class="prettyprint">59 &lt; 59  // False 
-59 &lt; 8 // False</pre>
+                        <pre class="prettyprint">59 < 59  // False 
+59 < 8 // False</pre>
                     </td>
                 </tr>
                 <tr valign="top">
                     <td colspan="1" rowspan="1" style="width: 19%">
-                        <code> **&gt;** </code> (Greater than)
+                        <code> **>** </code> (Greater than)
                     </td>
                     <td colspan="1" rowspan="1" width="34%">Is the value represented by the first expression greater than the value represented by the second?</td>
                     <td colspan="1" rowspan="1" style="width: 28%">
-                        <pre class="prettyprint">59 &gt; 72  // False
+                        <pre class="prettyprint">59 > 72  // False
 </pre>
-                        <pre class="prettyprint">59 &gt; 59  // False
-59 &gt; 8 // True</pre>
+                        <pre class="prettyprint">59 > 59  // False
+59 > 8 // True</pre>
                     </td>
                 </tr>
                 <tr valign="top">
                     <td colspan="1" rowspan="1" style="width: 19%">
-                        <code> **&lt;=** </code> (Less than or equal to)
+                        <code> **<=** </code> (Less than or equal to)
                     </td>
                     <td colspan="1" rowspan="1" width="34%">Is the value represented by the first expression less than or equal to the value represented by the second?</td>
                     <td colspan="1" rowspan="1" style="width: 28%">
-                        <pre class="prettyprint">59 &lt;= 72  // True
+                        <pre class="prettyprint">59 <= 72  // True
 </pre>
-                        <pre class="prettyprint">59 &lt;= 59  // True
-59 &lt;= 8 // False</pre>
+                        <pre class="prettyprint">59 <= 59  // True
+59 <= 8 // False</pre>
                     </td>
                 </tr>
                 <tr valign="top">
                     <td colspan="1" rowspan="1" style="width: 19%">
-                        <code> **&gt;=** </code> (Greater than or equal to)
+                        <code> **>=** </code> (Greater than or equal to)
                     </td>
                     <td colspan="1" rowspan="1" width="34%">Is the value represented by the first expression greater than or equal to the value represented by the second?</td>
                     <td colspan="1" rowspan="1" style="width: 28%">
-                        <pre class="prettyprint">59 &gt;= 72  // False
+                        <pre class="prettyprint">59 >= 72  // False
 </pre>
-                        <pre class="prettyprint">59 &gt;= 59  // True
-59 &gt;= 8 // True</pre>
+                        <pre class="prettyprint">59 >= 59  // True
+59 >= 8 // True</pre>
                     </td>
                 </tr>
 </table>
@@ -105,7 +105,7 @@ Numeric values are compared using six numeric comparison operators. The followin
 Strings can be compared using the <code> **Like** </code> operator as well as using the numeric comparison operators. The <code> **Like** </code> operator allows you to specify a pattern; the string is then compared against the pattern, and if it matches, the result is <code> **True** </code>. Otherwise, the result is <code> **False** </code>. The numeric operators allow you to compare **String** values based on their sort order, as in this example: 
 
 ```
-"73" &lt; "9"    // This result is True.
+"73" < "9"    // This result is True.
 ```
 
 The result is <code> **True** </code> because the first character in the first string sorts before the first character in the second string. If the first characters were equal, the comparison would continue to the next character in both strings, and so on. Equality of strings can also be tested using the equality operator, as in this example: 
@@ -118,7 +118,7 @@ In this example, the two strings are directly compared, and, because they are eq
 
 If one string is a prefix of another, such as "ab" and "aba", the longer string sorts after the shorter. Thus the following expression is true: 
 
-<code>"aba" &gt; "ab"</code> 
+<code>"aba" > "ab"</code> 
 
 The sort order will be based on either a binary comparison or a textual comparison depending on the Option Compare setting. 
 
@@ -137,7 +137,7 @@ In this example, <code>x Is y</code> evaluates to <code> **False** </code>, beca
 You can test whether an object is of a particular type with the <code>* **TypeOf...*Is** </code> operator. The syntax is 
 
 ```
- *TypeOf &lt;object expression&gt; *Is &lt;TypeName&gt;
+ *TypeOf <object expression> *Is <TypeName>
 ```
 
 When <code>TypeName</code> specifies an interface type then the <code>TypeOf ... Is</code> operator returns true if the object implements the interface type. When the <code>TypeName</code> is a class type then the operator returns true if the object is an instance of the specified class or is an instance of a class that derives from the specified class. For example: 

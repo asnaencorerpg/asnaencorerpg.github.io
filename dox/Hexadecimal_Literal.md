@@ -27,7 +27,7 @@ TocOrder: 3
 ### Remarks
 Double quotes will be parsed the same way, so <code>U"0009" = U"0009".</code>
 
-The syntax: H"&lt;hex digits&gt;" is not supported.
+The syntax: H"<hex digits>" is not supported.
 
 ### See Also
 [Character Literal](Character_Literal.html)

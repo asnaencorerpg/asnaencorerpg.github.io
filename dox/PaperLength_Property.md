@@ -12,11 +12,11 @@ TocOrder: 11
 
 ```
 
- *printfile* . **PaperLength =** *&lt;integerVal&gt;* 
+ *printfile* . **PaperLength =** *<integerVal>* 
 ```
 
 ### Property Value
-***&lt;integerVal&gt;*** of type *Integer4 and contains the physical length of the page in the printer. This is valid only with a continuous-form printer. 
+***<integerVal>*** of type *Integer4 and contains the physical length of the page in the printer. This is valid only with a continuous-form printer. 
 
 ### Remarks
 Must be set prior to opening the printer file (see [OPEN](OPEN.html) command). 

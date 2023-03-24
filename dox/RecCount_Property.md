@@ -12,11 +12,11 @@ The **RecCount** property gets the current number of non-deleted records in the 
 
 ```
 
- *&lt;integerVal&gt;*  = *dbfile* . **RecCount**  
+ *<integerVal>*  = *dbfile* . **RecCount**  
 ```
 
 ### Property Value
-*&lt;integerVal&gt;* is of type *Integer8 and contains the current number of non-deleted records in the file. 
+*<integerVal>* is of type *Integer8 and contains the current number of non-deleted records in the file. 
 
 ### Remarks
 The file must first be [Opened](OPEN.html) before the record count is available. 

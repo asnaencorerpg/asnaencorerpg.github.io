@@ -36,7 +36,7 @@ If the conditioning indicators on the **DOWHILE** command line are satisfied, th
    following the ENDDO operation. If EarnedPremium is less than TotalPremium, the operation within the DO group is 
    processed. */
 
-DoWhile EarnedPremium &lt; TotalPremium
+DoWhile EarnedPremium < TotalPremium
 
 /* The ENDDO operation causes the program to branch to the first **DOWHILE** 	operation, where a test is made 
    to determine whether EarnedPremium is less than TotalPremium. This loop continues processing until EarnedPremium is 
@@ -53,8 +53,8 @@ Enddo
    the operation after the ORLT operation is processed. */
 
 Read CustMaster Eof(*In99)
-DoWhile *In99 = *Off *or EarnedPremium &lt; TotalPremium +
-*or EarnedPremium &lt; DrugFreePremium 
+DoWhile *In99 = *Off *or EarnedPremium < TotalPremium +
+*or EarnedPremium < DrugFreePremium 
 
 /* The ENDDO operation causes the program to branch to the second **DOWHILE**  operation where a test determines whether
    specified conditions exist. This loop continues until EarnedPremium is equal to or greater than TotalPremium and 
@@ -70,7 +70,7 @@ Enddo
    following the ENDDO operation. If EarnedPremium is less than TotalPremium, the operation within the DO group is 
    processed. */
 
-DoWhile	EarnedPremium &lt; TotalPremium
+DoWhile	EarnedPremium < TotalPremium
 
 /* The ENDDO operation causes the program to branch to the first **DOWHILE** 	operation, where a test is made to 
    determine whether EarnedPremium is less than TotalPremium. This loop continues processing until EarnedPremium is 
@@ -88,8 +88,8 @@ Enddo
    operation is processed. */
 
 Read CustMaster Eof(*In99)
-DoWhile *In99 = *Off *or EarnedPremium &lt; TotalPremium +
-*or EarnedPremium &lt; DrugFreePremium 
+DoWhile *In99 = *Off *or EarnedPremium < TotalPremium +
+*or EarnedPremium < DrugFreePremium 
 
 /* The ENDDO operation causes the program to branch to the second **DOWHILE**  operation where a test determines whether 
    specified conditions exist. This loop continues until EarnedPremium is equal to or greater than TotalPremium and 

@@ -16,7 +16,7 @@ The following are the valid operators for expressions listed in order of precede
 | **2.** | [**](StarStar_Op.html) | Exponent 
 | **3.** | [*](Multiply_Operator.html) <br/> [/](Divide_Operator.html) | Multiply <br/> Divide 
 | **4.** | [+](Plus_Operator.html) <br/> - | Add <br/> Subtract
-| **5.** | &lt;, *LT <br/> &gt;, *GT <br/> &lt;=, *LE <br/> &gt;=, *GE <br/>=, *EQ <br/> &lt;&gt;, *NE | Less Than <br/> Great Than <br/> Less Than or Equal To <br/> Greater Than or Equal To <br/> Equal Condition <br/> Not Equal Condition <br/>
+| **5.** | <, *LT <br/> >, *GT <br/> <=, *LE <br/> >=, *GE <br/>=, *EQ <br/> <>, *NE | Less Than <br/> Great Than <br/> Less Than or Equal To <br/> Greater Than or Equal To <br/> Equal Condition <br/> Not Equal Condition <br/>
 | **6.** | &, *AND | And Condition 
 | **7.** | &#124;, *OR | Or Condition 
 

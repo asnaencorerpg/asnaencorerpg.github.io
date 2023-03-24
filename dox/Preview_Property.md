@@ -12,11 +12,11 @@ TocOrder: 15
 
 ```
 
- *printfile* . **Preview = ASNA.DataGate.Common.AccessMode.** &lt; *value&gt;* 
+ *printfile* . **Preview = ASNA.DataGate.Common.AccessMode.** < *value>* 
 ```
 
 ### Property Value
-*&lt;value&gt;* is of type [ASNA.DataGate.Common.AccessMode](AdgCommon_AccessMode.html) and is the enumeration value for the property. 
+*<value>* is of type [ASNA.DataGate.Common.AccessMode](AdgCommon_AccessMode.html) and is the enumeration value for the property. 
 
 ### Remarks
 Must be set prior to opening the printer file (see [OPEN](OPEN.html) command).

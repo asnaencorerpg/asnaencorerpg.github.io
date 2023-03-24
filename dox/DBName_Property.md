@@ -13,12 +13,12 @@ TocOrder: 1
 ```
 
  *database* 
- **.DBName**  = *&lt;stringVal&gt;* 
+ **.DBName**  = *<stringVal>* 
 ```
 
 ### Property Value
 
-***&lt;stringVal&gt;***  containing the name of a
+***<stringVal>***  containing the name of a
                 database. 
 
 ### Remarks

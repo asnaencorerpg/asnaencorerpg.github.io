@@ -12,13 +12,13 @@ TocOrder: 0
 
 ```
 
- *&lt;avrexception&gt;* 
+ *<avrexception>* 
  **=** 
  *file* . **LastException**  
 ```
 
 ### Property Value
-*&lt;avrexception&gt;* is of type **ASNA.VisualRPG.Runtime.AvrException** containing the last exception thrown for the file. 
+*<avrexception>* is of type **ASNA.VisualRPG.Runtime.AvrException** containing the last exception thrown for the file. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

@@ -11,11 +11,11 @@ TocOrder: 0
 **Occurance** gets or sets the occurance of the data structure. 
 
 ```
- *database* . **Occurance =** *&lt;integer&gt;* 
+ *database* . **Occurance =** *<integer>* 
 ```
 
 ### Property Value
-***&lt;integer&gt;*** is of type *Integer and contains the occurance of the data structure. 
+***<integer>*** is of type *Integer and contains the occurance of the data structure. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 

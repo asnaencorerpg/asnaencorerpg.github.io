@@ -12,11 +12,11 @@ TocOrder: 9
 
 ```
 
- *printfile* . **ManuscriptPath =** *&lt;stringVal&gt;* 
+ *printfile* . **ManuscriptPath =** *<stringVal>* 
 ```
 
 ### Property Value
-*&lt;stringVal&gt; of type* *String containing the path and file name for the manuscript. 
+*<stringVal> of type* *String containing the path and file name for the manuscript. 
 
 ### Remarks
 Must be set prior to opening the printer file. 

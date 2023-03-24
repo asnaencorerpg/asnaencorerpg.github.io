@@ -15,7 +15,7 @@ For a list of all members of this type, see [MessageFileReader Members](aerLrfMe
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> ASNA.VisualRPG.Runtime. **MessageFileReader** 
 
 ```
- &lt;Serializable&gt;
+ <Serializable>
  **Syntax** 
 ```
 
@@ -73,7 +73,7 @@ The number can either be a hexadecimal number, or adecimal number.
 Both the prefix and number are used together to identify a particular message text, so you can have duplicate numbers assigned to different prefixes. 
 
 Any of the following entries are correct, and will generate the same number. Note that if you have duplicate numbers assigned to the same prefix, a Warning showing the prefix and message number will display when you compile the message file. 
-&lt;0x00F0<br />
+<0x00F0<br />
             0xF0<br />
             240<br />
             00240

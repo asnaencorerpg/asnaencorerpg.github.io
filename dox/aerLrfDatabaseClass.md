@@ -15,7 +15,7 @@ For alist of all members of this type, see [Database Members](aerLrfDatabaseMemb
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> ASNA.VisualRPG.Runtime. **Database** 
 
 ```
- &lt;Serializable&gt;
+ <Serializable>
  **Syntax** 
 ```
 

@@ -18,7 +18,7 @@ All of the mathematical operands, such as -, +, /, *, and ** are valid only for 
 ### Example
 
 ```
-  IF (*NOT (A=B *AND &lt;+D))      
+  IF (*NOT (A=B *AND <+D))      
 ```
 
 ### See Also

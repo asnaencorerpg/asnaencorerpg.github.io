@@ -12,11 +12,11 @@ TocOrder: 18
 
 ```
 
- *printfile* . **Printer =** *&lt;stringVal&gt;* 
+ *printfile* . **Printer =** *<stringVal>* 
 ```
 
 ### Property Value
-***&lt;stringVal&gt;*** is of type *String and contains the full path name of the printer to be used. 
+***<stringVal>*** is of type *String and contains the full path name of the printer to be used. 
 
 ### Remarks
 **Printer** must be set prior to opening the printer file (see [OPEN](OPEN.html) command). 

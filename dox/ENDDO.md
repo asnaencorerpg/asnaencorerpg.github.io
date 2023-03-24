@@ -54,8 +54,8 @@ DoUntil
  Enddo // In this example of DoWhile, one of several conditions are met with the **Enddo** .
 
 DoWhile 
-   *In99 = *Off *or EarnedPremium &lt; TotalPremium +
-   *or EarnedPremium &lt; DrugFreePremium
+   *In99 = *Off *or EarnedPremium < TotalPremium +
+   *or EarnedPremium < DrugFreePremium
    EarnedPremium = DailyAvgPremium + EarnedPremium
    DrugFreePremium = DailyAvgPremium + DrugFreePremium
    Read CustMaster Eof(*In99)

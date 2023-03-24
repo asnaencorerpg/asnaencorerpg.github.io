@@ -8,11 +8,11 @@ TocOrder: 7
 
 ---
 
-The * **ASFLD** operator casts &lt;expression&gt; to the type of &lt;field or property&gt;. If &lt;expression&gt; cannot be cast to the desired type, * **ASFLD** evaluates to * **Nothing** . 
+The * **ASFLD** operator casts <expression> to the type of <field or property>. If <expression> cannot be cast to the desired type, * **ASFLD** evaluates to * **Nothing** . 
 
 ```
 
- ** *&lt;expression&gt;*  *ASFLD *&lt;field or property&gt;* ** 
+ ** *<expression>*  *ASFLD *<field or property>* ** 
         
 ```
 

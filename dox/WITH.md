@@ -25,11 +25,11 @@ Required. Value consists of an expression that will be evaluated once, and its r
 ### Remarks
 **WITH** blocks allow a programmer to write a series of commands or statements on an object without having to specify the object each time. The way to write an expression using this object is with an unqualified dotted expression: 
 
-.&lt;member&gt;
+.<member>
 
 **WITH** blocks can be nested, but only the innermost **WITH** qualifies the unqualified dotted expressions in its body, i.e. the outer **WITH** blocks are masked inside the innermost **WITH** block. 
 
-If the body of the **WITH** block is empty, &lt;expression&gt; will not be evaluated. 
+If the body of the **WITH** block is empty, <expression> will not be evaluated. 
 
 **WITH** blocks must be ended with the [ENDWITH](ENDWITH.html) command. 
 

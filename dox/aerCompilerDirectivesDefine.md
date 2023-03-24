@@ -11,7 +11,7 @@ TocOrder: 0
 **/DEFINE** defines conditions for conditional compilation. 
 
 ```
- **/DEFINE &lt;symbol&gt;**      
+ **/DEFINE <symbol>**      
 ```
 
 ### Parts

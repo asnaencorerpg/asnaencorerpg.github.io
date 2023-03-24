@@ -20,7 +20,7 @@ Conditionally processes one of several alternative sequences of operations. It c
 The **SELECT** group can be specified anywhere in calculations. It can be nested within [IF](IF.html) and [DO](DO.html) select groups. The **IF** and **DO** groups can also be nested within **SELECT** groups. 
 
 ### Example
-/* In this example, if X equals 1, do the operations in sequence 1 (note that no **END** operation is needed before the next WHEN); if X does NOT equal 1, and if Y=2 and X&lt;10, do the operations in sequence 2. If neither condition is true, do the operations in sequence 3. */ 
+/* In this example, if X equals 1, do the operations in sequence 1 (note that no **END** operation is needed before the next WHEN); if X does NOT equal 1, and if Y=2 and X<10, do the operations in sequence 2. If neither condition is true, do the operations in sequence 3. */ 
 
 ```
 
@@ -28,7 +28,7 @@ The **SELECT** group can be specified anywhere in calculations. It can be nested
     When X = 1 
     B = A + B 
     ExSR UpdateMaster
-    When X &lt; 10 *and Y = 2
+    When X < 10 *and Y = 2
     B = B - A
     Other
     ExSR ErrorRoutine

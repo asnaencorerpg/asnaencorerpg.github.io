@@ -12,11 +12,11 @@ TocOrder: 20
 
 ```
 
- *printfile* . **ProcessMacros =** *&lt;booleanVal&gt;* 
+ *printfile* . **ProcessMacros =** *<booleanVal>* 
 ```
 
 ### Property Value
-***&lt;booleanVal&gt;*** is of type *Boolean. 
+***<booleanVal>*** is of type *Boolean. 
 
 **True** to search and replace page number information in the print file before printing. 
 

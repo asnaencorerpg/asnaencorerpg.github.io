@@ -36,7 +36,7 @@ False If
         <tr valign="top" style="x-cell-content-align: top">
             <td colspan="1" rowspan="1" width="40">
 
-&lt; 
+< 
 </td>
             <td colspan="1" rowspan="1" width="97">
 
@@ -44,17 +44,17 @@ Less Than
 </td>
             <td colspan="1" rowspan="1" width="90">
 
-expr1&lt;expr2 
+expr1<expr2 
 </td>
             <td colspan="1" rowspan="1" width="96">
 
-expr1&gt;=expr2 
+expr1>=expr2 
 </td>
         </tr>
         <tr valign="top" style="x-cell-content-align: top">
             <td colspan="1" rowspan="1" width="40">
 
-&lt;= 
+<= 
 </td>
             <td colspan="1" rowspan="1" width="97">
 
@@ -62,17 +62,17 @@ Less Than or Equal To
 </td>
             <td colspan="1" rowspan="1" width="90">
 
-expr1&lt;=expr2 
+expr1<=expr2 
 </td>
             <td colspan="1" rowspan="1" width="96">
 
-expr1&gt;expr2 
+expr1>expr2 
 </td>
         </tr>
         <tr valign="top" style="x-cell-content-align: top">
             <td colspan="1" rowspan="1" width="40">
 
-&gt; 
+> 
 </td>
             <td colspan="1" rowspan="1" width="97">
 
@@ -80,17 +80,17 @@ Greater Than
 </td>
             <td colspan="1" rowspan="1" width="90">
 
-expr1&gt; expr2 
+expr1> expr2 
 </td>
             <td colspan="1" rowspan="1" width="96">
 
-expr1&lt;=expr2 
+expr1<=expr2 
 </td>
         </tr>
         <tr valign="top" style="x-cell-content-align: top">
             <td colspan="1" rowspan="1" width="40">
 
-&gt;= 
+>= 
 </td>
             <td colspan="1" rowspan="1" width="97">
 
@@ -98,11 +98,11 @@ Greater Than or Equal To
 </td>
             <td colspan="1" rowspan="1" width="90">
 
-expr1&gt;=expr2 
+expr1>=expr2 
 </td>
             <td colspan="1" rowspan="1" width="96">
 
-expr1&lt;expr2 
+expr1<expr2 
 </td>
         </tr>
         <tr valign="top" style="x-cell-content-align: top">
@@ -120,13 +120,13 @@ expr1=expr2
 </td>
             <td colspan="1" rowspan="1" width="96">
 
-expr1&lt;&gt;expr2 
+expr1<>expr2 
 </td>
         </tr>
         <tr valign="top" style="x-cell-content-align: top">
             <td colspan="1" rowspan="1" width="40">
 
-&lt;&gt; 
+<> 
 </td>
             <td colspan="1" rowspan="1" width="97">
 
@@ -134,7 +134,7 @@ Not Equal To
 </td>
             <td colspan="1" rowspan="1" width="90">
 
-expr1&lt;&gt;expr2 
+expr1<>expr2 
 </td>
             <td colspan="1" rowspan="1" width="96">
 

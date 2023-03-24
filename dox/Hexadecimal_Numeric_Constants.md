@@ -8,9 +8,9 @@ TocOrder: 0
 
 ---
 
-**Hexadecimal** **numeric constants** take the form: **H&lt;hex digits&gt;** 
+**Hexadecimal** **numeric constants** take the form: **H<hex digits>** 
 
-where &lt;hex digits&gt; <hex digits="digits"> is a string of hexadecimal characters (0 to 9 and A to F) enclosed in single quotes ( // ), with a length from 1 to 16 characters. </hex> 
+where <hex digits> <hex digits="digits"> is a string of hexadecimal characters (0 to 9 and A to F) enclosed in single quotes ( // ), with a length from 1 to 16 characters. </hex> 
 
 ### Remarks
 Hex constants are another way to declare integral constants. The size of the integral depends on the length of the hex string (and not on the value of the hex number): 

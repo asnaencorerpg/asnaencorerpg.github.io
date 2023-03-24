@@ -12,11 +12,11 @@ TocOrder: 3
 
 ```
 
- *printfile* . **Duplex**  = System.Drawing.Printing.Duplex *.&lt;setting&gt;* 
+ *printfile* . **Duplex**  = System.Drawing.Printing.Duplex *.<setting>* 
 ```
 
 ### Property Value
-***&lt;setting&gt;*** is of ** type 
+***<setting>*** is of ** type 
 
 Also note that not all of the possible values for this enumeration may be valid for your printer. Each printer has a limited set of acceptable values. It is up to the programmer to select the value adequate to the actual printer used to render the output of the print file. 
 

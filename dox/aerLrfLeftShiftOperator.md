@@ -11,7 +11,7 @@ TocOrder: 4
 Performs an arithmetic left shift on a bit pattern.
 
 ```
- ** *result = pattern &lt;&lt; bitCount* ** 
+ ** *result = pattern << bitCount* ** 
 ```
 
 ### Parts
@@ -52,22 +52,22 @@ BegSr
     		Int2 = 1 
     		Int4 = 7 
   		Int8 = 458752   // H"000070000" 
-  		Byte = Byte &lt;&lt; 3 
+  		Byte = Byte << 3 
   			System.Console.WriteLine
   			(Byte *as System.Int32) 
-  		Byte = Byte &lt;&lt; 9             
+  		Byte = Byte << 9             
  			System.Console.WriteLine(Byte *as System.Int32)
- 		Byte = Byte &lt;&lt; 1 
-  			System.Console.WriteLine (Byte *as System.Int32) Byte = Byte &gt;&gt; 1 
-			System.Console.WriteLine (Byte *as System.Int32) Int2 = Int2 &lt;&lt; Int4               
- 			System.Console.WriteLine (Int2 *as System.Int32)Int4 = Int4 &lt;&lt; Int2 
-			System.Console.WriteLine (Int4) Int8 = Int8 &lt;&lt; 2
-		Int8 = Int4 &lt;&lt; 94 
+ 		Byte = Byte << 1 
+  			System.Console.WriteLine (Byte *as System.Int32) Byte = Byte >> 1 
+			System.Console.WriteLine (Byte *as System.Int32) Int2 = Int2 << Int4               
+ 			System.Console.WriteLine (Int2 *as System.Int32)Int4 = Int4 << Int2 
+			System.Console.WriteLine (Int4) Int8 = Int8 << 2
+		Int8 = Int4 << 94 
 			System.Console.WriteLine (Int8) 
 		Int2 = 17000 
-		Int2 = Int2 &lt;&lt; 1 
+		Int2 = Int2 << 1 
 		System.Console.WriteLine (Int2 *as System.Int32) 
-		Int2 = Int2 &gt;&gt; 1
+		Int2 = Int2 >> 1
 			System.Console.WriteLine (Int2 *as System.Int32)
 EndSr 
 ```
@@ -94,6 +94,6 @@ EndSr
 -15768 
 
 ### See Also
-[&gt;&gt; Operator](aerLrfRightShiftOperator.html)
+[>> Operator](aerLrfRightShiftOperator.html)
 [Operators](aerLrfOperatorsMain.html)
 [Operators and Their Precedence](Expression_Operators_and_their_Precedence.html) 

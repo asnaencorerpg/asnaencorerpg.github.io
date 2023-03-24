@@ -12,11 +12,11 @@ TocOrder: 2
 
 ```
 
- *&lt;integerVal&gt;*  = *printfile* . **CursorY** 
+ *<integerVal>*  = *printfile* . **CursorY** 
 ```
 
 ### Property Value
-***&lt;integerVal&gt;*** is of type *Integer4 and contains the position, in Print Units, that the printer is from the top of the page. 
+***<integerVal>*** is of type *Integer4 and contains the position, in Print Units, that the printer is from the top of the page. 
 
 Print Units are measured in 1/100<span style="VERTICAL-ALIGN: super">th</span> of a millimeter. 
 

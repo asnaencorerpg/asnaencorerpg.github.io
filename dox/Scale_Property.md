@@ -12,11 +12,11 @@ TocOrder: 23
 
 ```
 
- *printfile* . **Scale =** *&lt;integerVal&gt;* 
+ *printfile* . **Scale =** *<integerVal>* 
 ```
 
 ### Property Value
-** *&lt;integerVal&gt;* ** is of type *Integer4 and contains the percentage by which the printed output is to be scaled. 
+** *<integerVal>* ** is of type *Integer4 and contains the percentage by which the printed output is to be scaled. 
 
 ### Remarks
 The specified printer must support the output to be scaled or resized.

@@ -11,11 +11,11 @@ TocOrder: 25
 
 ```
 
- *printfile* . **UseColor =** *&lt;booleanVal&gt;* 
+ *printfile* . **UseColor =** *<booleanVal>* 
 ```
 
 ### Property Value
-***&lt;booleanVal&gt;*** is of type *Boolean. 
+***<booleanVal>*** is of type *Boolean. 
 
 **True** will print in color when a color printer is specified. **False** will print in black even if a color printer is specified. 
 

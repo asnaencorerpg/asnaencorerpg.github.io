@@ -15,7 +15,7 @@ For alist of members of this class, see [DataGateException Members](aerLrfDataGa
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> ASNA.VisualRPG.Runtime. **DataGateException** 
 
 ```
- &lt;Serializable&gt;
+ <Serializable>
  **DataGateExceptions : ASNA.VisualRPG.Runtime.DataGateException** 
 ```
 

@@ -13,11 +13,11 @@ TocOrder: 0
 ```
 
  *printfile* 
- **.Collate** = *&lt;booleanVal&gt;* 
+ **.Collate** = *<booleanVal>* 
 ```
 
 ### Settings
-***&lt;booleanVal&gt;*** 
+***<booleanVal>*** 
 
 **True** indicates the printfile is to be collated. 
 
@@ -26,7 +26,7 @@ TocOrder: 0
 ### Remarks
 Must be set prior to opening the printer file (see [OPEN](OPEN.html) command). 
 
-Setting this property to **True** will allow multiple copies to be collated. However, this property is applicable only when printing multiple copies, or when the [Copies](Copies_Property.html) property is &gt;1. 
+Setting this property to **True** will allow multiple copies to be collated. However, this property is applicable only when printing multiple copies, or when the [Copies](Copies_Property.html) property is >1. 
 
 If **Collate** is not set, the collate setting specified for the print file will be used. (If *DEFAULT is specified for the print file, then the collate setting specified for the printer will be used). 
 

@@ -105,8 +105,8 @@ DCLFLD Pattern Type (*Integer)Len (4)<br /> x= 12 // Low-order bits are 0000 110
         
 ```
 LResult Type (*Packed) *As Type (*Integer)
-LResult = Pattern &lt;&lt; 3   // Left shift of 3 bits produces value of 96
-RResult = Pattern &gt;&gt; 2   // Right shift of 2 bits produces value of 3
+LResult = Pattern << 3   // Left shift of 3 bits produces value of 96
+RResult = Pattern >> 2   // Right shift of 2 bits produces value of 3
 ```
 
 Arithmetic shifts never generate overflow exceptions.

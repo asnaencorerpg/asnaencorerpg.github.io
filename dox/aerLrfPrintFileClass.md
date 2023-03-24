@@ -15,7 +15,7 @@ For alist of all members of this type, see [PrintFile Members](aerLrfPrintFileMe
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> ASNA.VisualRPG.Runtime. **PrintFile** 
 
 ```
-&lt;Serializable&gt;
+<Serializable>
  **Syntax** 
 ```
 

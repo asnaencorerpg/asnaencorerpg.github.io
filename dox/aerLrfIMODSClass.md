@@ -13,7 +13,7 @@ The **IMODS** Interface is implemented by a multiple occurance data structure.
 For alist of all members of this type, see [IMODS Members](aerLrfIMODSClassMembers.html). 
 
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> ASNA.VisualRPG.Runtime. **IMODS** 
-<pre interface="syntax" style="DISPLAY: block">&lt;Serializable&gt;
+<pre interface="syntax" style="DISPLAY: block"><Serializable>
  **Syntax** </pre>
 
 ### Thread Safety

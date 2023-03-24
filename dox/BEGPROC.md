@@ -98,7 +98,7 @@ If the original program has a * **Entry** PList (RPG 400), or the RPG ILE main p
 
 Subprocedures are also migrated as a **BegProc** , but with slightly different options, as shown below: 
 
-BegProc &lt;Name&gt; Access(*Public/*Private) 
+BegProc <Name> Access(*Public/*Private) 
 
 **. . .** 
 
@@ -118,7 +118,7 @@ Refer to the built-in function [%PARMS](PARMS_Function.html) if you want to know
 
 You can invoke, or call a Procedure by either using the [CALLB](CALLB.html) command, or a free-form expression, as shown briefly below. Please see **CALLB** for more information on both examples. 
 
-CALLB Proc(&lt;class or class.procedure or procedure&gt;) ParmList(&lt;parmlist name&gt;)<br /><br /> - or - 
+CALLB Proc(<class or class.procedure or procedure>) ParmList(<parmlist name>)<br /><br /> - or - 
 
 MyProc( CustName, *Omit ) 
 
