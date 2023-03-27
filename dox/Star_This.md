@@ -22,6 +22,6 @@ The current form is closed in the following example.
 <pre class="prettyprint">*This.Close()</pre>
 
 ### See Also
-[Figurative Constants](aerLrfFigConstantsMain.html)
+[Figurative Constants](ecrLrfFigConstantsMain.html)
 
 [Figurative Constants Rules](Fig_Constants_Rules.html) 

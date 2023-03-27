@@ -25,7 +25,7 @@ You can also use the other Integer data types to automatically set the length to
 * **Integer4** - sets the length to an 4-byte integer. 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [*Integer](Integer_Data_Type.html)
 

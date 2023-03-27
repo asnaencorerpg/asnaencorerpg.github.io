@@ -17,7 +17,7 @@ When adding (or subtracting) a duration in months to (or from) a date, the gener
 - Adding one year to "92/02/29" results in "93/02/28", an adjusted value since the resulting year is not a leap year.
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [ADDDUR](ADDHANDLER.html)
 

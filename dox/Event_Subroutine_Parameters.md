@@ -24,11 +24,11 @@ The object determines whether a parameter is passed by value or by reference. If
 
 [KeyPress](SF_KeyPress_Event.html) - 
 
-[RecordDelete](SF_RecordDelete_Event.html) - [ASNA.VisualRPG.Windows.Controls.RecordDeleteArgs](aerLrfRecordDeleteArgsClass.html) 
+[RecordDelete](SF_RecordDelete_Event.html) - [ASNA.VisualRPG.Windows.Controls.RecordDeleteArgs](ecrLrfRecordDeleteArgsClass.html) 
 
-[RecordNew](SF_RecordNew_Event.html) - [ASNA.VisualRPG.Windows.Controls.RecordNewArgs](aerLrfRecordDeleteArgsClass.html) 
+[RecordNew](SF_RecordNew_Event.html) - [ASNA.VisualRPG.Windows.Controls.RecordNewArgs](ecrLrfRecordDeleteArgsClass.html) 
 
-[RecordSwitch](SF_RecordSwitch_Event.html) - [ASNA.VisualRPG.Windows.Controls.GridArgs](aerLrfGridArgsClass.html) 
+[RecordSwitch](SF_RecordSwitch_Event.html) - [ASNA.VisualRPG.Windows.Controls.GridArgs](ecrLrfGridArgsClass.html) 
 
 ### See Also
 [BEGSR](BEGSR.html)
@@ -47,8 +47,8 @@ The object determines whether a parameter is passed by value or by reference. If
 
 [RecordSwitch Event](SF_RecordSwitch_Event.html)
 
-[ASNA.VisualRPG.Windows.Controls.RecordDeleteArgs](aerLrfRecordDeleteArgsClass.html)
+[ASNA.VisualRPG.Windows.Controls.RecordDeleteArgs](ecrLrfRecordDeleteArgsClass.html)
 
-[ASNA.VisualRPG.Windows.Controls.RecordNewArgs](aerLrfRecordDeleteArgsClass.html)
+[ASNA.VisualRPG.Windows.Controls.RecordNewArgs](ecrLrfRecordDeleteArgsClass.html)
 
-[ASNA.VisualRPG.Windows.Controls.GridArgs](aerLrfGridArgsClass.html) 
+[ASNA.VisualRPG.Windows.Controls.GridArgs](ecrLrfGridArgsClass.html) 

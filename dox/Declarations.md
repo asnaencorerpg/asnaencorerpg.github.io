@@ -13,7 +13,7 @@ You can place variable, constant, type and DLL subroutine **declarations** at th
 **Declarations** can also be local to a subroutine. These local **declarations** are not available to any other part of the application, except the subroutine in which they are declared. 
 
 ### See Also
-[Language Elements](aerLrfLangElementsMain.html)
+[Language Elements](ecrLrfLangElementsMain.html)
 
 [Event Subroutines](Event_Subroutines.html)
 

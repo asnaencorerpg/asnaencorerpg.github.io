@@ -15,4 +15,4 @@ The scaling factor specifies the number of digits to the right of the decimal po
 The equivalent .NET data type is **System.Decimal** . 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html) 
+[Data Types](ecrLrfDataTypesMain.html) 

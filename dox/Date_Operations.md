@@ -36,6 +36,6 @@ Test for a valid date, time, or timestamp field.
 
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [Duration Codes](Duration_Codes.html) 

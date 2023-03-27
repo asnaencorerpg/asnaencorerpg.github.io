@@ -30,7 +30,7 @@ A local variable hides the global one. A local variable exists from the point of
 A local variable can not be defined in the equivalent of an old "C" spec. 
 
 ### See Also
-[Variables](aerLrfVariablesMain.html)
+[Variables](ecrLrfVariablesMain.html)
 
 [DCLARRAY](DCLARRAY.html)
 

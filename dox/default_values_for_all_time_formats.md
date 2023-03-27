@@ -140,7 +140,7 @@ IBM European Standard
         </p>
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [*HIVAL](STARHIVAL.html)
 

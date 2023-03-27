@@ -28,7 +28,7 @@ OpenAccessDspF (<u>*NONE</u> | *WINGS| *MOBILERPG)
 Required. A character expression containing the name to call your database in code.
 
 
-For a listing of the **Database Class members** , [click here](aerLrfDatabaseMembers.html).
+For a listing of the **Database Class members** , [click here](ecrLrfDatabaseMembers.html).
 
 
 **DbName** 
@@ -114,6 +114,6 @@ Be careful when setting the Shared parameter to *Yes; thus sharing a single conn
 
 [GetNames Method](GetNames_Method.html)
 
-[Database Class](aerLrfDatabaseClass.html)
+[Database Class](ecrLrfDatabaseClass.html)
 
-[Database Class Members](aerLrfDatabaseMembers.html) 
+[Database Class Members](ecrLrfDatabaseMembers.html) 

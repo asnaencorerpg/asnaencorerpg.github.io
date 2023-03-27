@@ -70,4 +70,4 @@ EndEnum
 ### See Also
 [ENDENUM](ENDENUM.html)
 
-[DCLENUMFLD](DCLENUMFLD.html) | [Enumeration Definition](aerConEnumerationsOverview.html) 
+[DCLENUMFLD](DCLENUMFLD.html) | [Enumeration Definition](ecrConEnumerationsOverview.html) 

@@ -68,9 +68,9 @@ Optional. Allows you to provide one or more attributes that apply to this class.
 ### Remarks
 An [ENDCLASS](ENDCLASS.html) statement must be the last statement in the class. 
 
-For more information on classes, see topics within [Understanding Classes](aerTourUnderstandingClassesMain.html). 
+For more information on classes, see topics within [Understanding Classes](ecrTourUnderstandingClassesMain.html). 
 
-For more information on attributes, see [Custom Attributes](aerConCustomAttributes.html). 
+For more information on attributes, see [Custom Attributes](ecrConCustomAttributes.html). 
 
 ### Example
 The following is an example of **BEGCLASS** showing attribute usage: 
@@ -92,8 +92,8 @@ ENDCLASS
 ```
 
 ### See Also
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [ENDCLASS](ENDCLASS.html)
 
-[Understanding Classes](aerTourUnderstandingClassesMain.html) 
+[Understanding Classes](ecrTourUnderstandingClassesMain.html) 

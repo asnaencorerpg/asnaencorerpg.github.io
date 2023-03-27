@@ -19,7 +19,7 @@ Negative values have the same range, but with a negative sign.
 The default initialization value for numeric fields is **zero.** 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [*Float4](Float8_Data_Type.html)
 

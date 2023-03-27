@@ -46,14 +46,14 @@ Use the **InitializeMember** method to programmatically initialize a database fi
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. <br /> 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
 [Database Class](Date_Formats.html)
 
-[Database Class Members](aerLrfDatabasePropertiesMain.html)
+[Database Class Members](ecrLrfDatabasePropertiesMain.html)
 
-[Database Class Properties](aerLrfDatabasePropertiesMain.html)
+[Database Class Properties](ecrLrfDatabasePropertiesMain.html)
 
-[Database Class Methods](aerLrfDatabaseMethods.html)
+[Database Class Methods](ecrLrfDatabaseMethods.html)
 
 [DCLDB](DCLDB.html) 

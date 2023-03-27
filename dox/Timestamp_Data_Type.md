@@ -28,9 +28,9 @@ The equivalent .NET data type is .
 Design-time controls (DTC's) are no longer supported.
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [*LOVAL](STARLOVAL.html)
 

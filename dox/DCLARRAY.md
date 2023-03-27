@@ -223,9 +223,9 @@ MyIntArr = *new *integer4[] {10, 100, 1000}
   ENDDO</pre>
 
 ### See Also
-[Arrays Overview](aerConArraysOverview.html)
+[Arrays Overview](ecrConArraysOverview.html)
 
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [DCLDS](DCLDS.html)
 

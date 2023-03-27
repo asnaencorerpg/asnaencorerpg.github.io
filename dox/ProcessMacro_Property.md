@@ -42,11 +42,11 @@ Macros may only be described in a Print file label control. Only one macro per L
 **Platforms:** Windows 2000 Professional SP4, Windows 2000 Server SP4, Windows Server 2003, Windows XP Professional SP2, Windows Vista Business Edition 
 
 #### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[PrintFile Class](aerLrfPrintFileClass.html)
+[PrintFile Class](ecrLrfPrintFileClass.html)
 
-[PrintFile Members](aerLrfPrintFileMembers.html)
+[PrintFile Members](ecrLrfPrintFileMembers.html)
 
 [OPEN](OPEN.html)
 

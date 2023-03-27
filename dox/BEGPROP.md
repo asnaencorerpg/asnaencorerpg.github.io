@@ -165,7 +165,7 @@ dclfld_Firstname *string INZ("") dclfld_Lastname *string INZ("") BegProp Firstna
 <p> [DCLPROP](DCLPROP.html)
 [BEGSR](BEGSR.html)
 
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [DCLSRPARM](DCLSRPARM.html)
 

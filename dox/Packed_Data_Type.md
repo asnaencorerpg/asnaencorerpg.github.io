@@ -15,4 +15,4 @@ The sign portion of the low-order byte indicates whether the numeric value repre
 In ECR, the maximum length for a packed field is 28,0. 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html) 
+[Data Types](ecrLrfDataTypesMain.html) 

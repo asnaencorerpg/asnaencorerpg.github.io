@@ -25,6 +25,6 @@ TocOrder: 2
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. <br /> 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
 [Database Class](Date_Formats.html) 

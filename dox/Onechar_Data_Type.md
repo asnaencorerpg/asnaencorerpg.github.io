@@ -13,10 +13,10 @@ The ***OneChar** value type represents a Unicode character, also called a Unicod
 The default initialization value for a * **OneChar** field is 0x0000. See also **system.char structure** . 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [*Char Data Type](Character_Data_Type.html)
 
-[Unicode](aerConUnicode.html)
+[Unicode](ecrConUnicode.html)
 
 [OneChar Literals](OneChar_Literal.html) 

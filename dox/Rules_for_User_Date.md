@@ -21,7 +21,7 @@ The user date fields cannot be modified. This means they cannot be used:
 - As Index of [LOOKUP](LOOKUP.html) operations
 
 ### See Also
-[Variables](aerLrfVariablesMain.html)
+[Variables](ecrLrfVariablesMain.html)
 
 [Date Data Type](Date_Data_Type.html)
 

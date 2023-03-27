@@ -39,14 +39,14 @@ Use the **AddMember** method to programmatically add amember to a database file.
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[Database Class](aerLrfDatabaseClass.html)
+[Database Class](ecrLrfDatabaseClass.html)
 
-[Database Class Members](aerLrfDatabaseMembers.html)
+[Database Class Members](ecrLrfDatabaseMembers.html)
 
-[Database Class Properties](aerLrfDatabasePropertiesMain.html)
+[Database Class Properties](ecrLrfDatabasePropertiesMain.html)
 
-[Database Class Methods](aerLrfDatabaseMethods.html)
+[Database Class Methods](ecrLrfDatabaseMethods.html)
 
 [DCLDB](DCLDB.html) 

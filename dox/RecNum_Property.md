@@ -33,11 +33,11 @@ RRN is not supported by Microsoft's SQL Server database engine.
 **Platforms:** Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
 [Database Class](Date_Formats.html)
 
-[Database Class Members](aerLrfDatabasePropertiesMain.html)
+[Database Class Members](ecrLrfDatabasePropertiesMain.html)
 
 [DCLDISKFILE](DCLDISKFILE.html)
 

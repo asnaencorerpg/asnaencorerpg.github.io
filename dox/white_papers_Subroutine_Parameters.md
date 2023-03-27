@@ -13,7 +13,7 @@ Encore RPG allows parameters to be passed to subroutines ([BEGSR](BEGSR.html)). 
 **Subroutine parameters** not only provide for powerful programming, but also facilitate the functionality of some events. 
 
 ### See Also
-[Language Elements](aerLrfLangElementsMain.html)
+[Language Elements](ecrLrfLangElementsMain.html)
 
 [DCLPARM](DCLPARM.html)
 

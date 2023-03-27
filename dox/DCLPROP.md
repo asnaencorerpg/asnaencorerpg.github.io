@@ -169,7 +169,7 @@ DCLPROP FullName Type( *string )       Access ( *public )
 
 [BEGSR](BEGSR.html)
 
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [DCLSRPARM](DCLSRPARM.html)
 

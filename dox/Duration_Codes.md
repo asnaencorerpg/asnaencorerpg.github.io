@@ -24,4 +24,4 @@ TocOrder: 7
 - Use *Hours (*H), *Minutes (*MN), *Seconds (*S) and *MSeconds (*MS) when value is a **Time** or **Timestamp** .
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html) 
+[Date and Time](ecrLrfDateandTimeMain.html) 

@@ -21,7 +21,7 @@ You can also access the properties of a control.
 MOVE *ON IOField1 **.** FontBold<br /> MOVE *OFF IOField2 **.** FontItalic 
 
 ### See Also
-[Variables](aerLrfVariablesMain.html)
+[Variables](ecrLrfVariablesMain.html)
 
 [Array Elements](Array_Element.html)
 
@@ -31,4 +31,4 @@ MOVE *ON IOField1 **.** FontBold<br /> MOVE *OFF IOField2 **.** FontItalic
 
 [Multiple Occurrence Data Structures](Mult_Occur_DS.html)
 
-[Encore RPG Language Reference](aerLrfLangRefMain.html) 
+[Encore RPG Language Reference](ecrLrfLangRefMain.html) 

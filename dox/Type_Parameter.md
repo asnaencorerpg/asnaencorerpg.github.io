@@ -8,7 +8,7 @@ TocOrder: 50
 
 ---
 
-The **Type** Parameter can be any of the "*" [Data Types](aerLrfDataTypesMain.html) (*CHAR, *BINARY, etc.) as listed below, or it can be the name of a field already defined in the program. 
+The **Type** Parameter can be any of the "*" [Data Types](ecrLrfDataTypesMain.html) (*CHAR, *BINARY, etc.) as listed below, or it can be the name of a field already defined in the program. 
 
 - Type cannot be a named constant or a literal. In this case, the field will be defined based on the attributes of another field.
 
@@ -72,4 +72,4 @@ If a **Type Parameter** is not given, the **Len** parameter is required. In this
 [*ZONED](Zoned_Data_Type.html) 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html) 
+[Data Types](ecrLrfDataTypesMain.html) 

@@ -26,6 +26,6 @@ CmpStr (Name) CmpLen (3)
 ```
 
 ### See Also
-[Language Elements](aerLrfLangElementsMain.html)
+[Language Elements](ecrLrfLangElementsMain.html)
 
 [Comments](Comments.html) 

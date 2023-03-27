@@ -207,7 +207,7 @@ Japanese Industrial Standard Christian Era
         </p>
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [*HIVAL](STARHIVAL.html)
 

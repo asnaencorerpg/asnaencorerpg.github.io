@@ -171,7 +171,7 @@ The ampersand (&) separator is replaced with a blank character. E.g., * **HMS&**
 The zero (0) separator is replaced with no character. E.g., * **EURO** results in the example time formated as **130521** . 
 
 ####  **See Also** 
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [*HIVAL](STARHIVAL.html)
 

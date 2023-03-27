@@ -30,7 +30,7 @@ The equivalent .NET data type is .
 Dclfld myBool type( *Boolean )<br /> myBool = *True<br /> myBool = *False 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [*True](StarTRUE.html)
 

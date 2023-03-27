@@ -14,4 +14,4 @@ A **record format** is a name defined in a DataGate file that refers to a given 
 When a **record format** name is used in an input or output operation, data from the record is copied to fields in the DataGate file. 
 
 ### See Also
-[Variables](aerLrfVariablesMain.html) 
+[Variables](ecrLrfVariablesMain.html) 

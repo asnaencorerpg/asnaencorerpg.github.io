@@ -24,7 +24,7 @@ Discusses date and time values.
 
 ### Related Sections
 
-[Encore RPG Data Types](aerLrfDataTypesMain.html)
+[Encore RPG Data Types](ecrLrfDataTypesMain.html)
 
 Introduces Encore RPG data types and describes how to use them.
 

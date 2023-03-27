@@ -27,4 +27,4 @@ A **field** is the simplest type of variable. It can be declared using the [DCLF
 
 [Multiple Occurrence Data Structures](Mult_Occur_DS.html)
 
-[Visual RPG Language Reference](aerLrfLangRefMain.html) 
+[Visual RPG Language Reference](ecrLrfLangRefMain.html) 

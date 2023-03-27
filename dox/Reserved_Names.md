@@ -12,16 +12,16 @@ The compiler has reserved certain names for its exclusive use. This means that v
 
 [Command Names](Commands.html) 
 
-[Special Values](aerLrfSpecialValuesMain.html) 
+[Special Values](ecrLrfSpecialValuesMain.html) 
 
 ### Example
 <span> *CHAR<br /> *EQ<br /> *INPUT<br /> *OFF </span> 
 
 ### See Also
-[Language Elements](aerLrfLangElementsMain.html)
+[Language Elements](ecrLrfLangElementsMain.html)
 
 [Command Names](Commands.html)
 
-[Special Values](aerLrfSpecialValuesMain.html)
+[Special Values](ecrLrfSpecialValuesMain.html)
 
 [Lexical Element Names](Lexical_Element_Names.html) 

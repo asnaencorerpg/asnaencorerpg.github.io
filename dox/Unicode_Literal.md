@@ -27,6 +27,6 @@ u"30c3"
 
 [String Data Type](String_Data_Type.html)
 
-[Literals](aerLrfLiteralsMain.html)
+[Literals](ecrLrfLiteralsMain.html)
 
-[Unicode Overview](aerConUnicode.html) 
+[Unicode Overview](ecrConUnicode.html) 

@@ -34,11 +34,11 @@ For a DataGate for Windows database, a temporary logical file is created in QTem
 **Platforms:** Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[DBFile Class](aerLrfDBFileClass.html)
+[DBFile Class](ecrLrfDBFileClass.html)
 
-[DBFile Members](aerLrfDBFileMembers.html)
+[DBFile Members](ecrLrfDBFileMembers.html)
 
 [DCLDISKFILE](DCLDISKFILE.html)
 

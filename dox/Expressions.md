@@ -20,6 +20,6 @@ An expression is a combination of variables, operators and functions that yield 
 [Operators and Their Precedence](Expression_Operators_and_their_Precedence.html) 
 
 ### See Also
-[Encore RPG Language Reference](aerLrfLangRefMain.html)
+[Encore RPG Language Reference](ecrLrfLangRefMain.html)
 
-[Syntactical Elements](aerLrfSyntacticalElementsMain.html) 
+[Syntactical Elements](ecrLrfSyntacticalElementsMain.html) 

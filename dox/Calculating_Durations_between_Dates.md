@@ -18,7 +18,7 @@ A duration is 374 days requested in years yields 1 complete year because there a
 If adjustment takes place on a date-time [addition or subtraction](Adding_or_Subtracting_Dates.html), then a subsequent calculation will most likely result in a different duration than the one original one added or subtracted. This is because the subsequent duration will no longer contain a complete unit, and rounding down will yield one unit less than expected. 
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [ADDDUR](ADDHANDLER.html)
 

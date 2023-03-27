@@ -36,6 +36,6 @@ Move "Hello" Greeting [2,3]
 
 [Multiple Occurrence Data structures](Mult_Occur_DS.html)
 
-[Variables](aerLrfVariablesMain.html)
+[Variables](ecrLrfVariablesMain.html)
 
-[Encore RPG Language Reference](aerLrfLangRefMain.html) 
+[Encore RPG Language Reference](ecrLrfLangRefMain.html) 

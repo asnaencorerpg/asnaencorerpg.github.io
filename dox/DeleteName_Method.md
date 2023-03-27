@@ -37,15 +37,15 @@ Use the [GetNames](GetNames_Method.html) method to get an array of strings conta
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
 [Database Class](Date_Formats.html)
 
-[Database Class Members](aerLrfDatabasePropertiesMain.html)
+[Database Class Members](ecrLrfDatabasePropertiesMain.html)
 
-[Database Class Methods](aerLrfDatabaseMethods.html)
+[Database Class Methods](ecrLrfDatabaseMethods.html)
 
-[Database Class Properties](aerLrfDatabasePropertiesMain.html)
+[Database Class Properties](ecrLrfDatabasePropertiesMain.html)
 
 [DCLDB](DCLDB.html)
 

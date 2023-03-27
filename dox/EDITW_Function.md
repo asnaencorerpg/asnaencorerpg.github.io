@@ -20,7 +20,7 @@ TocOrder: 15
 
 **Numeric, Editword** 
 
-Required. The rules for the **Numeric** value and [Editword](aerLrfEditWordTable.html) are identical to those for editing **numeric** values in output specifications.
+Required. The rules for the **Numeric** value and [Editword](ecrLrfEditWordTable.html) are identical to those for editing **numeric** values in output specifications.
 
 
 ### Example
@@ -32,4 +32,4 @@ If the values of mySalary is 2451.53, and myEditWd is " **$,,**Dollars Cents** "
 
 ### See Also
 <p> [Built-in Function Overview](Functions_overview.html)
-[Edit Word Usage](aerLrfEditWordTable.html) 
+[Edit Word Usage](ecrLrfEditWordTable.html) 

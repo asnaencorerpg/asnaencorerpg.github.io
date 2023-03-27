@@ -181,8 +181,8 @@ Indicates the Y-axis resolution (in dot per inch) when printing graphics.
 </table>
 
 ### See Also
-[Language Elements](aerLrfLangElementsMain.html)
+[Language Elements](ecrLrfLangElementsMain.html)
 
-[PrintFile Class](aerLrfPrintFileClass.html)
+[PrintFile Class](ecrLrfPrintFileClass.html)
 
-[PrintFile Properties](aerLrfPrintFileProperties.html) 
+[PrintFile Properties](ecrLrfPrintFileProperties.html) 

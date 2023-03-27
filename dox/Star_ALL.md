@@ -27,8 +27,8 @@ The ***ALL** is a character constant that refers to **ALL** of the implicitly-op
 Commands supporting ***ALL’x..’** : **dclArray** , **dcldsFld** , **dclFld** , **Move** , **MoveArr** , **Movel** and **Zadd** . 
 
 ### See Also
-[Figurative Constants](aerLrfFigConstantsMain.html)
+[Figurative Constants](ecrLrfFigConstantsMain.html)
 
 [Figurative Constants Rules](Fig_Constants_Rules.html)
 
-[Data Types](aerLrfDataTypesMain.html) 
+[Data Types](ecrLrfDataTypesMain.html) 

@@ -16,4 +16,4 @@ In Encore RPG, an indicator array *IN is automatically defined for each program.
 *INLR is another special predefined indicator that is used to determine the program end, if the program should be unloaded. 
 
 ### See Also
-[Variables](aerLrfVariablesMain.html) 
+[Variables](ecrLrfVariablesMain.html) 

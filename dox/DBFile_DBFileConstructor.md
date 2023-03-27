@@ -7,7 +7,7 @@ TocOrder: 10
 
 ---
 
-**DBFile** initializes a new instance of a [DBFile](aerLrfDBFileClass.html) object. 
+**DBFile** initializes a new instance of a [DBFile](ecrLrfDBFileClass.html) object. 
 
 ```
 
@@ -150,12 +150,12 @@ In addition, the member name, file path, and share type parameters can also be e
 **Platforms:** Windows Server 2012, Window Server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[DBFile Class](aerLrfDBFileClass.html)
+[DBFile Class](ecrLrfDBFileClass.html)
 
-[DBFile Members](aerLrfDBFileMembers.html)
+[DBFile Members](ecrLrfDBFileMembers.html)
 
-[DBFile Fields](aerLrfDbFileFieldsMain.html)
+[DBFile Fields](ecrLrfDbFileFieldsMain.html)
 
 [DCLDISKFILE](DCLDISKFILE.html) 

@@ -106,7 +106,7 @@ Parameters may be declared for a subroutine by using **DCLSRPARM** commands righ
 
 [BEGPROC](BEGPROC.html)
 
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [DCLSRPARM](DCLSRPARM.html)
 

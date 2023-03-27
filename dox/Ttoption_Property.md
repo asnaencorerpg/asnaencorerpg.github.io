@@ -24,10 +24,10 @@ TocOrder: 24
 - SUBDEVFONT indicates that device fonts will be substituted for True Type fonts.
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[PrintFile Class](aerLrfPrintFileClass.html)
+[PrintFile Class](ecrLrfPrintFileClass.html)
 
-[PrintFile Members](aerLrfPrintFileMembers.html)
+[PrintFile Members](ecrLrfPrintFileMembers.html)
 
 [DCLPRINTFILE](DCLPRINTFILE.html) <br /> 

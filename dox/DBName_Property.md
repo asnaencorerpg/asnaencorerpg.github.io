@@ -38,12 +38,12 @@ When set to a valid database name, the referenced database server becomes the
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[Database Class](aerLrfDatabaseClass.html)
+[Database Class](ecrLrfDatabaseClass.html)
 
-[Database Class Members](aerLrfDatabaseMembers.html)
+[Database Class Members](ecrLrfDatabaseMembers.html)
 
-[Database Class Properties](aerLrfDatabasePropertiesMain.html)
+[Database Class Properties](ecrLrfDatabasePropertiesMain.html)
 
 [DCLDB](DCLDB.html) 

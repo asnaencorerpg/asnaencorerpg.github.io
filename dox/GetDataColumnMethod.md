@@ -37,10 +37,10 @@ Use **GetColumnName** whenever you need to retrieve the schema of a DataTable co
 When accessing **DataTable** objects, note that they are conditionally case-sensitive. For example, if one **DataTable** is named "mydatatable" and another is named "Mydatatable", a string used to search for one of the tables is regarded as case-sensitive. However, if "mydatatable" exists and "Mydatatable" does not, the search string is regarded as case-insensitive. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[MemoryFile Class](aerLrfMemoryFileClass.html)
+[MemoryFile Class](ecrLrfMemoryFileClass.html)
 
-[MemoryFile Class Members](aerLrfMemoryFileMembers.html)
+[MemoryFile Class Members](ecrLrfMemoryFileMembers.html)
 
 [DCLMEMORYFILE](DATE_Function.html) 

@@ -15,6 +15,6 @@ The * **Byte** data type is used for containing binary data.
 The equivalent .NET data type is . 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [Integer Data Type](Integer_Data_Type.html) 

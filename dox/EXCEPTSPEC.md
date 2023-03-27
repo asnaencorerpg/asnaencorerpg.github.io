@@ -8,7 +8,7 @@ TocOrder: 1000
 
 ---
 
-**EXCEPTSPEC** marks an exception format that is conditioned on the printfile's overflow indicator. It will be written out during execution of [*FetchOverflow](aerCycle_FetchOverflowMethod.html) method if the file's overflow indicator is *ON. 
+**EXCEPTSPEC** marks an exception format that is conditioned on the printfile's overflow indicator. It will be written out during execution of [*FetchOverflow](ecrCycle_FetchOverflowMethod.html) method if the file's overflow indicator is *ON. 
 
 ```
 
@@ -35,7 +35,7 @@ BEGPRINTATTR
 ```
 
 ### See Also
-[*FetchOverflow Method](aerCycle_FetchOverflowMethod.html)
+[*FetchOverflow Method](ecrCycle_FetchOverflowMethod.html)
 
 [BEGPRINTATTR](BEGPRINTATTR.html)
 

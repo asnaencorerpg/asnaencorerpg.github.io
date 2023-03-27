@@ -35,9 +35,9 @@ PRTNUM vs. PartNumber
 Taking advantage of this can greatly increase the readability and thus the maintainability of your programs. 
 
 ### See Also
-[Language Elements](aerLrfLangElementsMain.html)
+[Language Elements](ecrLrfLangElementsMain.html)
         <br />
         [Reserved Names](Reserved_Names.html)
         <br />
-        [Special Values](aerLrfSpecialValuesMain.html)
+        [Special Values](ecrLrfSpecialValuesMain.html)
 

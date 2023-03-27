@@ -31,10 +31,10 @@ If **ReportName** is not assigned, the default name is the name given when the p
 **Platforms:** Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[PrintFile Class](aerLrfPrintFileClass.html)
+[PrintFile Class](ecrLrfPrintFileClass.html)
 
-[PrintFile Members](aerLrfPrintFileMembers.html)
+[PrintFile Members](ecrLrfPrintFileMembers.html)
 
 [DCLPRINTFILE](DCLPRINTFILE.html) 

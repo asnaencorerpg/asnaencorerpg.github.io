@@ -21,6 +21,6 @@ The default initialization value for numeric fields is **zero.**
 The equivalent .NET data type is **System.Single.** 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [*Float8](Float8_Data_Type.html) 

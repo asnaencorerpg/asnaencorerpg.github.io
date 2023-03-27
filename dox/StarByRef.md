@@ -17,6 +17,6 @@ myObject.Mymethod( Parm1, *ByRef Parm2, Parm3 )  // Parm2 is passed by reference
 ```
 
 ### See Also
-[Figurative Constants](aerLrfFigConstantsMain.html)
+[Figurative Constants](ecrLrfFigConstantsMain.html)
 
-[Operators](aerLrfOperatorsMain.html) 
+[Operators](ecrLrfOperatorsMain.html) 

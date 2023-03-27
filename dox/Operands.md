@@ -21,6 +21,6 @@ The following are valid operands in an expression.
 [Multiple Occurrence Data Structures](Mult_Occur_DS.html) 
 
 ### See Also
-[Variables](aerLrfVariablesMain.html)
+[Variables](ecrLrfVariablesMain.html)
 
-[Visual RPG Language Reference](aerLrfLangRefMain.html) 
+[Visual RPG Language Reference](ecrLrfLangRefMain.html) 

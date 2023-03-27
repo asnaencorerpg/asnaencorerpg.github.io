@@ -77,6 +77,6 @@ Len (Length, DecimalPositions)
 
 [TAG](TAG.html)
 
-[Encore RPG Language Reference](aerLrfLangRefMain.html)
+[Encore RPG Language Reference](ecrLrfLangRefMain.html)
 
-[Syntactical Elements](aerLrfSyntacticalElementsMain.html) 
+[Syntactical Elements](ecrLrfSyntacticalElementsMain.html) 

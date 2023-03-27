@@ -14,7 +14,7 @@ A **numeric variable** is a variable with a Numeric Type, such as *ZONED, *PACKE
 A numeric variable can be the receiver of a [MOVE](MOVE.html), [ZADD](ZADD.html) or assignment operation. 
 
 ### See Also
-[Variables](aerLrfVariablesMain.html)
+[Variables](ecrLrfVariablesMain.html)
 
 [MOVE](MOVE.html)
 

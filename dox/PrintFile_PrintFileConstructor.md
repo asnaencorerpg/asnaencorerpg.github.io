@@ -7,7 +7,7 @@ TocOrder: 200
 
 ---
 
-**PrintFile** initializes a new instance of a [PrintFile](aerLrfPrintFileClass.html) object. 
+**PrintFile** initializes a new instance of a [PrintFile](ecrLrfPrintFileClass.html) object. 
 
 ```
 
@@ -60,10 +60,10 @@ Boolean. Set **True**  if the format ID of the file at
 The Encore RPG compiler stores the format ID of each file in the assembly when a program is compiled. At run-time, *isFormatID* **True** specifies ECR is to compare the stored format ID with the format ID of the currently-opened file. The comparing of format ID's can be especially useful when checking if new fields have been added to a file used by a program that has been compiled months ago. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[PrintFile Class](aerLrfPrintFileClass.html)
+[PrintFile Class](ecrLrfPrintFileClass.html)
 
-[PrintFile Members](aerLrfPrintFileMembers.html)
+[PrintFile Members](ecrLrfPrintFileMembers.html)
 
 [DCLPRINTFILE](DCLPRINTFILE.html) 

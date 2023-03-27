@@ -43,7 +43,7 @@ EndTry
 
 [BEGSR](BEGSR.html)
 
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [DCLSRPARM](DCLSRPARM.html)
 

@@ -274,7 +274,7 @@ The ampersand (&) separator is replaced with a blank character. E.g., * **MDY&**
 The zero (0) separator is replaced with no character. E.g., * **MDY0** results in the example date formated as **011507** . 
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [*HIVAL](STARHIVAL.html)
 

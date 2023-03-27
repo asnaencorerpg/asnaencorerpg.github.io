@@ -44,14 +44,14 @@ Use the **RenameMember** method to change programmatically the name of a databas
 **Platforms:** Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
 [Database Class](Date_Formats.html)
 
-[Database Class Members](aerLrfDatabasePropertiesMain.html)
+[Database Class Members](ecrLrfDatabasePropertiesMain.html)
 
-[Database Class Properties](aerLrfDatabasePropertiesMain.html)
+[Database Class Properties](ecrLrfDatabasePropertiesMain.html)
 
-[Database Class Methods](aerLrfDatabaseMethods.html)
+[Database Class Methods](ecrLrfDatabaseMethods.html)
 
 [DCLDB](DCLDB.html) 

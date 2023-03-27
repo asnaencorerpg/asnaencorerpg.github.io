@@ -82,8 +82,8 @@ Instance constructors must always invoke (implicitly or explicitly) a constructo
 A **BEGCONSTRUCTOR** routine must end with the [ENDCONSTRUCTOR](ENDCONSTRUCTOR.html) command. 
 
 ### See Also
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [ENDCONSTRUCTOR](ENDCONSTRUCTOR.html)
 
-[Using Constructors](aerConUsingConstructors.html) 
+[Using Constructors](ecrConUsingConstructors.html) 

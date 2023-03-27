@@ -30,11 +30,11 @@ Setting the **FilePath** prior to opening a file is equivalent to the System i p
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[DBFile Class](aerLrfDBFileClass.html)
+[DBFile Class](ecrLrfDBFileClass.html)
 
-[DBFile Members](aerLrfDBFileMembers.html)
+[DBFile Members](ecrLrfDBFileMembers.html)
 
 [DCLDISKFILE](DCLDISKFILE.html)
 

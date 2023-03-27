@@ -21,321 +21,321 @@ dox:
   - sectiontitle: Introducing Encore RPG
     section:
     - title: Overview
-      path: /dox/aerIntroducingECR.html
+      path: /dox/ecrIntroducingECR.html
     - title: Using Visual Studio
       path: /dox/VisualStudioMain.html
   - sectiontitle: Getting Started in Encore RPG
     section:
     - title: Overview
-      path: /dox/aerGettingStartedMain.html
+      path: /dox/ecrGettingStartedMain.html
     - title: Installation and Setup
-      path: /dox/aerInstallationandsetup.html
+      path: /dox/ecrInstallationandsetup.html
   - sectiontitle: Language Concepts
     section:
     - title: Overview
-      path: /dox/aerConLanguageConceptsMain.html
+      path: /dox/ecrConLanguageConceptsMain.html
     - sectiontitle: Arrays
       section:
       - title: Overview
-        path: /dox/aerConArrays.html
+        path: /dox/ecrConArrays.html
       - title: Arrays Overview
-        path: /dox/aerConArraysOverview.html
+        path: /dox/ecrConArraysOverview.html
       - title: Array Usage
-        path: /dox/aerConArraysUsage.html
+        path: /dox/ecrConArraysUsage.html
     - sectiontitle: Assemblies
       section:
       - title: Overview
-        path: /dox/aerConAssemblies.html
+        path: /dox/ecrConAssemblies.html
       - title: Allocating Memory
-        path: /dox/aerConAllocatingMemory.html
+        path: /dox/ecrConAllocatingMemory.html
       - title: Namespaces
-        path: /dox/aerConNamespacesStart.html
+        path: /dox/ecrConNamespacesStart.html
       - title: Custom Attributes
-        path: /dox/aerConCustomAttributes.html
+        path: /dox/ecrConCustomAttributes.html
       - title: Strong-Named Assemblies
-        path: /dox/aerLrfStrongNamedAssembly.html
+        path: /dox/ecrLrfStrongNamedAssembly.html
     - sectiontitle: Control Flow
       section:
       - title: Overview
-        path: /dox/aerConControlFlow.html
+        path: /dox/ecrConControlFlow.html
       - title: Decision Structures
-        path: /dox/aerConDecisionStructures.html
+        path: /dox/ecrConDecisionStructures.html
       - title: Loop Structures
-        path: /dox/aerConLoopStructures.html
+        path: /dox/ecrConLoopStructures.html
       - title: Nested Control Statements
-        path: /dox/aerConNestedControlOpCodes.html
+        path: /dox/ecrConNestedControlOpCodes.html
     - sectiontitle: DataTypes
       section:
       - title: Overview
-        path: /dox/aerConDataTypes.html
+        path: /dox/ecrConDataTypes.html
       - title: DataType Declaration
-        path: /dox/aerConDataTypeDeclaration.html
+        path: /dox/ecrConDataTypeDeclaration.html
       - sectiontitle: Elementary DataTypes
         section:
         - title: Overview
-          path: /dox/aerConElementaryDataTypes.html
+          path: /dox/ecrConElementaryDataTypes.html
         - sectiontitle: Numeric DataTypes
           section:
           - title: Overview
-            path: /dox/aerConNumericDataTypes.html
+            path: /dox/ecrConNumericDataTypes.html
           - title: Integral Types
-            path: /dox/aerConIntegralTypes.html
+            path: /dox/ecrConIntegralTypes.html
           - title: NonIntegral Types
-            path: /dox/aerConNonintegralTypes.html
+            path: /dox/ecrConNonintegralTypes.html
         - title: "*Char Data Type"
           path: /dox/Character_Data_Type.html
       - sectiontitle: DataType Implementation
         section:
         - title: Overview
-          path: /dox/aerConDataTypeImplementation.html
+          path: /dox/ecrConDataTypeImplementation.html
         - title: Values Types and Reference Types
-          path: /dox/aerConValuesTypesandReferenceTypes.html
+          path: /dox/ecrConValuesTypesandReferenceTypes.html
         - title: Value Types vs. Reference Types
-          path: /dox/aerConValueTypesvsReferenceTypes.html
+          path: /dox/ecrConValueTypesvsReferenceTypes.html
         - title: DataTypes as Classes and Structures
-          path: /dox/aerConDataTypesasStructuresandClasses.html
+          path: /dox/ecrConDataTypesasStructuresandClasses.html
       - title: DataType Comparison
-        path: /dox/aerConFrameworkDataTypesComparison.html
+        path: /dox/ecrConFrameworkDataTypesComparison.html
       - title: Data Structure Changes
         path: /dox/DataStructureChanges.html
     - sectiontitle: Declared Elements
       section:
       - title: Overview
-        path: /dox/aerConDeclaredElements.html
+        path: /dox/ecrConDeclaredElements.html
       - title: Declared Element Characteristics
-        path: /dox/aerConDeclaredElementCharacteristics.html
+        path: /dox/ecrConDeclaredElementCharacteristics.html
       - sectiontitle: Declared Element Lifetime
         section:
         - title: Overview
-          path: /dox/aerConDeclaredElementsLifetime.html
+          path: /dox/ecrConDeclaredElementsLifetime.html
         - title: Static Variable Initialization
-          path: /dox/aerConStaticVariableInitialization.html
+          path: /dox/ecrConStaticVariableInitialization.html
       - sectiontitle: Declared Element Scope
         section:
         - title: Overview
-          path: /dox/aerConDeclaredElementsScope.html
+          path: /dox/ecrConDeclaredElementsScope.html
         - title: Levels of Scope
-          path: /dox/aerConLevelsofScope.html
+          path: /dox/ecrConLevelsofScope.html
       - title: Accessibility
-        path: /dox/aerConAccessibility.html
+        path: /dox/ecrConAccessibility.html
     - title: Enumerations Overview
-      path: /dox/aerConEnumerationsOverview.html
+      path: /dox/ecrConEnumerationsOverview.html
     - title: Events
-      path: /dox/aerConEvents.html
+      path: /dox/ecrConEvents.html
     - title: Generic Types Overview
-      path: /dox/aerGenericTypesOverview.html
+      path: /dox/ecrGenericTypesOverview.html
     - sectiontitle: Expressions
       section:
       - title: Overview
-        path: /dox/aerConExpressions.html
+        path: /dox/ecrConExpressions.html
       - title: Calculating Numeric Values
-        path: /dox/aerConCalculatingNumericValues.html
+        path: /dox/ecrConCalculatingNumericValues.html
       - title: Value Comparisons
-        path: /dox/aerConValueComparisons.html
+        path: /dox/ecrConValueComparisons.html
       - title: Boolean Expressions
-        path: /dox/aerConBooleanExpressions.html
+        path: /dox/ecrConBooleanExpressions.html
     - sectiontitle: Objects
       section:
       - title: Overview
-        path: /dox/aerConObjects.html
+        path: /dox/ecrConObjects.html
       - title: What is an Object?
-        path: /dox/aerConWhatisanObject.html
+        path: /dox/ecrConWhatisanObject.html
       - title: Relation of Objects to Each Other
-        path: /dox/aerConRelationofObjects.html
+        path: /dox/ecrConRelationofObjects.html
       - title: The Basics of Working with Objects
-        path: /dox/aerConBasicsofObjects.html
+        path: /dox/ecrConBasicsofObjects.html
       - title: Objects, Properties, Methods, and Events
-        path: /dox/aerConObjPropMethodsandEvents.html
+        path: /dox/ecrConObjPropMethodsandEvents.html
       - title: Using Constructors
-        path: /dox/aerConUsingConstructors.html
+        path: /dox/ecrConUsingConstructors.html
       - title: Object-Oriented Programming
-        path: /dox/aerConObjectOrientedProgramming.html
+        path: /dox/ecrConObjectOrientedProgramming.html
       - title: Using NetBlockFactor
-        path: /dox/aerConUsingNetblockfactor.html
+        path: /dox/ecrConUsingNetblockfactor.html
       - title: Performing Multiple Actions on an Object
-        path: /dox/aerConPerformingMultipleActionsonObject.html
+        path: /dox/ecrConPerformingMultipleActionsonObject.html
     - sectiontitle: Namespaces
       section:
       - title: Overview
-        path: /dox/aerConNamespaces.html
+        path: /dox/ecrConNamespaces.html
       - title: Namespace Declarations
-        path: /dox/aerConNamespaceDeclarations.html
+        path: /dox/ecrConNamespaceDeclarations.html
       - title: Namespace Concepts
-        path: /dox/aerConNamespacesConcepts.html
+        path: /dox/ecrConNamespacesConcepts.html
     - sectiontitle: Operators
       section:
       - title: Overview
-        path: /dox/aerConOperators.html
+        path: /dox/ecrConOperators.html
       - title: Arithmetic Operators
-        path: /dox/aerConArithmeticOperators.html
+        path: /dox/ecrConArithmeticOperators.html
       - title: Comparison Operators
-        path: /dox/aerConComparisonOperators.html
+        path: /dox/ecrConComparisonOperators.html
       - title: Concatenation Operators
-        path: /dox/aerConConcatenationOperators.html
+        path: /dox/ecrConConcatenationOperators.html
       - title: Logical Operators
-        path: /dox/aerConLogicalOperators.html
+        path: /dox/ecrConLogicalOperators.html
     - sectiontitle: Properties
       section:
       - title: Overview
-        path: /dox/aerConProperties.html
+        path: /dox/ecrConProperties.html
       - title: Setting and Retrieving Properties
-        path: /dox/aerConSettingandRetrievingProperties.html
+        path: /dox/ecrConSettingandRetrievingProperties.html
     - sectiontitle: Strings
       section:
       - title: Overview
-        path: /dox/aerConStrings.html
+        path: /dox/ecrConStrings.html
       - title: Manipulating Strings
-        path: /dox/aerConManipulatingStrings.html
+        path: /dox/ecrConManipulatingStrings.html
     - title: Type Members
-      path: /dox/aerConTypeMembers.html
+      path: /dox/ecrConTypeMembers.html
     - sectiontitle: Variables
       section:
       - title: Overview
-        path: /dox/aerConVariables.html
+        path: /dox/ecrConVariables.html
       - title: Variable Declaration
-        path: /dox/aerConVariableDeclaration.html
+        path: /dox/ecrConVariableDeclaration.html
       - sectiontitle: Object Variables
         section:
         - title: Overview
-          path: /dox/aerConObjectVariables.html
+          path: /dox/ecrConObjectVariables.html
         - title: Object Variable Assignment
-          path: /dox/aerConObjectVariableAssignment.html
+          path: /dox/ecrConObjectVariableAssignment.html
         - sectiontitle: Object Variable Declaration
           section:
           - title: Overview
-            path: /dox/aerConObjectVariableDeclaration.html
+            path: /dox/ecrConObjectVariableDeclaration.html
           - title: BegUsing/EndUsing Blocks
             path: /dox/BEGUSINGENDUSING.html
         - title: Object Variable Values
-          path: /dox/aerConObjectVariableValues.html
+          path: /dox/ecrConObjectVariableValues.html
     - title: Collapsing and Hiding Code
-      path: /dox/aerConHidingandCollapsingCode.html
+      path: /dox/ecrConHidingandCollapsingCode.html
     - sectiontitle: DataGate Print File Designer Overview
       section:
       - title: Overview
-        path: /dox/aerConDataGatePrintfileOverview.html
+        path: /dox/ecrConDataGatePrintfileOverview.html
       - title: Renderer Command Options
-        path: /dox/aerLrfRendererCommandOptions.html
+        path: /dox/ecrLrfRendererCommandOptions.html
       - title: Using the InfSR keyword
-        path: /dox/aerConInfSRKeyword.html
+        path: /dox/ecrConInfSRKeyword.html
       - title: Considerations for OLE Print File Conversion
-        path: /dox/aerConsiderationsforOLEPrintFileSupport.html
+        path: /dox/ecrConsiderationsforOLEPrintFileSupport.html
     - title: Rules of Subroutine Overloading
-      path: /dox/aerConRulesofSubroutineOverloading.html
+      path: /dox/ecrConRulesofSubroutineOverloading.html
     - title: Unicode
-      path: /dox/aerConUnicode.html
+      path: /dox/ecrConUnicode.html
     - sectiontitle: RPG Cycle
       section:
       - title: Overview
-        path: /dox/aerCycle_Overview.html
+        path: /dox/ecrCycle_Overview.html
       - title: Level Break Indicator (*INL1...*INL9)
-        path: /dox/aerCycle_LevelBreakIndicators.html
+        path: /dox/ecrCycle_LevelBreakIndicators.html
       - title: "*DetailCalc Method"
-        path: /dox/aerCycle_DetailCalcMethod.html
+        path: /dox/ecrCycle_DetailCalcMethod.html
       - title: "*FetchOverflow Method"
-        path: /dox/aerCycle_FetchOverflowMethod.html
+        path: /dox/ecrCycle_FetchOverflowMethod.html
       - title: Matching Record Indicator (*INMR)"
-        path: /dox/aerCycle_MatchingRecordIndicators.html
+        path: /dox/ecrCycle_MatchingRecordIndicators.html
       - title: Handling Cycle Output to Database Files
-        path: /dox/aerCycle_New_Output_Handling.html
+        path: /dox/ecrCycle_New_Output_Handling.html
       - title: Overflow Indicators
-        path: /dox/aerCycle_OverflowIndicators.html
+        path: /dox/ecrCycle_OverflowIndicators.html
       - title: "*StartCycle Method"
-        path: /dox/aerCycle_StartCycleMethod.html
+        path: /dox/ecrCycle_StartCycleMethod.html
       - title: "*TotalCalc Method"
-        path: /dox/aerCycle_TotalCalcMethod.html
+        path: /dox/ecrCycle_TotalCalcMethod.html
     - title: Interfaces in Encore RPG
-      path: /dox/aerConInterface.html
+      path: /dox/ecrConInterface.html
     - sectiontitle: Operation Codes
       section:
       - title: Overview
-        path: /dox/aerConOpCodes.html
+        path: /dox/ecrConOpCodes.html
       - title: Operation Codes Overview
-        path: /dox/aerConOpCodesOverview.html
+        path: /dox/ecrConOpCodesOverview.html
       - title: Assignment Operation Codes
-        path: /dox/aerConAssignmentOpCodes.html
+        path: /dox/ecrConAssignmentOpCodes.html
       - title: Declaration Operation Codes
-        path: /dox/aerConDeclarationOpCodes.html
+        path: /dox/ecrConDeclarationOpCodes.html
       - title: Executable Operation Codes
-        path: /dox/aerConExecutableOpCodes.html
+        path: /dox/ecrConExecutableOpCodes.html
   - sectiontitle: Language Tour
     section:
     - title: Overview
-      path: /dox/aerLanguageTourMain.html
+      path: /dox/ecrLanguageTourMain.html
     - sectiontitle: Object-Oriented Programming in Encore RPG
       section:
       - title: Overview
-        path: /dox/aerTourObjectOrientedProgrammingMain.html
+        path: /dox/ecrTourObjectOrientedProgrammingMain.html
       - title: Early and Late Binding
-        path: /dox/aerTourEarlyandLateBinding.html
+        path: /dox/ecrTourEarlyandLateBinding.html
       - title: Shared Members
-        path: /dox/aerTourSharedMembers.html
+        path: /dox/ecrTourSharedMembers.html
       - sectiontitle: Understanding Classes
         section:
         - title: Overview
-          path: /dox/aerTourUnderstandingClassesMain.html
+          path: /dox/ecrTourUnderstandingClassesMain.html
         - title: Classes
-          path: /dox/aerTourClassesBlueprintsforObjects.html
+          path: /dox/ecrTourClassesBlueprintsforObjects.html
         - title: Classes vs. Standard Programs
-          path: /dox/aerTourClassesvsStandardPrograms.html
+          path: /dox/ecrTourClassesvsStandardPrograms.html
         - title: Object Lifetime
-          path: /dox/aerTourObjectLifetime.html
+          path: /dox/ecrTourObjectLifetime.html
         - title: Using Constructors
-          path: /dox/aerTourUsingConstructors.html
+          path: /dox/ecrTourUsingConstructors.html
         - sectiontitle: Class Properties, Fields and Methods
           section:
           - title: Overview
-            path: /dox/aerTourClassPropertiesFieldsandMethodsMain.html
+            path: /dox/ecrTourClassPropertiesFieldsandMethodsMain.html
           - title: Adding Fields and Properties to a Class
-            path: /dox/aerTourAddingFieldsandPropertiestoaClass.html
+            path: /dox/ecrTourAddingFieldsandPropertiestoaClass.html
           - title: Properties and Property Procedures
-            path: /dox/aerTourPropertiesandPropertyProcedures.html
+            path: /dox/ecrTourPropertiesandPropertyProcedures.html
           - title: Property Procedures vs. fields
-            path: /dox/aerTourPropertyProceduresvsFields.html
+            path: /dox/ecrTourPropertyProceduresvsFields.html
           - title: Properties vs. Methods
-            path: /dox/aerTourPropertiesvsMethods.html
+            path: /dox/ecrTourPropertiesvsMethods.html
           - title: Overloaded Properties
-            path: /dox/aerTourOverloadedProperties.html
+            path: /dox/ecrTourOverloadedProperties.html
           - sectiontitle: Overriding Properties and Methods
             section:
             - title: Overview
-              path: /dox/aerTourOverridingPropertiesandMethodsMain.html
+              path: /dox/ecrTourOverridingPropertiesandMethodsMain.html
             - title: Override Modifiers
-              path: /dox/aerTourOverrideModifiers.html
+              path: /dox/ecrTourOverrideModifiers.html
       - title: Events
-        path: /dox/aerTourEventsMain.html
+        path: /dox/ecrTourEventsMain.html
       - sectiontitle: Inheritance
         section:
         - title: Overview
-          path: /dox/aerTourInheritanceMain.html
+          path: /dox/ecrTourInheritanceMain.html
         - title: Inheritance (Extensibility) Basics
-          path: /dox/aerTourInheritanceBasics.html
+          path: /dox/ecrTourInheritanceBasics.html
         - title: When to Use Inheritance
-          path: /dox/aerTourWhentoUseInheritance.html
+          path: /dox/ecrTourWhentoUseInheritance.html
         - title: When to Use Interfaces
-          path: /dox/aerTourWhentouseInterfaces.html
+          path: /dox/ecrTourWhentouseInterfaces.html
         - title: Inheritance and the .NET Framework
-          path: /dox/aerTourInheritanceandtheNETFramework.html
+          path: /dox/ecrTourInheritanceandtheNETFramework.html
     - sectiontitle: Creating and Using Objects
       section:
       - title: Overview
-        path: /dox/aerTourCreatingandUsingObjectsMain.html
+        path: /dox/ecrTourCreatingandUsingObjectsMain.html
       - title: Introduction to Objects in Encore RPG
-        path: /dox/aerTourIntroductiontoObjects.html
+        path: /dox/ecrTourIntroductiontoObjects.html
       - title: Setting and Retrieving Properties
-        path: /dox/aerTourSettingandRetrievingProperties.html
+        path: /dox/ecrTourSettingandRetrievingProperties.html
       - title: Performing Actions with Methods
-        path: /dox/aerTourPerformingActionswithMethods.html
+        path: /dox/ecrTourPerformingActionswithMethods.html
       - title: Treating Forms as Objects
-        path: /dox/aerTourTreatingFormsasObjects.html
+        path: /dox/ecrTourTreatingFormsasObjects.html
   - sectiontitle: Language Reference
     section:
     - title: Overview
-      path: /dox/aerLrfLangRefMain.html
+      path: /dox/ecrLrfLangRefMain.html
     - sectiontitle: Language Elements
       section:
       - title: Overview
-        path: /dox/aerLrfLangElementsMain.html
+        path: /dox/ecrLrfLangElementsMain.html
       - title: Comments
         path: /dox/Comments.html
       - title: File Processing
@@ -355,15 +355,15 @@ dox:
         - sectiontitle: Access Types
           section:
           - title: Overview
-            path: /dox/aerConAccessTypes.html
+            path: /dox/ecrConAccessTypes.html
           - title: Internal Access
-            path: /dox/aerkeyInternal.html
+            path: /dox/ecrkeyInternal.html
           - title: Public Access
-            path: /dox/aerkeyPublic.html
+            path: /dox/ecrkeyPublic.html
           - title: Private Access
-            path: /dox/aerkeyPrivate.html
+            path: /dox/ecrkeyPrivate.html
           - title: Protected Access
-            path: /dox/aerkeyProtected.html
+            path: /dox/ecrkeyProtected.html
       - title: General Subroutines
         path: /dox/General_Subroutines.html
       - title: Multiple Occurrence Data Structures
@@ -381,9 +381,9 @@ dox:
       - title: Type Conversions
         path: /dox/Type_Conversions.html
       - title: Setting Colors
-        path: /dox/aerLrfSettingColors.html
+        path: /dox/ecrLrfSettingColors.html
       - title: Methods
-        path: /dox/aerLrfMethodsMain.html
+        path: /dox/ecrLrfMethodsMain.html
       - title: Comparison Commands
         path: /dox/Comparison_Commands.html
       - sectiontitle: Comparison Operators
@@ -395,7 +395,7 @@ dox:
       - title: Programs
         path: /dox/Programs.html
       - title: Functions
-        path: /dox/aerLrfFunctionsMain.html
+        path: /dox/ecrLrfFunctionsMain.html
       - sectiontitle: Event Subroutines
         section:
         - title: Overview
@@ -403,19 +403,19 @@ dox:
         - title: Event Subroutine Parameters
           path: /dox/Event_Subroutine_Parameters.html
       - title: Properties
-        path: /dox/aerLrfPropertiesMain.html
+        path: /dox/ecrLrfPropertiesMain.html
       - title: Control Properties
         path: /dox/Control_Properties.html
       - sectiontitle: Edit Code Table
         section:
         - title: Overview
-          path: /dox/aerLrfEditCodeTable.html
+          path: /dox/ecrLrfEditCodeTable.html
         - title: Edit Code Table
           path: /dox/sharedEditCodeTable.html
       - title: Commitment Control
         path: /dox/Comittment_Control.html
       - title: Edit Word Usage
-        path: /dox/aerLrfEditWordTable.html
+        path: /dox/ecrLrfEditWordTable.html
     - sectiontitle: Built-In Functions
       section:
       - title: Overview
@@ -531,29 +531,29 @@ dox:
     - sectiontitle: Class Library
       section:
       - title: Overview
-        path: /dox/aerLrfClassLibraryMain.html
+        path: /dox/ecrLrfClassLibraryMain.html
       - sectiontitle: ASNA.VisualRPG.Runtime Namespace
         section:
         - title: Overview
-          path: /dox/aerLrfRuntimeNamespace.html
+          path: /dox/ecrLrfRuntimeNamespace.html
         - sectiontitle: Database Class
           section:
           - title: Overview
-            path: /dox/aerLrfDatabaseClass.html
+            path: /dox/ecrLrfDatabaseClass.html
           - sectiontitle: Database Members
             section:
             - title: Overview
-              path: /dox/aerLrfDatabaseMembers.html
+              path: /dox/ecrLrfDatabaseMembers.html
             - sectiontitle: Database Constructors
               section:
               - title: Overview
-                path: /dox/aerLrfDatabaseConstructors.html
+                path: /dox/ecrLrfDatabaseConstructors.html
               - title: Database.Database (string)
                 path: /dox/Database_DatabaseConstructor.html
           - sectiontitle: Database Methods
             section:
             - title: Overview
-              path: /dox/aerLrfDatabaseMethods.html
+              path: /dox/ecrLrfDatabaseMethods.html
             - title: Database.AddMember Method
               path: /dox/AddMember_Method.html
             - title: Database.ClearMember Method
@@ -587,7 +587,7 @@ dox:
           - sectiontitle: Database Properties
             section:
             - title: Overview
-              path: /dox/aerLrfDatabasePropertiesMain.html
+              path: /dox/ecrLrfDatabasePropertiesMain.html
             - title: Database.CurrentUserLibl Property
               path: /dox/CurrentUserLiblProperty.html
             - title: Database.DBName Property
@@ -617,35 +617,35 @@ dox:
         - sectiontitle: DataGateException Class
           section:
           - title: Overview
-            path: /dox/aerLrfDataGateExceptionClass.html
+            path: /dox/ecrLrfDataGateExceptionClass.html
           - title: DataGateException Members
-            path: /dox/aerLrfDataGateExceptionMembers.html
+            path: /dox/ecrLrfDataGateExceptionMembers.html
           - sectiontitle: DataGateException Methods
             section:
             - title: Overview
-              path: /dox/aerLrfDataGateExceptionMethods.html
+              path: /dox/ecrLrfDataGateExceptionMethods.html
             - title: DataGateException.ToString Method
               path: /dox/ToString_Method_DGEClass.html
           - sectiontitle: DataGateException Fields
             section:
             - title: Overview
-              path: /dox/aerLrfDataGateExceptionFields.html
+              path: /dox/ecrLrfDataGateExceptionFields.html
             - title: DataGateException.CausingException Field
-              path: /dox/aerLrfCausingExceptionFieldDataGateExceptionClass.html
+              path: /dox/ecrLrfCausingExceptionFieldDataGateExceptionClass.html
             - title: DataGateException.DclFileName Field
-              path: /dox/aerLrfDclFileNameFieldDataGateExceptionClass.html
+              path: /dox/ecrLrfDclFileNameFieldDataGateExceptionClass.html
         - sectiontitle: DBFile Class
           section:
           - title: Overview
-            path: /dox/aerLrfDBFileClass.html
+            path: /dox/ecrLrfDBFileClass.html
           - title: DBFile Members
-            path: /dox/aerLrfDBFileMembers.html
+            path: /dox/ecrLrfDBFileMembers.html
           - sectiontitle: DBFile Properties
             section:
             - title: Overview
-              path: /dox/aerLrfDBFilePropertiesMain.html
+              path: /dox/ecrLrfDBFilePropertiesMain.html
             - title: "DBFile.Overrider Property"
-              path: /dox/aerLrfDBFileClassOverriderProperty.html
+              path: /dox/ecrLrfDBFileClassOverriderProperty.html
             - title: DBFile.FormatName Property
               path: /dox/FormatName_Property.html
             - title: IsEof Property
@@ -663,7 +663,7 @@ dox:
           - sectiontitle: DBFile Fields
             section:
             - title: Overview
-              path: /dox/aerLrfDbFileFieldsMain.html
+              path: /dox/ecrLrfDbFileFieldsMain.html
             - title: DBFile.BlockingFactor Field
               path: /dox/BlockingFactorFieldDBFileClass.html
             - title: PrintFile.DclFileName Field
@@ -671,11 +671,11 @@ dox:
             - title: DBFile.FilePath Field
               path: /dox/FilePathFieldDBFileClass.html
             - title: DBFile.IsDefaultRFN Field
-              path: /dox/aerLrfIsDefaultRFNFieldDBFileClass.html
+              path: /dox/ecrLrfIsDefaultRFNFieldDBFileClass.html
             - title: DBFile.IsFormatID Field
               path: /dox/IsFormatIDFieldDBFileClass.html
             - title: DBFile.IsKeyed Field
-              path: /dox/aerLrfIsKeyedFieldDBFileClass.html
+              path: /dox/ecrLrfIsKeyedFieldDBFileClass.html
             - title: DBFile.MemberName Field
               path: /dox/MemberNameFieldDBFileClass.html
             - title: DBFile.QryFileName Field
@@ -691,83 +691,83 @@ dox:
           - sectiontitle: DBFile Constructors
             section:
             - title: Overview
-              path: /dox/aerLrfDBFileConstructors.html
+              path: /dox/ecrLrfDBFileConstructors.html
             - title: DBFile.DBFile (string, string, string, int, string, boolean, int, string, string, string)
               path: /dox/DBFile_DBFileConstructor.html
         - sectiontitle: IDS Interface
           section:
           - title: Overview
-            path: /dox/aerLrfIDSClass.html
+            path: /dox/ecrLrfIDSClass.html
           - title: IDS Members
-            path: /dox/aerLrfIDSClassMembers.html
+            path: /dox/ecrLrfIDSClassMembers.html
           - sectiontitle: IDS Methods
             section:
             - title: Overview
-              path: /dox/aerLrfIDSClassMethods.html
+              path: /dox/ecrLrfIDSClassMethods.html
             - title: IDS.Clear Method
-              path: /dox/aerLrfIDSClassClearMethod.html
+              path: /dox/ecrLrfIDSClassClearMethod.html
             - title: IDS.Dump Method
-              path: /dox/aerLrfIDSClassDumpMethod.html
+              path: /dox/ecrLrfIDSClassDumpMethod.html
             - title: IDS.Load Method
-              path: /dox/aerLrfIDSClassLoadMethod.html
+              path: /dox/ecrLrfIDSClassLoadMethod.html
             - title: IDS.ObjectToParm Method
-              path: /dox/aerLrfIDSClassObjectToParmMethod.html
+              path: /dox/ecrLrfIDSClassObjectToParmMethod.html
             - title: IDS.ParmToObject Method
-              path: /dox/aerLrfIDSClassParmToObjectMethod.html
+              path: /dox/ecrLrfIDSClassParmToObjectMethod.html
           - sectiontitle: IDS Properties
             section:
             - title: Overview
-              path: /dox/aerLrfIDSClassProperties.html
+              path: /dox/ecrLrfIDSClassProperties.html
             - title: IDS.Length Property
-              path: /dox/aerLrfIDSClassLengthProperty.html
+              path: /dox/ecrLrfIDSClassLengthProperty.html
         - sectiontitle: IMODS Interface
           section:
           - title: Overview
-            path: /dox/aerLrfIMODSClass.html
+            path: /dox/ecrLrfIMODSClass.html
           - title: IMODS Members
-            path: /dox/aerLrfIMODSClassMembers.html
+            path: /dox/ecrLrfIMODSClassMembers.html
           - sectiontitle: IMODS Methods
             section:
             - title: Overview
-              path: /dox/aerLrfIMODSClassMethods.html
+              path: /dox/ecrLrfIMODSClassMethods.html
             - title: IMODS.ClearAll Method
-              path: /dox/aerLrfIMODSClassClearAllMethod.html
+              path: /dox/ecrLrfIMODSClassClearAllMethod.html
             - title: IMODS.DumpAll Method
-              path: /dox/aerLrfIMODSClassDumpAllMethod.html
+              path: /dox/ecrLrfIMODSClassDumpAllMethod.html
             - title: IMODS.LoadAll Method
-              path: /dox/aerLrfIMODSClassLoadAllMethod.html
+              path: /dox/ecrLrfIMODSClassLoadAllMethod.html
           - sectiontitle: IMODS Properties
             section:
             - title: Overview
-              path: /dox/aerLrfIMODSClassProperties.html
+              path: /dox/ecrLrfIMODSClassProperties.html
             - title: IMODS.Occurance Property
-              path: /dox/aerLrfIMODSClassOccuranceProperty.html
+              path: /dox/ecrLrfIMODSClassOccuranceProperty.html
         - sectiontitle: MessageFileReader Class
           section:
           - title: Overview
-            path: /dox/aerLrfMessageFileReaderClass.html
+            path: /dox/ecrLrfMessageFileReaderClass.html
           - title: MessageFileReader Members
-            path: /dox/aerLrfMessageFileReaderMembers.html
+            path: /dox/ecrLrfMessageFileReaderMembers.html
           - sectiontitle: MessageFileReader Methods
             section:
             - title: Overview
-              path: /dox/aerLrfMessageFileReaderMethodsMain.html
+              path: /dox/ecrLrfMessageFileReaderMethodsMain.html
             - title: GetMessageText Method
               path: /dox/GetMessageTextMethod.html
             - title: GetSecondMessageText Method
               path: /dox/GetSecondMessageTextMethod.html
           - title: MessageFileReader Constructors
-            path: /dox/aerLrfMessageFileReaderConstructorsMain.html
+            path: /dox/ecrLrfMessageFileReaderConstructorsMain.html
         - sectiontitle: PrintFile Class
           section:
           - title: Overview
-            path: /dox/aerLrfPrintFileClass.html
+            path: /dox/ecrLrfPrintFileClass.html
           - title: PrintFile Members
-            path: /dox/aerLrfPrintFileMembers.html
+            path: /dox/ecrLrfPrintFileMembers.html
           - sectiontitle: PrintFile Properties
             section:
             - title: Overview
-              path: /dox/aerLrfPrintFileProperties.html
+              path: /dox/ecrLrfPrintFileProperties.html
             - title: PrintFile.Collate Property
               path: /dox/Collate_Property.html
             - title: File.LastException Property
@@ -829,7 +829,7 @@ dox:
           - sectiontitle: PrintFile Fields
             section:
             - title: Overview
-              path: /dox/aerLrfPrintFileFields.html
+              path: /dox/ecrLrfPrintFileFields.html
             - title: PrintFile.DclPrintFileName Field
               path: /dox/DclPrintFileName_Field.html
             - title: PrintFile.FilePath Field
@@ -843,7 +843,7 @@ dox:
           - sectiontitle: PrintFile Constructors
             section:
             - title: Overview
-              path: /dox/aerLrfPrintFileConstructors.html
+              path: /dox/ecrLrfPrintFileConstructors.html
             - title: PrintFile.PrintFile (string, string, string, boolean)
               path: /dox/PrintFile_PrintFileConstructor.html
         - title: ImplicitDecimal Property
@@ -851,7 +851,7 @@ dox:
     - sectiontitle: Constants
       section:
       - title: Overview
-        path: /dox/aerLrfConstantsMain.html
+        path: /dox/ecrLrfConstantsMain.html
       - title: Hexadecimal Numeric Constant
         path: /dox/Hexadecimal_Numeric_Constants.html
       - sectiontitle: Figurative Constants
@@ -865,7 +865,7 @@ dox:
     - sectiontitle: DataTypes
       section:
       - title: Overview
-        path: /dox/aerLrfDataTypesMain.html
+        path: /dox/ecrLrfDataTypesMain.html
       - title: "*Binary Data Type"
         path: /dox/Binary_Data_Type.html
       - title: Data Type Summary
@@ -911,7 +911,7 @@ dox:
     - sectiontitle: Date and Time
       section:
       - title: Overview
-        path: /dox/aerLrfDateandTimeMain.html
+        path: /dox/ecrLrfDateandTimeMain.html
       - title: Adding or Subtracting Dates
         path: /dox/Adding_or_Subtracting_Dates.html
       - title: Calculating Durations between Dates
@@ -933,23 +933,23 @@ dox:
     - sectiontitle: Compiler Directives
       section:
       - title: Overview
-        path: /dox/aerCompilerDirectivesMain.html
+        path: /dox/ecrCompilerDirectivesMain.html
       - title: /DEFINE (Encore RPG)
-        path: /dox/aerCompilerDirectivesDefine.html
+        path: /dox/ecrCompilerDirectivesDefine.html
       - title: /EOF (Encore RPG)
-        path: /dox/aerCompilerDirectivesEof.html
+        path: /dox/ecrCompilerDirectivesEof.html
       - title: /IF /ELSE /ELSEIF /ENDIF (Encore RPG)
-        path: /dox/aerCompilerDirectivesIfElseEndIf.html
+        path: /dox/ecrCompilerDirectivesIfElseEndIf.html
       - title: /ENDREGION (Encore RPG)
-        path: /dox/aerCompilerDirectivesEndRegion.html
+        path: /dox/ecrCompilerDirectivesEndRegion.html
       - title: /REGION (Encore RPG)
-        path: /dox/aerCompilerDirectivesRegion.html
+        path: /dox/ecrCompilerDirectivesRegion.html
       - title: /UNDEFINE (Encore RPG)
-        path: /dox/aerCompilerDirectivesUndefine.html
+        path: /dox/ecrCompilerDirectivesUndefine.html
     - sectiontitle: Figurative Constants
       section:
       - title: Overview
-        path: /dox/aerLrfFigConstantsMain.html
+        path: /dox/ecrLrfFigConstantsMain.html
       - title: "*ALL/*ALL\"x..\""
         path: /dox/Star_ALL.html
       - title: "*ALLU"
@@ -995,7 +995,7 @@ dox:
     - sectiontitle: Operation Codes
       section:
       - title: Overview
-        path: /dox/aerLrfOpCodesMain.html
+        path: /dox/ecrLrfOpCodesMain.html
       - title: ADD
         path: /dox/ADD.html
       - title: ADDDUR
@@ -1327,7 +1327,7 @@ dox:
     - sectiontitle: Literals
       section:
       - title: Overview
-        path: /dox/aerLrfLiteralsMain.html
+        path: /dox/ecrLrfLiteralsMain.html
       - title: Boolean Literal
         path: /dox/Boolean_Literal.html
       - title: Character Literal
@@ -1351,7 +1351,7 @@ dox:
     - sectiontitle: Special Values
       section:
       - title: Overview
-        path: /dox/aerLrfSpecialValuesMain.html
+        path: /dox/ecrLrfSpecialValuesMain.html
       - title: "*END"
         path: /dox/StarEND.html
       - title: "*New"
@@ -1365,7 +1365,7 @@ dox:
     - sectiontitle: Syntactical Elements
       section:
       - title: Overview
-        path: /dox/aerLrfSyntacticalElementsMain.html
+        path: /dox/ecrLrfSyntacticalElementsMain.html
       - title: Commands
         path: /dox/Commands.html
       - sectiontitle: Expressions
@@ -1383,9 +1383,9 @@ dox:
     - sectiontitle: Operators
       section:
       - title: Overview
-        path: /dox/aerLrfOperatorsMain.html
+        path: /dox/ecrLrfOperatorsMain.html
       - title: Logical Operators
-        path: /dox/aerLrfLogicalOperators.html
+        path: /dox/ecrLrfLogicalOperators.html
       - title: + Operator
         path: /dox/Plus_Operator.html
       - title: "* Operator"
@@ -1395,9 +1395,9 @@ dox:
       - title: "** Operator"
         path: /dox/StarStar_Op.html
       - title: "<< Operator"
-        path: /dox/aerLrfLeftShiftOperator.html
+        path: /dox/ecrLrfLeftShiftOperator.html
       - title: ">> Operator"
-        path: /dox/aerLrfRightShiftOperator.html
+        path: /dox/ecrLrfRightShiftOperator.html
       - title: "*As Operator"
         path: /dox/As_Operator.html
       - title: "*ASFLD Operator"
@@ -1423,7 +1423,7 @@ dox:
     - sectiontitle: Variables
       section:
       - title: Overview
-        path: /dox/aerLrfVariablesMain.html
+        path: /dox/ecrLrfVariablesMain.html
       - title: Array Elements
         path: /dox/Array_Element.html
       - title: Variable Names

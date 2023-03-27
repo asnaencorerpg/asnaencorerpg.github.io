@@ -16,7 +16,7 @@ TocOrder: 13
 
 **NumericExpression, EditCode** 
 
-Required. In general, the rules for the [Numeric Expression](Num_Expression.html) and [Edit Code](aerLrfEditCodeTable.html) parameters are identical to those for editing numeric values in output specifications. 
+Required. In general, the rules for the [Numeric Expression](Num_Expression.html) and [Edit Code](ecrLrfEditCodeTable.html) parameters are identical to those for editing numeric values in output specifications. 
 
 When using the % **EDITC** built-in-function, you can only enter the alpha representation for the desired edit code. You cannot enter the numeric representation.
 
@@ -48,4 +48,4 @@ Optional. The third parameter is optional, and if specified, must be one of the 
 
 [Numeric Expression](Num_Expression.html)
 
-[Edit Code Usage](aerLrfEditCodeTable.html) 
+[Edit Code Usage](ecrLrfEditCodeTable.html) 

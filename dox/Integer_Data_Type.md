@@ -37,7 +37,7 @@ You can also use the following data types to automatically set the length of the
 * **Integer8** - sets the length to an 8-byte integer.
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html)
+[Data Types](ecrLrfDataTypesMain.html)
 
 [*Integer2](Integer2_data_type.html)
 

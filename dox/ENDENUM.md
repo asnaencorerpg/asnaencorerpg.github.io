@@ -8,7 +8,7 @@ TocOrder: 820
 
 ---
 
-Finishes an [Enumeration](aerConEnumerationsOverview.html) definition ([BEGENUM](BEGENUM.html)). 
+Finishes an [Enumeration](ecrConEnumerationsOverview.html) definition ([BEGENUM](BEGENUM.html)). 
 
 ```
 
@@ -31,4 +31,4 @@ BegEnum myEnum basetype( *byte )
 ### See Also
 [BEGENUM](BEGENUM.html)
 
-[Enumeration Definition](aerConEnumerationsOverview.html) 
+[Enumeration Definition](ecrConEnumerationsOverview.html) 

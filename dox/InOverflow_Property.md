@@ -32,11 +32,11 @@ TocOrder: 6
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. <br /> 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[PrintFile Class](aerLrfPrintFileClass.html)
+[PrintFile Class](ecrLrfPrintFileClass.html)
 
-[PrintFile Members](aerLrfPrintFileMembers.html)
+[PrintFile Members](ecrLrfPrintFileMembers.html)
 
 [OPEN](OPEN.html)
 

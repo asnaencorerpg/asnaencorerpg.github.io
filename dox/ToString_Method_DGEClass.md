@@ -16,13 +16,13 @@ TocOrder: 5
 ```
 
 ### Remarks
-The string returned by the **ToString** method contains the declared file name (DclFileName) and the errors that caused ([CausingException](aerLrfCausingExceptionFieldDataGateExceptionClass.html)) an exception during application execution. **CausingException** is of type **ASNA.DataGate.Common.dgException** . 
+The string returned by the **ToString** method contains the declared file name (DclFileName) and the errors that caused ([CausingException](ecrLrfCausingExceptionFieldDataGateExceptionClass.html)) an exception during application execution. **CausingException** is of type **ASNA.DataGate.Common.dgException** . 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[DataGateException Class](aerLrfDataGateExceptionClass.html)
+[DataGateException Class](ecrLrfDataGateExceptionClass.html)
 
-[DataGateException Members](aerLrfDataGateExceptionMembers.html)
+[DataGateException Members](ecrLrfDataGateExceptionMembers.html)
 
-[CausingException Field](aerLrfCausingExceptionFieldDataGateExceptionClass.html) 
+[CausingException Field](ecrLrfCausingExceptionFieldDataGateExceptionClass.html) 

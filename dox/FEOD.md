@@ -55,8 +55,8 @@ If the [PrintFile.Preview](Preview_Property.html) is "PrintPreview", the print d
 
 [DCLPRINTFILE](DCLPRINTFILE.html)
 
-[PrintFile Class](aerLrfPrintFileClass.html)
+[PrintFile Class](ecrLrfPrintFileClass.html)
 
-[PrintFile Members](aerLrfPrintFileMembers.html)
+[PrintFile Members](ecrLrfPrintFileMembers.html)
 
 [PrintFile.Preview Property](Preview_Property.html) 

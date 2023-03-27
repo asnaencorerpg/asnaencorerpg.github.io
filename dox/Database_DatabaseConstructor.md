@@ -7,7 +7,7 @@ TocOrder: 10
 
 ---
 
-**Database** initializes a new instance of a [Database](aerLrfDatabaseClass.html) object. 
+**Database** initializes a new instance of a [Database](ecrLrfDatabaseClass.html) object. 
 <pre class="prettyprint">
  **Database (dbName)** 
       </pre>
@@ -38,10 +38,10 @@ You can use the [UpdateName](UpdateName_Method.html) method to write the current
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[Database Class](aerLrfDatabaseClass.html)
+[Database Class](ecrLrfDatabaseClass.html)
 
-[Database Members](aerLrfDatabaseMembers.html)
+[Database Members](ecrLrfDatabaseMembers.html)
 
 [DCLDB](DCLDB.html) 

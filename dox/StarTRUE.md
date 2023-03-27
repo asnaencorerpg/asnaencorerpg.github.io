@@ -21,7 +21,7 @@ myBool = *False
 ```
 
 ### See Also
-[Figurative Constants](aerLrfFigConstantsMain.html)
+[Figurative Constants](ecrLrfFigConstantsMain.html)
 
 [*Boolean Data Type](Boolean_Data_Type.html)
 

@@ -29,7 +29,7 @@ User date fields are not ***Date data type** fields, but are numeric fields.
 IOFIELD1 = *DATE 
 
 ### See Also
-[Figurative Constants](aerLrfFigConstantsMain.html)
+[Figurative Constants](ecrLrfFigConstantsMain.html)
 
 [*Day](StarDay.html)
 

@@ -8,7 +8,7 @@ TocOrder: 1
 
 ---
 
-Overloaded. **GetSecondMessageText** returns second-level message data from an ASNA message file. See [MessageFileReader Class](aerLrfMessageFileReaderClass.html) for a description on how to establish a Message File. 
+Overloaded. **GetSecondMessageText** returns second-level message data from an ASNA message file. See [MessageFileReader Class](ecrLrfMessageFileReaderClass.html) for a description on how to establish a Message File. 
 
 ### Overload List
 Returns the second level message text from the specified prefix and number.
@@ -74,10 +74,10 @@ An array of objects meant to replace the symbolic
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. <br /> 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[MessageFileReader Class](aerLrfMessageFileReaderClass.html)
+[MessageFileReader Class](ecrLrfMessageFileReaderClass.html)
 
-[MessageFileReader Members](aerLrfMessageFileReaderMembers.html)
+[MessageFileReader Members](ecrLrfMessageFileReaderMembers.html)
 
 [GetMessageText Method](GetMessageTextMethod.html) 

@@ -143,7 +143,7 @@ Notes:
 
 Optional. A subroutine that is called when a file error occurs in a file operation that is NOT using an error indicator. 
 
-- For more detail see the related Concepts page: [Using the InfSR Keyword](aerConInfSRKeyword.html)
+- For more detail see the related Concepts page: [Using the InfSR Keyword](ecrConInfSRKeyword.html)
 
 
 ### Remarks

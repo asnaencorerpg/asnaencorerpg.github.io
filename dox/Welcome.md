@@ -12,7 +12,7 @@ ASNA Encore RPG integrates with Microsoft Visual Studio to give you a complete s
 
 ### In the Encore RPG Documentation
 
-[Getting Started](aerGettingStartedMain.html)
+[Getting Started](ecrGettingStartedMain.html)
 
 Find out about topics to assist you with getting started, and
                     the installation procedures for Encore RPG.
@@ -20,11 +20,11 @@ Find out about topics to assist you with getting started, and
 
 ### Additional Information
 
-[Language Reference](aerLrfLangRefMain.html)
+[Language Reference](ecrLrfLangRefMain.html)
 
 Find out about the new Language Concepts when using Encore RPG.
 
-[Language Concepts](aerConLanguageConceptsMain.html)
+[Language Concepts](ecrConLanguageConceptsMain.html)
 
 Describes the Encore RPG programming language reference.
 

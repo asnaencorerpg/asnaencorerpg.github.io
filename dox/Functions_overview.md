@@ -804,4 +804,4 @@ The result is a date or timestamp value with the appropriate *number* of years a
 </table>
 
 ### Related Sections
-[Encore RPG Language Reference](aerLrfLangRefMain.html) <br /> Provides a reference of the Encore RPG language. 
+[Encore RPG Language Reference](ecrLrfLangRefMain.html) <br /> Provides a reference of the Encore RPG language. 

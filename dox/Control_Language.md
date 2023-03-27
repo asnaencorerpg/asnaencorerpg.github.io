@@ -17,7 +17,7 @@ Database control operation codes are incorporated into the Encore RPG language s
 
 
 ### See Also
-[Language Elements](aerLrfLangElementsMain.html)
+[Language Elements](ecrLrfLangElementsMain.html)
 
 [OSEXEC](OsExec.html)
 

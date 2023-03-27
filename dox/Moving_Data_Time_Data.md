@@ -57,7 +57,7 @@ When moving from a **Date to a Timestamp** field, the time and microsecond porti
 When moving from a **Time to a Timestamp** field, the microsecond's part of the timestamp is set to 000000. The date portion remains unaffected, but an error occurs if the entire timestamp is not valid. 
 
 ### See Also
-[Date and Time](aerLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
 
 [Date Data Type](Date_Data_Type.html)
 

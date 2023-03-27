@@ -17,4 +17,4 @@ You can specify an alternative sign format for zoned-decimal format. In the alte
 When an alternative sign format is specified, the field length (specified on the input specification) must include an additional position for the sign. For example, if a field is 5 digits long and the alternative sign format is specified, a field length of 6 positions must be specified. 
 
 ### See Also
-[Data Types](aerLrfDataTypesMain.html) 
+[Data Types](ecrLrfDataTypesMain.html) 

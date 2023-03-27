@@ -32,11 +32,11 @@ Boolean. Returns a **True** or **False** indicating if End-of-File has been reac
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
-[DBFile Class](aerLrfDBFileClass.html)
+[DBFile Class](ecrLrfDBFileClass.html)
 
-[DBFile Class Members](aerLrfDBFileMembers.html)
+[DBFile Class Members](ecrLrfDBFileMembers.html)
 
 [DCLDISKFILE](DCLDISKFILE.html)
 

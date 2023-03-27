@@ -102,8 +102,8 @@ Whether or not your system produces a sound, regardless of the type, depends on 
 ![](Images/beep.gif) 
 
 ### See Also
-[Custom Attributes](aerConCustomAttributes.html)
+[Custom Attributes](ecrConCustomAttributes.html)
 
 [ENDCLASS](ENDCLASS.html)
 
-[Understanding Classes](aerTourUnderstandingClassesMain.html) 
+[Understanding Classes](ecrTourUnderstandingClassesMain.html) 

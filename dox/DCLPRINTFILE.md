@@ -43,7 +43,7 @@ Required. **Name** can contain either:
 
 - A name of the form **Library.Object** , where Library is the name of one of the libraries selected in the new object libraries dialog, and Object is valid object name within that library.
 
-**Note** : Using the DclDiskFile ** *name* ** , you can then get to its **fields** and **properties** . Please note that methods are reserved for use by the ASNA.Encore RPG compiler, so use the corresponding Encore RPG command if applicable. See [PrintFile Class Members](aerLrfPrintFileMembers.html) for a listing of available members.
+**Note** : Using the DclDiskFile ** *name* ** , you can then get to its **fields** and **properties** . Please note that methods are reserved for use by the ASNA.Encore RPG compiler, so use the corresponding Encore RPG command if applicable. See [PrintFile Class Members](ecrLrfPrintFileMembers.html) for a listing of available members.
 
 
 **Db** 
@@ -124,7 +124,7 @@ You can also optionally specify a numeric value (length) to indicate the number 
 Optional. **OverFlowInd** contains the name of an indicator used to specify if the print file has reached the Overflow area. The indicator-name must be a previous declared field of Type (*Ind). After each ‘write’ to the print file, the cursor is positioned in the overflow area (line number as defined by the .NET Print file). The indicator named will then be set on (*ON), and the program may then test for the indicator specified to Write to other formats, such as Page Headers. Page Headers, or other formats should include properties to start a new page before printing, causing the cursor to be positioned outside the overflow area, ready for the next Write. For the next ‘write’ that is not within the overflow area, the indicator named will be turned off (*OFF).
 
 
-For Monarch programs migrated using the RPG Cycle, the indicators ***INOA - *INOG and *INOV** are supported. These overflow indicators condition the lines to be printed when overflow occurs on a program described printer file. See [Overflow Indicators](aerCycle_OverflowIndicators.html) for more information.
+For Monarch programs migrated using the RPG Cycle, the indicators ***INOA - *INOG and *INOV** are supported. These overflow indicators condition the lines to be printed when overflow occurs on a program described printer file. See [Overflow Indicators](ecrCycle_OverflowIndicators.html) for more information.
 
 
 **IndDS** 
@@ -176,13 +176,13 @@ Optional. Shared specifies whether or not this file is to be shared. *NO is the 
 
 Optional. A subroutine that is called when a file error occurs in a file operation that is NOT using an error indicator. 
 
-- For more detail see the related Concepts page: [Using the InfSR Keyword](aerConInfSRKeyword.html)
+- For more detail see the related Concepts page: [Using the InfSR Keyword](ecrConInfSRKeyword.html)
 
 
 ### Remarks
 **DCLPRINTFILE** declares a DataGate printfile for printing at run-time. At compile time, the description of the file is read in with its record format. The file name and each record format name must be unique. 
 
-The **Name** parameter is **required** and contains the name of the print file. Using the printerfile ** *name* ** , you can then get to its **fields** and **properties.** Please note that **methods** are reserved for use by the ASNA.Encore RPG compiler, so use the corresponding Encore RPG command when applicable. See [PrintFile Class Members](aerLrfPrintFileMembers.html) for a listing of available members. 
+The **Name** parameter is **required** and contains the name of the print file. Using the printerfile ** *name* ** , you can then get to its **fields** and **properties.** Please note that **methods** are reserved for use by the ASNA.Encore RPG compiler, so use the corresponding Encore RPG command when applicable. See [PrintFile Class Members](ecrLrfPrintFileMembers.html) for a listing of available members. 
 
 Print Files are always opened for sequential output operation. 
 
@@ -228,4 +228,4 @@ DclPrintFile Name(Inventory) ImpOpen(*NO) DB(DBSQL) File("TestLib/InvReport")  I
 
 [DCLFILECONT](DCLFILECONT.html)
 
-[PrintFile Class Members](aerLrfPrintFileMembers.html) 
+[PrintFile Class Members](ecrLrfPrintFileMembers.html) 

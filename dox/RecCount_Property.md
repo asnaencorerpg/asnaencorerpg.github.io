@@ -37,11 +37,11 @@ The record count returned can differ for logical files depending upon the databa
 **Platforms:** Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 ### See Also
-[ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
 
 [Database Class](Date_Formats.html)
 
-[Database Class Members](aerLrfDatabasePropertiesMain.html)
+[Database Class Members](ecrLrfDatabasePropertiesMain.html)
 
 [DCLDISKFILE](DCLDISKFILE.html)
 
