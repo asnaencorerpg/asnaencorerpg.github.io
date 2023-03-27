@@ -82,7 +82,7 @@ System default.
         </tr>
 </table>
  **Err** 
-        </p>
+        
 
 Optional. Will be set if any error condition is found with the file. The following rules apply: 
 

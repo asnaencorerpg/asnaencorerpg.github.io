@@ -46,7 +46,7 @@ Optional. Determines what the runtime will do if an error occurs while executing
 
 **Eof** 
 
-<p> Optional. Use the **Eof** (End-of-File) indicator, the [%EOF](EOF_Function.html) function, or the Files' [IsEof](IsEofPropertyDbFileClass.html) property to determine if the End-Of-File was reached while executing the command. 
+Optional. Use the **Eof** (End-of-File) indicator, the [%EOF](EOF_Function.html) function, or the Files' [IsEof](IsEofPropertyDbFileClass.html) property to determine if the End-Of-File was reached while executing the command. 
 
 If any other error occurs, the error indicator will be set. The End of File indicator is also set when no more records exist with the same search argument.
 

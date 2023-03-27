@@ -31,7 +31,7 @@ If the custom color is a "named" color, the code behind generated will look some
 When the Web tab is selected, the following is displayed.
 ![](Images/webcolors.jpg)
 
-<p> Setting colors for a form or control at design-time uses the structure. The code behind generated will look something like the following (where *BackColor* represents the property being set): 
+Setting colors for a form or control at design-time uses the structure. The code behind generated will look something like the following (where *BackColor* represents the property being set): 
 
 ```
 *this.BackColor = System.Drawing.Color. **LightGray** 

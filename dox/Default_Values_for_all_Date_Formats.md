@@ -8,8 +8,8 @@ TocOrder: 6
 
 ---
 
-<table id="Table2" style="WIDTH: 100%; border-spacing: 0px" cellspacing="0" width="100%" x-use-null-cells="x-use-null-cells"> <colgroup span="1"> <col span="1" style="WIDTH: 63px" /> <col span="1" style="WIDTH: 137px" /> <col span="1" /> <col span="1" /> <col span="1" /> </colgroup> <tr valign="top" style="x-cell-content-align: top"> <td colspan="1" rowspan="1" width="63" bgcolor="#e0e0e0"> <p> **Format Name** 
-</td>
+<table id="Table2" style="WIDTH: 100%; border-spacing: 0px" cellspacing="0" width="100%" x-use-null-cells="x-use-null-cells"> <colgroup span="1"> <col span="1" style="WIDTH: 63px" /> <col span="1" style="WIDTH: 137px" /> <col span="1" /> <col span="1" /> <col span="1" /> </colgroup> <tr valign="top" style="x-cell-content-align: top"> 
+<td colspan="1" rowspan="1" width="63" bgcolor="#e0e0e0"> **Format Name** </td>
         <td colspan="1" rowspan="1" width="137" bgcolor="#e0e0e0">
 
 **Description** 
@@ -204,7 +204,7 @@ Japanese Industrial Standard Christian Era
 </td>
         </tr>
 </table>
-        </p>
+        
 
 ### See Also
 [Date and Time](ecrLrfDateandTimeMain.html)

@@ -45,7 +45,7 @@ Optional. Defaults to *FirstKey (meaning **LastKey** is the same as the **FirstK
 
 Optional. Specifies whether to include the very first record found within the range when deleting records. The default is *Yes. 
 
-- <p> *YES (Default) If the operation finds a record whose key matches the FirstKey, then the file is positioned at that record. If the record that matches the key is not found, then the file is positioned at the first record whose key is greater than the **FirstKey** .
+-  *YES (Default) If the operation finds a record whose key matches the FirstKey, then the file is positioned at that record. If the record that matches the key is not found, then the file is positioned at the first record whose key is greater than the **FirstKey** .
 - *NO The file is positioned on the first record whose key is **greater than** the **FirstKey** .
 
 

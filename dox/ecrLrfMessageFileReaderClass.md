@@ -93,7 +93,9 @@ Level 2 is extended message information. It is entered on the line immediately f
         for each message text. Replacement text is specified by a single ampersand,
         followed by the replacement number; i.e., &1, &2, … , &99.
 
-The replacement text is replaced at run-time by the **GetMessageText** method. <p /> **Keyboard Navigation Keys:** <p /> Within the message text, you can specify access keys by entering two ampersands (&&) in front of the character you wish to assign to the access key. Typically for use with menu and button text; for example, "E<u>x</u>it" would be in the message text as "E&&xit". <p /> If you actually want an ampersand to display as part of the text, merely enter "&&&". If you want 2 ampersands to display, then you will need to enter "&&&&", and so on. <p /> **Display Text on Next Line:** <p> You can specify an (&n) anywhere in the message text for a new line just prior to the text you want to display on the next line. 
+The replacement text is replaced at run-time by the **GetMessageText** method. <p /> **Keyboard Navigation Keys:** <p /> Within the message text, you can specify access keys by entering two ampersands (&&) in front of the character you wish to assign to the access key. Typically for use with menu and button text; for example, "E<u>x</u>it" would be in the message text as "E&&xit". <p /> If you actually want an ampersand to display as part of the text, merely enter "&&&". If you want 2 ampersands to display, then you will need to enter "&&&&", and so on. <p /> **Display Text on Next Line:**
+
+You can specify an (&n) anywhere in the message text for a new line just prior to the text you want to display on the next line. 
 
 **Compiling the message file:** 
 

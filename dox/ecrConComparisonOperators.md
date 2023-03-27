@@ -8,7 +8,7 @@ TocOrder: 1
 
 ---
 
-<p> Comparison operators compare two expressions and return a ```*Boolean``` value that represents the result of the comparison. There are operators for comparing numeric values, operators for comparing strings, and operators for comparing objects. All three types of operators are discussed below. 
+ Comparison operators compare two expressions and return a ```*Boolean``` value that represents the result of the comparison. There are operators for comparing numeric values, operators for comparing strings, and operators for comparing objects. All three types of operators are discussed below. 
 
 ### Comparing Numeric Values
 Numeric values are compared using six numeric comparison operators. The following table lists the operators and gives an example of the condition tested by the operator. 

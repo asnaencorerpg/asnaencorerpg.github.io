@@ -25,7 +25,7 @@ String value containing one of the following:
 - **ShareRead** - File is opened for read, other jobs may read or update.<br /> When this lock is granted, the object can be accessed non-exclusively by other sessions. When held, other sessions will be granted **ExlusiveRead** , **ShareUpdate** , **ShareRead** or **ShareNoUpdate** locks for the same object, so long as the lock requested does not conflict with another session's held lock. Alone, this lock prevents only **Exclusive** access. It is appropriate when the target object should not be locked exclusively by any one session.
 
 ### Remarks
-<p> **ShareType** must be set prior to opening the file (see [OPEN](OPEN.html) command). 
+**ShareType** must be set prior to opening the file (see [OPEN](OPEN.html) command). 
 
 If **ShareType** is not set, the value of the ** *ShareType* ** parameter specified in the [DCLDISKFILE](DCLDISKFILE.html) command is used. 
 

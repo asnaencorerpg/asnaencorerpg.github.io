@@ -323,7 +323,7 @@ Number of elements or occurrences.
 </td>
                     <td colspan="1" rowspan="1">
 
-</td> <td colspan="1" rowspan="1"> <p> "1" if the most recent operation with extender "E" specified resulted in an error condition. "0" and remains unchanged following the operation if no error occurs. 
+</td> <td colspan="1" rowspan="1"> "1" if the most recent operation with extender "E" specified resulted in an error condition. "0" and remains unchanged following the operation if no error occurs. 
 </td>
                 </tr>
                 <tr>

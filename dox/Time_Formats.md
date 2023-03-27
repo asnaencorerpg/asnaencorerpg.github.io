@@ -164,7 +164,7 @@ hh:mm:ss
 </td>
         </tr>
 </table>
-        </p>
+        
 
 The ampersand (&) separator is replaced with a blank character. E.g., * **HMS&** results in the example time formated as **01 05 PM** . 
 

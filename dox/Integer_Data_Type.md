@@ -26,7 +26,7 @@ The length of an integer field is defined in terms of number of bytes; it can be
 
 -2147483648 to 2147483647 
 
-<p>The equivalent .NET data type is **System.Int32** .
+The equivalent .NET data type is **System.Int32** .
 
 You can also use the following data types to automatically set the length of the data type. 
 

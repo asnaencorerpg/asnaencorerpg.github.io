@@ -8,7 +8,7 @@ TocOrder: 2
 
 ---
 
-<p> Declaration operation codes are used to name and define subroutines, variables, arrays, and constants. When you declare a procedure, variable, or constant, you also define its **access** , depending upon where you place the declaration and what keywords you use to declare it. 
+ Declaration operation codes are used to name and define subroutines, variables, arrays, and constants. When you declare a procedure, variable, or constant, you also define its **access** , depending upon where you place the declaration and what keywords you use to declare it. 
 
 A declaration operation code reserves the memory needed to create a variable, but does not explicitly create it. You can explicitly create a variable and assign it a value at the same time by using the following syntax: 
 

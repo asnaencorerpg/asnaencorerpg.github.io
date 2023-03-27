@@ -104,7 +104,7 @@ The result value will depend on the type of the **Target** field and on the time
                 <font>Format of Result </td>
         </tr>
 </table>
-        </p>
+        
 
 If **Target** is a numeric field, to access the time of day only, specify **Target** as a 6-digit numeric field. 
 

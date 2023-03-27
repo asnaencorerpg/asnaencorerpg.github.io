@@ -135,9 +135,7 @@ IBM European Standard
 00.00.00 
 </td>
         </tr>
-</table>
-        <br />
-        </p>
+</table>       
 
 ### See Also
 [Date and Time](ecrLrfDateandTimeMain.html)

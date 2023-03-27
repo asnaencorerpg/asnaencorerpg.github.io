@@ -27,7 +27,7 @@ TocOrder: 19
 
 Setting **PrintSetup** property to **True** prior to opening the printer file will result in the print setup dialog being displayed when the print file is opened. This allows the user to select print settings prior to printing. 
 
-<p> IF **PrintSetup** is set to **False** , the print setup dialog will not be displayed. If **PrintSetup** is not set, the print setup setting specified for the file will be used. 
+IF **PrintSetup** is set to **False** , the print setup dialog will not be displayed. If **PrintSetup** is not set, the print setup setting specified for the file will be used. 
 
 ### Requirements
 **Namespace:** ASNA.VisualRPG.Runtime 
