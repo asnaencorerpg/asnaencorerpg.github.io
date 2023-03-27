@@ -36,10 +36,15 @@ The equivalent .NET data type is .
 For **examples** 	on how to code date fields, see the examples in the following topics:
         <br /><br />[Date Operations](Date_Operations.html)
 [ADDDUR](ADDHANDLER.html)
+
 [MOVE](MOVE.html)
+
 [Moving Date and Time](Moving_Data_Time_Data.html)
+
 [EXTRACT](EXTRACT.html)
+
 [SUBDUR](SUBDUR.html)
+
 [TESTTIME](TESTTIME.html)
 
 ### See Also

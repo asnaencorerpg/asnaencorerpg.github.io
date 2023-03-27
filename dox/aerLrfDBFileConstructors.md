@@ -15,4 +15,5 @@ Initializes a new instance of the DBFile class.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html) 

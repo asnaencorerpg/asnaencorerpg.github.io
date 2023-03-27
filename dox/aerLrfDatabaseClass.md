@@ -43,5 +43,7 @@ There are two methods which are Shared. These methods don't affect the current v
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html)
+
 [DCLDB](DCLDB.html) 

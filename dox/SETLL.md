@@ -182,13 +182,23 @@ The READE operation reads the second, third, and fourth 101 records in the same 
 
 ### See Also
 [CHAIN](CHAIN.html)
+
 [READE](READE.html)
+
 [READRANGE](READRANGE.html)
+
 [SETGT](SETGT.html)
+
 [SETRANGE](SETRANGE.html)
+
 [*START](START.html)
+
 [*END](StarEND.html)
+
 [%ERROR](ERROR_Function.html)
+
 [%EQUAL](EQUAL_Function.html)
+
 [%FOUND](FOUND_Function.html)
+
 [%KDS](KDS_Function.html) 

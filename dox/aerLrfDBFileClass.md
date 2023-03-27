@@ -31,5 +31,7 @@ This type is safe for multithreaded operations.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html) <br /> 

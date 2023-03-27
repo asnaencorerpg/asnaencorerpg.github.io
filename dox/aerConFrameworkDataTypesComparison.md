@@ -257,7 +257,11 @@ To be completely precise, all values types are structures derived from System.Va
 
 ### See Also
 [Language Concepts](aerConLanguageConceptsMain.html)
+
 [Data type Summary](Data_type_summary.html)
+
 [Type Conversions](Type_Conversions.html)
+
 [*Float Data type](Float_Data_Type.html)
+
 [*Integer Data type](Integer_Data_Type.html) 

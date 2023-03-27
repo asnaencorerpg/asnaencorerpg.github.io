@@ -22,4 +22,5 @@ For examples of using variable-length fields, refer to the following topics.
 
 ### See Also
 [%Len](LEN_Function.html)
+
 [Using Variable-Length Fields](Using_Variable_Length_Fields.html) 

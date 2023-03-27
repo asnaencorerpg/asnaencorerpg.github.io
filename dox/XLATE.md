@@ -83,5 +83,7 @@ Depending upon the **Type** specified, the **Len** parameter may be required. Fo
 
 ### See Also
 [%XLATE](XLATE_Function.html)
+
 [%ERROR](ERROR_Function.html)
+
 [Type Parameter](Type_Parameter.html) 

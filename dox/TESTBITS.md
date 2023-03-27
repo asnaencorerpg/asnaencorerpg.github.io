@@ -71,4 +71,5 @@ When using Bit operations to format a character, you should use both **BITON** a
 
 ### See Also
 [BITOFF](BITOFF.html)
+
 [BITON](BITON.html) 

@@ -40,10 +40,17 @@ Refer to the [CLOSE](CLOSE.html) and [OPEN](OPEN.html) commands.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [CLOSE](CLOSE.html)
+
 [OPEN](OPEN.html)
+
 [%OPEN](OPEN_Function.html) 

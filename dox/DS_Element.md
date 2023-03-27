@@ -22,8 +22,13 @@ MOVE *ON IOField1 **.** FontBold<br /> MOVE *OFF IOField2 **.** FontItalic
 
 ### See Also
 [Variables](aerLrfVariablesMain.html)
+
 [Array Elements](Array_Element.html)
+
 [Control Properties](Control_Properties.html)
+
 [Fields](Field.html)
+
 [Multiple Occurrence Data Structures](Mult_Occur_DS.html)
+
 [Encore RPG Language Reference](aerLrfLangRefMain.html) 

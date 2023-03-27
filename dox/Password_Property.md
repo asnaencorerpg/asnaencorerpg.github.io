@@ -36,10 +36,17 @@ This property is only set if the user profile has an associated password, and on
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [DCLDB](DCLDB.html)
+
 [CreateName Method](CreateName_Method.html)
+
 [UpdateName Method](UpdateName_Method.html)
+
 [User Property](User_Property.html) <br /> 

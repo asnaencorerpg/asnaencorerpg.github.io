@@ -29,6 +29,9 @@ Design-time controls (DTC's) are no longer supported.
 
 ### See Also
 [Date and Time](aerLrfDateandTimeMain.html)
+
 [Data Types](aerLrfDataTypesMain.html)
+
 [*LOVAL](STARLOVAL.html)
+
 [*HIVAL](STARHIVAL.html) <br /> 

@@ -131,11 +131,19 @@ ReadPE CustRecd Access(*noLock) Bof(*In61) Err (*In99)
 
 ### See Also
 [CHAIN](CHAIN.html)
+
 [READ](READ.html)
+
 [READE](READE.html)
+
 [READP](READP.html)
+
 [%EOF](EOF_Function.html)
+
 [%ERROR](ERROR_Function.html)
+
 [%KDS](KDS_Function.html)
+
 [IsEof Property](IsEofPropertyDbFileClass.html)
+
 [IsError Property](IsErrorPropertyDbFileClass.html) 

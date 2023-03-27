@@ -12,5 +12,7 @@ The * **String** data type (unicode) allows you to pass a parameter to a procedu
 
 ### See Also
 [Data Types](aerLrfDataTypesMain.html)
+
 [*Char Data Type](Character_Data_Type.html)
+
 [Unicode](aerConUnicode.html) 

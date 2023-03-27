@@ -25,5 +25,7 @@ This section describes the declaration and use of Encore RPG data types.
 
 ### See Also
 [Language Concepts](aerConLanguageConceptsMain.html)
+
 [Data type Summary](Data_type_summary.html)
+
 [Type Conversions](Type_Conversions.html) 

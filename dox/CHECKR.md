@@ -109,5 +109,7 @@ Depending upon the **Type** specified, the **Len** parameter may be required. Fo
 
 ### See Also
 [CHECK](CHECK.html)
+
 [%CHECK](CHECK_Function.html)
+
 [%CHECKR](CHECKR_Function.html) 

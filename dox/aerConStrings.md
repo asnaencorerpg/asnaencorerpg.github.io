@@ -58,5 +58,7 @@ Unlike other intrinsic data types, ```*String``` is a reference type. When a var
 
 ### See Also
 [```*Char``` Data type](Character_Data_Type.html)
+
 [Manipulating Strings](aerConManipulatingStrings.html)
+
 [Language Concepts Main Topics](aerConLanguageConceptsMain.html) 

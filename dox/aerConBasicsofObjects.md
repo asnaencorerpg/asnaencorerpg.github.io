@@ -34,4 +34,5 @@ DclFld TheOtherForm Type( Form2 ) New( *Dft )   // Declares an instance of a cla
 
 ### See Also
 [What Is an Object?](aerConWhatisanObject.html)
+
 [Relationship of Objects](aerConRelationofObjects.html) 

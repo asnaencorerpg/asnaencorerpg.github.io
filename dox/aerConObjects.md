@@ -39,5 +39,7 @@ Summarizes the construction of objects.
 
 ### See Also
 [Object-Oriented Programming](aerConObjectOrientedProgramming.html)
+
 [Encore RPG Language Reference](aerLrfLangRefMain.html)
+
 [Language Concepts](aerConLanguageConceptsMain.html) 

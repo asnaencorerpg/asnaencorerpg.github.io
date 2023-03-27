@@ -28,4 +28,5 @@ File processing in Encore RPG is no different than in RPG/400. Extensions to inc
 
 ### See Also
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [DCLPLIST](DCLPLIST.html) 

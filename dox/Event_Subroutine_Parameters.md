@@ -32,13 +32,23 @@ The object determines whether a parameter is passed by value or by reference. If
 
 ### See Also
 [BEGSR](BEGSR.html)
+
 [DCLSRPARM](DCLSRPARM.html)
+
 [KeyDown Event](SF_KeyDown_Event.html)
+
 [KeyUp Event](SF_KeyUp_Event.html)
+
 [KeyPress](SF_KeyPress_Event.html)
+
 [RecordDelete Event](SF_RecordDelete_Event.html)
+
 [RecordNew Event](SF_RecordNew_Event.html)
+
 [RecordSwitch Event](SF_RecordSwitch_Event.html)
+
 [ASNA.VisualRPG.Windows.Controls.RecordDeleteArgs](aerLrfRecordDeleteArgsClass.html)
+
 [ASNA.VisualRPG.Windows.Controls.RecordNewArgs](aerLrfRecordDeleteArgsClass.html)
+
 [ASNA.VisualRPG.Windows.Controls.GridArgs](aerLrfGridArgsClass.html) 

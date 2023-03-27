@@ -32,9 +32,15 @@ The PlatformAttribute property is also used in conjunction with the [CreateName]
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [DCLDB](DCLDB.html)
+
 [CreateName Method](CreateName_Method.html)
+
 [UpdateName Method](UpdateName_Method.html) 

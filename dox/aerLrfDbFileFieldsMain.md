@@ -101,5 +101,7 @@ TocOrder: 2
 **See Also** 
 
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DCLDISKFILE](DCLDISKFILE.html) 

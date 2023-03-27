@@ -42,5 +42,7 @@ Int2    = (*BitNot Bool1)    *BitOr H"0C00"        // Int2 = -2 or H'FFFE"
 
 ### See Also
 [*BitAnd Operator](BitAnd_Operator.html)
+
 [Operators](BitOr_Operator"> *BitOr Operator </a> <br /> <a href="aerLrfOperatorsMain.html)
+
 [Operators and Their Precedence](Expression_Operators_and_their_Precedence.html) 

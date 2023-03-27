@@ -39,7 +39,11 @@ Optional. Determines what the runtime will do if an error occurs while executing
 
 ### See Also
 [COMMIT](COMIT.html)
+
 [DCLDB](DCLDB.html)
+
 [ROLLBACK](ROLBACK.html)
+
 [STARTTPM](STARTTPM.html)
+
 [Using Commitment Control](Comittment_Control.html) 

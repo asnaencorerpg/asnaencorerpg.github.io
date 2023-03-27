@@ -39,7 +39,11 @@ When set to a valid database name, the referenced database server becomes the
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](aerLrfDatabaseClass.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [DCLDB](DCLDB.html) 

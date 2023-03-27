@@ -78,7 +78,11 @@ When running commitment control on the System i with DataGate, transaction proce
 
 ### See Also
 [COMMIT](COMIT.html)
+
 [DCLDB](DCLDB.html)
+
 [ENDTPM](ENDTPM.html)
+
 [ROLLBACK](ROLBACK.html)
+
 [Using Commitment Control](Comittment_Control.html) 

@@ -36,7 +36,11 @@ Typically, the x-y resolutions will be the same, such as300 x 300, or 600 x 600,
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [OPEN](OPEN.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) 

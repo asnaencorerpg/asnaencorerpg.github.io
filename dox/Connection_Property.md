@@ -24,6 +24,9 @@ Returns the AdgConnection object for the connection.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](aerLrfDatabaseClass.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html)
+
 [DCLDB](DCLDB.html) 

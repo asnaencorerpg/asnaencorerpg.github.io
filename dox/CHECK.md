@@ -109,5 +109,7 @@ Field = "HIJHIJ" Check Letter Field Array Fnd(*In90)
 
 ### See Also
 [CHECKR](CHECKR.html)
+
 [%CHECK](CHECK_Function.html)
+
 [%CHECKR](CHECKR_Function.html) 

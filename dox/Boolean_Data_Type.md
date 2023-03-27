@@ -31,8 +31,13 @@ Dclfld myBool type( *Boolean )<br /> myBool = *True<br /> myBool = *False
 
 ### See Also
 [Data Types](aerLrfDataTypesMain.html)
+
 [*True](StarTRUE.html)
+
 [*False](StarFalse.html)
+
 [DCLFLD](DCLFLD.html)
+
 [Integer Data Type](Integer_Data_Type.html)
+
 [DCLSRPARM](DCLSRPARM.html) 

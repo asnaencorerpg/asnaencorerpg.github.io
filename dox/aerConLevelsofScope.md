@@ -33,7 +33,11 @@ Note that VB.NET and C# both support block scoped variables, whereas ECR does no
 
 ### See Also
 [Accessibility](aerConDeclaredElementsScope.html)
+
 [Characteristics of Encore RPG Declared Elements](aerConDeclaredElementCharacteristics.html)
+
 [Declared Elements](aerConDeclaredElements.html)
+
 [DCLFLD](DCLFLD.html)
+
 [Lifetime](aerConDeclaredElementsLifetime.html) 

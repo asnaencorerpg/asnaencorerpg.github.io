@@ -16,5 +16,7 @@ The ```*BitOr``` operator performs a logical disjunction on two Boolean expressi
 
 ### See Also
 [Arithmetic Operators](aerConArithmeticOperators.html)
+
 [Boolean Expressions](aerConBooleanExpressions.html)
+
 [```*BitAnd``` Operator](BitAnd_Operator.html)<br /> <a href="BitNot_Operator">```*BitNot``` Operator</a><br /> <a href="BitOr_Operator">```*BitOr``` Operator</a> 

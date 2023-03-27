@@ -12,5 +12,7 @@ Events are closely associated in Encore RPG for Visual Studio. An event is a mes
 
 ### See Also
 [Objects](aerConObjects.html)
+
 [Setting and Retrieving Properties](aerConSettingandRetrievingProperties.html)
+
 [Performing Actions with Methods](aerConSettingandRetrievingProperties.html) 

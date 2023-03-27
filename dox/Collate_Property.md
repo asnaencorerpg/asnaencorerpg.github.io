@@ -41,8 +41,13 @@ The collation is handled by the printer, rather than software. If the printer it
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html)
+
 [Copies Property](Copies_Property.html)
+
 [OPEN](OPEN.html) 

@@ -15,4 +15,5 @@ Initializes a new instance of the Database class.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](aerLrfDatabaseClass.html) 

@@ -114,11 +114,19 @@ If the **READ**  operation is successful, the file is positioned at
 
 ### See Also
 [CHAIN](CHAIN.html)
+
 [READE](READE.html)
+
 [READP](READP.html)
+
 [READPE](READPE.html)
+
 [READC](READPE.html)
+
 [%EOF](EOF_Function.html)
+
 [%ERROR](ERROR_Function.html)
+
 [IsEof Property](IsEofPropertyDbFileClass.html)
+
 [IsError Property](IsErrorPropertyDbFileClass.html) 

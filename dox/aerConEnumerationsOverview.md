@@ -18,5 +18,7 @@ You can assign the same value to multiple fields. When you do so, the compiler m
 
 ### See Also
 [BEGENUM](BEGENUM.html)
+
 [DCLENUMFLD](DCLENUMFLD.html)
+
 [ENDENUM](ENDENUM.html) 

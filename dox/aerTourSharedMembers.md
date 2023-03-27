@@ -51,4 +51,5 @@ BegClass PublicFields Access(*Public) <br />  DclFld Fred Type( *String ) Access
 
 ### See Also
 [Class Properties, Fields, and Methods](aerTourClassPropertiesFieldsandMethodsMain.html)
+
 [DCLFLD](DCLFLD.html) 

@@ -34,9 +34,15 @@ IF **Preview** is not set, the preview setting specified for in the print file w
 
 #### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [OPEN](OPEN.html)
+
 [FEOD](FEOD.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html)
+
 [ASNA.DataGate.Common.AccessMode Enumeration](AdgCommon_AccessMode.html) 

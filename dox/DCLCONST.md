@@ -42,5 +42,7 @@ Optional. The type of access to the member. *PRIVATE is the default.
 
 ### See Also
 [Constant Expression](Constant_Expression.html)
+
 [DCLFLD](DCLFLD.html)
+
 [Literals](aerLrfLiteralsMain.html) 

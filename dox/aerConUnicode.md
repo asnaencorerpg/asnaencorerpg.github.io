@@ -22,4 +22,5 @@ Unicode has replaced ascii as the base character set for ```*char```, ```*string
 ### See Also
 <a href="Character_Data_Type.html)
 [*OneChar Data type](Onechar_Data_Type.html)
+
 [*String Data type](String_Data_Type.html)<br /> <a href="http://en.wikipedia.org/wiki/Unicode">Unicode on Wikipedia</a> 

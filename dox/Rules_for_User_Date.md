@@ -22,11 +22,19 @@ The user date fields cannot be modified. This means they cannot be used:
 
 ### See Also
 [Variables](aerLrfVariablesMain.html)
+
 [Date Data Type](Date_Data_Type.html)
+
 [*Date](StarDate.html)
+
 [*Day](StarDay.html)
+
 [DCLPARM](DCLPARM.html)
+
 [Figurative Constants Rules](Fig_Constants_Rules.html)
+
 [LOOKUP](LOOKUP.html)
+
 [*Month](StarMonth.html)
+
 [TIME](TIME.html) 

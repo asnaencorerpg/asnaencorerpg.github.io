@@ -60,8 +60,13 @@ Use [QrySelect](QrySelectFieldDBFileClass.html) in conjunction with **QryKeyFlds
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [QryFileName Field](QryFileNameFieldDBFileClass.html)
+
 [QrySelect Field](QrySelectFieldDBFileClass.html) 

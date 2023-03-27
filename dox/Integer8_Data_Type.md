@@ -26,6 +26,9 @@ You can also use the other Integer data types to automatically set the length to
 
 ### See Also
 [Data Types](aerLrfDataTypesMain.html)
+
 [*Integer](Integer_Data_Type.html)
+
 [*Integer2](Integer2_data_type.html)
+
 [*Integer4](Integer4_Data_Type.html) 

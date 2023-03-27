@@ -22,5 +22,7 @@ Binary data stored in ```*Byte``` variables and arrays is preserved during forma
 
 ### See Also
 [Arrays](Array_Element.html)
+
 [```*Integer``` Data type](Integer_Data_Type.html)
+
 [```*Byte``` Data type](Byte_Data_Type.html) 

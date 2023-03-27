@@ -32,7 +32,7 @@ Required. *Mask* can contain:
 
 **Target** 
 
-Required. It can specify a one-position character field, or it can be an array element if each element in the array is a one-position character field. **In ECR.Net, this parameter of the "BITON" command requires a byte type or a type that can be converted to a byte** .
+Required. It can specify a one-position character field, or it can be an array element if each element in the array is a one-position character field. **In ECR, this parameter of the "BITON" command requires a byte type or a type that can be converted to a byte** .
 
 
 **Type** 
@@ -61,4 +61,5 @@ BITOFF "01234567" HEX21
 
 ### See Also
 [BITOFF](BITOFF.html)
+
 [TESTBITS](TESTBITS.html) 

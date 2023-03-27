@@ -108,4 +108,5 @@ Scan Field2 3 Field1 Index Int90 Fnd(*In90)
 
 #### See Also
 [Character Expression](Character_Expression.html)
+
 [Numeric Expression](Num_Expression.html) 

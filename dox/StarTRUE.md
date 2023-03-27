@@ -22,5 +22,7 @@ myBool = *False
 
 ### See Also
 [Figurative Constants](aerLrfFigConstantsMain.html)
+
 [*Boolean Data Type](Boolean_Data_Type.html)
+
 [*FALSE](StarFalse.html) 

@@ -60,8 +60,13 @@ Use the **CopyLogicalFileToDb** method to copy a logical file with all its base 
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](aerLrfDatabaseClass.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [DCLDB](DCLDB.html) 

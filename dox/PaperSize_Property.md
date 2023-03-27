@@ -38,8 +38,13 @@ IF **PaperSize** is not set, the paper size specified for in the print file will
 
 #### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [OPEN](OPEN.html)
+
 [Orientation Property](Orientation_Property.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) <br /> 

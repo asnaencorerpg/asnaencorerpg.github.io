@@ -42,5 +42,7 @@ Describes how Encore RPG datatypes are implemented in the underlying .NET Framew
 
 ### See Also
 [Language Concepts](aerConLanguageConceptsMain.html)
+
 [DataTypes Main Topics](aerLrfDataTypesMain.html)
+
 [DataType Summary](Data_type_summary.html) 

@@ -14,6 +14,9 @@ The default initialization value for a * **OneChar** field is 0x0000. See also *
 
 ### See Also
 [Data Types](aerLrfDataTypesMain.html)
+
 [*Char Data Type](Character_Data_Type.html)
+
 [Unicode](aerConUnicode.html)
+
 [OneChar Literals](OneChar_Literal.html) 

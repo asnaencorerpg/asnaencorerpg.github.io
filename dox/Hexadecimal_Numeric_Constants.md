@@ -34,7 +34,11 @@ So H"00000001" will be a number 1 with type * **Integer** **4** , while H"1" wil
 
 ### See Also
 [Hexadecimal Literal](Hexadecimal_Literal.html)
+
 [***** Byte Data Type](Byte_Data_Type.html)
+
 [***** Integer2 Data Type](Integer2_data_type.html)
+
 [***** Integer4 Data Type](Integer4_Data_Type.html)
+
 [***** Integer8 Data Type](Integer8_Data_Type.html) 

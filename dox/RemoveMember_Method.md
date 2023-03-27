@@ -41,8 +41,13 @@ Use the **RemoveMember** method to programmatically remove a database file membe
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [DCLDB](DCLDB.html) 

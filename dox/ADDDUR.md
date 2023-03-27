@@ -77,6 +77,9 @@ Encore RPG places an 18-digit limit on durations. Adding a duration with more th
 
 ### See Also
 [Adding or Subtracting Dates](Adding_or_Subtracting_Dates.html)
+
 [Duration Codes](Duration_Codes.html)
+
 [EXTRACT](EXTRACT.html)
+
 [SUBDUR](SUBDUR.html) 

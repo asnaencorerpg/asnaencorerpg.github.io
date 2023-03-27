@@ -224,11 +224,19 @@ MyIntArr = *new *integer4[] {10, 100, 1000}
 
 ### See Also
 [Arrays Overview](aerConArraysOverview.html)
+
 [Custom Attributes](aerConCustomAttributes.html)
+
 [DCLDS](DCLDS.html)
+
 [DCLDSFLD](DCLDSFLD.html)
+
 [DCLOVERLAYGROUP](DCLOVERLAYGROUP.html)
+
 [DCLFLD](DCLFLD.html)
+
 [LOOKUP](LOOKUP.html)
+
 [%LOOKUP](LOOKUP_Function.html)
+
 [%TLOOKUP](TLOOKUP_Function.html) 

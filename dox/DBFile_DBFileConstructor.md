@@ -151,7 +151,11 @@ In addition, the member name, file path, and share type parameters can also be e
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DBFile Fields](aerLrfDbFileFieldsMain.html)
+
 [DCLDISKFILE](DCLDISKFILE.html) 

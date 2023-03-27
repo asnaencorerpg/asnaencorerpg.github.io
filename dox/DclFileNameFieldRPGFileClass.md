@@ -30,12 +30,21 @@ String. The *Name* of the file as specified in the file declaration.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [MemoryFile Class](aerLrfMemoryFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [MemoryFile Members](aerLrfMemoryFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html)
+
 [DCLMEMORYFILE](DCLMEMORYFILE.html) 

@@ -40,5 +40,7 @@ You usually define **Property** procedures in pairs, using the ```BEGGET``` and 
 
 ### See Also
 [BEGGET](BEGGET.html)
+
 [BEGPROP](BEGPROP.html)
+
 [BEGSET](BEGSET.html) 

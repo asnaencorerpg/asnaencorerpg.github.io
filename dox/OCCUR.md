@@ -148,6 +148,9 @@ Also the monthly elements of both Sales and Returns are moved in an array of 12 
 
 ### See Also
 [DCLDS](DCLDS.html)
+
 [DCLDSFLD](DCLDSFLD.html)
+
 [Multiple Occurrence Data Structures](Mult_Occur_DS.html)
+
 [%OCCUR](OCCUR_Function.html) 

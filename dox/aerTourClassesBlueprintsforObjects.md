@@ -30,6 +30,9 @@ For more information about shared members, see [Shared Members](aerTourSharedMem
 
 ### See Also
 [Creating and Using Objects](aerTourCreatingandUsingObjectsMain.html)
+
 [Inheritance](aerTourInheritanceMain.html)
+
 [Inheritance Basics](aerTourInheritanceBasics.html)
+
 [Shared Members](aerTourSharedMembers.html) 

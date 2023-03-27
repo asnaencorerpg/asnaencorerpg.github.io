@@ -30,5 +30,7 @@ The System i database engine supports a logical file type called " **multiformat
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html) 

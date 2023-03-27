@@ -34,7 +34,11 @@ Boolean. Returns a **True** or **False** indicating whether a keyed file Seek op
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Class Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [%EQUAL](EQUAL_Function.html) 

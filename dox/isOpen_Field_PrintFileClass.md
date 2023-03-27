@@ -36,9 +36,15 @@ If the file is conditioned by an external indicator and the external indicator w
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html)
+
 [CLOSE](CLOSE.html)
+
 [OPEN](OPEN.html)
+
 [%OPEN](OPEN_Function.html) 

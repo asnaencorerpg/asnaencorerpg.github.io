@@ -21,8 +21,13 @@ MOVE H"000000FF" Form2.BackColor<br /> MOVE "Hello from Form1" Form2.IOField1.Te
 
 ### See Also
 [SHOW](SHOW.html)
+
 [Array Elements](Array_Element.html)
+
 [Data Structure Element](DS_Element.html)
+
 [Fields](Field.html)
+
 [Multiple Occurrence Data Structures](Mult_Occur_DS.html)
+
 [Visual RPG Language Reference](aerLrfLangRefMain.html) 

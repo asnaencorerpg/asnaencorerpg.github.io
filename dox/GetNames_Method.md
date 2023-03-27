@@ -41,8 +41,13 @@ This method is **Shared** , and does not affect the current values of the databa
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [DCLDB](DCLDB.html) 

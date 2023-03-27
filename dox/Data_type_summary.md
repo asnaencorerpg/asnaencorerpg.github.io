@@ -155,8 +155,13 @@ An **Object** referring to any elementary or composite data type uses 4 bytes in
 ### See Also
 <a href="Boolean_Data_Type.html)
 [*Byte Data Type](Byte_Data_Type.html)
+
 [*Char Data Type](Character_Data_Type.html)
+
 [*Date Data Type](Date_Data_Type.html)
+
 [*Integer Data Type](Integer_Data_Type.html)
+
 [*String Data Type](String_Data_Type.html)
+
 [.NET Framework Data Types Comparison](aerConFrameworkDataTypesComparison.html) 

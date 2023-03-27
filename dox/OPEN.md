@@ -79,7 +79,11 @@ DCLDISKFILE ItemOut *OutPut
 
 ### See Also
 [CLOSE](CLOSE.html)
+
 [DCLDB](DCLDB.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [DCLMEMORYFILE](DATE_Function.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) 

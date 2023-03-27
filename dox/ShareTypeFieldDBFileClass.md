@@ -38,6 +38,9 @@ If **ShareType** is not set, the value of the ** *ShareType* ** parameter specif
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html) 

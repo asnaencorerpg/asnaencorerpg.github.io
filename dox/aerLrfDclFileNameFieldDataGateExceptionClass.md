@@ -28,6 +28,9 @@ See [CausingException](aerLrfCausingExceptionMethodDataGateExceptionClass.html) 
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DataGateException Class](aerLrfDataGateExceptionClass.html)
+
 [DataGateException Members](aerLrfDataGateExceptionMembers.html)
+
 [CausingException Field](aerLrfCausingExceptionMethodDataGateExceptionClass.html) 

@@ -26,4 +26,5 @@ Record blocking requires additional memory to work. Blocking reserves memory for
 
 ### See Also
 [ENDCLASS](ENDCLASS.html)
+
 [Understanding Classes](aerTourClassesBlueprintsforObjects.html) 

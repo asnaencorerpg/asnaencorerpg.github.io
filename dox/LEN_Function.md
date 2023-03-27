@@ -68,6 +68,9 @@ Length = **%Len** 	( FieldName )    // Sets the length to the length of the *Fie
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)
+
 [Character data type](Character_Data_Type.html)
+
 [DCLFLD](DCLFLD.html)
+
 [Variable Length Overview](Variable_Length_Overview.html) 

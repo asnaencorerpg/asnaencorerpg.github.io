@@ -35,8 +35,13 @@ For a DataGate for Windows database, a temporary logical file is created in QTem
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [QryKeyFlds Field](QryKeyFldsFieldDBFileClass.html)
+
 [QrySelect](QrySelectFieldDBFileClass.html) 

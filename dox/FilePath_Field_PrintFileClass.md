@@ -34,7 +34,11 @@ Setting the **FilePath** prior to opening a file is equivalent to the System i p
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html)
+
 [OPEN](OPEN.html) 

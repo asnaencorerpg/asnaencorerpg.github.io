@@ -147,8 +147,13 @@ Encore RPG allows you to name a control property for the **LeaveSR** ‘Value’
 
 #### See Also
 [BEGPROP](BEGPROP.html)
+
 [BEGSR](BEGSR.html)
+
 [Custom Attributes](aerConCustomAttributes.html)
+
 [DCLSRPARM](DCLSRPARM.html)
+
 [ENDFUNC](ENDFUNC.html)
+
 [LEAVESR](LEAVESR.html) 

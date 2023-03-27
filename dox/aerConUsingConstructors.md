@@ -16,4 +16,5 @@ When you define a class derived from another class, the first line of a construc
 
 ### See Also
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html)
+
 [ENDCONSTRUCTOR](ENDCONSTRUCTOR.html)  

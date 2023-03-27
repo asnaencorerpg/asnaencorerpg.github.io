@@ -38,4 +38,5 @@ The [ToString](ToString_Method_DGEClass.html) method returns a string representa
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DataGateException Members](aerLrfDataGateExceptionMembers.html) 

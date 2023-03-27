@@ -131,10 +131,17 @@ Some events have parameters that tell you more specific information about the ev
 
 ### See Also
 [%OMITTED Function](OMITTED_Function.html)
+
 [%PARMS Function](PARMS_Function.html)
+
 [BEGPROC](BEGPROC.html)
+
 [CALL](CALL.html)
+
 [CALLB](CALL.html)
+
 [DCLPLIST](DCLPLIST.html)
+
 [EXSR](EXSR.html)
+
 [***** ByRef Operator](StarByRef.html) 

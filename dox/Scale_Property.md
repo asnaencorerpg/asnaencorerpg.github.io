@@ -30,6 +30,9 @@ The specified printer must support the output to be scaled or resized.
 
 #### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) 

@@ -17,5 +17,7 @@ User date fields are not date data type fields but are numeric fields.
 
 ### See Also
 [UDAY](UDAY.html)
+
 [UMONTH](UMONTH.html)
+
 [UDATE](UDATE.html) 

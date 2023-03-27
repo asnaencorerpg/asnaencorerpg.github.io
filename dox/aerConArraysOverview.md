@@ -59,12 +59,18 @@ Every array that is used by stating its name with these operators will participa
 
 ### Related Sections
 [Array Usage](aerConArraysUsage.html)
+
 [Language Concepts Main Topics](aerConLanguageConceptsMain.html) 
 
 ### See Also
 [BEGFUNC](BEGFUNC.html)
+
 [BEGPROP](BEGPROP.html)
+
 [DCLARRAY](DCLARRAY.html)
+
 [DCLDSFLD](DCLDSFLD.html)
+
 [DCLOVERLAYGROUP](DCLOVERLAYGROUP.html)
+
 [DCLSRPARM](DCLSRPARM.html) 

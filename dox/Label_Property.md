@@ -32,9 +32,15 @@ For single-instance platforms, such as the System i, the **Label** property is i
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [DCLDB](DCLDB.html)
+
 [CreateName Method](CreateName_Method.html)
+
 [UpdateName Method](UpdateName_Method.html) 

@@ -38,8 +38,13 @@ The record count returned can differ for logical files depending upon the databa
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [OPEN](OPEN.html)
+
 [RecNum Property](RecNum_Property.html) 

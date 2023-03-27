@@ -32,8 +32,13 @@ If **FormName** is not set, the form name for the print file will be used.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [PaperSize Property](PaperSize_Property.html)
+
 [OPEN](OPEN.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) 

@@ -130,5 +130,7 @@ The data types in **F1** and **F2** must be compatible types as specified above.
 
 ### See Also
 [ADDDUR](ADDDUR.html)
+
 [Adding or Subtracting Dates](Adding_or_Subtracting_Dates.html)
+
 [EXTRACT](EXTRACT.html) 

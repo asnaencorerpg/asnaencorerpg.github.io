@@ -36,7 +36,11 @@ If **Printer** is not set, the default printer for the operating system will be 
 
 #### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [OPEN](OPEN.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) 

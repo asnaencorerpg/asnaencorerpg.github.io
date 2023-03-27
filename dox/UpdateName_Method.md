@@ -30,9 +30,15 @@ You can use the [CreateName](CreateName_Method.html) method to take all the curr
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [DCLDB](DCLDB.html)
+
 [CreateName Method](CreateName_Method.html) 

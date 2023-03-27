@@ -17,7 +17,11 @@ User date fields are not ***Date data type** fields but are numeric fields.
 
 ### See Also
 [Figurative Constants](aerLrfFigConstantsMain.html)
+
 [*Day](StarDay.html)
+
 [*Date](StarDate.html)
+
 [*Month](StarMonth.html)
+
 [Figurative Constants Rules](Fig_Constants_Rules.html) 

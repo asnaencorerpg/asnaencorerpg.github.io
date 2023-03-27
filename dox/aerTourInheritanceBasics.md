@@ -50,8 +50,13 @@ By default, a derived class inherits methods from its base class. If an inherite
 
 ### See Also
 [BEGCLASS](BEGCLASS.html)
+
 [BEGFUNC](BEGFUNC.html)
+
 [BEGPROP](BEGPROP.html)
+
 [BEGSR](BEGSR.html)
+
 [DCLEVENT](DCLEVENT.html)
+
 [Inheritance and the .NET Framework](aerTourInheritanceandtheNETFramework.html) 

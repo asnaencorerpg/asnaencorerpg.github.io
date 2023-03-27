@@ -27,7 +27,11 @@ String Array. Sets the current library list for the current connection. This ope
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](aerLrfDatabaseClass.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html)
+
 [DCLDB](DCLDB.html)
+
 [InitialLibl Property](InitialLiblProperty.html) 

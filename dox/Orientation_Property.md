@@ -32,7 +32,11 @@ The page orientation can be set to either Portrait or Landscape. If **Orientatio
 
 #### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [OPEN](OPEN.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) <br /> 

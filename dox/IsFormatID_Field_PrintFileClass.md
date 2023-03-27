@@ -37,6 +37,9 @@ At run-time, Encore RPG compares the format ID that was stored during the compil
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) 

@@ -47,8 +47,13 @@ The file changes are eliminated to all the file you have under commitment contro
 
 ### See Also
 [COMMIT](COMIT.html)
+
 [DCLDB](DCLDB.html)
+
 [ENDTPM](ENDTPM.html)
+
 [OPEN](OPEN.html)
+
 [STARTTPM](STARTTPM.html)
+
 [Using Commitment Control](Comittment_Control.html) 

@@ -40,6 +40,9 @@ The **%CHECKR** command **cannot** accept *BOOLEAN and *IND data types.
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)
+
 [CHECK](CHECK.html)
+
 [CHECKR](CHECKR.html)
+
 [%CHECK](CHECK_Function.html) 

@@ -223,6 +223,9 @@ DclPrintFile Name(Inventory) ImpOpen(*NO) DB(DBSQL) File("TestLib/InvReport")  I
 
 ### See Also
 [DCLDB](DCLDB.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [DCLFILECONT](DCLFILECONT.html)
+
 [PrintFile Class Members](aerLrfPrintFileMembers.html) 

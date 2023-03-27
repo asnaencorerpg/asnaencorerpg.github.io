@@ -29,5 +29,7 @@ This type is safe for multithreaded operations.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [IDS Members](aerLrfIDSClassMembers.html)
+
 [DCLDS](DCLDS.html) 

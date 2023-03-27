@@ -82,11 +82,19 @@ To control the cycle, you can have:
 
 #### See Also
 [Cycle Overview](aerCycle_Overview.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html)
+
 [Level Break Indicators](aerCycle_LevelBreakIndicators.html)
+
 [Matching Record Indicators](aerCycle_MatchingRecordIndicators.html)
+
 [Overflow Indicators](aerCycle_OverflowIndicators.html)
+
 [```*DetailCalc``` Method](aerCycle_DetailCalcMethod.html)
+
 [```*FetchOverflow``` Method](aerCycle_FetchOverflowMethod.html)
+
 [```*StartCycle``` Method](aerCycle_StartCycleMethod.html)
+
 [```*TotalCalc``` Method](aerCycle_TotalCalcMethod.html) <br /> 

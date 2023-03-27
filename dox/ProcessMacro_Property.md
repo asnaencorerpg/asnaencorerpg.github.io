@@ -43,7 +43,11 @@ Macros may only be described in a Print file label control. Only one macro per L
 
 #### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [OPEN](OPEN.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html) 

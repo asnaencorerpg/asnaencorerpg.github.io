@@ -33,7 +33,11 @@ Boolean. Returns a **True** or **False** indicating if End-of-File has been reac
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Class Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [%EOF](EOF_Function.html) 

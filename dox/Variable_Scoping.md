@@ -31,9 +31,15 @@ A local variable can not be defined in the equivalent of an old "C" spec.
 
 ### See Also
 [Variables](aerLrfVariablesMain.html)
+
 [DCLARRAY](DCLARRAY.html)
+
 [DCLDS](DCLDS.html)
+
 [DCLDSFLD](DCLDSFLD.html)
+
 [DCLFLD](DCLFLD.html)
+
 [BEGSR](BEGSR.html)
+
 [ENDSR](ENDSR.html) 

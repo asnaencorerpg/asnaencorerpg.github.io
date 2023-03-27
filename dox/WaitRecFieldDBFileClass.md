@@ -37,7 +37,11 @@ If **WaitRec** is not set, the value of the ** *WaitRec* ** parameter specified 
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [OPEN](OPEN.html)
+
 [DCLDISKFILE](DCLDISKFILE.html) 

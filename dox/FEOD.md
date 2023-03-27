@@ -48,9 +48,15 @@ If the [PrintFile.Preview](Preview_Property.html) is "PrintPreview", the print d
 
 ### See Also
 [%ERROR](ERROR_Function.html)
+
 [CLOSE](CLOSE.html)
+
 [DCLFILECONT](DCLFILECONT.html)
+
 [DCLPRINTFILE](DCLPRINTFILE.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Members](aerLrfPrintFileMembers.html)
+
 [PrintFile.Preview Property](Preview_Property.html) 

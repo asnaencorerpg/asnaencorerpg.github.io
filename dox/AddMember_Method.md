@@ -40,8 +40,13 @@ Use the **AddMember** method to programmatically add amember to a database file.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](aerLrfDatabaseClass.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [DCLDB](DCLDB.html) 

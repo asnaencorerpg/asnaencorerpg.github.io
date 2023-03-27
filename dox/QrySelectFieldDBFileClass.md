@@ -44,8 +44,13 @@ If **QrySelect** is not set, the value of the **QrySelect** parameter specified 
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [QryFileName Field](QryFileNameFieldDBFileClass.html)
+
 [QryKeyFlds Field](QryKeyFldsFieldDBFileClass.html) 

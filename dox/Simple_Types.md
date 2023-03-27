@@ -96,5 +96,7 @@ Indicator (can only have the special values *ON and *OFF).
 
 ### See Also
 [Language Elements](aerLrfLangElementsMain.html)
+
 [Encore RPG Language Reference](aerLrfLangRefMain.html)
+
 [Syntactical Elements](aerLrfSyntacticalElementsMain.html) 

@@ -34,8 +34,13 @@ RRN is not supported by Microsoft's SQL Server database engine.
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [OPEN](OPEN.html)
+
 [RecCount Property](RecCount_Property.html) 

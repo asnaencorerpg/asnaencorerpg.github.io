@@ -110,9 +110,15 @@ To use a **READRANGE** in existing code, replace the **CHAIN** op code that exis
 
 ### See Also
 [DELETERANGE](DELETERANGE.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [SETRANGE](SETRANGE.html)
+
 [%EOF](EOF_Function.html)
+
 [%ERROR](ERROR_Function.html)
+
 [IsEof Property](IsEofPropertyDbFileClass.html)
+
 [IsError Property](IsErrorPropertyDbFileClass.html) 

@@ -61,4 +61,5 @@ To be considered numeric, **each** character in the field, except the low-order 
 
 ### See Also
 [TESTBITS](TESTBITS.html)
+
 [Character Expression](Character_Expression.html) 

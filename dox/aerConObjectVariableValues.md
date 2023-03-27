@@ -16,4 +16,5 @@ You can declare and use an array of ```Object``` variables. This is useful when 
 
 ### See Also
 [```*Is``` Operator](Is_Operator.html)
+
 [```*TypeOf``` Operator](Typeof_Operator.html) 

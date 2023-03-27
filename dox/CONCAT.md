@@ -80,4 +80,5 @@ The **CONCAT** operation concatenates the string specified in **Suf** to the end
 
 ### See Also
 [+ Operator](Plus_Operator.html)
+
 [COMPARE](COMPARE.html) 

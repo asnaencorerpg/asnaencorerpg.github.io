@@ -47,7 +47,9 @@ The *accessibility, or scope* of a variable is the set of all code that can refe
 
 ### See Also
 [DataType Summary](Data_type_summary.html)
+
 [DCLFLD](DCLFLD.html)
+
 [Lifetime](aerConDeclaredElementsLifetime.html)
 
 

@@ -43,12 +43,18 @@ For the commands that operate on arrays, the array in the ```RESULT``` field mus
 
 ### Related Sections
 [Array Overview](aerConArraysOverview.html)
+
 [Language Concepts Main Topics](aerConLanguageConceptsMain.html) 
 
 ### See Also
 [BEGFUNC](BEGFUNC.html)
+
 [BEGPROP](BEGPROP.html)
+
 [DCLARRAY](DCLARRAY.html)
+
 [DCLDSFLD](DCLDSFLD.html)
+
 [DCLOVERLAYGROUP](DCLOVERLAYGROUP.html)
+
 [DCLSRPARM](DCLSRPARM.html) 

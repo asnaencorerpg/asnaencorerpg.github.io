@@ -182,5 +182,7 @@ Indicates the Y-axis resolution (in dot per inch) when printing graphics.
 
 ### See Also
 [Language Elements](aerLrfLangElementsMain.html)
+
 [PrintFile Class](aerLrfPrintFileClass.html)
+
 [PrintFile Properties](aerLrfPrintFileProperties.html) 

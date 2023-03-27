@@ -52,7 +52,11 @@ The file changes and the record-lock releases apply to all the files you have un
 
 ### See Also
 [DCLDB](DCLDB.html)
+
 [ENDTPM](ENDTPM.html)
+
 [ROLLBACK](ROLBACK.html)
+
 [STARTTPM](STARTTPM.html)
+
 [Using Commitment Control](Comittment_Control.html) 

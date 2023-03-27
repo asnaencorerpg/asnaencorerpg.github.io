@@ -37,9 +37,15 @@ You can use the [UpdateName](UpdateName_Method.html) method to write the current
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](aerLrfDatabaseClass.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [UpdateName Method](UpdateName_Method.html)
+
 [DCLDB](DCLDB.html) 

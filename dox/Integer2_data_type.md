@@ -30,6 +30,9 @@ You can also use the other data types to automatically set the length to a 4 or 
 
 ### See Also
 [Data Types](aerLrfDataTypesMain.html)
+
 [*Integer](Integer_Data_Type.html)
+
 [*Integer4](Integer4_Data_Type.html)
+
 [*Integer8](Integer8_Data_Type.html) 

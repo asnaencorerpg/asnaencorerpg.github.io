@@ -166,8 +166,13 @@ DCLPROP FullName Type( *string )       Access ( *public )
 
 ### See Also
 [BEGPROP](BEGPROP.html)
+
 [BEGSR](BEGSR.html)
+
 [Custom Attributes](aerConCustomAttributes.html)
+
 [DCLSRPARM](DCLSRPARM.html)
+
 [ENDPROP](ENDPROP.html)
+
 [LEAVESR](LEAVESR.html) 

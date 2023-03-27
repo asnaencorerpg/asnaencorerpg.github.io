@@ -52,7 +52,11 @@ Note [%FOUND](FOUND_Function.html) and [%EQUAL](EQUAL_Function.html) are **NOT**
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)
+
 [LOOKUP](LOOKUP.html)
+
 [%EQUAL](EQUAL_Function.html)
+
 [%FOUND](FOUND_Function.html)
+
 [%LOOKUP](LOOKUP_Function.html) 

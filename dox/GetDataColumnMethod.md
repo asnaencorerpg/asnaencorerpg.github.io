@@ -38,6 +38,9 @@ When accessing **DataTable** objects, note that they are conditionally case-sens
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [MemoryFile Class](aerLrfMemoryFileClass.html)
+
 [MemoryFile Class Members](aerLrfMemoryFileMembers.html)
+
 [DCLMEMORYFILE](DATE_Function.html) 

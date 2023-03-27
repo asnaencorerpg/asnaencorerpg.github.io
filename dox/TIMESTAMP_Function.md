@@ -35,6 +35,9 @@ If no *Expression* is specified, the current system timestamp is returned. Regar
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)
+
 [Timestamp Data Types](Timestamp_Data_Type.html)
+
 [%TIME](TIME_Function.html)
+
 [%DATE](DATE_Function.html) 

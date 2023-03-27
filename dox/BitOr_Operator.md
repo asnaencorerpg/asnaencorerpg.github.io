@@ -128,5 +128,7 @@ If the operands consist of one **Boolean** expression and one numeric expression
 
 ### See Also
 [*BitAnd Operator](BitAnd_Operator.html)
+
 [Operators](BitNot_Operator"> *BitNot Operator </a> <br /> <a href="BitOr_Operator">*BitOr Operator</a> <br /> <a href="aerLrfOperatorsMain.html)
+
 [Operators and Their Precedence](Expression_Operators_and_their_Precedence.html) 

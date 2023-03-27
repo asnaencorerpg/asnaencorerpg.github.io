@@ -28,5 +28,7 @@ The Encore RPG compiler stores the format of each file in the assembly when a pr
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html) <br /> <span> [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html) </span> 

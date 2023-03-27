@@ -29,9 +29,15 @@ If no parameters are present, this function returns the current system date in *
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)
+
 [Date Formats](Date_Formats.html)
+
 [Default Values Date_Formats](Default_Values_for_all_Date_Formats.html)
+
 [*DATE](StarDate.html)
+
 [UDATE](UDATE.html)
+
 [%TIME](TIME_Function.html)
+
 [%TIMESTAMP](TIMESTAMP_Function.html) 

@@ -32,5 +32,7 @@ Explains the difference between value and reference types, and which data
 
 ### See Also
 [Language Concepts](aerConLanguageConceptsMain.html)
+
 [Data types Main Topics](aerLrfDataTypesMain.html)
+
 [Data type Summary](Data_type_summary.html) 

@@ -16,9 +16,15 @@ You can declare a static local variable in a class, that is, inside a procedure 
 
 ### See Also
 [Accessibility](aerConAccessibility.html)
+
 [Declared Elements](aerConDeclaredElements.html)
+
 [DCLFLD](DCLFLD.html)
+
 [Lifetime](aerConDeclaredElementsLifetime.html)
+
 [Accessibility](aerConAccessibility.html)
+
 [Variables](Variables.html)
+
 [Variable Declaration](aerConVariableDeclaration.html) 

@@ -20,6 +20,9 @@ The string returned by the **ToString** method contains the declared file name (
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DataGateException Class](aerLrfDataGateExceptionClass.html)
+
 [DataGateException Members](aerLrfDataGateExceptionMembers.html)
+
 [CausingException Field](aerLrfCausingExceptionFieldDataGateExceptionClass.html) 

@@ -58,8 +58,13 @@ When moving from a **Time to a Timestamp** field, the microsecond's part of the 
 
 ### See Also
 [Date and Time](aerLrfDateandTimeMain.html)
+
 [Date Data Type](Date_Data_Type.html)
+
 [MOVE](MOVE.html)
+
 [MOVEL](MOVEL.html)
+
 [Time Data Type](Time_Data_Type.html)
+
 [Timestamp Data Type](Timestamp_Data_Type.html) 

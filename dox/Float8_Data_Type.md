@@ -22,4 +22,5 @@ The equivalent .NET data type is **System.Double.**
 
 ### See Also
 [Data Types](aerLrfDataTypesMain.html)
+
 [*Float4](Float8_Data_Type.html) 

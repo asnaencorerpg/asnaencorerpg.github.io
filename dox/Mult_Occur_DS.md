@@ -17,12 +17,21 @@ Encore RPG also allows the [ ] characters to access occurrences. Use of the [ ] 
 
 ### See Also
 [Language Elements](aerLrfLangElementsMain.html)
+
 [Data Structure Element](DS_Element.html)
+
 [DCLDS](DCLDS.html)
+
 [DCLDSFLD](DCLDSFLD.html)
+
 [DCLOVERLAYGROUP](DCLOVERLAYGROUP.html)
+
 [OCCUR](OCCUR.html)
+
 [%OCCUR](OCCUR_Function.html)
+
 [Array Elements](Array_Element.html)
+
 [Control Properties](Control_Properties.html)
+
 [Fields](Field.html) 

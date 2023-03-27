@@ -52,13 +52,23 @@ Optional. The name of the data structure to read from. The data structure must b
 
 ### See Also
 [CHAIN](CHAIN.html)
+
 [DCLMEMORYFILE](DATE_Function.html)
+
 [DCLWORKSTNFILE](DCLWORKSTNFILE.html)
+
 [READ](READ.html)
+
 [READE](READE.html)
+
 [READP](READP.html)
+
 [READPE](READPE.html)
+
 [%EOF](EOF_Function.html)
+
 [%ERROR](ERROR_Function.html)
+
 [IsEof Property](IsEofPropertyDbFileClass.html)
+
 [IsError Property](IsErrorPropertyDbFileClass.html) 

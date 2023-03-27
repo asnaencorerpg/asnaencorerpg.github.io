@@ -38,6 +38,9 @@ You can also use the following data types to automatically set the length of the
 
 ### See Also
 [Data Types](aerLrfDataTypesMain.html)
+
 [*Integer2](Integer2_data_type.html)
+
 [*Integer4](Integer4_Data_Type.html)
+
 [*Integer8](Integer8_Data_Type.html) 

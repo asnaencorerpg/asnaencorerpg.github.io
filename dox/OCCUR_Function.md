@@ -28,5 +28,7 @@ When this function is evaluated for its value, it returns the current occurrence
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)
+
 [Multiple Occurrence Data Structures](Mult_Occur_DS.html)
+
 [OCCUR](OCCUR.html) 

@@ -28,7 +28,11 @@ The [ToString](ToString_Method_DGEClass.html) method also returns the errors tha
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DataGateException Class](aerLrfDataGateExceptionClass.html)
+
 [DataGateException Members](aerLrfDataGateExceptionMembers.html)
+
 [DclFileName Field](aerLrfDclFileNameFieldDataGateExceptionClass.html)
+
 [ToString Method](ToString_Method_DGEClass.html) 

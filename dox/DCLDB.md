@@ -101,11 +101,19 @@ Be careful when setting the Shared parameter to *Yes; thus sharing a single conn
 
 ### See Also
 [CONNECT](CONNECT.html)
+
 [CreateName Method](CreateName_Method.html)
+
 [DbName Property](DBName_Property.html)
+
 [DeleteName Method](DeleteName_Method.html)
+
 [DISCONNECT](DISCONNECT.html)
+
 [UpdateName Method](UpdateName_Method.html)
+
 [GetNames Method](GetNames_Method.html)
+
 [Database Class](aerLrfDatabaseClass.html)
+
 [Database Class Members](aerLrfDatabaseMembers.html) 

@@ -49,7 +49,11 @@ When you employ [SETRANGE](SETRANGE.html) & [READ](READ.html)/[READP](READP.html
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [DBFile Class](aerLrfDBFileClass.html)
+
 [DBFile Members](aerLrfDBFileMembers.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [OPEN](OPEN.html) 

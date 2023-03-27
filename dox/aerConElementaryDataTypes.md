@@ -41,5 +41,7 @@ Describes the * **Boolean** , * **Date** , and * **Object**  types.
 
 ### See Also
 [Language Concepts](aerConLanguageConceptsMain.html)
+
 [Data type Summary](Data_type_summary.html)
+
 [Type Conversions](Type_Conversions.html) 

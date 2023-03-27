@@ -53,10 +53,17 @@ Unlike the [LOOKUP](LOOKUP.html) op code, **%LOOKUP** only applies to arrays. To
 
 ### See Also
 [Built-in Function Overview](Functions_overview.html)
+
 [DCLARRAY](DCLARRAY.html)
+
 [DclAliasGroup](DCLALIASGROUP.html)
+
 [DCLDSFLD](DCLDSFLD.html)
+
 [LOOKUP](LOOKUP.html)
+
 [%EQUAL](EQUAL_Function.html)
+
 [%FOUND](FOUND_Function.html)
+
 [%TLOOKUP](TLOOKUP_Function.html) 

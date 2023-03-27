@@ -75,6 +75,9 @@ An array of objects meant to replace the symbolic
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [MessageFileReader Class](aerLrfMessageFileReaderClass.html)
+
 [MessageFileReader Members](aerLrfMessageFileReaderMembers.html)
+
 [GetMessageText Method](GetMessageTextMethod.html) 

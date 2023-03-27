@@ -241,4 +241,5 @@ If Source is *DATE and the result is a Date field, **TimFmt** is not required. I
 
 ### See Also
 [MOVE](MOVE.html)
+
 [Moving Date-Time Data](Moving_Data_Time_Data.html) 

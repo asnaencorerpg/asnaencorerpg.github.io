@@ -88,8 +88,13 @@ ReadP CustRecd Access( *NoLock ) Bof(* In72 ) Err ( *In99 )
 
 ### See Also
 [CHAIN](CHAIN.html)
+
 [DCLDISKFILE](DCLDISKFILE.html)
+
 [READ](READ.html)
+
 [READE](READE.html)
+
 [READPE](READPE.html)
+
 [%EOF](EOF_Function.html) 

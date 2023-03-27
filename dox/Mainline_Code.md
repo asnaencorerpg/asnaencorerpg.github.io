@@ -31,8 +31,13 @@ DclSRParm Args Type( *string ) Rank( 1 )
 
 ### See Also
 [BEGFUNC](BEGFUNC.html)
+
 [BEGSR](BEGSR.html)
+
 [DCLSRPARM](DCLSRPARM.html)
+
 [Declarations](Declarations.html)
+
 [Event Subroutines](Event_Subroutines.html)
+
 [General Subroutines](General_Subroutines.html) 

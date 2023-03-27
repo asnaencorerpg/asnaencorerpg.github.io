@@ -29,8 +29,13 @@ Move "Hello" Greeting [2,3]
 
 ### See Also
 [Control Properties](Control_Properties.html)
+
 [Data Structure Element](DS_Element.html)
+
 [Fields](Field.html)
+
 [Multiple Occurrence Data structures](Mult_Occur_DS.html)
+
 [Variables](aerLrfVariablesMain.html)
+
 [Encore RPG Language Reference](aerLrfLangRefMain.html) 

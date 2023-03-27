@@ -108,6 +108,9 @@ When all messages have been entered, execute the CRTMSGF.EXE file passing the te
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [MessageFileReader Methods](aerLrfMessageFileReaderMethodsMain.html)
+
 [GetMessageText Method](GetMessageTextMethod.html)
+
 [GetSecondMessageText Method](GetSecondMessageTextMethod.html) 

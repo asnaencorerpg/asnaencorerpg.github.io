@@ -34,11 +34,19 @@ The **User** property is also used in conjunction with the [CreateName](CreateNa
 
 ### See Also
 [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
+
 [Database Class](Date_Formats.html)
+
 [Database Class Members](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Properties](aerLrfDatabasePropertiesMain.html)
+
 [Database Class Methods](aerLrfDatabaseMethods.html)
+
 [DCLDB](DCLDB.html)
+
 [CreateName Method](CreateName_Method.html)
+
 [UpdateName Method](UpdateName_Method.html)
+
 [Password Property](Password_Property.html) 

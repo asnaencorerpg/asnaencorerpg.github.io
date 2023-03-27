@@ -35,4 +35,5 @@ Integer. The number of data structure fields.
 #### See Also
 <p> [ASNA.VisualRPG.Runtime](aerLrfRuntimeNamespace.html)
 [IDS Interface](aerLrfIDSClass.html)
+
 [DCLDS](DCLDS.html) 
