@@ -32,7 +32,7 @@ Required. The name of the property.
 
 **Type** 
 
-Required. **Type** can be any of the "*" Types (*CHAR, *BINARY, etc.) or it can be the name of a field already defined in the program, a string literal or a library object, as described below. If Type is *BOOLEAN, you can use the *TRUE or *ON and *FALSE or *OFF special values to indicate **True** or **False** . See [Type Parameter](Type_Parameter.html) for further information. 
+Required. **Type** can be any of the "\*" Types (*CHAR, *BINARY, etc.) or it can be the name of a field already defined in the program, a string literal or a library object, as described below. If Type is *BOOLEAN, you can use the *TRUE or *ON and *FALSE or *OFF special values to indicate **True** or **False** . See [Type Parameter](Type_Parameter.html) for further information. 
 
 A string literal, which defines an *OBJECT variable of a particular type. The string literal must represent: 
 
@@ -48,7 +48,7 @@ If a **Type** parameter is not given, the <span style="FONT-WEIGHT: bold"> Len <
 
 Optional. **Len** defines the length of the field. If **Len** is decimal (3,1) *ZONED is assigned as the default. If **Len** is character (3), *CHAR is assigned as the default. 
 
-Depending upon the **Type** specified, the **Len** parameter may be required. For instance, types of *BINARY, *CHAR, *PACKED, *ZONED, *DECIMAL | *FLOAT, *INTEGER will require a **Len** . A compiler message will display if the **Len** parameter is needed.
+Depending upon the **Type** specified, the **Len** parameter may be required. For instance, types of *BINARY, *CHAR, *PACKED, *ZONED, *DECIMAL \| *FLOAT, *INTEGER will require a **Len** . A compiler message will display if the **Len** parameter is needed.
 
 
 **TimFmt** 
@@ -152,17 +152,43 @@ A plus sign (+) preceding the number indicates a length increase; a minus sign (
 
 
 ### Remarks
-Use **BEGPROP**  when creating a property for a class. **BEGSET** 
-        and **BEGGET**  procedures allow you to set and get the value of
-        the property.
 
-A **BEGPROP** routine ** * must always * ** end with an [ENDPROP](ENDPROP.html) and the [BEGGET](BEGGET.html) routine must also contain a [LEAVESR](LEAVESR.html), as shown below.<br />
+Use **BEGPROP**  when creating a property for a class. **BEGSET** and **BEGGET**  procedures allow you to set and get the value of the property.
+
+A **BEGPROP** routine ** * must always * ** end with an [ENDPROP](ENDPROP.html) and the [BEGGET](BEGGET.html) routine must also contain a [LEAVESR](LEAVESR.html), as shown below.
+
 ```
-dclfld_Firstname *string INZ("") dclfld_Lastname *string INZ("") BegProp Firstname *string Access( *public ) BegSet _FirstName = *Propval EndSet BegGet LeaveSR _FirstName EndGet EndProp BegProp Lastname *string Access( *public ) BegSet NewValname( Lname ) _LastName = Lname EndSet BegGet LeaveSR _LastName EndGet EndProp // Read only property BegProp FullName Type( *string ) Access ( *public ) BegGet LeaveSR Value( FirstName + " " + LastName ) EndGet EndProp
+    dclfld_Firstname *string INZ("") 
+    dclfld_Lastname *string INZ("") 
+
+    BegProp Firstname *string Access( *public ) 
+        BegSet 
+            _FirstName = *Propval 
+        EndSet 
+        BegGet 
+            LeaveSR _FirstName 
+        EndGet 
+    EndProp 
+
+    BegProp Lastname *string Access( *public ) 
+        BegSet NewValname( Lname ) 
+            _LastName = Lname 
+        EndSet 
+        BegGet 
+            LeaveSR _LastName 
+        EndGet 
+    EndProp // Read only property 
+
+    BegProp FullName Type( *string ) Access ( *public ) 
+        BegGet 
+            LeaveSR Value( FirstName + " " + LastName ) 
+        EndGet 
+    EndProp
 ```
 
 ### See Also
-<p> [DCLPROP](DCLPROP.html)
+[DCLPROP](DCLPROP.html)
+
 [BEGSR](BEGSR.html)
 
 [Custom Attributes](ecrConCustomAttributes.html)

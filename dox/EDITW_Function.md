@@ -31,5 +31,6 @@ If the values of mySalary is 2451.53, and myEditWd is " **$,,**Dollars Cents** "
 ```
 
 ### See Also
-<p> [Built-in Function Overview](Functions_overview.html)
+[Built-in Function Overview](Functions_overview.html)
+
 [Edit Word Usage](ecrLrfEditWordTable.html) 

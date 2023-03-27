@@ -26,5 +26,6 @@ For **examples**  on how to code time fields, see the examples in the following 
 [Date Operations](Date_Operations.html)<p /> [Moving Date and Time](Moving_Data_Time_Data.html)<p /> [ADDDUR](ADDDUR.html)<p /> [EXTRACT](EXTRACT.html)<p /> [MOVE](MOVE.html)<p /> [SUBDUR](SUBDUR.html)<p /> [TESTTIME](TESTTIME.html)
 
 ### See Also
-<p> [Date and Time](ecrLrfDateandTimeMain.html)
+[Date and Time](ecrLrfDateandTimeMain.html)
+
 [Data Types](ecrLrfDataTypesMain.html) 

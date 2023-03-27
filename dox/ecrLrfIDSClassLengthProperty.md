@@ -25,7 +25,8 @@ TocOrder: 0
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 #### See Also
-<p> [ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+
 [IDS Interface](ecrLrfIDSClass.html)
 
 [DCLDS](DCLDS.html) 

@@ -41,5 +41,6 @@ Overloaded. Returns the second-level message text from the specified prefix and 
 </table>
 
 ### See Also
-<p> [ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+
 [MessageFileReader Class](ecrLrfMessageFileReaderClass.html) 

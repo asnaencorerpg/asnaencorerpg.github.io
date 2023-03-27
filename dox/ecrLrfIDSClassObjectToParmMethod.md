@@ -33,7 +33,8 @@ Integer. The number of data structure fields.
 **ObjectToParm** passes the data structure as an **INPUT** parameter on the remote call. 
 
 #### See Also
-<p> [ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+
 [IDS Interface](ecrLrfIDSClass.html)
 
 [DCLDS](DCLDS.html) 

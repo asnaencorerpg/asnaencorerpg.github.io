@@ -33,7 +33,8 @@ Set the **Quality** property to specify the print quality. *FILE indicates that 
 **Platforms:** Windows Server 2012, Windows Server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 
 #### See Also
-<p> [ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
+
 [PrintFile Class](ecrLrfPrintFileClass.html)
 
 [PrintFile Members](ecrLrfPrintFileMembers.html)

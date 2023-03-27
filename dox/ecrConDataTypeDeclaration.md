@@ -16,7 +16,8 @@ Every programming element that can hold data has a declared data type. The follo
 - Procedure return value — In the procedure declaration.
 
 ### See Also
-<p> [Language Concepts](ecrConLanguageConceptsMain.html)
+[Language Concepts](ecrConLanguageConceptsMain.html)
+
 [Data type Summary](Data_type_summary.html)
 
 [Type Conversions](Type_Conversions.html) 
