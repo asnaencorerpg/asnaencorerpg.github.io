@@ -11,8 +11,8 @@ TocOrder: 1290
 The **OSEXEC** command opens or prints a specified file. The file can be an executable file or a file that is associated with a program. 
 
 ```
- **OSEXEC** 
- **CmdLine**  (Character Expression)
+OSEXEC 
+CmdLine  (Character Expression)
 ShowType (<u>*SHOWNORMAL</u> | *HIDE | *MINIMIZED | *RESTORE | *SHOW | *SHOWMAXIMIZED | *SHOWMINIMIZED |
         *SHOWNA | *SHOWNOACTIVE | *SHOWNORMAL)
 RtnCode (Numeric Field)

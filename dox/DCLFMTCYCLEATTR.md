@@ -11,8 +11,8 @@ TocOrder: 480
 **DclFmtCycleAttr** is used to declare every format participating in the RPG Cycle. It specifies which indicator will be turned on when the cycle reads a record of that particular format, and which fields participate in level breaks (also known as control breaks) or matching records. 
 
 ```
- **DclFmtCycleAttr** 
- **Fmt (Format name)** 
+DclFmtCycleAttr 
+Fmt (Format name)
  Ind (Indicator)  
  L1 (...)
  ...

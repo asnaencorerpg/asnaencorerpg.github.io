@@ -11,8 +11,7 @@ TocOrder: 0
 **%ABS** [built-in function](Functions_overview.html) returns the absolute value of the numeric expression specified as the parameter. 
 
 ```
- **%ABS** 
- **(NumericExpression)**       
+ %ABS(NumericExpression)
 ```
 
 ### Parts

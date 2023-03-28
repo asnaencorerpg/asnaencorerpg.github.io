@@ -11,7 +11,7 @@ TocOrder: 0
 Adds **F1** to **F2** and places the sum in **Result** .
 
 ```
- **ADD** 
+ADD
 F1 (Numeric Expression | Character Expression | <u>*NONE</u>) **F2**  (Numeric Expression | Character Expression) **Result**  (Numeric Variable | Character Variable)
 Adj (<u>*TRUNC</u> | *RNDUP)
 Pos (Indicator Variable)

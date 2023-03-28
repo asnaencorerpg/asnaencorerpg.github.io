@@ -11,8 +11,8 @@ TocOrder: 1360
 Reads the next prior sequential record from a full procedural file that has the same search argument. 
 
 ```
- **READPE** 
- **From**  (File Name | Format Name)
+READPE 
+From  (File Name | Format Name)
 Key (<u>*CURRENT</u> | KeyList Name | Character Expression)
 Access (<u>*DFT</u> | *NOLOCK)
 Err (*EXTENDED | Indicator Variable)

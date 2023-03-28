@@ -11,8 +11,8 @@ TocOrder: 50
 Identifies, or declares a constructor. 
 
 ```
- **BEGCONSTRUCTOR** 
- **Shared** (*<u>NO</u> | *YES)
+BEGCONSTRUCTOR
+Shared (*<u>NO</u> | *YES)
 Access (<u>*PRIVATE</u> | *INTERNAL | *PROTECTED | *PUBLIC)
 Base (<u>*DFT</u> | Expression 1, Expression 2, ...) 
 This (Argument1, Argument2, ...)      

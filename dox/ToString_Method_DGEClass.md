@@ -11,8 +11,7 @@ TocOrder: 5
 **ToString** returns a string representation of the current exception. 
 
 ```
- **ToString ()** 
-        
+ToString ()    
 ```
 
 ### Remarks

@@ -11,9 +11,9 @@ TocOrder: 1500
 Specifies the square root of **F2** and places it in **Result** .
 
 ```
- **SQRT** 
- **F2**  (Numeric Expression | Character Expression)
- **Result**  (Numeric Variable | Character Variable)
+SQRT 
+F2  (Numeric Expression | Character Expression)
+Result  (Numeric Variable | Character Variable)
 Adj (<u>*TRUNC</u> | *RNDUP)  
 Type (<u>*NONE</u>| *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *IND |
       *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *ONECHAR | *PACKED | *ZONED)

@@ -11,7 +11,7 @@ TocOrder: 8
 Used to perform a logical conjunction on two Boolean expressions, or a bitwise conjunction on two integer values. 
 
 ```
- ** *result* ** = ** *expression1* ** *BitAnd ** *expression2* ** 
+ result  = expression1 *BitAnd expression2 
 ```
 
 ### Parts

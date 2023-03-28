@@ -11,10 +11,10 @@ TocOrder: 680
 Divides **F1** by **F2** if **F1** is specified. If not, it divides the **Result** by **F2** and places the quotient in **Result** . 
 
 ```
- **DIV** 
+DIV 
 F1 (<u>*NONE</u> | Numeric Expression)
- **F2**  (Numeric Expression)
- **Result**  (Numeric Expression)
+F2  (Numeric Expression)
+Result  (Numeric Expression)
 Rem (<u>*NONE</u> | Numeric Variable)
 Adj (<u>*TRUNC</u> | *RNDUP)
 Pos (Indicator Variable)
