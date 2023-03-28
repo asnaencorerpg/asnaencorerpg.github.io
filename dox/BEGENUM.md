@@ -11,8 +11,8 @@ TocOrder: 60
 Declares, or starts an enumeration definition. 
 
 ```
- **BEGENUM** 
- **Name**  (Enumeration name)
+BEGENUM 
+Name  (Enumeration name)
 Access (<u>*PUBLIC</u> | *INTERNAL)
 BaseType (Integral type name)
 Attributes (Attribute 1, Attribute 2, ...)
@@ -48,7 +48,8 @@ Attributes use required, and optional arguments. The required parameters are pro
 ```
 BEGENUM MyClass Attributes(Developer("John Smith", 35))
 ```
- **Note &#8211;** You must use positional arguments for arguments that are used with the
+
+Note &#8211; You must use positional arguments for arguments that are used with the
                 attribute’s interface. Named arguments can only be used to set the values of
                 fields and properties of attribute classes.
 
@@ -61,7 +62,7 @@ The **BEGENUM** routine must end with the [ENDENUM](ENDENUM.html) command.
 ### Example
 
 ```
- **BegEnum**  myEnum basetype(*byte) 
+BegEnum  myEnum basetype(*byte) 
     DclEnumFld q4 (4)  // <--- the default value is 0
     DclEnumFld q5      // <--- this will be 5, which is 1 plus the previous one
 EndEnum
@@ -70,4 +71,6 @@ EndEnum
 ### See Also
 [ENDENUM](ENDENUM.html)
 
-[DCLENUMFLD](DCLENUMFLD.html) | [Enumeration Definition](ecrConEnumerationsOverview.html) 
+[DCLENUMFLD](DCLENUMFLD.html) 
+
+[Enumeration Definition](ecrConEnumerationsOverview.html) 

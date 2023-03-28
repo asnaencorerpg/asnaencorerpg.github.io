@@ -11,9 +11,9 @@ TocOrder: 1230
 Transfers characters from **Source** to the **Target** , left-adjusted with optional padding on the right. 
 
 ```
- **MOVEL** 
- **Source**  (Expression)
- **Target**  (Character Expression)
+MOVEL 
+Source  (Expression)
+Target  (Character Expression)
 Fill (*NOPAD | *PAD)
 Pos (Indicator Variable)
 Neg (Indicator Variable)

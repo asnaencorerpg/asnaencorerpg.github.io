@@ -65,7 +65,7 @@ Optional. **Err** determines what the runtime will do if an error occurs while e
 /* The **CHAIN** operation retrieves the first record from the file CustMaster, that has a key field with the same value as the search argument CustNumber. Indicator 60 will come on (File record not found). */ 
 
 ```
- **CHAIN**  CustMaster CustNumber NotFnd(*In60)
+CHAIN  CustMaster CustNumber NotFnd(*In60)
 If *In60 = *ON
     Subfile1AgentName = *Blanks
  Else

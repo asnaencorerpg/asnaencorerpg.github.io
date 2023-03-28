@@ -11,7 +11,7 @@ TocOrder: 10
 Used to perform a logical disjunction on two Boolean expressions, or a bitwise disjunction on two integer values. 
 
 ```
- ** *result* **  = ** *expression1* **  *BitOr ** *expression2* ** 
+ result = expression1 *BitOr expression2
 ```
 
 

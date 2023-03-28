@@ -11,11 +11,11 @@ TocOrder: 240
 Allows you to conditionally select a subroutine for processing.
 
 ```
- **CASxx** 
+CASxx 
 F1 (Operand)
 Relop (Comparison Operator)
 F2 (Operand)
- **Sr (Subroutine Name)** ParmList (Parameter List)
+Sr (Subroutine Name) ParmList (Parameter List)
 Hi (Indicator Variable)
 Lo (Indicator Variable)
 Eq (Indicator Variable) 

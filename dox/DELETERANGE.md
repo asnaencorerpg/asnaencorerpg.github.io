@@ -13,9 +13,9 @@ Positions the file to the desired range of records constrained by the **FirstKey
 This operation is valid only for files opened for indexed access (Use **ORG (*Indexed)** option on **DCLDISKFILE** ). 
 
 ```
- **DELETERANGE** 
- **File**  (FileName | FormatName) 
- **FirstKey**  (Key List Name | Variable Operand) 
+DELETERANGE 
+File  (FileName | FormatName) 
+FirstKey  (Key List Name | Variable Operand) 
 LastKey (*<u>FIRSTKEY</u>  | Key List Name | Variable Operand) 
 IncludeFirstKey (<u>*YES</u>  |*NO) 
 IncludeLastKey (<u>*YES</u>  | *NO) 

@@ -11,8 +11,8 @@ TocOrder: 490
 Indicates that a field is part of a search argument identified by a [DCLKLIST](DCLKLIST.html) name. 
 
 ```
- **DCLKFLD** 
- **Name**  (KeyField name)
+DCLKFLD 
+Name  (KeyField name)
 ```
 
 ### Parts

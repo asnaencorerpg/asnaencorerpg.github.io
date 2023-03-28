@@ -11,7 +11,7 @@ TocOrder: 1180
 **LEAVESR** transfers out of the current subroutine, property or function. 
 
 ```
- **LEAVESR** Value (value to return)
+LEAVESR Value (value to return)
 ```
 
 ### Parts
@@ -51,7 +51,7 @@ BegFunc myFunction type(*Object)
   LeaveSR Value ( Label1 )
 EndFunc
 ```
-**Example within BegProp:** 
+Example within BegProp: 
 
 ```
 BegProp Name (MyProp) event (*GET) type (*PACKED) Len (4,0) 

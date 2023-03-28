@@ -11,7 +11,7 @@ TocOrder: 100
 Defines the beginning of a **cycle's** print attributes. 
 
 ```
- **BEGPRINTATTR**    
+BEGPRINTATTR    
 ```
 
 ### Remarks

@@ -11,9 +11,9 @@ TocOrder: 730
 Dumps the contents of the fields of the **data structure** assembled into a string. 
 
 ```
- **DSDUMP** 
+DSDUMP 
 Name (Data structure name)
- **Target**  (Data structure contents)
+Target  (Data structure contents)
 ```
 
 ### Parts

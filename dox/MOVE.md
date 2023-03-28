@@ -11,9 +11,9 @@ TocOrder: 1210
 Transfers characters from **Source** to the **Target** , right-adjusted with optional blanks padded on the left side of the **Target** . 
 
 ```
- **MOVE** 
- **Source** (Character Expression)
- **Target**  (Character Expression)
+MOVE 
+Source (Character Expression)
+Target  (Character Expression)
 Fill (<u>*NOPAD</u> | *PAD)
 Pos (Indicator Variable) 
 Neg (Indicator Variable)
@@ -161,7 +161,7 @@ If Source is *DATE and the result is a Date field, **TimFmt** is not required. I
 <u> ** Source is shorter than Result. ** </u> 
 
 ```
- **Character to Character**  
+Character to Character  
 
   Value1 = "ASNA4ME" 
   Value2 = "123456784"
@@ -196,7 +196,7 @@ If Source is *DATE and the result is a Date field, **TimFmt** is not required. I
  **<u>Source is longer than Result.</u>** 
  
 ```
- **Character to Character** 
+Character to Character 
 
   Value1 = "ASNA4ME" 
   Value2 = "PH4SN"
@@ -232,7 +232,7 @@ If Source is *DATE and the result is a Date field, **TimFmt** is not required. I
 <br /> **<u> Source is shorter than Result with *Pad extension. </u>** 
 
 ```
- **Character to Character** 
+Character to Character 
 
   Value1 = "ASNA4ME" 
   Value2 = "123456784"
@@ -265,10 +265,10 @@ If Source is *DATE and the result is a Date field, **TimFmt** is not required. I
   Value2 now = // 1278425'. 
 
 ```
-**<u>Source and Result are the same length.</u>** 
+<u>Source and Result are the same length.</u> 
 
 ```
- **Character to Character** 
+Character to Character 
 
   Value1 = "ASNA4ME" 
   Value2 = "1234567"

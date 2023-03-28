@@ -11,8 +11,8 @@ TocOrder: 110
 **BEGPROC** is **only** available to support the Monarch migration of RPG ILE procedures and subprocedures from an System i. See **Remarks** for more information. 
 
 ```
- **BEGPROC** 
- **Name**  (Procedure name | *Entry) 
+BEGPROC 
+ Name  (Procedure name | *Entry) 
 Type (*BOOLEAN | *BINARY | *BYTE | *CHAR | *DATE | *IND | *PACKED | *TIME | *TIMESTAMP | *ZONED | 
       *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *STRING | name | String Literal | Library.Object) 
 	  Len (Length Integer, [Decimal Positions Integer])

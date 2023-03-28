@@ -13,7 +13,7 @@ Declares the members of an Enumeration ([BEGENUM](BEGENUM.html)/[ENDENUM](ENDENU
 ```
 
  **DCLENUMFLD** 
- **Name** (field name)
+Name (field name)
 Value (constant expression)
 Attributes (Attribute 1, Attribute 2, ...)
 ```

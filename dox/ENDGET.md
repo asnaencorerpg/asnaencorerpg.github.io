@@ -11,7 +11,7 @@ TocOrder: 850
 Terminates a [BEGGET](BEGGET.html) procedure.
 
 ```
- **ENDGET**       
+ENDGET       
 ```
 
 ### Remarks

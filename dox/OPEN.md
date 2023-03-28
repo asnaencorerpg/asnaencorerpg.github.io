@@ -11,8 +11,8 @@ TocOrder: 1280
 Opens the file named in **File** for processing.
 
 ```
- **OPEN** 
- **File**  (Name of file)
+OPEN 
+File (Name of file)
 FilePath (<u>*FILENAME</u> | Character Variable)
 Mbr (<u>*FIRST</u> | *FILE | Character Variable)
 Db (Database Object)

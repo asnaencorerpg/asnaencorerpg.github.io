@@ -11,7 +11,7 @@ TocOrder: 830
 Ends a [FOR](FOR.html)/ENDFOR or [FOREACH](FOREACH.html)/ENDFOR loop. 
 
 ```
- **ENDFOR**         
+ENDFOR         
 ```
 
 ### Remarks

@@ -13,8 +13,8 @@ Identifies the beginning of a subroutine. If it is an event-handling subroutine,
 ** For Monarch applications ** , BEGSR identifies the beginning of a procedure, which is nested inside of a [BEGPROC](BEGPROC.html) routine. In this case, only 2 parameters are used; **Name** and **ExName** . See **Remarks** section below for more information. 
 
 ```
- **BEGSR** 
- **Name**  (Function name | *PSSR ) // for Monarch procedures only Event (<u>*NONE</u> | *CHANGE | event name)
+BEGSR 
+Name  (Function name | *PSSR ) // for Monarch procedures only Event (<u>*NONE</u> | *CHANGE | event name)
 Shared (<u>*NO</u> | *YES)
 Access (<u>*PRIVATE</u> | *INTERNAL | *PUBLIC | *PROTECTED) 
 Modifier (<u>*NONE</u> | *MUSTOVERRIDE | *NOTOVERRIDABLE | *OVERRIDABLE | *OVERRIDES) 

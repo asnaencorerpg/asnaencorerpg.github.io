@@ -11,8 +11,8 @@ TocOrder: 210
         Used to dynamically
         invoke a procedure. [Only used with Monarch ILE Procedures]. 
 ```
- **CALLD** 
- **Pgm**  (Character expression)<br />ParmList (<u>*NONE</u>| Parameter List Name)
+CALLD 
+Pgm  (Character expression)<br />ParmList (<u>*NONE</u>| Parameter List Name)
 Assembly (Character expression)<br />Prototype (Name)
 Err (Indicator Variable | *EXTENDED)
 Lr (Indicator Variable)    

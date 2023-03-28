@@ -11,9 +11,8 @@ TocOrder: 123
 Delcares a property routine.
 
 ```
-
- **DCLPROP** 
- **Name**  (Function name)
+DCLPROP
+Name  (Function name)
 Type (*BOOLEAN | *BINARY | *BYTE | *CHAR | *DATE | *IND | *PACKED | *TIME | *TIMESTAMP | *ZONED | 
       *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *STRING | name | String Literal | Library.Object) <br />Len (Length Integer, [Decimal Positions Integer])<br />TimFmt (*<u>PGMDFT</u> | *MDY | *DMY | *YMD | *JUL| *ISO | *USA | *EUR| *JIS| *HMS)<br />Rank (IntegerLiteral)<br />Shared (<u>*NO</u> | *YES) <br />Access (<u>*PRIVATE</u> | *INTERNAL | *PUBLIC | *PROTECTED) <br />Modifier (<u>*NONE</u> | *MUSTOVERERIDE | *NOTOVERRIDABLE | *OVERRIDABLE | *OVERRIDES)<br />Implements (Interface name list)  <br />GetAccess (<u>*DFT</u> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED) SetAccess (<u>*DFT</u> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED)
 

@@ -11,8 +11,8 @@ TocOrder: 470
 **DCLFLD** declares a working field in the current scope. **DCLFLD** also creates a property if the **Access** parameter is *PUBLIC. DCLFLD also supports the declaration of data areas with the addition of the **DB** and **DataArea** parameters. 
 
 ```
- **DCLFLD** 
- **Name**  (Field name)
+DCLFLD 
+Name  (Field name)
 Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8
       | *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *ONECHAR | *PACKED 
       | *STRING | *TIME | *TIMESTAMP | *ZONED | Field, Array, Array Element, table name, String Literal) 

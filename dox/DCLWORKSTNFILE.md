@@ -11,8 +11,8 @@ TocOrder: 630
 Declares an externally described workstation file for processing in a program.
 
 ```
- **DCLWORKSTNFILE** 
- **Name**  (name)
+DCLWORKSTNFILE 
+Name  (name)
 DspFile (<u>*NAME</u> | Character Expression)
 ImpOpen(<u>*YES</u> | *NO)
 RnmFmt (<u>*NONE</u> | Old Format name, New Format name, …)

@@ -11,8 +11,8 @@ TocOrder: 1770
 Starts a WITH block. 
 
 ```
- **WITH** 
- **Value** (Expression)
+WITH 
+Value (Expression)
 ```
 
 ### Parts

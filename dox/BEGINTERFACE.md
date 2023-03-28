@@ -11,8 +11,8 @@ TocOrder: 90
 Declares, or starts an interface definition. 
 
 ```
- **BEGINTERFACE** 
- **Name**  (Interface name)
+BEGINTERFACE 
+Name  (Interface name)
 Access (<u>*PUBLIC</u> | *INTERNAL)
 Implements (Interface name list)
 Attributes (Attribute 1, Attribute 2, ...)

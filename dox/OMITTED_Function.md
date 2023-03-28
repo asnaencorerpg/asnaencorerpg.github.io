@@ -11,7 +11,7 @@ TocOrder: 25
 **%OMITTED** [built-in function](Functions_overview.html) determines if an procedure parameter that contains the **Options (*OMIT)** keyword contains a valid value. 
 
 ```
- **%OMITTED (ParameterName)**   
+%OMITTED (ParameterName)   
 ```
 
 ### Parts

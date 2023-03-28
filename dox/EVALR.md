@@ -46,7 +46,7 @@ Use **EVALR** to capture errors in an expression and be notified by the setting 
 ### Example
 
 ```
- **EVALR X=(A+B)/C 05** 
+EVALR X=(A+B)/C 
 
 // Evaluate an expression to determine if the user pressed **Cancel** 
 

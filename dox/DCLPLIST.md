@@ -12,9 +12,8 @@ TocOrder: 550
 Begins the declaration of a list of parameters to be passed to a program, or be received from a caller if the name given is * **ENTRY** . 
 
 ```
-
- **DCLPLIST** 
- **Name**   (ParmListName)
+DCLPLIST
+Name   (ParmListName)
 ```
 
 ### Parts

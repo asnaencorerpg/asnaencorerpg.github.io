@@ -13,7 +13,7 @@ TocOrder: 27
 **%Len** is also supported for fixed-length fields or expressions. 
 
 ```
- **%Len (Expression)**        
+%Len (Expression)        
 ```
 
 ### Parts

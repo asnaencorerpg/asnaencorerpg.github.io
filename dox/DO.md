@@ -11,7 +11,7 @@ TocOrder: 690
 Begins a group of operations and indicates the number of times the group will be processed. 
 
 ```
- **DO** 
+DO 
 FromVal (Numeric Variable)
 ToVal (Numeric Variable)
 Index (Character Expression)

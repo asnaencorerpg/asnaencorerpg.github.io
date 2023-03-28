@@ -11,9 +11,8 @@ TocOrder: 1310
 **OUT** updates a **previously locked** data area. 
 
 ```
-
- **OUT** 
- **Name**  (name | *DTAARA)
+OUT
+Name  (name | *DTAARA)
 Lock ( <u>*NO</u> | *YES)
 ERR (Indicator Variable | *EXTENDED)
 ```

@@ -16,10 +16,10 @@ The **EXTRACT** operation code will return one of the following:
 
 
 ```
- **EXTRACT** 
- **F2**  (Date | Time | Timestamp | Array | Array element)
- **F2Fmt**  (*DAYS, *MONTHS, *YEARS, *MSECONDS, *SECONDS, *MINUTES, *HOURS)
- **Result**  (Numeric Variable)
+EXTRACT 
+F2  (Date | Time | Timestamp | Array | Array element)
+F2Fmt  (*DAYS, *MONTHS, *YEARS, *MSECONDS, *SECONDS, *MINUTES, *HOURS)
+Result  (Numeric Variable)
 Type (<u>*NONE</u>| *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | 
        *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *ONECHAR | *PACKED | *ZONED)
 Len (Length Integer, [Decimal Integer])
@@ -70,12 +70,13 @@ Please note that **EXTRACT** does not extract the century, so you would have to 
 ### Example
 
 ```
-
- **EXTRACT**  StartDate: *M StartMonth 2 0
- **EXTRACT**  StartDate: *D StartDay 2
+ EXTRACT  StartDate: *M StartMonth 2 0
+ EXTRACT  StartDate: *D StartDay 2
 ```
 
 ### See Also
 [ADDDUR](ADDDUR.html)
 
-[Duration Codes](Duration_Codes.html) | [SUBDUR](SUBDUR.html) 
+[Duration Codes](Duration_Codes.html)
+
+[SUBDUR](SUBDUR.html) 

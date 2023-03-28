@@ -11,8 +11,8 @@ TocOrder: 370
 Declares an n-dimensional array.
 
 ```
- **DCLARRAY** 
- **Name**  (name)
+DCLARRAY 
+Name  (name)
 Dim (Integer Literal, Integer Literal, ...)
 Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 |
       | *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *ONECHAR | *OBJECT |

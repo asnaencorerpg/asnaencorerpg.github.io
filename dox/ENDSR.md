@@ -11,7 +11,7 @@ TocOrder: 930
 Defines the end of a subroutine or event-handler.
 
 ```
- **ENDSR**        
+ENDSR        
 ```
 
 ### Remarks

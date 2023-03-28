@@ -11,9 +11,9 @@ TocOrder: 70
 Creates or identifies a function or a method. 
 
 ```
- **BEGFUNC** 
- **Name**  (Function name) 
- **Type**  (*BOOLEAN | *BINARY | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | 
+BEGFUNC 
+ Name  (Function name) 
+ Type  (*BOOLEAN | *BINARY | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | 
      *PACKED | *STRING | *TIME | *TIMESTAMP | *ZONED | name | String Literal | Library.Object) 
 Len (Length Integer, [Decimal Positions Integer]) 
 TimFmt (*<u>PGMDFT</u> | *MDY | *DMY | *YMD | *JUL | *ISO | *USA | *EUR | *JIS | *HMS)

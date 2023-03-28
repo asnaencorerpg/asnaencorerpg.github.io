@@ -11,7 +11,7 @@ TocOrder: 37
 **%REPLACE** [built-in function](Functions_overview.html) returns the character string produced by inserting a replacement string into the source string, starting at the position specified and replacing the specified number of characters. 
 
 ```
- **<stringVal> = %REPLACE (ReplaceString, SourceString,**  {StartPos, {SourceLengthToReplace})
+<stringVal> = %REPLACE (ReplaceString, SourceString,  {StartPos, {SourceLengthToReplace})
 ```
 
 ### Parts

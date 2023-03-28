@@ -12,8 +12,8 @@ TocOrder: 500
 Gives a name to a list of DCLKFLDS. This list can be used to retrieve records from files that have a composite key. 
 
 ```
- **DCLKLIST** 
- **Name**  (KeyField name)
+DCLKLIST 
+Name  (KeyField name)
 ```
 
 ### Parts
