@@ -24,10 +24,10 @@ Several ECR declaration commands rely directly on some of these classes or inter
 | --------------- | ---------------- |
 | [DclDB](DCLDB.html) | [Database Class](https://asnaqsys.github.io/reference/asna-qsys-runtime/classes/database.html)
 | [DclDiskFile](DCLDISKFILE.html) | [DatabaseFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/database-file.html)
-| [DclPrintFile](DCLPRINTFILE.html) | [DatabaseFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/database-file.html)
-| [DclWorkStnFile](DCLWORKSTNFILE.html) | [DatabaseFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/database-file.html)
+| [DclPrintFile](DCLPRINTFILE.html) | [PrintFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/print-file.html)
+| [DclWorkStnFile](DCLWORKSTNFILE.html) | [WorkstationFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/workstation-file.html)
 | [DclDS](DCLDS.html) | [DataStructure Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/data-structure.html)
-| [DclFld](DCLFLD.html) | *Char []() <br/> *Date [FixedDate Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/fixed-date.html) <br/> *Ind [Indicator Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/indicator.html)
+| [DclFld](DCLFLD.html) | *Bin, *Packed, *Zoned [FixedDecimal Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/fixed-decimal.html) <br/> *Char [FixedString Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/fixed-string.html) <br/> *Date [FixedDate Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/fixed-date.html) <br/> *Ind [Indicator Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/indicator.html) <br/> *Time [FixedTime Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/fixed-time.html)
 
 
 
