@@ -8,50 +8,48 @@ TocOrder: 1
 
 ---
 
-Encore RPG programs rely on a class library for their execution. contains a few of its own library of classes, interfaces, and value types that are included in Encore RPG. This library also provides access to system functionality and contains links to the .NET Framework classes in which applications, components, and controls are built. 
-
-### Namespaces
-The Encore RPG class library provides the following namespaces:
-
-[ASNA.VisualRPG.Runtime](ecrLrfRuntimeNamespace.html)
-
-Contains classes that support compilation and code generation using the
-                Encore RPG .NET language.
+Encore RPG programs rely on a class library for their execution. The library is a group of classes, interfaces, and value types, it also provides access to system functionality and contains links to the .NET classes in which applications, components, and controls are built. This library is composed of several assemblies which are named with the prefix ASNA.QSys and are formally known as the Monarch Base.
 
 
-[ASNA.VisualRPG.Windows.Controls](ecrLrfVisualRPGWindowsControlNamespace.html)
+## Namespaces
+The class library provides the following namespaces:
 
-Contains classes that add additional functionality to the Control classes that 	display information to the user.
+### [ASNA.QSys.Runtime](//asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html) Namespace
 
+The [ASNA.QSys.Runtime](//asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html) namespace contains classes that support compilation and code generation using the Encore RPG for Visual Studio language. Most of the classes are reserved for the Encore RPG system. Some classes and their members  may be employed directly by the Encore RPG programmer.
 
-[ASNA.DataGate.Client](../../DCS/_HTML/dcsDataGateClientNamespace.html)
+Several ECR declaration commands rely directly on some of these classes or interfaces.  Here are a few:
 
-Contains classes that support the ability for client-side database access.
-
-
-            System.Data
-
-Consists mostly of the classes that constitute the ADO.NET architecture. The ADO.NET architecture enables you
-                to build components that efficiently manage data from multiple data
-                sources.  In a disconnected scenario (such
-                as the Internet), ADO.NET provides the tools to request, update, and reconcile data in multiple tier systems. 
-                The ADO.NET architecture is also implemented in client applications, such as Windows Forms, or HTML pages created by ASP.NET.
-
-
-            <mshelp:link tabIndex="0" keywords="N:System.Drawing">System.Drawing</mshelp:link>
-
-Provides access to GDI+ basic graphics functionality.
+| Declare Command | Underlying Class |
+| --------------- | ---------------- |
+| [DclDB](DCLDB.html) | [Database Class](https://asnaqsys.github.io/reference/asna-qsys-runtime/classes/database.html)
+| [DclDiskFile](DCLDISKFILE.html) | [DatabaseFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/database-file.html)
+| [DclPrintFile](DCLPRINTFILE.html) | [DatabaseFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/database-file.html)
+| [DclWorkStnFile](DCLWORKSTNFILE.html) | [DatabaseFile Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/database-file.html)
+| [DclDS](DCLDS.html) | [DataStructure Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/data-structure.html)
+| [DclFld](DCLFLD.html) | *Char []() <br/> *Date [FixedDate Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/fixed-date.html) <br/> *Ind [Indicator Class](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/indicator.html)
 
 
-            <mshelp:link tabIndex="0" keywords="N:System.Windows.Forms">System.Windows.Forms</mshelp:link>
 
-Contains classes for creating Windows-based applications that take full advantage of the rich user interface
-                features available in the Microsoft Windows operating system.
+### [ASNA.QSys.Runtime.JobSupport](//asnaqsys.github.io/reference/asna-qsys-runtime-job-support/asna-qsys-runtime-job-support-section-intro.html) Namespace
+
+The [ASNA.QSys.Runtime.JobSupport](//asnaqsys.github.io/reference/asna-qsys-runtime-job-support/asna-qsys-runtime-job-support-section-intro.html) namespace provides classes supporting the execution of Monarch migrated programs.  Some of the more salient classes are:
+
+| Supported Feature | Class |
+| ----------------- | ---------------- |
+| Job | [Job Class](//asnaqsys.github.io/reference/asna-qsys-runtime-job-support/classes/job.html)
+| Program | [Program Class](//asnaqsys.github.io/reference/asna-qsys-runtime-job-support/classes/program.html)
+| Module | [Module Class](//asnaqsys.github.io/reference/asna-qsys-runtime-job-support/classes/module.html)
 
 
-            <mshelp:link tabIndex="0" keywords="N:System.Xml">System.Xml</mshelp:link>
 
-Provides standards-based support for processing XML.
+### [ASNA.DataGate.Client](//asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html) Namespace
+
+The [ASNA.DataGate.Client](//asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html) namespace is the primary namespace used by client applications. It contains the most fundamental classes for accessing database server resources.
+
+Most application access the facilities of DataGate.Client indirectly through the use of objects declared via DCLDB and DCLxxxxFILE.  However, sometimes it may be convinient to utilize directly some of the facilities provided by DataGate.Client.
+
+
 
 ---
 

@@ -491,7 +491,11 @@ dox:
       sectionpath: /dox/ecrLrfClassLibraryMain.html
       section:
       - title: ASNA.QSys.Runtime Namespace
-        path: /dox/ecrLrfRuntimeNamespace.html
+        path: //asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html
+      - title: ASNA.QSys.Runtime.JobSupport Namespace
+        path: //asnaqsys.github.io/reference/asna-qsys-runtime-job-support/asna-qsys-runtime-job-support-section-intro.html
+      - title: ASNA.DataGate.Client Namespace
+        path: //asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html
     - sectiontitle: Constants
       sectionpath: /dox/ecrLrfConstantsMain.html
       section:
