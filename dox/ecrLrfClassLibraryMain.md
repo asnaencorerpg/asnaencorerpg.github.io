@@ -18,7 +18,7 @@ The class library provides the following namespaces:
 
 The [ASNA.QSys.Runtime](//asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html) namespace contains classes that support compilation and code generation using the Encore RPG for Visual Studio language. Most of the classes are reserved for the Encore RPG system. Some classes and their members  may be employed directly by the Encore RPG programmer.
 
-Several ECR declaration commands rely directly on some of these classes or interfaces.  Here are a few:
+Several ECR declaration commands rely directly on some of these classes or interfaces.  Here are a few of them:
 
 | Declare Command | Underlying Class |
 | --------------- | ---------------- |
