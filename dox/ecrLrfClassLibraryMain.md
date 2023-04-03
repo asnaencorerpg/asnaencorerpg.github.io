@@ -43,9 +43,9 @@ The [ASNA.QSys.Runtime.JobSupport](//asnaqsys.github.io/reference/asna-qsys-runt
 
 
 
-### [ASNA.DataGate.Client](//asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html) Namespace
+### [ASNA.DataGate.Client](//asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html)&#x1F875; Namespace
 
-The [ASNA.DataGate.Client](//asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html) namespace is the primary namespace used by client applications. It contains the most fundamental classes for accessing database server resources.
+The [ASNA.DataGate.Client](//asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html){:target="_blank"}&#x1F875; namespace is the primary namespace used by client applications. It contains the most fundamental classes for accessing database server resources.
 
 Most application access the facilities of DataGate.Client indirectly through the use of objects declared via DCLDB and DCLxxxxFILE.  However, sometimes it may be convinient to utilize directly some of the facilities provided by DataGate.Client.
 

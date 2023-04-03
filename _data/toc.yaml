@@ -3,18 +3,21 @@ horizontalnav:
 - title: Home
   path: /
   node: home
-- title: Documentation
+- title: Manuals
   path: /dox/Welcome.html
-  node: dox
-- title: Articles
-  path: /articles/articles-overview.html
-  node: Articles
+  node: Manuals
+- title: Concepts
+  path: /dox/ecrConLanguageConceptsMain.html
+  node: Concepts
+- title: Reference
+  path: /dox/ecrLrfLangRefMain.html
+  node: Reference
 
 home: {}
 
 ##
-dox:
-- sectiontitle: ASNA Encore RPG Help
+Manuals:
+- sectiontitle: ASNA Encore RPG
   sectionpath: /dox/Welcome.html
   section:
   - sectiontitle: Introducing Encore RPG
@@ -27,211 +30,6 @@ dox:
     section:
     - title: Installation and Setup
       path: /dox/ecrInstallationandsetup.html
-  - sectiontitle: Language Concepts
-    sectionpath: /dox/ecrConLanguageConceptsMain.html
-    section:
-    - sectiontitle: Arrays
-      sectionpath: /dox/ecrConArrays.html
-      section:
-      - title: Arrays Overview
-        path: /dox/ecrConArraysOverview.html
-      - title: Array Usage
-        path: /dox/ecrConArraysUsage.html
-    - sectiontitle: Assemblies
-      sectionpath: /dox/ecrConAssemblies.html
-      section:
-      - title: Allocating Memory
-        path: /dox/ecrConAllocatingMemory.html
-      - title: Namespaces
-        path: /dox/ecrConNamespacesStart.html
-      - title: Custom Attributes
-        path: /dox/ecrConCustomAttributes.html
-      - title: Strong-Named Assemblies
-        path: /dox/ecrLrfStrongNamedAssembly.html
-    - sectiontitle: Control Flow
-      sectionpath: /dox/ecrConControlFlow.html
-      section:
-      - title: Decision Structures
-        path: /dox/ecrConDecisionStructures.html
-      - title: Loop Structures
-        path: /dox/ecrConLoopStructures.html
-      - title: Nested Control Statements
-        path: /dox/ecrConNestedControlOpCodes.html
-    - sectiontitle: DataTypes
-      sectionpath: /dox/ecrConDataTypes.html
-      section:
-      - title: DataType Declaration
-        path: /dox/ecrConDataTypeDeclaration.html
-      - sectiontitle: Elementary DataTypes
-        sectionpath: /dox/ecrConElementaryDataTypes.html
-        section:
-        - sectiontitle: Numeric DataTypes
-          sectionpath: /dox/ecrConNumericDataTypes.html
-          section:
-          - title: Integral Types
-            path: /dox/ecrConIntegralTypes.html
-          - title: NonIntegral Types
-            path: /dox/ecrConNonintegralTypes.html
-        - title: "*Char Data Type"
-          path: /dox/Character_Data_Type.html
-      - sectiontitle: DataType Implementation
-        sectionpath: /dox/ecrConDataTypeImplementation.html
-        section:
-        - title: Values Types and Reference Types
-          path: /dox/ecrConValuesTypesandReferenceTypes.html
-        - title: Value Types vs. Reference Types
-          path: /dox/ecrConValueTypesvsReferenceTypes.html
-        - title: DataTypes as Classes and Structures
-          path: /dox/ecrConDataTypesasStructuresandClasses.html
-      - title: DataType Comparison
-        path: /dox/ecrConFrameworkDataTypesComparison.html
-      - title: Data Structure Changes
-        path: /dox/DataStructureChanges.html
-    - sectiontitle: Declared Elements
-      sectionpath: /dox/ecrConDeclaredElements.html
-      section:
-      - title: Declared Element Characteristics
-        path: /dox/ecrConDeclaredElementCharacteristics.html
-      - sectiontitle: Declared Element Lifetime
-        sectionpath: /dox/ecrConDeclaredElementsLifetime.html
-        section:
-        - title: Static Variable Initialization
-          path: /dox/ecrConStaticVariableInitialization.html
-      - sectiontitle: Declared Element Scope
-        sectionpath: /dox/ecrConDeclaredElementsScope.html
-        section:
-        - title: Levels of Scope
-          path: /dox/ecrConLevelsofScope.html
-      - title: Accessibility
-        path: /dox/ecrConAccessibility.html
-    - title: Enumerations Overview
-      path: /dox/ecrConEnumerationsOverview.html
-    - title: Events
-      path: /dox/ecrConEvents.html
-    - title: Generic Types Overview
-      path: /dox/ecrGenericTypesOverview.html
-    - sectiontitle: Expressions
-      sectionpath: /dox/ecrConExpressions.html
-      section:
-      - title: Calculating Numeric Values
-        path: /dox/ecrConCalculatingNumericValues.html
-      - title: Value Comparisons
-        path: /dox/ecrConValueComparisons.html
-      - title: Boolean Expressions
-        path: /dox/ecrConBooleanExpressions.html
-    - sectiontitle: Objects
-      sectionpath: /dox/ecrConObjects.html
-      section:
-      - title: What is an Object?
-        path: /dox/ecrConWhatisanObject.html
-      - title: Relation of Objects to Each Other
-        path: /dox/ecrConRelationofObjects.html
-      - title: The Basics of Working with Objects
-        path: /dox/ecrConBasicsofObjects.html
-      - title: Objects, Properties, Methods, and Events
-        path: /dox/ecrConObjPropMethodsandEvents.html
-      - title: Using Constructors
-        path: /dox/ecrConUsingConstructors.html
-      - title: Object-Oriented Programming
-        path: /dox/ecrConObjectOrientedProgramming.html
-      - title: Using NetBlockFactor
-        path: /dox/ecrConUsingNetblockfactor.html
-      - title: Performing Multiple Actions on an Object
-        path: /dox/ecrConPerformingMultipleActionsonObject.html
-    - sectiontitle: Namespaces
-      sectionpath: /dox/ecrConNamespaces.html
-      section:
-      - title: Namespace Declarations
-        path: /dox/ecrConNamespaceDeclarations.html
-      - title: Namespace Concepts
-        path: /dox/ecrConNamespacesConcepts.html
-    - sectiontitle: Operators
-      sectionpath: /dox/ecrConOperators.html
-      section:
-      - title: Arithmetic Operators
-        path: /dox/ecrConArithmeticOperators.html
-      - title: Comparison Operators
-        path: /dox/ecrConComparisonOperators.html
-      - title: Concatenation Operators
-        path: /dox/ecrConConcatenationOperators.html
-      - title: Logical Operators
-        path: /dox/ecrConLogicalOperators.html
-    - sectiontitle: Properties
-      sectionpath: /dox/ecrConProperties.html
-      section:
-      - title: Setting and Retrieving Properties
-        path: /dox/ecrConSettingandRetrievingProperties.html
-    - sectiontitle: Strings
-      sectionpath: /dox/ecrConStrings.html
-      section:
-      - title: Manipulating Strings
-        path: /dox/ecrConManipulatingStrings.html
-    - title: Type Members
-      path: /dox/ecrConTypeMembers.html
-    - sectiontitle: Variables
-      sectionpath: /dox/ecrConVariables.html
-      section:
-      - title: Variable Declaration
-        path: /dox/ecrConVariableDeclaration.html
-      - sectiontitle: Object Variables
-        sectionpath: /dox/ecrConObjectVariables.html
-        section:
-        - title: Object Variable Assignment
-          path: /dox/ecrConObjectVariableAssignment.html
-        - sectiontitle: Object Variable Declaration
-          sectionpath: /dox/ecrConObjectVariableDeclaration.html
-          section:
-          - title: BegUsing/EndUsing Blocks
-            path: /dox/BEGUSINGENDUSING.html
-        - title: Object Variable Values
-          path: /dox/ecrConObjectVariableValues.html
-    - title: Collapsing and Hiding Code
-      path: /dox/ecrConHidingandCollapsingCode.html
-    - sectiontitle: DataGate Print File Designer Overview
-      sectionpath: /dox/ecrConDataGatePrintfileOverview.html
-      section:
-      - title: Renderer Command Options
-        path: /dox/ecrLrfRendererCommandOptions.html
-      - title: Using the InfSR keyword
-        path: /dox/ecrConInfSRKeyword.html
-      - title: Considerations for OLE Print File Conversion
-        path: /dox/ecrConsiderationsforOLEPrintFileSupport.html
-    - title: Rules of Subroutine Overloading
-      path: /dox/ecrConRulesofSubroutineOverloading.html
-    - title: Unicode
-      path: /dox/ecrConUnicode.html
-    - sectiontitle: RPG Cycle
-      sectionpath: /dox/ecrCycle_Overview.html
-      section:
-      - title: Level Break Indicator (*INL1...*INL9)
-        path: /dox/ecrCycle_LevelBreakIndicators.html
-      - title: "*DetailCalc Method"
-        path: /dox/ecrCycle_DetailCalcMethod.html
-      - title: "*FetchOverflow Method"
-        path: /dox/ecrCycle_FetchOverflowMethod.html
-      - title: Matching Record Indicator (*INMR)"
-        path: /dox/ecrCycle_MatchingRecordIndicators.html
-      - title: Handling Cycle Output to Database Files
-        path: /dox/ecrCycle_New_Output_Handling.html
-      - title: Overflow Indicators
-        path: /dox/ecrCycle_OverflowIndicators.html
-      - title: "*StartCycle Method"
-        path: /dox/ecrCycle_StartCycleMethod.html
-      - title: "*TotalCalc Method"
-        path: /dox/ecrCycle_TotalCalcMethod.html
-    - title: Interfaces in Encore RPG
-      path: /dox/ecrConInterface.html
-    - sectiontitle: Operation Codes
-      sectionpath: /dox/ecrConOpCodes.html
-      section:
-      - title: Operation Codes Overview
-        path: /dox/ecrConOpCodesOverview.html
-      - title: Assignment Operation Codes
-        path: /dox/ecrConAssignmentOpCodes.html
-      - title: Declaration Operation Codes
-        path: /dox/ecrConDeclarationOpCodes.html
-      - title: Executable Operation Codes
-        path: /dox/ecrConExecutableOpCodes.html
   - sectiontitle: Language Tour
     sectionpath: /dox/ecrLanguageTourMain.html
     section:
@@ -295,835 +93,1025 @@ dox:
         path: /dox/ecrTourPerformingActionswithMethods.html
       - title: Treating Forms as Objects
         path: /dox/ecrTourTreatingFormsasObjects.html
-  - sectiontitle: Language Reference
-    sectionpath: /dox/ecrLrfLangRefMain.html
-    section:
-    - sectiontitle: Language Elements
-      sectionpath: /dox/ecrLrfLangElementsMain.html
-      section:
-      - title: Comments
-        path: /dox/Comments.html
-      - title: File Processing
-        path: /dox/File_Processing.html
-      - title: Mainline Code
-        path: /dox/Mainline_Code.html
-      - title: Continuation Lines
-        path: /dox/Continuation_Lines.html
-      - title: Control Language
-        path: /dox/Control_Language.html
-      - title: Miscellaneous Data Types
-        path: /dox/Miscellaneous_data_types.html
-      - sectiontitle: Declarations
-        sectionpath: /dox/Declarations.html
-        section:
-        - sectiontitle: Access Types
-          sectionpath: /dox/ecrConAccessTypes.html
-          section:
-          - title: Internal Access
-            path: /dox/ecrkeyInternal.html
-          - title: Public Access
-            path: /dox/ecrkeyPublic.html
-          - title: Private Access
-            path: /dox/ecrkeyPrivate.html
-          - title: Protected Access
-            path: /dox/ecrkeyProtected.html
-      - title: General Subroutines
-        path: /dox/General_Subroutines.html
-      - title: Multiple Occurrence Data Structures
-        path: /dox/Mult_Occur_DS.html
-      - title: Names
-        path: /dox/Lexical_Element_Names.html
-      - title: Printing
-        path: /dox/Printing.html
-      - title: Reserved Names
-        path: /dox/Reserved_Names.html
-      - title: Simple Types
-        path: /dox/Simple_Types.html
-      - title: Subroutine Parameters
-        path: /dox/white_papers_Subroutine_Parameters.html
-      - title: Type Conversions
-        path: /dox/Type_Conversions.html
-      - title: Setting Colors
-        path: /dox/ecrLrfSettingColors.html
-      - title: Methods
-        path: /dox/ecrLrfMethodsMain.html
-      - title: Comparison Commands
-        path: /dox/Comparison_Commands.html
-      - sectiontitle: Comparison Operators
-        sectionpath: /dox/Comparison_Operators.html
-        section:
-        - title: Compare Operations Rules
-          path: /dox/Compare_Operations_Rules.html
-      - title: Programs
-        path: /dox/Programs.html
-      - title: Functions
-        path: /dox/ecrLrfFunctionsMain.html
-      - sectiontitle: Event Subroutines
-        sectionpath: /dox/Event_Subroutines.html
-        section:
-        - title: Event Subroutine Parameters
-          path: /dox/Event_Subroutine_Parameters.html
-      - title: Properties
-        path: /dox/ecrLrfPropertiesMain.html
-      - title: Control Properties
-        path: /dox/Control_Properties.html
-      - sectiontitle: Edit Code Table
-        sectionpath: /dox/ecrLrfEditCodeTable.html
-        section:
-        - title: Edit Code Table
-          path: /dox/sharedEditCodeTable.html
-      - title: Commitment Control
-        path: /dox/Comittment_Control.html
-      - title: Edit Word Usage
-        path: /dox/ecrLrfEditWordTable.html
-    - sectiontitle: Built-In Functions
-      sectionpath: /dox/Functions_overview.html
-      section:
-      - title: "%ABS Function"
-        path: /dox/ABS_Function.html
-      - title: "%BOOL Function"
-        path: /dox/BOOL_Function.html
-      - title: "%CHAR Function"
-        path: /dox/CHAR_Function.html
-      - title: "%CHECK Function"
-        path: /dox/CHECK_Function.html
-      - title: "%CHECKR Function"
-        path: /dox/CHECKR_Function.html
-      - title: "%DATE Function"
-        path: /dox/DATE_Function.html
-      - title: "%DAYS Function"
-        path: /dox/DAYS_Function.html
-      - title: "%DEC Function"
-        path: /dox/DEC_Function.html
-      - title: "%DECH Function"
-        path: /dox/DECH_Function.html
-      - title: DECPOS Function
-        path: /dox/DECPOS_Function.html
-      - title: "%DIFF Function"
-        path: /dox/DIFF_Function.html
-      - title: "%DIGITS Function"
-        path: /dox/Digits_Function.html
-      - title: "%DIV Function"
-        path: /dox/DIV_Function.html
-      - title: "%EDITC Function"
-        path: /dox/EDITC_Function.html
-      - title: "%EDITFLT Function"
-        path: /dox/EDITFLT_Function.html
-      - title: "%EDITW Function"
-        path: /dox/EDITW_Function.html
-      - title: "%ELEM Function"
-        path: /dox/ELEM_Function.html
-      - title: "%EOF Function"
-        path: /dox/EOF_Function.html
-      - title: "%ERROR Function"
-        path: /dox/ERROR_Function.html
-      - title: "%EQUAL Function"
-        path: /dox/EQUAL_Function.html
-      - title: "%FLOAT Function"
-        path: /dox/FLOAT_Function.html
-      - title: "%FOUND Function"
-        path: /dox/FOUND_Function.html
-      - title: "%HOURS Function"
-        path: /dox/HOURS_Function.html
-      - title: "%INT Function"
-        path: /dox/INT_Function.html
-      - title: "%INTH Function"
-        path: /dox/INTH_Function.html
-      - title: "%OMITTED Function"
-        path: /dox/OMITTED_Function.html
-      - title: "%KDS Function"
-        path: /dox/KDS_Function.html
-      - title: "%LEN Function"
-        path: /dox/LEN_Function.html
-      - title: "%LOOKUP Function"
-        path: /dox/LOOKUP_Function.html
-      - title: "%MINUTES Function"
-        path: /dox/MINUTES_Function.html
-      - title: "%MONTHS Function"
-        path: /dox/MONTHS_Function.html
-      - title: "%MSECONDS Function"
-        path: /dox/MSECONDS.html
-      - title: "%NULLIND Function"
-        path: /dox/NULLIND_Function.html
-      - title: "%OCCUR Function"
-        path: /dox/OCCUR_Function.html
-      - title: "%OPEN Function"
-        path: /dox/OPEN_Function.html
-      - title: "%PARMS Function"
-        path: /dox/PARMS_Function.html
-      - title: "%REM Function"
-        path: /dox/REM_Function.html
-      - title: "%REPLACE Function"
-        path: /dox/REPLACE_Function.html
-      - title: "%SCAN Function"
-        path: /dox/SCAN_Function.html
-      - title: "%SECONDS Function"
-        path: /dox/SECONDS_Function.html
-      - title: "%SIZE Function"
-        path: /dox/SIZE_Function.html
-      - title: "%SQRT Function"
-        path: /dox/SQRT_Function.html
-      - title: "%SUBDT Function"
-        path: /dox/SUBDT_Function.html
-      - title: SUBST Function
-        path: /dox/SUBST_Function.html
-      - title: "%TIME Function"
-        path: /dox/TIME_Function.html
-      - title: "%TIMESTAMP Function"
-        path: /dox/TIMESTAMP_Function.html
-      - title: "%TLOOKUP Function"
-        path: /dox/TLOOKUP_Function.html
-      - title: "%TRIM Function"
-        path: /dox/TRIM_Function.html
-      - title: "%TRIML Function"
-        path: /dox/TRIML_Function.html
-      - title: "%TRIMR Function"
-        path: /dox/TRIMR_Function.html
-      - title: "%XFOOT_Function"
-        path: /dox/XFOOT_Function.html
-      - title: "%XLATE Function"
-        path: /dox/XLATE_Function.html
-      - title: "%YEARS Function"
-        path: /dox/YEARS_Function.html
-      - title: "%MSECONDS Function"
-        path: /dox/MSECONDS_Function.html
-    - sectiontitle: Runtime Library
-      sectionpath: /dox/ecrLrfClassLibraryMain.html
-      section:
-      - title: ASNA.QSys.Runtime Namespace
-        path: //asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html
-      - title: ASNA.QSys.Runtime.JobSupport Namespace
-        path: //asnaqsys.github.io/reference/asna-qsys-runtime-job-support/asna-qsys-runtime-job-support-section-intro.html
-      - title: ASNA.DataGate.Client Namespace
-        path: //asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html
-    - sectiontitle: Constants
-      sectionpath: /dox/ecrLrfConstantsMain.html
-      section:
-      - title: Hexadecimal Numeric Constant
-        path: /dox/Hexadecimal_Numeric_Constants.html
-      - sectiontitle: Figurative Constants
-        sectionpath: /dox/Figurative_Constants.html
-        section:
-        - title: Figurative Constants Rules
-          path: /dox/Fig_Constants_Rules.html
-      - title: Literals
-        path: /dox/Literals.html
-    - sectiontitle: DataTypes
-      sectionpath: /dox/ecrLrfDataTypesMain.html
-      section:
-      - title: "*Binary Data Type"
-        path: /dox/Binary_Data_Type.html
-      - title: Data Type Summary
-        path: /dox/Data_type_summary.html
-      - title: "*Boolean Data Type"
-        path: /dox/Boolean_Data_Type.html
-      - title: "*Byte Data Type"
-        path: /dox/Byte_Data_Type.html
-      - title: "*Date Data Type"
-        path: /dox/Date_Data_Type.html
-      - title: "*Decimal Data Type"
-        path: /dox/Decimal_Data_Type.html
-      - title: "*Float Data Type"
-        path: /dox/Float_Data_Type.html
-      - title: "*Float4 Data Type"
-        path: /dox/Float4_Data_Type.html
-      - title: "*Float8 Data Type"
-        path: /dox/Float8_Data_Type.html
-      - title: "*Ind Data Type"
-        path: /dox/Ind_Data_Type.html
-      - title: "*Integer Data Type"
-        path: /dox/Integer_Data_Type.html
-      - title: "*Integer2 Data Type"
-        path: /dox/Integer2_data_type.html
-      - title: "*Integer4 Data Type"
-        path: /dox/Integer4_Data_Type.html
-      - title: "*Integer8 Data Type"
-        path: /dox/Integer8_Data_Type.html
-      - title: "*Onechar Data Type"
-        path: /dox/Onechar_Data_Type.html
-      - title: "*Packed Data Type"
-        path: /dox/Packed_Data_Type.html
-      - title: "*String Data Type"
-        path: /dox/String_Data_Type.html
-      - title: "*Time Data Type"
-        path: /dox/Time_Data_Type.html
-      - title: "*Timestamp Data Type"
-        path: /dox/Timestamp_Data_Type.html
-      - title: "*Zoned Data Type"
-        path: /dox/Zoned_Data_Type.html
-      - title: Type Parameter
-        path: /dox/Type_Parameter.html
-    - sectiontitle: Date and Time
-      sectionpath: /dox/ecrLrfDateandTimeMain.html
-      section:
-      - title: Adding or Subtracting Dates
-        path: /dox/Adding_or_Subtracting_Dates.html
-      - title: Calculating Durations between Dates
-        path: /dox/Calculating_Durations_between_Dates.html
-      - title: Date Formats
-        path: /dox/Date_Formats.html
-      - title: Date Operations
-        path: /dox/Date_Operations.html
-      - title: Default Values for all Time Formats
-        path: /dox/default_values_for_all_time_formats.html
-      - title: Default Values for all Date Formats
-        path: /dox/Default_Values_for_all_Date_Formats.html
-      - title: Duration Codes
-        path: /dox/Duration_Codes.html
-      - title: Moving Date-Time Data
-        path: /dox/Moving_Data_Time_Data.html
-      - title: Time Formats
-        path: /dox/Time_Formats.html
-    - sectiontitle: Compiler Directives
-      sectionpath: /dox/ecrCompilerDirectivesMain.html
-      section:
-      - title: /DEFINE (Encore RPG)
-        path: /dox/ecrCompilerDirectivesDefine.html
-      - title: /EOF (Encore RPG)
-        path: /dox/ecrCompilerDirectivesEof.html
-      - title: /IF /ELSE /ELSEIF /ENDIF (Encore RPG)
-        path: /dox/ecrCompilerDirectivesIfElseEndIf.html
-      - title: /ENDREGION (Encore RPG)
-        path: /dox/ecrCompilerDirectivesEndRegion.html
-      - title: /REGION (Encore RPG)
-        path: /dox/ecrCompilerDirectivesRegion.html
-      - title: /UNDEFINE (Encore RPG)
-        path: /dox/ecrCompilerDirectivesUndefine.html
-    - sectiontitle: Figurative Constants
-      sectionpath: /dox/ecrLrfFigConstantsMain.html
-      section:
-      - title: "*ALL/*ALL\"x..\""
-        path: /dox/Star_ALL.html
-      - title: "*ALLU"
-        path: /dox/starALLU.html
-      - title: "*BLANK/*BLANKS"
-        path: /dox/STARBLANK.html
-      - title: "*BASE"
-        path: /dox/StarBase.html
-      - title: "*ByRef Operator"
-        path: /dox/StarByRef.html
-      - title: "*Date"
-        path: /dox/StarDate.html
-      - title: "*Day"
-        path: /dox/StarDay.html
-      - title: "*FALSE"
-        path: /dox/StarFalse.html
-      - title: "*HIVAL"
-        path: /dox/STARHIVAL.html
-      - title: "*LOVAL"
-        path: /dox/STARLOVAL.html
-      - title: "*Month"
-        path: /dox/StarMonth.html
-      - title: "*NEXT"
-        path: /dox/Star_Next.html
-      - title: "*NS"
-        path: /dox/StarNS.html
-      - title: "*NoParm"
-        path: /dox/starnoparm.html
-      - title: "*NOTHING"
-        path: /dox/Star_NOTHING.html
-      - title: "*ON"
-        path: /dox/STARON.html
-      - title: "*This"
-        path: /dox/Star_This.html
-      - title: "*Year"
-        path: /dox/StarYear.html
-      - title: "*TRUE"
-        path: /dox/StarTRUE.html
-      - title: "*ZERO/*ZEROS"
-        path: /dox/STARZERO.html
-      - title: "*OFF"
-        path: /dox/STAROFF.html
-    - sectiontitle: Operation Codes
-      sectionpath: /dox/ecrLrfOpCodesMain.html
-      section:
-      - title: ADD
-        path: /dox/ADD.html
-      - title: ADDDUR
-        path: /dox/ADDDUR.html
-      - title: BEEP
-        path: /dox/BEEP.html
-      - title: BEGCLASS
-        path: /dox/BEGCLASS.html
-      - title: BEGCONSTRUCTOR
-        path: /dox/BEGCONSTRUCTOR.html
-      - title: BEGENUM
-        path: /dox/BEGENUM.html
-      - title: BEGFUNC
-        path: /dox/BEGFUNC.html
-      - title: BEGGET
-        path: /dox/BEGGET.html
-      - title: BEGINTERFACE
-        path: /dox/BEGINTERFACE.html
-      - title: BEGPRINTATTR
-        path: /dox/BEGPRINTATTR.html
-      - title: BEGPROC
-        path: /dox/BEGPROC.html
-      - title: BEGPROP
-        path: /dox/BEGPROP.html
-      - title: DCLPROP
-        path: /dox/DCLPROP.html
-      - title: BEGSET
-        path: /dox/BEGSET.html
-      - title: BEGSR
-        path: /dox/BEGSR.html
-      - title: BITOFF
-        path: /dox/BITOFF.html
-      - title: BITON
-        path: /dox/BITON.html
-      - title: CAB
-        path: /dox/CAB.html
-      - title: CABXX
-        path: /dox/CABxx.html
-      - title: CALL
-        path: /dox/CALL.html
-      - title: CALLD
-        path: /dox/CALLD.html
-      - title: CASE
-        path: /dox/CASE.html
-      - title: CASEDFT
-        path: /dox/CASEDFT.html
-      - title: CASXX
-        path: /dox/CASxx.html
-      - title: CATCH
-        path: /dox/CATCH.html
-      - title: CHAIN
-        path: /dox/CHAIN.html
-      - title: CHECK
-        path: /dox/CHECK.html
-      - title: CHECKR
-        path: /dox/CHECKR.html
-      - title: CLEAR
-        path: /dox/CLEAR.html
-      - title: CLOSE
-        path: /dox/CLOSE.html
-      - title: COMMIT
-        path: /dox/COMIT.html
-      - title: COMPARE
-        path: /dox/COMPARE.html
-      - title: CONCAT
-        path: /dox/CONCAT.html
-      - title: CONNECT
-        path: /dox/CONNECT.html
-      - title: DCLARRAY
-        path: /dox/DCLARRAY.html
-      - title: DCLCONST
-        path: /dox/DCLCONST.html
-      - title: DCLDB
-        path: /dox/DCLDB.html
-      - title: DCLDISKFILE
-        path: /dox/DCLDISKFILE.html
-      - title: DCLDISKFILE UseKeyBuffer
-        path: /dox/DCLDISKFILEUseKeyBuffer.html
-      - title: DCLDS
-        path: /dox/DCLDS.html
-      - title: DCLDSFLD
-        path: /dox/DCLDSFLD.html
-      - title: DCLENUMFLD
-        path: /dox/DCLENUMFLD.html
-      - title: DCLFLD
-        path: /dox/DCLFLD.html
-      - title: DCLFMTCYCLEATTR
-        path: /dox/DCLFMTCYCLEATTR.html
-      - title: DCLKFLD
-        path: /dox/DCLKFLD.html
-      - title: DCLKLIST
-        path: /dox/DCLKLIST.html
-      - title: DCLNAMESPACE
-        path: /dox/DCLNAMESPACE.html
-      - title: DCLPARM
-        path: /dox/DCLPARM.html
-      - title: DCLPLIST
-        path: /dox/DCLPLIST.html
-      - title: DCLPRINTFILE
-        path: /dox/DCLPRINTFILE.html
-      - title: DCLSRPARM
-        path: /dox/DCLSRPARM.html
-      - title: DCLWORKSTNFILE
-        path: /dox/DCLWORKSTNFILE.html
-      - title: DELETE
-        path: /dox/DELETE.html
-      - title: DELETERANGE
-        path: /dox/DELETERANGE.html
-      - title: DETAILSPEC
-        path: /dox/DETAILSPEC.html
-      - title: DISCONNECT
-        path: /dox/DISCONNECT.html
-      - title: DIV
-        path: /dox/DIV.html
-      - title: DO
-        path: /dox/DO.html
-      - title: DOUNTIL
-        path: /dox/DOUNTIL.html
-      - title: DOWHILE
-        path: /dox/DOWHILE.html
-      - title: DSDUMP
-        path: /dox/DSDUMP.html
-      - title: DSLOAD
-        path: /dox/DSLOAD.html
-      - title: ELSE
-        path: /dox/ELSE.html
-      - title: ELSEIF
-        path: /dox/ELSEIF.html
-      - title: END
-        path: /dox/END.html
-      - title: ENDCLASS
-        path: /dox/ENDCLASS.html
-      - title: ENDCONSTRUCTOR
-        path: /dox/ENDCONSTRUCTOR.html
-      - title: ENDCS
-        path: /dox/ENDCS.html
-      - title: ENDDO
-        path: /dox/ENDDO.html
-      - title: ENDENUM
-        path: /dox/ENDENUM.html
-      - title: ENDFOR
-        path: /dox/ENDFOR.html
-      - title: ENDFUNC
-        path: /dox/ENDFUNC.html
-      - title: ENDGET
-        path: /dox/ENDGET.html
-      - title: ENDIF
-        path: /dox/ENDIF.html
-      - title: ENDINTERFACE
-        path: /dox/ENDINTERFACE.html
-      - title: ENDPRINTATTR
-        path: /dox/ENDPRINTATTR.html
-      - title: ENDPROC
-        path: /dox/ENDPROC.html
-      - title: ENDPROP
-        path: /dox/ENDPROP.html
-      - title: ENDSET
-        path: /dox/ENDSET.html
-      - title: ENDSL
-        path: /dox/ENDSL.html
-      - title: ENDSR
-        path: /dox/ENDSR.html
-      - title: ENDTPM
-        path: /dox/ENDTPM.html
-      - title: ENDTRY
-        path: /dox/ENDTRY.html
-      - title: ENDWITH
-        path: /dox/ENDWITH.html
-      - title: ENTERLOCK
-        path: /dox/ENTERLOCK.html
-      - title: EVAL
-        path: /dox/EVAL.html
-      - title: EVALR
-        path: /dox/EVALR.html
-      - title: EXCEPTSPEC
-        path: /dox/EXCEPTSPEC.html
-      - title: EXFMT
-        path: /dox/EXFMT.html
-      - title: EXITAPP
-        path: /dox/EXITAPP.html
-      - title: EXITLOCK
-        path: /dox/EXITLOCK.html
-      - title: EXSR
-        path: /dox/EXSR.html
-      - title: EXTRACT
-        path: /dox/EXTRACT.html
-      - title: FEOD
-        path: /dox/FEOD.html
-      - title: FINALLY
-        path: /dox/FINALLY.html
-      - title: FOR
-        path: /dox/FOR.html
-      - title: FORCE
-        path: /dox/FORCE.html
-      - title: FOREACH
-        path: /dox/FOREACH.html
-      - title: GOTO
-        path: /dox/GOTO.html
-      - title: HEADINGSPEC
-        path: /dox/HEADINGSPEC.html
-      - title: IF
-        path: /dox/IF.html
-      - title: IN
-        path: /dox/IN.html
-      - title: ITERATE
-        path: /dox/ITERATE.html
-      - title: LEAVE
-        path: /dox/LEAVE.html
-      - title: LEAVESR
-        path: /dox/LEAVESR.html
-      - title: LOOKUP
-        path: /dox/LOOKUP.html
-      - title: MOVE
-        path: /dox/MOVE.html
-      - title: MOVEARR
-        path: /dox/MOVEARR.html
-      - title: MOVEL
-        path: /dox/MOVEL.html
-      - title: MOVEREM
-        path: /dox/MOVEREM.html
-      - title: MULT
-        path: /dox/MULT.html
-      - title: OCCUR
-        path: /dox/OCCUR.html
-      - title: OPEN
-        path: /dox/OPEN.html
-      - title: OSEXEC
-        path: /dox/OsExec.html
-      - title: OTHER
-        path: /dox/OTHER.html
-      - title: OUT
-        path: /dox/OUT.html
-      - title: READ
-        path: /dox/READ.html
-      - title: READC
-        path: /dox/READC.html
-      - title: READE
-        path: /dox/READE.html
-      - title: READP
-        path: /dox/READP.html
-      - title: READPE
-        path: /dox/READPE.html
-      - title: READRAND
-        path: /dox/READRAND.html
-      - title: READRANGE
-        path: /dox/READRANGE.html
-      - title: RNMFLDS
-        path: /dox/RNMFLDS.html
-      - title: ROLLBACK
-        path: /dox/ROLBACK.html
-      - title: SCAN
-        path: /dox/SCAN.html
-      - title: SELECT
-        path: /dox/SELECT.html
-      - title: SETASSEMBLYATTRIBUTE
-        path: /dox/SETASSEMBLYATTRIBUTE.html
-      - title: SETGT
-        path: /dox/SETGT.html
-      - title: SETLL
-        path: /dox/SETLL.html
-      - title: SETOFF
-        path: /dox/SETOFF.html
-      - title: SETON
-        path: /dox/SETON.html
-      - title: SETRANGE
-        path: /dox/SETRANGE.html
-      - title: SLEEP
-        path: /dox/SLEEP.html
-      - title: SORTARR
-        path: /dox/SORTARR.html
-      - title: SQRT
-        path: /dox/SQRT.html
-      - title: STARTTPM
-        path: /dox/STARTTPM.html
-      - title: SUB
-        path: /dox/SUB.html
-      - title: SUBDUR
-        path: /dox/SUBDUR.html
-      - title: SUBSTR
-        path: /dox/SUBSTR.html
-      - title: SUMARR
-        path: /dox/SUMARR.html
-      - title: TAG
-        path: /dox/TAG.html
-      - title: TESTBITS
-        path: /dox/TESTBITS.html
-      - title: TESTNUM
-        path: /dox/TESTNUM.html
-      - title: TESTTIME
-        path: /dox/TESTTIME.html
-      - title: THROW
-        path: /dox/THROW.html
-      - title: TIME
-        path: /dox/TIME.html
-      - title: TOTALSPEC
-        path: /dox/TOTALSPEC.html
-      - title: TRY
-        path: /dox/TRY.html
-      - title: UDATE
-        path: /dox/UDATE.html
-      - title: UDAY
-        path: /dox/UDAY.html
-      - title: TRY..CATCH..FINALLY
-        path: /dox/TRYCATCHFINALLY.html
-      - title: UMONTH
-        path: /dox/UMONTH.html
-      - title: UNLOCK
-        path: /dox/UNLOCK.html
-      - title: UPDATE
-        path: /dox/UPDATE.html
-      - title: USING
-        path: /dox/USING.html
-      - title: UYEAR
-        path: /dox/UYEAR.html
-      - title: WHEN
-        path: /dox/WHEN.html
-      - title: WITH
-        path: /dox/WITH.html
-      - title: WRITE
-        path: /dox/WRITE.html
-      - title: XFOOT
-        path: /dox/XFOOT.html
-      - title: XLATE
-        path: /dox/XLATE.html
-      - title: ZADD
-        path: /dox/ZADD.html
-      - title: ZSUB
-        path: /dox/Z_SUB.html
-    - sectiontitle: Literals
-      sectionpath: /dox/ecrLrfLiteralsMain.html
-      section:
-      - title: Boolean Literal
-        path: /dox/Boolean_Literal.html
-      - title: Character Literal
-        path: /dox/Character_Literal.html
-      - title: Date Literals
-        path: /dox/Date_Literals.html
-      - title: Hexadecimal Literal
-        path: /dox/Hexadecimal_Literal.html
-      - title: Numeric Literal
-        path: /dox/Numeric_Literal.html
-      - title: OneChar Literal
-        path: /dox/OneChar_Literal.html
-      - title: String Literal
-        path: /dox/String_Literal.html
-      - title: Time Literal
-        path: /dox/Time_Literals.html
-      - title: Timestamp Literal
-        path: /dox/Timestamp_Literals.html
-      - title: Unicode Literal
-        path: /dox/Unicode_Literal.html
-    - sectiontitle: Special Values
-      sectionpath: /dox/ecrLrfSpecialValuesMain.html
-      section:
-      - title: "*END"
-        path: /dox/StarEND.html
-      - title: "*New"
-        path: /dox/starNew.html
-      - title: PropVal
-        path: /dox/Star_PROPVAL.html
-      - title: "*START"
-        path: /dox/START.html
-      - title: Special Values
-        path: /dox/Special_Values.html
-    - sectiontitle: Syntactical Elements
-      sectionpath: /dox/ecrLrfSyntacticalElementsMain.html
-      section:
-      - title: Commands
-        path: /dox/Commands.html
-      - sectiontitle: Expressions
-        sectionpath: /dox/Expressions.html
-        section:
-        - title: Assignments
-          path: /dox/Assignment.html
-        - title: Expression Operators and their Precedence
-          path: /dox/Expression_Operators_and_their_Precedence.html
-        - title: Operands
-          path: /dox/Operands.html
-        - title: Expression Overview with QrySelect
-          path: /dox/Expression_Overview_with_QRYSELECT_or_Select_Omit_Rule.html
-    - sectiontitle: Operators
-      sectionpath: /dox/ecrLrfOperatorsMain.html
-      section:
-      - title: Logical Operators
-        path: /dox/ecrLrfLogicalOperators.html
-      - title: + Operator
-        path: /dox/Plus_Operator.html
-      - title: "* Operator"
-        path: /dox/Multiply_Operator.html
-      - title: / Operator
-        path: /dox/Divide_Operator.html
-      - title: "** Operator"
-        path: /dox/StarStar_Op.html
-      - title: "<< Operator"
-        path: /dox/ecrLrfLeftShiftOperator.html
-      - title: ">> Operator"
-        path: /dox/ecrLrfRightShiftOperator.html
-      - title: "*As Operator"
-        path: /dox/As_Operator.html
-      - title: "*ASFLD Operator"
-        path: /dox/Star_ASFLD.html
-      - title: "*BitAnd Operator"
-        path: /dox/BitAnd_Operator.html
-      - title: "*BitNot Operator"
-        path: /dox/BitNot_Operator.html
-      - title: "*BitOr Operator"
-        path: /dox/BitOr_Operator.html
-      - title: "*BitXOr Operator"
-        path: /dox/BitXor_Operator.html
-      - title: "*Is Operator"
-        path: /dox/Is_Operator.html
-      - title: "*ISFLD Operator"
-        path: /dox/Star_ISFLD.html
-      - title: "*NOT"
-        path: /dox/Not_Operator.html
-      - title: "*TypeOf Operator"
-        path: /dox/Typeof_Operator.html
-    - title: Help Strategies
-      path: /dox/HelpStrategies.html
-    - sectiontitle: Variables
-      sectionpath: /dox/ecrLrfVariablesMain.html
-      section:
-      - title: Array Elements
-        path: /dox/Array_Element.html
-      - title: Variable Names
-        path: /dox/Variable_Names.html
-      - title: Character Expression
-        path: /dox/Character_Expression.html
-      - title: Constant Expression
-        path: /dox/Constant_Expression.html
-      - title: Data Structure Element
-        path: /dox/DS_Element.html
-      - title: Field
-        path: /dox/Field.html
-      - title: Global Scope
-        path: /dox/Variable_Scoping.html
-      - title: Indicator
-        path: /dox/Indicator.html
-      - title: Indicator Variable
-        path: /dox/Indicator_Variable.html
-      - title: "Integer Literal"
-        path: /dox/Integer_Literals.html
-      - title: Labels
-        path: /dox/Labels.html
-      - title: Lexical Elements
-        path: /dox/Lexical_Elements.html
-      - title: Numeric Expression
-        path: /dox/Num_Expression.html
-      - title: Numeric Variable
-        path: /dox/Numeric_Variable.html
-      - title: Record Format
-        path: /dox/Record_Format.html
-      - title: Rules for User Date
-        path: /dox/Rules_for_User_Date.html
-      - title: Subroutine
-        path: /dox/Subroutine.html
-      - title: User Date Special Words
-        path: /dox/User_Date_Special_Words.html
-      - title: Variable Operand
-        path: /dox/Variable_Operand.html
-      - title: Variable Length Overview
-        path: /dox/Variable_Length_Overview.html
-      - title: Variable-Length Character Fields
-        path: /dox/Variable_Length_Character_and_UCS_2_Formats.html
-      - title: Using Variable Length Fields
-        path: /dox/Using_Variable_Length_Fields.html
-  - sectiontitle: Encore RPG Copyright
-    sectionpath: /dox/Copyright.html
-    section:
-    - title: Gardens Point Parser Generator Copyright
-      path: /dox/Copyright_GPPG.html
-    - title: Gardens Point LEX Copyright
-      path: /dox/Copyright_GPLEX.html
+  - title: Help Resources
+    path: /dox/help-resources.html
 
-## Other Chapters Here
-Articles:
-- sectiontitle: ASNA Articles
-  sectionpath: /articles/articles-overview.html
+## Concepts
+Concepts:
+- sectiontitle: Language Concepts
+  sectionpath: /dox/ecrConLanguageConceptsMain.html
   section:
-  - title: ASNA Site Articles
-    path: https://www.asna.com/us/articles
-  - sectiontitle: How-to Techniques
-    sectionpath: /articles/how-to-techniques.html
+  - sectiontitle: Arrays
+    sectionpath: /dox/ecrConArrays.html
     section:
-    - title: Logic Program Logger
-      path: /articles/how-to-technique-logger.html
-    - title: SQL Parser Explorer
-      path: /articles/sql-parser-explorer.html
-    - title: Zebra Stripe Subfiles
-      path: /articles/zebra-stripe-subfiles.html                  
+    - title: Arrays Overview
+      path: /dox/ecrConArraysOverview.html
+    - title: Array Usage
+      path: /dox/ecrConArraysUsage.html
+  - sectiontitle: Assemblies
+    sectionpath: /dox/ecrConAssemblies.html
+    section:
+    - title: Allocating Memory
+      path: /dox/ecrConAllocatingMemory.html
+    - title: Namespaces
+      path: /dox/ecrConNamespacesStart.html
+    - title: Custom Attributes
+      path: /dox/ecrConCustomAttributes.html
+    - title: Strong-Named Assemblies
+      path: /dox/ecrLrfStrongNamedAssembly.html
+  - sectiontitle: Control Flow
+    sectionpath: /dox/ecrConControlFlow.html
+    section:
+    - title: Decision Structures
+      path: /dox/ecrConDecisionStructures.html
+    - title: Loop Structures
+      path: /dox/ecrConLoopStructures.html
+    - title: Nested Control Statements
+      path: /dox/ecrConNestedControlOpCodes.html
+  - sectiontitle: DataTypes
+    sectionpath: /dox/ecrConDataTypes.html
+    section:
+    - title: DataType Declaration
+      path: /dox/ecrConDataTypeDeclaration.html
+    - sectiontitle: Elementary DataTypes
+      sectionpath: /dox/ecrConElementaryDataTypes.html
+      section:
+      - sectiontitle: Numeric DataTypes
+        sectionpath: /dox/ecrConNumericDataTypes.html
+        section:
+        - title: Integral Types
+          path: /dox/ecrConIntegralTypes.html
+        - title: NonIntegral Types
+          path: /dox/ecrConNonintegralTypes.html
+      - title: "*Char Data Type"
+        path: /dox/Character_Data_Type.html
+    - sectiontitle: DataType Implementation
+      sectionpath: /dox/ecrConDataTypeImplementation.html
+      section:
+      - title: Values Types and Reference Types
+        path: /dox/ecrConValuesTypesandReferenceTypes.html
+      - title: Value Types vs. Reference Types
+        path: /dox/ecrConValueTypesvsReferenceTypes.html
+      - title: DataTypes as Classes and Structures
+        path: /dox/ecrConDataTypesasStructuresandClasses.html
+    - title: DataType Comparison
+      path: /dox/ecrConFrameworkDataTypesComparison.html
+    - title: Data Structure Changes
+      path: /dox/DataStructureChanges.html
+  - sectiontitle: Declared Elements
+    sectionpath: /dox/ecrConDeclaredElements.html
+    section:
+    - title: Declared Element Characteristics
+      path: /dox/ecrConDeclaredElementCharacteristics.html
+    - sectiontitle: Declared Element Lifetime
+      sectionpath: /dox/ecrConDeclaredElementsLifetime.html
+      section:
+      - title: Static Variable Initialization
+        path: /dox/ecrConStaticVariableInitialization.html
+    - sectiontitle: Declared Element Scope
+      sectionpath: /dox/ecrConDeclaredElementsScope.html
+      section:
+      - title: Levels of Scope
+        path: /dox/ecrConLevelsofScope.html
+    - title: Accessibility
+      path: /dox/ecrConAccessibility.html
+  - title: Enumerations Overview
+    path: /dox/ecrConEnumerationsOverview.html
+  - title: Events
+    path: /dox/ecrConEvents.html
+  - title: Generic Types Overview
+    path: /dox/ecrGenericTypesOverview.html
+  - sectiontitle: Expressions
+    sectionpath: /dox/ecrConExpressions.html
+    section:
+    - title: Calculating Numeric Values
+      path: /dox/ecrConCalculatingNumericValues.html
+    - title: Value Comparisons
+      path: /dox/ecrConValueComparisons.html
+    - title: Boolean Expressions
+      path: /dox/ecrConBooleanExpressions.html
+  - sectiontitle: Objects
+    sectionpath: /dox/ecrConObjects.html
+    section:
+    - title: What is an Object?
+      path: /dox/ecrConWhatisanObject.html
+    - title: Relation of Objects to Each Other
+      path: /dox/ecrConRelationofObjects.html
+    - title: The Basics of Working with Objects
+      path: /dox/ecrConBasicsofObjects.html
+    - title: Objects, Properties, Methods, and Events
+      path: /dox/ecrConObjPropMethodsandEvents.html
+    - title: Using Constructors
+      path: /dox/ecrConUsingConstructors.html
+    - title: Object-Oriented Programming
+      path: /dox/ecrConObjectOrientedProgramming.html
+    - title: Using NetBlockFactor
+      path: /dox/ecrConUsingNetblockfactor.html
+    - title: Performing Multiple Actions on an Object
+      path: /dox/ecrConPerformingMultipleActionsonObject.html
+  - sectiontitle: Namespaces
+    sectionpath: /dox/ecrConNamespaces.html
+    section:
+    - title: Namespace Declarations
+      path: /dox/ecrConNamespaceDeclarations.html
+    - title: Namespace Concepts
+      path: /dox/ecrConNamespacesConcepts.html
+  - sectiontitle: Operators
+    sectionpath: /dox/ecrConOperators.html
+    section:
+    - title: Arithmetic Operators
+      path: /dox/ecrConArithmeticOperators.html
+    - title: Comparison Operators
+      path: /dox/ecrConComparisonOperators.html
+    - title: Concatenation Operators
+      path: /dox/ecrConConcatenationOperators.html
+    - title: Logical Operators
+      path: /dox/ecrConLogicalOperators.html
+  - sectiontitle: Properties
+    sectionpath: /dox/ecrConProperties.html
+    section:
+    - title: Setting and Retrieving Properties
+      path: /dox/ecrConSettingandRetrievingProperties.html
+  - sectiontitle: Strings
+    sectionpath: /dox/ecrConStrings.html
+    section:
+    - title: Manipulating Strings
+      path: /dox/ecrConManipulatingStrings.html
+  - title: Type Members
+    path: /dox/ecrConTypeMembers.html
+  - sectiontitle: Variables
+    sectionpath: /dox/ecrConVariables.html
+    section:
+    - title: Variable Declaration
+      path: /dox/ecrConVariableDeclaration.html
+    - sectiontitle: Object Variables
+      sectionpath: /dox/ecrConObjectVariables.html
+      section:
+      - title: Object Variable Assignment
+        path: /dox/ecrConObjectVariableAssignment.html
+      - sectiontitle: Object Variable Declaration
+        sectionpath: /dox/ecrConObjectVariableDeclaration.html
+        section:
+        - title: BegUsing/EndUsing Blocks
+          path: /dox/BEGUSINGENDUSING.html
+      - title: Object Variable Values
+        path: /dox/ecrConObjectVariableValues.html
+  - title: Collapsing and Hiding Code
+    path: /dox/ecrConHidingandCollapsingCode.html
+  - sectiontitle: DataGate Print File Designer Overview
+    sectionpath: /dox/ecrConDataGatePrintfileOverview.html
+    section:
+    - title: Renderer Command Options
+      path: /dox/ecrLrfRendererCommandOptions.html
+    - title: Using the InfSR keyword
+      path: /dox/ecrConInfSRKeyword.html
+    - title: Considerations for OLE Print File Conversion
+      path: /dox/ecrConsiderationsforOLEPrintFileSupport.html
+  - title: Rules of Subroutine Overloading
+    path: /dox/ecrConRulesofSubroutineOverloading.html
+  - title: Unicode
+    path: /dox/ecrConUnicode.html
+  - sectiontitle: RPG Cycle
+    sectionpath: /dox/ecrCycle_Overview.html
+    section:
+    - title: Level Break Indicator (*INL1...*INL9)
+      path: /dox/ecrCycle_LevelBreakIndicators.html
+    - title: "*DetailCalc Method"
+      path: /dox/ecrCycle_DetailCalcMethod.html
+    - title: "*FetchOverflow Method"
+      path: /dox/ecrCycle_FetchOverflowMethod.html
+    - title: Matching Record Indicator (*INMR)"
+      path: /dox/ecrCycle_MatchingRecordIndicators.html
+    - title: Handling Cycle Output to Database Files
+      path: /dox/ecrCycle_New_Output_Handling.html
+    - title: Overflow Indicators
+      path: /dox/ecrCycle_OverflowIndicators.html
+    - title: "*StartCycle Method"
+      path: /dox/ecrCycle_StartCycleMethod.html
+    - title: "*TotalCalc Method"
+      path: /dox/ecrCycle_TotalCalcMethod.html
+  - title: Interfaces in Encore RPG
+    path: /dox/ecrConInterface.html
+  - sectiontitle: Operation Codes
+    sectionpath: /dox/ecrConOpCodes.html
+    section:
+    - title: Operation Codes Overview
+      path: /dox/ecrConOpCodesOverview.html
+    - title: Assignment Operation Codes
+      path: /dox/ecrConAssignmentOpCodes.html
+    - title: Declaration Operation Codes
+      path: /dox/ecrConDeclarationOpCodes.html
+    - title: Executable Operation Codes
+      path: /dox/ecrConExecutableOpCodes.html
+
+
+## Language Reference
+Reference:
+- sectiontitle: Language Reference
+  sectionpath: /dox/ecrLrfLangRefMain.html
+  section:
+  - sectiontitle: Language Elements
+    sectionpath: /dox/ecrLrfLangElementsMain.html
+    section:
+    - title: Comments
+      path: /dox/Comments.html
+    - title: File Processing
+      path: /dox/File_Processing.html
+    - title: Mainline Code
+      path: /dox/Mainline_Code.html
+    - title: Continuation Lines
+      path: /dox/Continuation_Lines.html
+    - title: Control Language
+      path: /dox/Control_Language.html
+    - title: Miscellaneous Data Types
+      path: /dox/Miscellaneous_data_types.html
+    - sectiontitle: Declarations
+      sectionpath: /dox/Declarations.html
+      section:
+      - sectiontitle: Access Types
+        sectionpath: /dox/ecrConAccessTypes.html
+        section:
+        - title: Internal Access
+          path: /dox/ecrkeyInternal.html
+        - title: Public Access
+          path: /dox/ecrkeyPublic.html
+        - title: Private Access
+          path: /dox/ecrkeyPrivate.html
+        - title: Protected Access
+          path: /dox/ecrkeyProtected.html
+    - title: General Subroutines
+      path: /dox/General_Subroutines.html
+    - title: Multiple Occurrence Data Structures
+      path: /dox/Mult_Occur_DS.html
+    - title: Names
+      path: /dox/Lexical_Element_Names.html
+    - title: Printing
+      path: /dox/Printing.html
+    - title: Reserved Names
+      path: /dox/Reserved_Names.html
+    - title: Simple Types
+      path: /dox/Simple_Types.html
+    - title: Subroutine Parameters
+      path: /dox/white_papers_Subroutine_Parameters.html
+    - title: Type Conversions
+      path: /dox/Type_Conversions.html
+    - title: Setting Colors
+      path: /dox/ecrLrfSettingColors.html
+    - title: Methods
+      path: /dox/ecrLrfMethodsMain.html
+    - title: Comparison Commands
+      path: /dox/Comparison_Commands.html
+    - sectiontitle: Comparison Operators
+      sectionpath: /dox/Comparison_Operators.html
+      section:
+      - title: Compare Operations Rules
+        path: /dox/Compare_Operations_Rules.html
+    - title: Programs
+      path: /dox/Programs.html
+    - title: Functions
+      path: /dox/ecrLrfFunctionsMain.html
+    - sectiontitle: Event Subroutines
+      sectionpath: /dox/Event_Subroutines.html
+      section:
+      - title: Event Subroutine Parameters
+        path: /dox/Event_Subroutine_Parameters.html
+    - title: Properties
+      path: /dox/ecrLrfPropertiesMain.html
+    - title: Control Properties
+      path: /dox/Control_Properties.html
+    - sectiontitle: Edit Code Table
+      sectionpath: /dox/ecrLrfEditCodeTable.html
+      section:
+      - title: Edit Code Table
+        path: /dox/sharedEditCodeTable.html
+    - title: Commitment Control
+      path: /dox/Comittment_Control.html
+    - title: Edit Word Usage
+      path: /dox/ecrLrfEditWordTable.html
+  - sectiontitle: Built-In Functions
+    sectionpath: /dox/Functions_overview.html
+    section:
+    - title: "%ABS Function"
+      path: /dox/ABS_Function.html
+    - title: "%BOOL Function"
+      path: /dox/BOOL_Function.html
+    - title: "%CHAR Function"
+      path: /dox/CHAR_Function.html
+    - title: "%CHECK Function"
+      path: /dox/CHECK_Function.html
+    - title: "%CHECKR Function"
+      path: /dox/CHECKR_Function.html
+    - title: "%DATE Function"
+      path: /dox/DATE_Function.html
+    - title: "%DAYS Function"
+      path: /dox/DAYS_Function.html
+    - title: "%DEC Function"
+      path: /dox/DEC_Function.html
+    - title: "%DECH Function"
+      path: /dox/DECH_Function.html
+    - title: DECPOS Function
+      path: /dox/DECPOS_Function.html
+    - title: "%DIFF Function"
+      path: /dox/DIFF_Function.html
+    - title: "%DIGITS Function"
+      path: /dox/Digits_Function.html
+    - title: "%DIV Function"
+      path: /dox/DIV_Function.html
+    - title: "%EDITC Function"
+      path: /dox/EDITC_Function.html
+    - title: "%EDITFLT Function"
+      path: /dox/EDITFLT_Function.html
+    - title: "%EDITW Function"
+      path: /dox/EDITW_Function.html
+    - title: "%ELEM Function"
+      path: /dox/ELEM_Function.html
+    - title: "%EOF Function"
+      path: /dox/EOF_Function.html
+    - title: "%ERROR Function"
+      path: /dox/ERROR_Function.html
+    - title: "%EQUAL Function"
+      path: /dox/EQUAL_Function.html
+    - title: "%FLOAT Function"
+      path: /dox/FLOAT_Function.html
+    - title: "%FOUND Function"
+      path: /dox/FOUND_Function.html
+    - title: "%HOURS Function"
+      path: /dox/HOURS_Function.html
+    - title: "%INT Function"
+      path: /dox/INT_Function.html
+    - title: "%INTH Function"
+      path: /dox/INTH_Function.html
+    - title: "%OMITTED Function"
+      path: /dox/OMITTED_Function.html
+    - title: "%KDS Function"
+      path: /dox/KDS_Function.html
+    - title: "%LEN Function"
+      path: /dox/LEN_Function.html
+    - title: "%LOOKUP Function"
+      path: /dox/LOOKUP_Function.html
+    - title: "%MINUTES Function"
+      path: /dox/MINUTES_Function.html
+    - title: "%MONTHS Function"
+      path: /dox/MONTHS_Function.html
+    - title: "%MSECONDS Function"
+      path: /dox/MSECONDS.html
+    - title: "%NULLIND Function"
+      path: /dox/NULLIND_Function.html
+    - title: "%OCCUR Function"
+      path: /dox/OCCUR_Function.html
+    - title: "%OPEN Function"
+      path: /dox/OPEN_Function.html
+    - title: "%PARMS Function"
+      path: /dox/PARMS_Function.html
+    - title: "%REM Function"
+      path: /dox/REM_Function.html
+    - title: "%REPLACE Function"
+      path: /dox/REPLACE_Function.html
+    - title: "%SCAN Function"
+      path: /dox/SCAN_Function.html
+    - title: "%SECONDS Function"
+      path: /dox/SECONDS_Function.html
+    - title: "%SIZE Function"
+      path: /dox/SIZE_Function.html
+    - title: "%SQRT Function"
+      path: /dox/SQRT_Function.html
+    - title: "%SUBDT Function"
+      path: /dox/SUBDT_Function.html
+    - title: SUBST Function
+      path: /dox/SUBST_Function.html
+    - title: "%TIME Function"
+      path: /dox/TIME_Function.html
+    - title: "%TIMESTAMP Function"
+      path: /dox/TIMESTAMP_Function.html
+    - title: "%TLOOKUP Function"
+      path: /dox/TLOOKUP_Function.html
+    - title: "%TRIM Function"
+      path: /dox/TRIM_Function.html
+    - title: "%TRIML Function"
+      path: /dox/TRIML_Function.html
+    - title: "%TRIMR Function"
+      path: /dox/TRIMR_Function.html
+    - title: "%XFOOT_Function"
+      path: /dox/XFOOT_Function.html
+    - title: "%XLATE Function"
+      path: /dox/XLATE_Function.html
+    - title: "%YEARS Function"
+      path: /dox/YEARS_Function.html
+    - title: "%MSECONDS Function"
+      path: /dox/MSECONDS_Function.html
+  - sectiontitle: Runtime Library
+    sectionpath: /dox/ecrLrfClassLibraryMain.html
+    section:
+    - title: ASNA.QSys.Runtime Namespace
+      path: //asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html
+    - title: ASNA.QSys.Runtime.JobSupport Namespace
+      path: //asnaqsys.github.io/reference/asna-qsys-runtime-job-support/asna-qsys-runtime-job-support-section-intro.html
+    - title: ASNA.DataGate.Client Namespace
+      path: //asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html
+  - sectiontitle: Constants
+    sectionpath: /dox/ecrLrfConstantsMain.html
+    section:
+    - title: Hexadecimal Numeric Constant
+      path: /dox/Hexadecimal_Numeric_Constants.html
+    - sectiontitle: Figurative Constants
+      sectionpath: /dox/Figurative_Constants.html
+      section:
+      - title: Figurative Constants Rules
+        path: /dox/Fig_Constants_Rules.html
+    - title: Literals
+      path: /dox/Literals.html
+  - sectiontitle: DataTypes
+    sectionpath: /dox/ecrLrfDataTypesMain.html
+    section:
+    - title: "*Binary Data Type"
+      path: /dox/Binary_Data_Type.html
+    - title: Data Type Summary
+      path: /dox/Data_type_summary.html
+    - title: "*Boolean Data Type"
+      path: /dox/Boolean_Data_Type.html
+    - title: "*Byte Data Type"
+      path: /dox/Byte_Data_Type.html
+    - title: "*Date Data Type"
+      path: /dox/Date_Data_Type.html
+    - title: "*Decimal Data Type"
+      path: /dox/Decimal_Data_Type.html
+    - title: "*Float Data Type"
+      path: /dox/Float_Data_Type.html
+    - title: "*Float4 Data Type"
+      path: /dox/Float4_Data_Type.html
+    - title: "*Float8 Data Type"
+      path: /dox/Float8_Data_Type.html
+    - title: "*Ind Data Type"
+      path: /dox/Ind_Data_Type.html
+    - title: "*Integer Data Type"
+      path: /dox/Integer_Data_Type.html
+    - title: "*Integer2 Data Type"
+      path: /dox/Integer2_data_type.html
+    - title: "*Integer4 Data Type"
+      path: /dox/Integer4_Data_Type.html
+    - title: "*Integer8 Data Type"
+      path: /dox/Integer8_Data_Type.html
+    - title: "*Onechar Data Type"
+      path: /dox/Onechar_Data_Type.html
+    - title: "*Packed Data Type"
+      path: /dox/Packed_Data_Type.html
+    - title: "*String Data Type"
+      path: /dox/String_Data_Type.html
+    - title: "*Time Data Type"
+      path: /dox/Time_Data_Type.html
+    - title: "*Timestamp Data Type"
+      path: /dox/Timestamp_Data_Type.html
+    - title: "*Zoned Data Type"
+      path: /dox/Zoned_Data_Type.html
+    - title: Type Parameter
+      path: /dox/Type_Parameter.html
+  - sectiontitle: Date and Time
+    sectionpath: /dox/ecrLrfDateandTimeMain.html
+    section:
+    - title: Adding or Subtracting Dates
+      path: /dox/Adding_or_Subtracting_Dates.html
+    - title: Calculating Durations between Dates
+      path: /dox/Calculating_Durations_between_Dates.html
+    - title: Date Formats
+      path: /dox/Date_Formats.html
+    - title: Date Operations
+      path: /dox/Date_Operations.html
+    - title: Default Values for all Time Formats
+      path: /dox/default_values_for_all_time_formats.html
+    - title: Default Values for all Date Formats
+      path: /dox/Default_Values_for_all_Date_Formats.html
+    - title: Duration Codes
+      path: /dox/Duration_Codes.html
+    - title: Moving Date-Time Data
+      path: /dox/Moving_Data_Time_Data.html
+    - title: Time Formats
+      path: /dox/Time_Formats.html
+  - sectiontitle: Compiler Directives
+    sectionpath: /dox/ecrCompilerDirectivesMain.html
+    section:
+    - title: /DEFINE (Encore RPG)
+      path: /dox/ecrCompilerDirectivesDefine.html
+    - title: /EOF (Encore RPG)
+      path: /dox/ecrCompilerDirectivesEof.html
+    - title: /IF /ELSE /ELSEIF /ENDIF (Encore RPG)
+      path: /dox/ecrCompilerDirectivesIfElseEndIf.html
+    - title: /ENDREGION (Encore RPG)
+      path: /dox/ecrCompilerDirectivesEndRegion.html
+    - title: /REGION (Encore RPG)
+      path: /dox/ecrCompilerDirectivesRegion.html
+    - title: /UNDEFINE (Encore RPG)
+      path: /dox/ecrCompilerDirectivesUndefine.html
+  - sectiontitle: Figurative Constants
+    sectionpath: /dox/ecrLrfFigConstantsMain.html
+    section:
+    - title: "*ALL/*ALL\"x..\""
+      path: /dox/Star_ALL.html
+    - title: "*ALLU"
+      path: /dox/starALLU.html
+    - title: "*BLANK/*BLANKS"
+      path: /dox/STARBLANK.html
+    - title: "*BASE"
+      path: /dox/StarBase.html
+    - title: "*ByRef Operator"
+      path: /dox/StarByRef.html
+    - title: "*Date"
+      path: /dox/StarDate.html
+    - title: "*Day"
+      path: /dox/StarDay.html
+    - title: "*FALSE"
+      path: /dox/StarFalse.html
+    - title: "*HIVAL"
+      path: /dox/STARHIVAL.html
+    - title: "*LOVAL"
+      path: /dox/STARLOVAL.html
+    - title: "*Month"
+      path: /dox/StarMonth.html
+    - title: "*NEXT"
+      path: /dox/Star_Next.html
+    - title: "*NS"
+      path: /dox/StarNS.html
+    - title: "*NoParm"
+      path: /dox/starnoparm.html
+    - title: "*NOTHING"
+      path: /dox/Star_NOTHING.html
+    - title: "*ON"
+      path: /dox/STARON.html
+    - title: "*This"
+      path: /dox/Star_This.html
+    - title: "*Year"
+      path: /dox/StarYear.html
+    - title: "*TRUE"
+      path: /dox/StarTRUE.html
+    - title: "*ZERO/*ZEROS"
+      path: /dox/STARZERO.html
+    - title: "*OFF"
+      path: /dox/STAROFF.html
+  - sectiontitle: Operation Codes
+    sectionpath: /dox/ecrLrfOpCodesMain.html
+    section:
+    - title: ADD
+      path: /dox/ADD.html
+    - title: ADDDUR
+      path: /dox/ADDDUR.html
+    - title: BEEP
+      path: /dox/BEEP.html
+    - title: BEGCLASS
+      path: /dox/BEGCLASS.html
+    - title: BEGCONSTRUCTOR
+      path: /dox/BEGCONSTRUCTOR.html
+    - title: BEGENUM
+      path: /dox/BEGENUM.html
+    - title: BEGFUNC
+      path: /dox/BEGFUNC.html
+    - title: BEGGET
+      path: /dox/BEGGET.html
+    - title: BEGINTERFACE
+      path: /dox/BEGINTERFACE.html
+    - title: BEGPRINTATTR
+      path: /dox/BEGPRINTATTR.html
+    - title: BEGPROC
+      path: /dox/BEGPROC.html
+    - title: BEGPROP
+      path: /dox/BEGPROP.html
+    - title: DCLPROP
+      path: /dox/DCLPROP.html
+    - title: BEGSET
+      path: /dox/BEGSET.html
+    - title: BEGSR
+      path: /dox/BEGSR.html
+    - title: BITOFF
+      path: /dox/BITOFF.html
+    - title: BITON
+      path: /dox/BITON.html
+    - title: CAB
+      path: /dox/CAB.html
+    - title: CABXX
+      path: /dox/CABxx.html
+    - title: CALL
+      path: /dox/CALL.html
+    - title: CALLD
+      path: /dox/CALLD.html
+    - title: CASE
+      path: /dox/CASE.html
+    - title: CASEDFT
+      path: /dox/CASEDFT.html
+    - title: CASXX
+      path: /dox/CASxx.html
+    - title: CATCH
+      path: /dox/CATCH.html
+    - title: CHAIN
+      path: /dox/CHAIN.html
+    - title: CHECK
+      path: /dox/CHECK.html
+    - title: CHECKR
+      path: /dox/CHECKR.html
+    - title: CLEAR
+      path: /dox/CLEAR.html
+    - title: CLOSE
+      path: /dox/CLOSE.html
+    - title: COMMIT
+      path: /dox/COMIT.html
+    - title: COMPARE
+      path: /dox/COMPARE.html
+    - title: CONCAT
+      path: /dox/CONCAT.html
+    - title: CONNECT
+      path: /dox/CONNECT.html
+    - title: DCLARRAY
+      path: /dox/DCLARRAY.html
+    - title: DCLCONST
+      path: /dox/DCLCONST.html
+    - title: DCLDB
+      path: /dox/DCLDB.html
+    - title: DCLDISKFILE
+      path: /dox/DCLDISKFILE.html
+    - title: DCLDISKFILE UseKeyBuffer
+      path: /dox/DCLDISKFILEUseKeyBuffer.html
+    - title: DCLDS
+      path: /dox/DCLDS.html
+    - title: DCLDSFLD
+      path: /dox/DCLDSFLD.html
+    - title: DCLENUMFLD
+      path: /dox/DCLENUMFLD.html
+    - title: DCLFLD
+      path: /dox/DCLFLD.html
+    - title: DCLFMTCYCLEATTR
+      path: /dox/DCLFMTCYCLEATTR.html
+    - title: DCLKFLD
+      path: /dox/DCLKFLD.html
+    - title: DCLKLIST
+      path: /dox/DCLKLIST.html
+    - title: DCLNAMESPACE
+      path: /dox/DCLNAMESPACE.html
+    - title: DCLPARM
+      path: /dox/DCLPARM.html
+    - title: DCLPLIST
+      path: /dox/DCLPLIST.html
+    - title: DCLPRINTFILE
+      path: /dox/DCLPRINTFILE.html
+    - title: DCLSRPARM
+      path: /dox/DCLSRPARM.html
+    - title: DCLWORKSTNFILE
+      path: /dox/DCLWORKSTNFILE.html
+    - title: DELETE
+      path: /dox/DELETE.html
+    - title: DELETERANGE
+      path: /dox/DELETERANGE.html
+    - title: DETAILSPEC
+      path: /dox/DETAILSPEC.html
+    - title: DISCONNECT
+      path: /dox/DISCONNECT.html
+    - title: DIV
+      path: /dox/DIV.html
+    - title: DO
+      path: /dox/DO.html
+    - title: DOUNTIL
+      path: /dox/DOUNTIL.html
+    - title: DOWHILE
+      path: /dox/DOWHILE.html
+    - title: DSDUMP
+      path: /dox/DSDUMP.html
+    - title: DSLOAD
+      path: /dox/DSLOAD.html
+    - title: ELSE
+      path: /dox/ELSE.html
+    - title: ELSEIF
+      path: /dox/ELSEIF.html
+    - title: END
+      path: /dox/END.html
+    - title: ENDCLASS
+      path: /dox/ENDCLASS.html
+    - title: ENDCONSTRUCTOR
+      path: /dox/ENDCONSTRUCTOR.html
+    - title: ENDCS
+      path: /dox/ENDCS.html
+    - title: ENDDO
+      path: /dox/ENDDO.html
+    - title: ENDENUM
+      path: /dox/ENDENUM.html
+    - title: ENDFOR
+      path: /dox/ENDFOR.html
+    - title: ENDFUNC
+      path: /dox/ENDFUNC.html
+    - title: ENDGET
+      path: /dox/ENDGET.html
+    - title: ENDIF
+      path: /dox/ENDIF.html
+    - title: ENDINTERFACE
+      path: /dox/ENDINTERFACE.html
+    - title: ENDPRINTATTR
+      path: /dox/ENDPRINTATTR.html
+    - title: ENDPROC
+      path: /dox/ENDPROC.html
+    - title: ENDPROP
+      path: /dox/ENDPROP.html
+    - title: ENDSET
+      path: /dox/ENDSET.html
+    - title: ENDSL
+      path: /dox/ENDSL.html
+    - title: ENDSR
+      path: /dox/ENDSR.html
+    - title: ENDTPM
+      path: /dox/ENDTPM.html
+    - title: ENDTRY
+      path: /dox/ENDTRY.html
+    - title: ENDWITH
+      path: /dox/ENDWITH.html
+    - title: ENTERLOCK
+      path: /dox/ENTERLOCK.html
+    - title: EVAL
+      path: /dox/EVAL.html
+    - title: EVALR
+      path: /dox/EVALR.html
+    - title: EXCEPTSPEC
+      path: /dox/EXCEPTSPEC.html
+    - title: EXFMT
+      path: /dox/EXFMT.html
+    - title: EXITAPP
+      path: /dox/EXITAPP.html
+    - title: EXITLOCK
+      path: /dox/EXITLOCK.html
+    - title: EXSR
+      path: /dox/EXSR.html
+    - title: EXTRACT
+      path: /dox/EXTRACT.html
+    - title: FEOD
+      path: /dox/FEOD.html
+    - title: FINALLY
+      path: /dox/FINALLY.html
+    - title: FOR
+      path: /dox/FOR.html
+    - title: FORCE
+      path: /dox/FORCE.html
+    - title: FOREACH
+      path: /dox/FOREACH.html
+    - title: GOTO
+      path: /dox/GOTO.html
+    - title: HEADINGSPEC
+      path: /dox/HEADINGSPEC.html
+    - title: IF
+      path: /dox/IF.html
+    - title: IN
+      path: /dox/IN.html
+    - title: ITERATE
+      path: /dox/ITERATE.html
+    - title: LEAVE
+      path: /dox/LEAVE.html
+    - title: LEAVESR
+      path: /dox/LEAVESR.html
+    - title: LOOKUP
+      path: /dox/LOOKUP.html
+    - title: MOVE
+      path: /dox/MOVE.html
+    - title: MOVEARR
+      path: /dox/MOVEARR.html
+    - title: MOVEL
+      path: /dox/MOVEL.html
+    - title: MOVEREM
+      path: /dox/MOVEREM.html
+    - title: MULT
+      path: /dox/MULT.html
+    - title: OCCUR
+      path: /dox/OCCUR.html
+    - title: OPEN
+      path: /dox/OPEN.html
+    - title: OSEXEC
+      path: /dox/OsExec.html
+    - title: OTHER
+      path: /dox/OTHER.html
+    - title: OUT
+      path: /dox/OUT.html
+    - title: READ
+      path: /dox/READ.html
+    - title: READC
+      path: /dox/READC.html
+    - title: READE
+      path: /dox/READE.html
+    - title: READP
+      path: /dox/READP.html
+    - title: READPE
+      path: /dox/READPE.html
+    - title: READRAND
+      path: /dox/READRAND.html
+    - title: READRANGE
+      path: /dox/READRANGE.html
+    - title: RNMFLDS
+      path: /dox/RNMFLDS.html
+    - title: ROLLBACK
+      path: /dox/ROLBACK.html
+    - title: SCAN
+      path: /dox/SCAN.html
+    - title: SELECT
+      path: /dox/SELECT.html
+    - title: SETASSEMBLYATTRIBUTE
+      path: /dox/SETASSEMBLYATTRIBUTE.html
+    - title: SETGT
+      path: /dox/SETGT.html
+    - title: SETLL
+      path: /dox/SETLL.html
+    - title: SETOFF
+      path: /dox/SETOFF.html
+    - title: SETON
+      path: /dox/SETON.html
+    - title: SETRANGE
+      path: /dox/SETRANGE.html
+    - title: SLEEP
+      path: /dox/SLEEP.html
+    - title: SORTARR
+      path: /dox/SORTARR.html
+    - title: SQRT
+      path: /dox/SQRT.html
+    - title: STARTTPM
+      path: /dox/STARTTPM.html
+    - title: SUB
+      path: /dox/SUB.html
+    - title: SUBDUR
+      path: /dox/SUBDUR.html
+    - title: SUBSTR
+      path: /dox/SUBSTR.html
+    - title: SUMARR
+      path: /dox/SUMARR.html
+    - title: TAG
+      path: /dox/TAG.html
+    - title: TESTBITS
+      path: /dox/TESTBITS.html
+    - title: TESTNUM
+      path: /dox/TESTNUM.html
+    - title: TESTTIME
+      path: /dox/TESTTIME.html
+    - title: THROW
+      path: /dox/THROW.html
+    - title: TIME
+      path: /dox/TIME.html
+    - title: TOTALSPEC
+      path: /dox/TOTALSPEC.html
+    - title: TRY
+      path: /dox/TRY.html
+    - title: UDATE
+      path: /dox/UDATE.html
+    - title: UDAY
+      path: /dox/UDAY.html
+    - title: TRY..CATCH..FINALLY
+      path: /dox/TRYCATCHFINALLY.html
+    - title: UMONTH
+      path: /dox/UMONTH.html
+    - title: UNLOCK
+      path: /dox/UNLOCK.html
+    - title: UPDATE
+      path: /dox/UPDATE.html
+    - title: USING
+      path: /dox/USING.html
+    - title: UYEAR
+      path: /dox/UYEAR.html
+    - title: WHEN
+      path: /dox/WHEN.html
+    - title: WITH
+      path: /dox/WITH.html
+    - title: WRITE
+      path: /dox/WRITE.html
+    - title: XFOOT
+      path: /dox/XFOOT.html
+    - title: XLATE
+      path: /dox/XLATE.html
+    - title: ZADD
+      path: /dox/ZADD.html
+    - title: ZSUB
+      path: /dox/Z_SUB.html
+  - sectiontitle: Literals
+    sectionpath: /dox/ecrLrfLiteralsMain.html
+    section:
+    - title: Boolean Literal
+      path: /dox/Boolean_Literal.html
+    - title: Character Literal
+      path: /dox/Character_Literal.html
+    - title: Date Literals
+      path: /dox/Date_Literals.html
+    - title: Hexadecimal Literal
+      path: /dox/Hexadecimal_Literal.html
+    - title: Numeric Literal
+      path: /dox/Numeric_Literal.html
+    - title: OneChar Literal
+      path: /dox/OneChar_Literal.html
+    - title: String Literal
+      path: /dox/String_Literal.html
+    - title: Time Literal
+      path: /dox/Time_Literals.html
+    - title: Timestamp Literal
+      path: /dox/Timestamp_Literals.html
+    - title: Unicode Literal
+      path: /dox/Unicode_Literal.html
+  - sectiontitle: Special Values
+    sectionpath: /dox/ecrLrfSpecialValuesMain.html
+    section:
+    - title: "*END"
+      path: /dox/StarEND.html
+    - title: "*New"
+      path: /dox/starNew.html
+    - title: PropVal
+      path: /dox/Star_PROPVAL.html
+    - title: "*START"
+      path: /dox/START.html
+    - title: Special Values
+      path: /dox/Special_Values.html
+  - sectiontitle: Syntactical Elements
+    sectionpath: /dox/ecrLrfSyntacticalElementsMain.html
+    section:
+    - title: Commands
+      path: /dox/Commands.html
+    - sectiontitle: Expressions
+      sectionpath: /dox/Expressions.html
+      section:
+      - title: Assignments
+        path: /dox/Assignment.html
+      - title: Expression Operators and their Precedence
+        path: /dox/Expression_Operators_and_their_Precedence.html
+      - title: Operands
+        path: /dox/Operands.html
+      - title: Expression Overview with QrySelect
+        path: /dox/Expression_Overview_with_QRYSELECT_or_Select_Omit_Rule.html
+  - sectiontitle: Operators
+    sectionpath: /dox/ecrLrfOperatorsMain.html
+    section:
+    - title: Logical Operators
+      path: /dox/ecrLrfLogicalOperators.html
+    - title: + Operator
+      path: /dox/Plus_Operator.html
+    - title: "* Operator"
+      path: /dox/Multiply_Operator.html
+    - title: / Operator
+      path: /dox/Divide_Operator.html
+    - title: "** Operator"
+      path: /dox/StarStar_Op.html
+    - title: "<< Operator"
+      path: /dox/ecrLrfLeftShiftOperator.html
+    - title: ">> Operator"
+      path: /dox/ecrLrfRightShiftOperator.html
+    - title: "*As Operator"
+      path: /dox/As_Operator.html
+    - title: "*ASFLD Operator"
+      path: /dox/Star_ASFLD.html
+    - title: "*BitAnd Operator"
+      path: /dox/BitAnd_Operator.html
+    - title: "*BitNot Operator"
+      path: /dox/BitNot_Operator.html
+    - title: "*BitOr Operator"
+      path: /dox/BitOr_Operator.html
+    - title: "*BitXOr Operator"
+      path: /dox/BitXor_Operator.html
+    - title: "*Is Operator"
+      path: /dox/Is_Operator.html
+    - title: "*ISFLD Operator"
+      path: /dox/Star_ISFLD.html
+    - title: "*NOT"
+      path: /dox/Not_Operator.html
+    - title: "*TypeOf Operator"
+      path: /dox/Typeof_Operator.html
+  - sectiontitle: Variables
+    sectionpath: /dox/ecrLrfVariablesMain.html
+    section:
+    - title: Array Elements
+      path: /dox/Array_Element.html
+    - title: Variable Names
+      path: /dox/Variable_Names.html
+    - title: Character Expression
+      path: /dox/Character_Expression.html
+    - title: Constant Expression
+      path: /dox/Constant_Expression.html
+    - title: Data Structure Element
+      path: /dox/DS_Element.html
+    - title: Field
+      path: /dox/Field.html
+    - title: Global Scope
+      path: /dox/Variable_Scoping.html
+    - title: Indicator
+      path: /dox/Indicator.html
+    - title: Indicator Variable
+      path: /dox/Indicator_Variable.html
+    - title: "Integer Literal"
+      path: /dox/Integer_Literals.html
+    - title: Labels
+      path: /dox/Labels.html
+    - title: Lexical Elements
+      path: /dox/Lexical_Elements.html
+    - title: Numeric Expression
+      path: /dox/Num_Expression.html
+    - title: Numeric Variable
+      path: /dox/Numeric_Variable.html
+    - title: Record Format
+      path: /dox/Record_Format.html
+    - title: Rules for User Date
+      path: /dox/Rules_for_User_Date.html
+    - title: Subroutine
+      path: /dox/Subroutine.html
+    - title: User Date Special Words
+      path: /dox/User_Date_Special_Words.html
+    - title: Variable Operand
+      path: /dox/Variable_Operand.html
+    - title: Variable Length Overview
+      path: /dox/Variable_Length_Overview.html
+    - title: Variable-Length Character Fields
+      path: /dox/Variable_Length_Character_and_UCS_2_Formats.html
+    - title: Using Variable Length Fields
+      path: /dox/Using_Variable_Length_Fields.html
+
+

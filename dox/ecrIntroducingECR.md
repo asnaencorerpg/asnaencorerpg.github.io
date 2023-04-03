@@ -23,10 +23,6 @@ Find out about topics to assist you with getting started with Encore RPG. Also c
 
 ### Additional Information
 
-[Visual Studio](VisualStudioMain.html)
-
-Find out how to get around and use the IDE in Visual Studio.
-
 
 [Language Concepts](ecrConLanguageConceptsMain.html)
 
@@ -37,4 +33,8 @@ Find out about the new Language Concepts when using Encore RPG.
 
 Describes the Encore RPG programming language reference.
 
+
+[Visual Studio](//visualstudio.microsoft.com/vs/getting-started/)
+
+Learn to code in Visual Studio
 

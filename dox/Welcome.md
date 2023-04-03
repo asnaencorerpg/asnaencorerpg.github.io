@@ -1,5 +1,5 @@
 ---
-title: ASNA Encore RPG Help
+title: ASNA Encore RPG
 
 Id: Welcome
 TocParent: -1

@@ -35,7 +35,7 @@ skip_read_time: true
   <section class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card guides" href="/concepts/introduction">
+        <a class="card guides" href="/dox/ecrGettingStartedMain.html">
           <h5 class="title">Get started</h5>
           <p>
             Learn the basic of ASNA Encore RPG.
@@ -43,7 +43,7 @@ skip_read_time: true
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card download-asna-qsys" href="/manuals/programming/get-asna-qsys/get-asna-qsys-overview.html">
+        <a class="card download-ecr" href="/dox/ecrInstallationandsetup.htmll">
           <h5 class="title">Download and install</h5>
           <p>
             Download and install ASNA Encore RPG on your machine.
@@ -51,34 +51,34 @@ skip_read_time: true
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card concepts" href="//asnaqsys.github.io/concepts/concepts-overview">
+        <a class="card concepts" href="/dox/ecrConLanguageConceptsMain.html">
           <h5 class="title">Concepts</h5>
           <p>
-            Learn the concepts behind Monarch Base.
+            Learn the concepts behind ASNA Encore RPG.
           </p>
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card manuals" href="//asnaqsys.github.io/manuals/manuals-overview">
+        <a class="card manuals" href="/dox/Welcome.html">
           <h5 class="title">Manuals</h5>
           <p>
-            Learn how to setup and operate the application environment.
+            Learn how to setup and operate the ASNA Encore RPG.
           </p>
         </a>
       </div>      
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card reference" href="//asnaqsys.github.io/reference/reference-overview">
+        <a class="card reference" href="/dox/ecrLrfLangRefMain.html">
           <h5 class="title">Reference</h5>
           <p>
-            Browse through the AsnaQSys Runtime API reference documentation.
+            Browse through the ASNA Encore RPG Language.
           </p>
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card articles" href="/articles/articles-overview">
-          <h5 class="title">Articles</h5>
+        <a class="card monarch-base-docs" href="//asnaqsys.github.io">
+          <h5 class="title">Monarch Base</h5>
           <p>
-            Browse through a collection of interesting articles.
+            Browse through the Runtime Class library documentation.
           </p>
         </a>
       </div>
