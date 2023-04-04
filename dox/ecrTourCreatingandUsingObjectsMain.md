@@ -16,26 +16,16 @@ TocOrder: 10
 
 [Objects from Encore RPG and Other Sources](ecrTourIntroductiontoObjects.html)
 
-                        Discusses how to use objects from Microsoft Word, Microsoft Excel, and other
-                        applications.
+ Discusses how to use objects from Microsoft Word, Microsoft Excel, and other applications.
 
 
-[
-                            Setting and
-                            Retrieving Properties
-                        ](ecrTourSettingandRetrievingProperties.html)
+[Setting and Retrieving Properties](ecrTourSettingandRetrievingProperties.html)
 
 Discusses how to change and obtain property values.
-
 
 [Performing Actions with Methods](ecrTourPerformingActionswithMethods.html)
 
 Describes what methods are and how to use them.
-
-
-[Treating Forms as Objects](ecrTourTreatingFormsasObjects.html)
-
-Shows how to use forms in the same way as ordinary objects.
 
 
 ### Related Sections
@@ -43,6 +33,4 @@ Shows how to use forms in the same way as ordinary objects.
 [Objects](ecrConObjects.html)
 
 Covers object-oriented programming fundamentals.
-
-            </dd>
 

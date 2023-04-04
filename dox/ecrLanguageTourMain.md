@@ -9,12 +9,6 @@ TocOrder: 25
 
 ### In This Section
 
-[What's new in the Encore RPG Language](ecrTourWhatsNewinVisualRPG.html)
-
-Documents the language changes that occurred in Encore RPG from
-                Encore RPG Classic to Encore RPG
-
-
 [Object Oriented Programming in Encore RPG](ecrTourObjectOrientedProgrammingMain.html)
 
 Discusses how easy it is to create your own objects from the classes you define, and to use objects

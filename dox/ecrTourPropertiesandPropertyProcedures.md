@@ -15,13 +15,18 @@ Encore RPG .NET has two commands for this: **```BEGGET```** command for retrievi
 The following code fragment shows using the ```BEGGET``` and ```BEGSET``` commands within a ```BEGPROP```. 
 
 ```
-BegProp 
-      Prop1 Type( *Integer ) Len( 4 ) Access( *Public )
-         BegGet
-            LeaveSR 5
-         EndGet     
-      BegSet newvalname( Myname )   C = A * B
-            zero[1] = D
+DclFld hiddenField Type( *Integer ) Len( 4 ) Access( *Private )
+BegProp BePositive Type( *Integer ) Len( 4 ) Access( *Public )
+      BegGet
+            LeaveSR hiddenField
+      EndGet     
+      BegSet 
+            if (*PropVal > 0)
+                  hiddenField = *PropVal
+            else
+                  hiddenField = -*PropVal
+            endif
+
       EndSet
 EndProp
 ```

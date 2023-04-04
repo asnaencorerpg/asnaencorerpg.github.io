@@ -12,10 +12,7 @@ As you install Encore RPG, you will have the opportunity to choose among several
 
 **To Install Encore RPG** 
 
-1. Go to the ASNA product downloads site at
-                <a href="http://devnet.ASNA.com/downloads/Pages/ASNA140ProductSuite.aspx">
-                    http://devnet.ASNA.com/downloads/Pages/ASNA140ProductSuite.aspx
-                </a> and log in (create an account if you haven't already).
+1. Go to the ASNA product downloads site at [https://asna.com/en/support/downloads/](https://asna.com/en/support/downloads/) and log in (create an account if you haven't already).
 2. Click on **Encore RPG**  in the General Availability section.
                 Your browser will download the latest version.
 3. Open your browser's downloads folder, and click on the
@@ -24,7 +21,8 @@ As you install Encore RPG, you will have the opportunity to choose among several
                 software are compatible and prompting you to configure the new
                 installation of Encore RPG.
 
-The main screens that will occur are:- <p style="MARGIN-LEFT: 20px">License Agreement
+The main screens that will occur are:
+- License Agreement
 - Registration
 - Directory locations and selecting which files to install
 
@@ -32,4 +30,4 @@ The main screens that will occur are:- <p style="MARGIN-LEFT: 20px">License Agre
 
 Visual Studio 2022 is required in order to install ASNA Encore RPG. 
 
-Please visit <a href="https://learn.microsoft.com/en-us/visualstudio/releases/2022/system-requirements"> Visual Studio 2022 Product Family System Requirements </a> 
+Please visit [Visual Studio 2022 Product Family System Requirements](//learn.microsoft.com/en-us/visualstudio/releases/2022/system-requirements) 

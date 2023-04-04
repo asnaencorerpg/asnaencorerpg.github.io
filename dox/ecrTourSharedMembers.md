@@ -15,41 +15,41 @@ Shared fields and properties are useful when you have information that is part o
 Shared procedures are not implicitly passed instances of the class. For this reason, no unqualified references to non-shared data members are allowed in shared methods. 
 
 ### Shared Members Example
-The following example creates a shared field (```Barney```) in another class (```PublicFields```), and shows how to instance, or use that shared field to demonstrate how shared members operate in code: 
+The following example creates a shared field (```Barney```) in another class (```PublicFields```), and demonstrates how shared members operate in code: 
 
 ```
 BegClass Form1 Extends(System.Windows.Forms.Form) Access(*Public)
-      DclFld button2 Type(System.Windows.Forms.Button) Access(*Private) WithEvents(*Yes)
-      DclFld button1 Type(System.Windows.Forms.Button) Access(*Private) WithEvents(*Yes)
+    DclFld button2 Type(System.Windows.Forms.Button) Access(*Private) WithEvents(*Yes)
+    DclFld button1 Type(System.Windows.Forms.Button) Access(*Private) WithEvents(*Yes)        
 
-      BegSr Form1_Load Access(*Private) Event(*this.Load)
-        <span style="mso-tab-count: 2" />DclSrParm sender Type(*Object
-        <span style="mso-tab-count: 2" />DclSrParm e Type(System.EventArgs
-      EndSr
-        <span style="mso-tab-count: 1">            </span>
+    BegSr button1_Click Access(*Private) Event(*this.button1.Click)
+        DclSrParm sender Type(*Object)
+        DclSrParm e Type(System.EventArgs)
 
-      BegSr button1_Click Access(*Private) Event(*this.button1.Click)
-        <span style="mso-tab-count: 2" />DclSrParm sender Type(*Object)
-        <span style="mso-tab-count: 2" />DclSrParm e Type(System.EventArgs)
- //Don't need to Instance the Class if the Field is Shared (*Yes) <span style="mso-tab-count: 2" />MsgBox **PublicFields**  .Barney
-      EndSr
-        <span style="mso-tab-count: 1">            </span>
-      BegSr button2_Click Access(*Private) Event(*this.button2.Click)
-        <span style="mso-tab-count: 2" />DclSrParm sender Type(*Object)
-        <span style="mso-tab-count: 2" />DclSrParm e Type(System.EventArgs)
-        <span style="mso-tab-count: 2" />MsgBox **PublicFields**  .Barney
- **<strong>PublicFields** </strong>.Barney = "Pence"
-      EndSr
-     EndClass
-      _____________________________________________
+      //Don't need to Instance the Class if the Field is Shared (*Yes)         
+      MsgBox PublicFields.Barney
+    EndSr
+        
+    BegSr button2_Click Access(*Private) Event(*this.button2.Click)
+        DclSrParm sender Type(*Object)
+        DclSrParm e Type(System.EventArgs)
+      MsgBox PublicFields.Barney
+      PublicFields.Barney = "Pence"
+    EndSr
+EndClass
 
- **Contents of the Class called PublicFields** 
+/* _________________________________________ */
+/* Contents of the Class called PublicFields */
 
-BegClass PublicFields Access(*Public) <br />  DclFld Fred Type( *String ) Access( *Public ) Inz( "Flintstone" )<br />  DclFld Barney Type( *String ) Access( *Public ) Inz( "Rubble" ) Shared( *Yes ) <br />EndClass
+BegClass PublicFields Access(*Public) 
+    DclFld Fred Type( *String ) Access( *Public ) Inz( "Flintstone" )
+    DclFld Barney Type( *String ) Access( *Public ) Inz( "Rubble" ) Shared( *Yes ) 
+EndClass
 
 ```
 
 ### See Also
+
 [Class Properties, Fields, and Methods](ecrTourClassPropertiesFieldsandMethodsMain.html)
 
 [DCLFLD](DCLFLD.html) 

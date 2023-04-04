@@ -12,11 +12,7 @@ Derived classes inherit properties and methods defined in their base class. This
 
 The following rules apply to overriding methods. 
 
-- You can only override members that are marked with the ```
- **Modifier** 
-                    (* **Overridable)** 
-                ```
-                keyword in their base class.
+- You can only override members that are marked with the **```Modifier(*Overridable)```** keyword in their base class.
 - Properties and methods are not overridable by default.
 - Overridden members must have the same arguments as the inherited members from
                 the base class.

@@ -91,8 +91,6 @@ Manuals:
         path: /dox/ecrTourSettingandRetrievingProperties.html
       - title: Performing Actions with Methods
         path: /dox/ecrTourPerformingActionswithMethods.html
-      - title: Treating Forms as Objects
-        path: /dox/ecrTourTreatingFormsasObjects.html
   - title: Help Resources
     path: /dox/help-resources.html
 
