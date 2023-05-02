@@ -10,7 +10,7 @@ If you have ever used ASNA's other programming language [**ASNA Visual RPG**](//
 
  + Class, Field, Property and Method Names are Case-Sensitive.
 
- + *INxx indicators are uppercase.
+ + `*INxx` indicators are uppercase.
 
  + Commands, Keywords and Figurative Constants are Case-Less
 
@@ -20,7 +20,7 @@ If you have ever used ASNA's other programming language [**ASNA Visual RPG**](//
  + String constants must use double quotes:  
       `DclFld Copyright *Char Init("ASNA, Inc.")`
 
- + Single character constants use single quotes (what used to be O'f'):   
+ + Single character constants use single quotes (what used to be O'f' in AVR):   
        `DclFld MyOneChar *OneChar Init('f')`
 
 ## Opcodes and Keywords
@@ -29,7 +29,7 @@ Several Opcodes and Keywords are not present in ECR.
 ### Data Structures 
 The implementation of Data Structures in ECR is closer to that of RPG than the one AVR had.
 
-The DclDs opcode can have have LEN keyword and it only supports basic RPG types (no *string, no *decimal, no objects) and the DclDSFld cmmand has a START keyword.
+The `DCLDS` opcode can have have `LEN` keyword and it only supports basic RPG types (no `*string`, no `*decimal`, no objects) and the `DCLDSFLD` command has a `START` keyword.
 
  + The following commands are not present in ECR:
  + `DclAlias & DclAliasGroup`
