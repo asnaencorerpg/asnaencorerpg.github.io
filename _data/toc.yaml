@@ -33,6 +33,8 @@ Manuals:
   - sectiontitle: Language Tour
     sectionpath: /dox/ecrLanguageTourMain.html
     section:
+    - title: Encore RPG vs. Visual RPG Lnaguage
+      path: /dox/ecrTourECRvsAVR.html
     - sectiontitle: Object-Oriented Programming in Encore RPG
       sectionpath: /dox/ecrTourObjectOrientedProgrammingMain.html
       section:
