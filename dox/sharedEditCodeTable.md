@@ -433,34 +433,39 @@ Using the **EditCode** property or keyword allows you to punctuate numeric field
             </tr>
             <tr>
                 <td align="LEFT" colspan="9" headers="COL1 WQ188 COL1 COL2 COL1 COL3 COL1 COL4 COL5 WQ189 COL9 WQ190" rowspan="1" valign="TOP" width="80%">
+</td>
+            </tr>
+</table>
 
 **Notes:** 
-<ol />
 
-- These are the user-defined edit codes.
-- The X edit code ensures a hexadecimal F sign for positive values.
+ 1 - These are the user-defined edit codes.
+
+ 2 - The X edit code ensures a hexadecimal F sign for positive values.
                             Because the system does this for you, normally you do not have to specify this
                             code.
-- The Y edit code suppresses the leftmost zeros of date fields, up to but
+
+ 3 - The Y edit code suppresses the leftmost zeros of date fields, up to but
                             not including the digit preceding the first separator. The Y edit code
                             also inserts slashes (/) between the month, day, and year according to the
                             following pattern:
-<pre>   nn/n
+```
+   nn/n
    nn/nn
    nn/nn/n
    nn/nn/nn
   nnn/nn/nn
-   nn/nn/nnnn
-  nnn/nn/nnnn
- nnnn/nn/nn
-nnnnn/nn/nn
-</pre>
-- The Z edit code removes the sign (plus or minus) from a numeric field and
-                            suppresses leading zeros.
+   nn/nn/nnnn    *
+  nnn/nn/nnnn    *
+ nnnn/nn/nn      *
+nnnnn/nn/nn      *
+```
 
-</td>
-            </tr>
-</table>
+\* To select between the two different formats for 8 and 9 digit values use the `DatEdit` Project Setting or the `DatEdit` keyword of the `BegClass` command. The default is Y (nnnn/nn/nn).
+
+ 4 - The Z edit code removes the sign (plus or minus) from a numeric field and suppresses leading zeros.
+
+
 
 ### See Also
 [EditWord Usage](sharedEditWordTable.html) <br /> 
