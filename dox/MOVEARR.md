@@ -11,8 +11,8 @@ TocOrder: 1220
 Transfers character or numeric values from **Source** to the **Target** . **Source** and **Target** ** *must* ** be an array. 
 
 ```
- **MOVEARR
-Source** (Expression) **Target**  (Character Expression)
+ MOVEARR
+Source (Expression) Target  (Character Expression)
 Fill (<u>*NOPAD</u> | *PAD)
 Pos (Indicator Variable)
 Neg (Indicator Variable)

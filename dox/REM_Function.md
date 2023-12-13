@@ -11,8 +11,7 @@ TocOrder: 36
 **%REM** [built-in function](Functions_overview.html) returns the remainder that results from dividing operands **n** by **m** . 
 
 ```
-
- ** *<result>*  = %REM**  (n,m)
+ *<result>*  = %REM  (n,m)
 ```
 
 ### Parts

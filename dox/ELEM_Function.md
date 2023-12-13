@@ -11,10 +11,9 @@ TocOrder: 16
 **%ELEM** [built-in function](Functions_overview.html) returns the number of elements in the specified array, table, or multiple-occurrence data structure. 
 
 ```
-
- **%ELEM (Table_name)** 
- **%ELEM (Array_name)** 
- **%ELEM (Multiple_occurrence_data_structure_name)** 
+%ELEM (Table_name) 
+ %ELEM (Array_name) 
+ %ELEM (Multiple_occurrence_data_structure_name) 
 ```
 
 ### Parts

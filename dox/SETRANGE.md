@@ -11,10 +11,9 @@ TocOrder: 1500
 **SETRANGE** positions the file to the desired range of records constrained by the **FirstKey** and the **LastKey** parameters. The range is determined by the combination of the parameters of the command. 
 
 ```
-
- **SETRANGE
-File**  (file name | Format Name)
- **FirstKey**  (Key List Name | Variable Operand)
+SETRANGE
+File  (file name | Format Name)
+ FirstKey  (Key List Name | Variable Operand)
 LastKey (<u>*FIRSTKEY</u> | Key List Name | Variable Operand)
 StartAt (<u>*FIRST</u> | *LAST)
 IncludeFirstKey (*<u>YES</u> |*NO)

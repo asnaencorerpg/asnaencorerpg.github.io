@@ -11,8 +11,9 @@ TocOrder: 1720
 Releases record locks.
 
 ```
-
- **UNLOCK<br />Obj** (Oject Name | *DTAARA)<br />Err (Indicator Variable | *EXTENDED)
+UNLOCK
+Obj (Oject Name | *DTAARA)
+Err (Indicator Variable | *EXTENDED)
 ```
 
 ### Parts

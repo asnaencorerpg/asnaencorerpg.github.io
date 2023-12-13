@@ -11,13 +11,12 @@ TocOrder: 1530
 Allows users to test the validity of [time](Time_Formats.html), [date](Date_Formats.html), or [timestamp](Timestamp_Literals.html) fields prior to using them. 
 
 ```
-
- **TESTTIME** TimFmt (<u>*NONE</u> | *DMY | *EUR | *HMS | *ISO | *JIS | *JUL | *MDY | *USA | *YMD)
- **Result**  (Char | Numeric | Date | Time | Timestamp)
+TESTTIME TimFmt (<u>*NONE</u> | *DMY | *EUR | *HMS | *ISO | *JIS | *JUL | *MDY | *USA | *YMD)
+ Result  (Char | Numeric | Date | Time | Timestamp)
 Type (<u>*NONE</u> | *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 |
       *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *ONECHAR | *PACKED | *ZONED)
 Len (Length Integer, [Decimal Integer])
- **Err**  (Indicator Variable | *EXTENDED)
+ Err  (Indicator Variable | *EXTENDED)
 ResultType(<u>*NONE</u> | *DATE | *TIME | *TIMESTAMP)     
 ```
 

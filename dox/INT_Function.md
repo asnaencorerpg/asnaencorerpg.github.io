@@ -11,8 +11,7 @@ TocOrder: 23
 **%INT** [built-in function](Functions_overview.html) converts the value of the numeric expression to integer. 
 
 ```
-
- **%INT (NumericExpression)** 
+%INT (NumericExpression) 
         
 ```
 

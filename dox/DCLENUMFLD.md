@@ -11,8 +11,7 @@ TocOrder: 440
 Declares the members of an Enumeration ([BEGENUM](BEGENUM.html)/[ENDENUM](ENDENUM.html)). 
 
 ```
-
- **DCLENUMFLD** 
+DCLENUMFLD 
 Name (field name)
 Value (constant expression)
 Attributes (Attribute 1, Attribute 2, ...)

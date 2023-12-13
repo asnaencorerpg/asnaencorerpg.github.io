@@ -11,9 +11,8 @@ TocOrder: 51
 <span style="FONT-WEIGHT: bold">%XFOOT</span> [built-in function](Functions_overview.html) results in the sum of all elements of the specified, single-dimensioned numeric array expression. 
 
 ```
-
- **%XFOOT** 
- **(array-expression)** 
+%XFOOT 
+ (array-expression) 
         
 ```
 

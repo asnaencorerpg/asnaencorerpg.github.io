@@ -11,10 +11,9 @@ TocOrder: 170
 Computes the comparison expression, and if true, branches to the [TAG](TAG.html) operation or label associated with the **LABEL** parameter. Otherwise, the program continues with the next operation in the sequence. 
 
 ```
-
- **CAB
-Cond**  (Expression)
- **Label**  (Character expression)
+CAB
+Cond  (Expression)
+ Label  (Character expression)
 ```
 
 ### Parts

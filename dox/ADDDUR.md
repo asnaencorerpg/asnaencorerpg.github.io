@@ -11,11 +11,10 @@ TocOrder: 10
 **ADDDUR** adds the duration specified in **F2** to adate or time, and places the resulting date, time or timestamp in **Result** . 
 
 ```
-
- **ADDDUR** F1 (<u>*NONE</u>| Date | Time | Timestamp field | Subfield | Array | Array element | Literal | Constant)
- **F2**  (Numeric field | Array element | Constant : Date | Time | Timestamp | Array | Array element)
- **F2Fmt**  (*DAYS, *MONTHS, *YEARS, *MSECONDS, *SECONDS, *MINUTES, *HOURS)
- **Result**  (Date | Time | Timestamp field | Subfield | Array | Array element) 
+ADDDUR F1 (<u>*NONE</u>| Date | Time | Timestamp field | Subfield | Array | Array element | Literal | Constant)
+ F2  (Numeric field | Array element | Constant : Date | Time | Timestamp | Array | Array element)
+ F2Fmt  (*DAYS, *MONTHS, *YEARS, *MSECONDS, *SECONDS, *MINUTES, *HOURS)
+ Result  (Date | Time | Timestamp field | Subfield | Array | Array element) 
 Err (*EXTENDED | Indicator Variable)
 ```
 

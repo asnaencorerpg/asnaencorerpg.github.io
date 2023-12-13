@@ -11,11 +11,12 @@ TocOrder: 180
 Compares F1 with F2 according to the condition given by ```Relop```, and branches to the location specified in ```Label```. 
 
 ```
-
- **CABXX** 
-F1 (Operand)<br />Relop (Comparison Operator)
- **F2**  ( **Operand**  )
-Label  (Label)<br />Hi (Indicator Variable)
+CABXX 
+F1 (Operand)
+Relop (Comparison Operator)
+ F2  ( Operand  )
+Label  (Label)
+Hi (Indicator Variable)
 Lo (Indicator Variable)
 Eq (Indicator Variable) 
 ```

@@ -11,9 +11,8 @@ TocOrder: 1500
 The **STARTTPM** (Start Transaction Processing Monitor) op code is used to establish a commitment definition. This command specifies the level of record locking that occurs for the commitment definition to be started. You can specify some text that briefly describes the commitment definition to be started. 
 
 ```
-
- **STARTTPM** 
- **Db**  (Database Object)
+STARTTPM 
+ Db  (Database Object)
 Level ( <u>*LOW</u> | *MEDIUM | *HIGH | *SERIAL)
 Text (<u>*NONE</u> | Character Expression)
 ExtraParms (Parm List)

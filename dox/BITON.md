@@ -11,10 +11,9 @@ TocOrder: 160
 Allows bits to be set on in the **Target** parameter based upon a mask specified in the **Mask** parameter. 
 
 ```
-
- **BITON
+BITON
  Mask (Character Expression)
- Target** (Character Expression)
+ Target (Character Expression)
  Type (*BYTE)
 ```
 

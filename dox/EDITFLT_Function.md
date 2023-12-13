@@ -11,8 +11,7 @@ TocOrder: 14
 **%EDITFLT** [built-in function](Functions_overview.html) converts the value of the numeric expression to the character external display representation of float. The result is either 14 or 23 characters. If the argument is a 4-byte float field, the result is 14 characters. Otherwise, it is 23 characters. 
 
 ```
-
- **%EDITFLT (NumericExpression)** 
+%EDITFLT (NumericExpression) 
         
 ```
 

@@ -11,8 +11,7 @@ TocOrder: 34
 <span style="FONT-WEIGHT: bold">%OPEN</span> [built-in function](Functions_overview.html) returns **True** if the specified file is open. 
 
 ```
-
- **%OPEN (File_name)** 
+%OPEN (File_name) 
         
 ```
 

@@ -11,8 +11,7 @@ TocOrder: 1500
 Declares a label that identifies the destination of a [GOTO](GOTO.html) operation.
 
 ```
-
- **TAG Name**  (Label name)
+TAG Name  (Label name)
 ```
 
 ### Parts

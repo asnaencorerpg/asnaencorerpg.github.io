@@ -11,9 +11,8 @@ TocOrder: 1320
 Reads the currently pointed-to record from a full procedural file.
 
 ```
-
- **READ
-From**  (File Name | Format Name)
+READ
+From  (File Name | Format Name)
 Access (<u>*DFT</u> | *NOLOCK)   
 Err (*EXTENDED | Indicator Variable)
 Eof (Indicator Variable)

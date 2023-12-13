@@ -11,9 +11,8 @@ TocOrder: 2
 **%CHAR** [built-in function](Functions_overview.html) converts the value of the expression from numeric, date, time or timestamp data to type character. 
 
 ```
-
- **%CHAR** 
- **(Expression)** 
+%CHAR 
+ (Expression) 
         
 ```
 

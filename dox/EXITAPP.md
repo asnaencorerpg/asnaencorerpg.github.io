@@ -11,8 +11,7 @@ TocOrder: 1020
 **EXITAPP** exits the program. 
 
 ```
-
- **ExitAPP** 
+ExitAPP 
 ExitCode (Numeric Expression)
 ```
 

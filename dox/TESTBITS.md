@@ -11,9 +11,8 @@ TocOrder: 1510
 Compares the bits in **Mask** with the corresponding bits in the field named in **Fld** . 
 
 ```
-
- **TESTBITS
-Mask**  (Expression) **Fld**  (Character Expression)
+TESTBITS
+Mask  (Expression) Fld  (Character Expression)
 Off (Indicator Variable)
 On (Indicator Variable)
 Eq (Indicator Variable)

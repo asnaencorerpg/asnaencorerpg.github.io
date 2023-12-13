@@ -11,8 +11,7 @@ TocOrder: 1030
 Ends the [ENTERLOCK](ENTERLOCK.html) procedure.
 
 ```
-
- **EXITLOCK** 
+EXITLOCK 
         
 ```
 

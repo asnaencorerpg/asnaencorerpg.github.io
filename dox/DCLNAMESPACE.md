@@ -12,8 +12,8 @@ TocOrder: 520
 Declares a namespace, which organizes the objects defined in an assembly.
 
 ```
-
- **DCLNAMESPACE<br />Name** (Character Expression)
+DCLNAMESPACE
+Name (Character Expression)
 ```
 
 ### Parts

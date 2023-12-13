@@ -11,9 +11,8 @@ TocOrder: 1730
 Modifies the last record retrieved for processing from an update disk file. 
 
 ```
-
- **UPDATE
-File**  (file name | Format Name)
+UPDATE
+File  (file name | Format Name)
 FromDS (Data structure)
 Err (Indicator Variable | *EXTENDED)
 Flds (field1, field2, ... , fieldn)

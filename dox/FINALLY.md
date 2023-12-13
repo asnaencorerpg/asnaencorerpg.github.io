@@ -11,8 +11,7 @@ TocOrder: 1070
 You can use the [TRY...CATCH...FINALLY](TRYCATCHFINALLY.html) statements for structured exception handling. This allows you to execute a particular block of statements if a specified exception occurs while your code is running. When this happens, the code is said to [THROW](THROW.html) the exception, and you ***catch*** it with the appropriate **CATCH** command. 
 
 ```
-
- **FINALLY** 
+FINALLY 
         
 ```
 

@@ -11,8 +11,7 @@ TocOrder: 1490
 Sets the indicators specified in the resulting indicators ON.
 
 ```
-
- **SETON** 
+SETON 
 Hi (Indicator Variable)
 Lo (Indicator Variable)
 Eq (Indicator Variable)

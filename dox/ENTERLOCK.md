@@ -11,8 +11,7 @@ TocOrder: 970
 Locks an object for serializing access in multithreaded applications. 
 
 ```
-
- **ENTERLOCK** 
+ENTERLOCK 
 Object (expression)
 ```
 

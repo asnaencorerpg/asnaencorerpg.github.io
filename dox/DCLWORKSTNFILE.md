@@ -21,8 +21,11 @@ Prefix (prefix name, [ Length ] )
 Access (<u>*PRIVATE</u> | *PUBLIC | *PROTECTED | *INTERNAL)
 Shared (<u>*NO</u> | *YES)
 ShareOpen (<u>*NO</u> | *YES)
-IndDS (Indicator DS Name)<br />Ignore (Format name, ...)<br />Include (Format name, ...)
-InfSR (Subroutine Name)<br />
+IndDS (Indicator DS Name)
+Ignore (Format name, ...)
+Include (Format name, ...)
+InfSR (Subroutine Name)
+
 ```
 
 ### Parts

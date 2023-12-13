@@ -11,8 +11,7 @@ TocOrder: 6
 **%DAYS** [built-in function](Functions_overview.html) converts a number into a duration that can be added to a date or timestamp value. 
 
 ```
-
- **%DAYS (Number)** 
+%DAYS (Number) 
         
 ```
 

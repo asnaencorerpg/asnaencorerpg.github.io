@@ -11,8 +11,7 @@ TocOrder: 900
 **ENDPROP** identifies the ending of a property routine. 
 
 ```
-
- **ENDPROP** 
+ENDPROP 
         
 ```
 

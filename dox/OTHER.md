@@ -11,8 +11,7 @@ TocOrder: 1300
 Defines the start of the default group of statements for a [SELECT](SELECT.html) group. These are the statements that will be executed if all of the [WHEN](WHEN.html) conditions are False. 
 
 ```
-
- **OTHER** 
+OTHER 
         
 ```
 

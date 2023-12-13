@@ -48,8 +48,7 @@ txtPlatform.Text  = My_Production_Database.Platform
 - However, you can make this code easier to write and read by using the ```With...EndWith``` statement, as in the following code: 
 
 ```
-
- **With**  My_Production_Database
+With  My_Production_Database
     txtDBNme.Text = .DBname
     chkIsOpen.Checked = .Isopen
     txtLabel.Text = .Label

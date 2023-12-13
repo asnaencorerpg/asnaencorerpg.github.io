@@ -11,8 +11,7 @@ TocOrder: 130
 Declares a **SET** property procedure used to assign a value to a property. 
 
 ```
-
- **BEGSET**   
+BEGSET   
 NewValName (Name)
 ```
 

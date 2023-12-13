@@ -11,9 +11,9 @@ TocOrder: 1040
 Executes a subroutine in the local program or in the main program.
 
 ```
-
- **EXSR
-Sr**  (Subroutine Name)<br />ParmList (<u>*NONE</u> | Parameter Name List)
+EXSR
+Sr  (Subroutine Name)
+ParmList (<u>*NONE</u> | Parameter Name List)
 ```
 
 ### Parts

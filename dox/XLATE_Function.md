@@ -11,8 +11,7 @@ TocOrder: 52
 **%XLATE** [built-in function](Functions_overview.html) translates *String* , replacing the *From* character values with the corresponding *To* character values. A *Start position* within the string can also be specified. 
 
 ```
-
- **%XLATE (From, To, String**   {,Start_position} **)** 
+%XLATE (From, To, String   {,Start_position} ) 
 ```
 
 ### Parts

@@ -11,8 +11,7 @@ TocOrder: 920
 Ends a [SELECT](SELECT.html) group.
 
 ```
-
- **ENDSL** 
+ENDSL 
         
 ```
 

@@ -11,8 +11,7 @@ TocOrder: 1570
 You can use the **TRY...CATCH...FINALLY** statements for structured exception handling. This allows you to execute a particular block of statements if a specified exception occurs while your code is running. When this happens, the code is said to ***throw*** the exception, and you ***catch*** it with the appropriate **CATCH** command. 
 
 ```
-
- **TRY** 
+TRY 
         
 ```
 

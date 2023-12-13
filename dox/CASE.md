@@ -11,9 +11,11 @@ TocOrder: 220
 Allows you to conditionally select a subroutine for processing.
 
 ```
+CASE
+Cond (Expression)
+ Sr  (Subroutine Name)
 
- **CASE<br />Cond** (Expression)
- **Sr**  (Subroutine Name)<br /><br />ParmList (<u>*NONE</u> | Parameter List)
+ParmList (<u>*NONE</u> | Parameter List)
 ```
 
 ### Parts

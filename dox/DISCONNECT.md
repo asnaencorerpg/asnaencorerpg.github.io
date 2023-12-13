@@ -11,9 +11,8 @@ TocOrder: 670
 Closes a connection to a database.
 
 ```
-
- **DISCONNECT** 
- **Db**  (Database Object)
+DISCONNECT 
+ Db  (Database Object)
 Err (Indicator Variable | *EXTENDED)
 ```
 

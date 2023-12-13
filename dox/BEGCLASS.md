@@ -11,8 +11,8 @@ TocOrder: 40
 Declares the name of a class, as well as a definition of the variables, properties, events and methods that comprise the class. 
 
 ```
- **BEGCLASS
-Name** (Class name)
+ BEGCLASS
+Name (Class name)
 Partial (<u>*NO</u>  | *YES)
 Access(<u>*PUBLIC</u> | *INTERNAL)
 Modifier (<u>*EXTENSIBLE</u>| *NOTEXTENSIBLE | *MUSTEXTEND)

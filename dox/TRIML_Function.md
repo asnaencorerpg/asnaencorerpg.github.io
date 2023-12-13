@@ -11,8 +11,7 @@ TocOrder: 49
 **%TRIML** [built-in function](Functions_overview.html) returns the given string less any leading blanks. 
 
 ```
-
- **%TRIML (String)** 
+%TRIML (String) 
         
 ```
 

@@ -11,9 +11,8 @@ TocOrder: 1540
 **THROW** is used to signal the occurrence of an anomalous situation (exception) during the program execution. 
 
 ```
-
- **THROW** 
- **Exception**  (Type of class filter)
+THROW 
+ Exception  (Type of class filter)
 ```
 
 ### Parts

@@ -11,8 +11,7 @@ TocOrder: 13
 The ***Is** operator is used to check whether the run-time type of an object is compatible with a given type. The ***Is** operator is used in an expression of the form: 
 
 ```
-
- ** *expression*  *Is *type* ** 
+ *expression*  *Is *type*  
         
 ```
 

@@ -11,8 +11,8 @@ TocOrder: 1150
 **IN** reads in a data area. 
 
 ```
- **IN
-Name**  (name | *DTAARA)
+ IN
+Name  (name | *DTAARA)
 Lock ( <u>*NO</u> | *YES)
 DB (database objectt)
 ERR (Indicator Variable | *EXTENDED)

@@ -12,9 +12,8 @@ TocOrder: 1260
 **F1** (if specified) is multiplied by **F2** and the product is placed in **Result** . 
 
 ```
-
- **MULT** 
-F1 (Numeric Expression | <u>*NONE</u>) **F2**  (Numeric Expression) **Result** (Numeric Variable) 
+MULT 
+F1 (Numeric Expression | <u>*NONE</u>) F2  (Numeric Expression) Result (Numeric Variable) 
 Adj (*<u>TRUNC</u>  | *RNDUP )
 Pos (Indicator Variable) 
 Neg (Indicator Variable)

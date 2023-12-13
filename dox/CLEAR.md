@@ -11,8 +11,8 @@ TocOrder: 290
 Sets elements in a structure (record format, data structure, array, table or a form) or a variable (field, subfield, property or indicator), to zero, blank or "0", depending on field type (numeric, character, or indicator). It allows you to clear structures on a global basis, as well as element by element, during run-time. 
 
 ```
- **CLEAR
-Result**  (Value)
+ CLEAR
+Result  (Value)
 Exclude (*<u>NONE</u> | *NOKEY)
 Occurance (<u>*CURRENT</u> | *ALL | *RECORDS)
 Type (<u>*NONE</u>| *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *IND |

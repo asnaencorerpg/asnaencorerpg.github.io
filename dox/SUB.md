@@ -11,11 +11,10 @@ TocOrder: 1500
 **F2** is subtracted from **F1** (if specified) and the difference is placed in **Result** . 
 
 ```
-
- **SUB** 
+SUB 
 F1 (*NONE | Numeric Expression)
- **F2**  (Numeric Expression)
- **Result**  (Numeric Variable)
+ F2  (Numeric Expression)
+ Result  (Numeric Variable)
 Adj (<u>*TRUNC</u> | *RNDUP)
 Pos (<u>Indicator Variable</u>)
 Neg (Indicator Variable)

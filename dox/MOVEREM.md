@@ -11,8 +11,8 @@ TocOrder: 1240
 Moves the remainder from a previous [DIV](DIV.html) operation to a separate field named in the Result Field. 
 
 ```
- **MOVEREM
-Target**  (Numeric Variable)
+ MOVEREM
+Target  (Numeric Variable)
 Pos (Indicator Variable) 
 Neg (Indicator Variable)
 Zero (Indicator Variable)

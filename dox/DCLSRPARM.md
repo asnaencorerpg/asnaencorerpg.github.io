@@ -11,8 +11,8 @@ TocOrder: 600
 Defines the parameters that will be received by [BEGSR](BEGSR.html), [BEGPROP](BEGPROP.html), [BEGPROC](BEGPROC.html), [BEGFUNC](BEGFUNC.html) or [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html). Parameters can be passed by **value** or by **reference** . 
 
 ```
- **DCLSRPARM
-Name**  (<u>*NONE</u> | Variable name)
+ DCLSRPARM
+Name  (<u>*NONE</u> | Variable name)
 Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4
      | *FLOAT8 | *DECIMAL | *FLOAT4 | *FLOAT8 | *IND | *INTEGER | *INTEGER2 
      | *INTEGER4 | *INTEGER8 | *OBJECT |*ONECHAR | *PACKED | *STRING | *TIME | *TIMESTAMP 

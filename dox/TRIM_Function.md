@@ -11,8 +11,7 @@ TocOrder: 48
 **%TRIM** [built-in function](Functions_overview.html) returns the given string less any leading and trailing blanks. 
 
 ```
-
- **%TRIM (String)** 
+%TRIM (String) 
         
 ```
 

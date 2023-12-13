@@ -11,9 +11,8 @@ TocOrder: 1520
 Tests a field for the presence of zoned decimal digits and blanks.
 
 ```
-
- **TESTNUM
-Fld**  (Character Expression) 
+TESTNUM
+Fld  (Character Expression) 
 Num (Indicator Variable) 
 BlankNum (Indicator Variable)
 Blank (Indicator Variable)

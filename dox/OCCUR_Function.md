@@ -11,8 +11,7 @@ TocOrder: 33
 **%OCCUR** [built-in function](Functions_overview.html) sets or gets the current position of a **Multiple** **Occurrence** **Data** **Structure** . 
 
 ```
-
- **%OCCUR (DSN_name)** 
+%OCCUR (DSN_name) 
         
 ```
 

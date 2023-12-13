@@ -11,9 +11,8 @@ TocOrder: 1120
 **HEADINGSPEC** is migrated and defines the Heading specs of a print file. It is generated in place of an O-Specs specified with an "H", and placed after a [BEGPRINTATTR](BEGPRINTATTR.html); one for each heading. 
 
 ```
-
- **HEADINGSPEC** 
- **Fmt (Format name)** 
+HEADINGSPEC 
+ Fmt (Format name) 
 Cond (Conditional indicator)
 FetchOverflow (<u>*No</u>  | *Yes)      
 ```

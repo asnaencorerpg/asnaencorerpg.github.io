@@ -11,8 +11,7 @@ TocOrder: 5
 **%DATE** [built-in function](Functions_overview.html) converts the value of the expression from character, numeric, or timestamp data to type date. If no expression is specified, the current system date is returned. 
 
 ```
-
- **%DATE**  ((Expression {, <u>*ISO</u> | *JUL | *USA | *EUR | *JIS | *MDY | *DMY | *YMD }))
+%DATE  ((Expression {, <u>*ISO</u> | *JUL | *USA | *EUR | *JIS | *MDY | *DMY | *YMD }))
 ```
 
 ### Parts

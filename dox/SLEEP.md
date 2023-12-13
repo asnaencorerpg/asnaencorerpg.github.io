@@ -11,9 +11,8 @@ TocOrder: 1500
 Sleep suspends execution of the current thread for the specified milliseconds.
 
 ```
-
- **SLEEP** 
- **Interval**  (Expression)
+SLEEP 
+ Interval  (Expression)
 ```
 
 ### Parts

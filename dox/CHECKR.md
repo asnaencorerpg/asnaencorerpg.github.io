@@ -11,10 +11,9 @@ TocOrder: 280
 Verifies from right to left that each character in a base string or array is among the characters in the comparator string. 
 
 ```
-
- **CHECKR
-CmpStr**  (Character Expression)
- **BaseStr**  (Character Expression)
+CHECKR
+CmpStr  (Character Expression)
+ BaseStr  (Character Expression)
 NoMatch (Numeric Variable)| <u>*NONE</u>)
 StartPos (Numeric Expression) | <u>1</u>)
 Err (Indicator Variable | *EXTENDED)

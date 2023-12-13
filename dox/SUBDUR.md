@@ -11,12 +11,11 @@ TocOrder: 1500
 **SUBDUR** either subtracts the duration specified in **F2** from a date or time and places the resulting date, time or timestamp in the **Result** , or calculates a duration between two **date/time** values. 
 
 ```
-
- **SUBDUR** 
+SUBDUR 
 F1 (Date | Time | Timestamp)
- **F2**  (Date | Time | Timestamp | Numeric Duration)
+ F2  (Date | Time | Timestamp | Numeric Duration)
 F2Fmt (*<u>NONE</u> | *DAYS, *MONTHS, *YEARS, *MSECONDS, *SECONDS, *MINUTES, *HOURS)
- **Result**  (Date | Time | Timestamp |Numeric Duration)
+ Result  (Date | Time | Timestamp |Numeric Duration)
 ResultFmt (*<u>NONE</u> | *DAYS, *MONTHS, *YEARS, *MSECONDS, *SECONDS, *MINUTES, *HOURS)
 Type (<u>*NONE</u> | *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8
     | *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *ONECHAR | *PACKED | *ZONED)

@@ -11,8 +11,7 @@ TocOrder: 750
 Marks the beginning of a group of statements to be executed if the condition on a prior **IF** was false. 
 
 ```
-
- **ELSE** 
+ELSE 
         
 ```
 

@@ -11,10 +11,9 @@ TocOrder: 380
 Declares a named constant. By definition, constants are shared members and can be declared at the class level, and can also be declared locally to methods. 
 
 ```
-
- **DCLCONST
-Name** (Character Expression)
- **Value**  (Constant Expression)
+DCLCONST
+Name (Character Expression)
+ Value  (Constant Expression)
 Access (<u>*PRIVATE</u> | *PUBLIC | *PROTECTED | *INTERNAL)
 ```
 

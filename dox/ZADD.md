@@ -11,9 +11,8 @@ TocOrder: 1810
 The field specified in **F2** is added to a field of zeros and the sum is placed in **Result** . 
 
 ```
-
- **ZADD
-F2** (Numeric Expression) **Result** (Numeric Variable)
+ZADD
+F2 (Numeric Expression) Result (Numeric Variable)
 Adj (*RNDUP | <u>*TRUNC</u>)
 Pos (Indicator Variable)
 Neg (Indicator Variable)

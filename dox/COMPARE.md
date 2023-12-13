@@ -11,11 +11,12 @@ TocOrder: 320
 Compares **F1** with **F2** and places the result of the comparison in the resulting indicators. 
 
 ```
-
- **COMPARE
-F1**  (Operand)
- **F2**  (Operand)
-Hi (Indicator Variable)<br />Lo (Indicator Variable)<br />Eq (Indicator Variable)
+COMPARE
+F1  (Operand)
+ F2  (Operand)
+Hi (Indicator Variable)
+Lo (Indicator Variable)
+Eq (Indicator Variable)
 ```
 
 ### Parts

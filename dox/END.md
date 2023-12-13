@@ -11,8 +11,7 @@ TocOrder: 770
 Ends a [CASE](CASE.html), [DO](DO.html), [DOUNTIL](DOUNTIL.html), [DOWHILE](DOWHILE.html), [IF](IF.html), [SELECT](SELECT.html) group. 
 
 ```
-
- **END**  
+END  
 ```
 
 ### Remarks

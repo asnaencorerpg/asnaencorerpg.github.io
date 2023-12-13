@@ -11,8 +11,8 @@ TocOrder: 1060
 Causes a file to start printing, mainly print files.
 
 ```
- **FEOD
-File** (file name)
+ FEOD
+File (file name)
 Err (Indicator Variable | *EXTENDED)
 Reset (Indicator Expression | <u>*NO</u> | *YES)
 ```

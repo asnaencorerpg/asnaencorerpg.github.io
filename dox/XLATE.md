@@ -11,10 +11,9 @@ TocOrder: 1800
 Translates characters in the source string according to the **MapFrom** and **MapTo** string and puts them into **Target** . 
 
 ```
-
- **XLATE
-MapFrom** (Character Expression) **MapTo**  (Character Expression) **BaseStr**  (Character Expression)
-StartPos Numeric Expression) | <u>1</u> ) **Target**  (Character Expression)
+XLATE
+MapFrom (Character Expression) MapTo  (Character Expression) BaseStr  (Character Expression)
+StartPos Numeric Expression) | <u>1</u> ) Target  (Character Expression)
 Fill (<u>*NOPAD</u> | *PAD)
 Err (Indicator Variable | *EXTENDED) 
 Type (<u>*NONE</u>| *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 |

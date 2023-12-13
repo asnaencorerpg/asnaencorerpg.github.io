@@ -11,8 +11,7 @@ TocOrder: 12
 **%DIV** [built-in function](Functions_overview.html) returns the integer portion of the quotient that results from dividing operands **N** by **M** . 
 
 ```
-
- **%DIV** ( **N,M** )
+%DIV ( N,M )
 ```
 
 ### Parts

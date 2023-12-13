@@ -11,8 +11,7 @@ TocOrder: 31
 <span style="FONT-WEIGHT: bold">%MSECONDS</span> [built-in function](Functions_overview.html) converts a number into a duration that can be added to a time or timestamp value. 
 
 ```
-
- **%MSECONDS (Number)** 
+%MSECONDS (Number) 
         
 ```
 

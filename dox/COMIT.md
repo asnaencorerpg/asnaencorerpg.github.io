@@ -15,9 +15,8 @@ TocOrder: 310
 
 
 ```
-
- **COMMIT** 
- **Db**  (Database Object)
+COMMIT 
+ Db  (Database Object)
 Marker (<u>*NONE</u> | Boundary)
 Err (Indicator Variable | *EXTENDED)
 ```

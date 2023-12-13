@@ -11,9 +11,8 @@ TocOrder: 1460
 Positions a file at the next record that has a key or relative record number that is greater than or equal to the search argument. 
 
 ```
-
- **SETLL
-File** (file name | Format Name) **Key**  (KeyList Name | Character Expression | *START | *END)
+SETLL
+File (file name | Format Name) Key  (KeyList Name | Character Expression | *START | *END)
 NotFnd (Indicator Variable)
 Err (*EXTENDED | Indicator Variable)
 KeyEq (Indicator Variable)

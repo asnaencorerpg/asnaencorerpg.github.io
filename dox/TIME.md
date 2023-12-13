@@ -11,9 +11,8 @@ TocOrder: 1550
 Accesses the system time of day at any time during program processing. The system time is based on the 24-hour clock. 
 
 ```
-
- **TIME
-Target** (Numeric | Date | Time | Timestamp)
+TIME
+Target (Numeric | Date | Time | Timestamp)
 Type (*ZONED | *PACKED | *BINARY | *DATE | *TIME | *TIMESTAMP)
 Len (Length Integer [, Decimal Integer])
 ResultTimFmt(<u>*ISO</u> | *DMY | *EUR | *JIS | *JUL | *MDY | *USA | *YMD) 

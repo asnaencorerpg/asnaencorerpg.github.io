@@ -11,8 +11,7 @@ TocOrder: 1340
 Reads the next sequential record in a full procedural file that has the same search argument. 
 
 ```
-
- **READE** 
+READE 
 From (File Name | Format Name)
 Key (*CURRENT | KeyList Name | Character Expression)
 Access (*DFT | *NOLOCK)

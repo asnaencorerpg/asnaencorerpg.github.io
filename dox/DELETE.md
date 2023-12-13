@@ -13,9 +13,8 @@ TocOrder: 640
 **SubfileControl** : Removes the record from the subfile (equivalent to the **RemoveItem** method). 
 
 ```
-
- **DELETE
-From**  (file Name | Format Name)
+DELETE
+From  (file Name | Format Name)
 Key (<u>*CURRENT</u> | Operand)
 NotFnd (Indicator Variable)
 Err (Indicator Variable | *EXTENDED)

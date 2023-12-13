@@ -11,8 +11,7 @@ TocOrder: 53
 **%YEARS** [built-in function](Functions_overview.html) converts a number into a duration that can be added to a date or timestamp value. 
 
 ```
-
- **%YEARS (Number)** 
+%YEARS (Number) 
         
 ```
 

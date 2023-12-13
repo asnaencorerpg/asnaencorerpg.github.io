@@ -11,9 +11,8 @@ TocOrder: 390
 Declares a database. The **Name** parameter can then be used on [DCLDISKFILE](DCLDISKFILE.html)'s **Db** parameter and [DCLMEMORYFILE](DCLMEMORYFILE.html)'s DbDesc parameter. 
 
 ```
-
- **DCLDB
-Name** (Database name in code)
+DCLDB
+Name (Database name in code)
 DbName (Actual Database name)
 Access (<u>*PRIVATE</u> | *PUBLIC | *PROTECTED | *INTERNAL)
 Shared (<u>*NO</u> | *YES)

@@ -11,8 +11,7 @@ TocOrder: 870
 Ends a [BEGINTERFACE](BEGINTERFACE.html) interface definition.
 
 ```
-
- **ENDINTERFACE** 
+ENDINTERFACE 
         
 ```
 

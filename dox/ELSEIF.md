@@ -11,9 +11,8 @@ TocOrder: 760
 **ELSEIF** is similar to ELSE, except that it allows a condition to be tested if the previous conditional test (IF or **ELSEIF** ) has failed. **ELSEIF** provides a more succinct way of doing nested IFs. 
 
 ```
-
- **ELSEIF** 
- **Cond**  (Condition Expression)
+ELSEIF 
+ Cond  (Condition Expression)
 ```
 
 ### Parts

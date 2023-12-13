@@ -16,9 +16,8 @@ TocOrder: 1400
 
 
 ```
-
- **ROLLBACK** 
- **Db**  (Database Object)
+ROLLBACK 
+ Db  (Database Object)
 Err (Indicator Variable | *EXTENDED)
 ```
 

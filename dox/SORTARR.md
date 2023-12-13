@@ -11,8 +11,8 @@ TocOrder: 1500
 Sorts an array.
 
 ```
-
- **SORTARR<br />Arr**  (Array Name)
+SORTARR
+Arr  (Array Name)
 ```
 
 ### Parts

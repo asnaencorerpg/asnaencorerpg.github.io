@@ -11,8 +11,7 @@ TocOrder: 1170
 Control is transferred from within a loop to the statement following the [END](END.html) operation. 
 
 ```
-
- **LEAVE** 
+LEAVE 
         
 ```
 

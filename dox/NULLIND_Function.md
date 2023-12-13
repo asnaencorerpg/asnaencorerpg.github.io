@@ -11,8 +11,7 @@ TocOrder: 32
 **%NULLIND** [built-in function](Functions_overview.html) built-in function can be used to query or set the null indicator for null-capable fields. 
 
 ```
-
- **%NULLIND (Fieldname)** 
+%NULLIND (Fieldname) 
         
 ```
 

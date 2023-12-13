@@ -11,9 +11,8 @@ TocOrder: 1370
 Retrieves a record from a full procedural file, and places the data into the input fields. 
 
 ```
-
- **READRAND
-From**  (File Name | Format Name)
+READRAND
+From  (File Name | Format Name)
 Key (KeyList Name | (Character Expression)
 Access (*<u>DFT</u> | *NOLOCK)     
 NotFnd (Indicator Variable) 

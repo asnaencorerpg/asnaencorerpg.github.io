@@ -11,8 +11,7 @@ TocOrder: 43
 <span style="FONT-WEIGHT: bold">%SUBDT</span> [built-in function](Functions_overview.html) extracts a portion of a date, time, or timestamp and returns an unsigned numeric value. 
 
 ```
-
- **%SUBDT (Value, {*MSECONDS | *SECONDS | *MINUTES | *HOURS | *DAYS | *MONTHS | *YEARS})** 
+%SUBDT (Value, {*MSECONDS | *SECONDS | *MINUTES | *HOURS | *DAYS | *MONTHS | *YEARS}) 
         
 ```
 

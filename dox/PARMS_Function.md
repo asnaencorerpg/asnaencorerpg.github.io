@@ -11,8 +11,7 @@ TocOrder: 35
 **%PARMS** [built-in function](Functions_overview.html) returns the number of procedure parameters that were received inside of a [BEGPROC](BEGPROC.html) procedure. 
 
 ```
-
- **%PARMS** 
+%PARMS 
         
 ```
 

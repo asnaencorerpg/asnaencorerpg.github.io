@@ -11,8 +11,7 @@ TocOrder: 41
 **%SQRT** [built-in function](Functions_overview.html) returns the square root of the numeric expression. 
 
 ```
-
- **%SQRT (Numeric_Expression)** 
+%SQRT (Numeric_Expression) 
         
 ```
 

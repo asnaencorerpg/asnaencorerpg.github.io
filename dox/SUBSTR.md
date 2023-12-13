@@ -11,11 +11,10 @@ TocOrder: 1500
 Returns a substring from **BaseStr** , starting at the location specified in **BaseStr** for the length specified in **SubLen** , and places it in the **Target** . 
 
 ```
-
- **SUBSTR
-BaseStr** (Character Operand)
+SUBSTR
+BaseStr (Character Operand)
 StartPos (Numeric Expression | 1)
-SubLen (Numeric Expression | <u>*ALL</u>) **Target**  (Character Operand)
+SubLen (Numeric Expression | <u>*ALL</u>) Target  (Character Operand)
 Fill (<u>*NOPAD</u> | *PAD)
 Err (Indicator Variable | *EXTENDED)
 Type (<u>*NONE</u> | *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 |

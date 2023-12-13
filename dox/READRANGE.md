@@ -13,10 +13,9 @@ TocOrder: 1380
 This operation is valid only for files opened for indexed access. Use the ORG (*Indexed) option on [DCLDISKFILE](DCLDISKFILE.html). 
 
 ```
-
- **READRANGE
-File**  (FileName | FormatName)
- **FirstKey**  (Key List Name | Variable Operand)
+READRANGE
+File  (FileName | FormatName)
+ FirstKey  (Key List Name | Variable Operand)
 LastKey (<u>*FIRSTKEY</u> | Key List Name | Variable Operand)
 StartAt (<u>*FIRST</u> | *LAST)
 IncludeFirstKey (*<u>YES</u> |*NO)

@@ -11,8 +11,7 @@ TocOrder: 430
 Declares a subfield for a data structure.
 
 ```
-
- **DCLDSFLD** 
+DCLDSFLD 
 Name  (name)
 Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 |
       *FLOAT8 | *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *ONECHAR |

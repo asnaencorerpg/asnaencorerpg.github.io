@@ -11,9 +11,8 @@ TocOrder: 16712
 Provides a way to trap possible errors that may occur in code segments, while still running code. 
 
 ```
-
- **TRY** 
- < **Try statements** >
+TRY 
+ < Try statements >
 [CATCH [Name( <exception field name> )] Type( <exception type> )
      [<Catch statements>]
 [CATCH ... 
@@ -22,7 +21,7 @@ Provides a way to trap possible errors that may occur in code segments, while st
 [FINALLY 
      <Finally statements>
 ]
- **ENDTRY** 
+ ENDTRY 
 ```
 
 ### Parts

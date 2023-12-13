@@ -11,9 +11,8 @@ TocOrder: 1440
 Allows you to set an attribute on an assembly.
 
 ```
-
- **SETASSEMBLYATTRIBUTE** 
- **Attribute**  (Argument)
+SETASSEMBLYATTRIBUTE 
+ Attribute  (Argument)
 ```
 
 ### Parts

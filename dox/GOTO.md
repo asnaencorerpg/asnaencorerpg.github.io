@@ -11,9 +11,8 @@ TocOrder: 1110
 Allows commands to be skipped by instructing the program to go to another command within the program. 
 
 ```
-
- **GOTO
-Label** (label name)
+GOTO
+Label (label name)
 ```
 
 ### Parts

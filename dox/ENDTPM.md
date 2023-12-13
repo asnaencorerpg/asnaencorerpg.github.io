@@ -11,9 +11,8 @@ TocOrder: 940
 <span style="FONT-WEIGHT: bold">ENDTPM</span> is used to end the transaction processing monitor on the specified data source. If there are uncommitted changes, the changes are [rolled back](ROLBACK.html). 
 
 ```
-
- **ENDTPM** 
- **Db**  (Database Object)
+ENDTPM 
+ Db  (Database Object)
 Err (Indicator Variable | *EXTENDED)
 ```
 

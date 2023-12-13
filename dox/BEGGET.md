@@ -11,8 +11,7 @@ TocOrder: 80
 Declares a **GET** property procedure used to assign a value to a property. 
 
 ```
-
- **BEGGET** 
+BEGGET 
         
 ```
 

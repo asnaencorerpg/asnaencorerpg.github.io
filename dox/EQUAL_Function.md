@@ -11,7 +11,7 @@ TocOrder: 19
 <span style="FONT-WEIGHT: bold">%EQUAL</span> [built-in function](Functions_overview.html) returns **True** if the most recent relevant operation found an exact match; otherwise, it returns False. 
 
 ```
-% **EQUAL**  {(File_name)}
+% EQUAL  {(File_name)}
 ```
 
 ### Parts

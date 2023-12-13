@@ -11,9 +11,8 @@ TocOrder: 1090
 FORCE specifies the name of the file that will be read in the next cycle.
 
 ```
-
- **FORCE
-File** (file name)
+FORCE
+File (file name)
 ```
 
 ### Parts

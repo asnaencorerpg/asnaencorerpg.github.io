@@ -11,10 +11,9 @@ TocOrder: 1500
 Adds array elements of a single-dimensioned array together and places the sum into **Result** . 
 
 ```
-
- **SUMARR
-Arr** (Array Name)
- **Result**  (Numeric Variable)
+SUMARR
+Arr (Array Name)
+ Result  (Numeric Variable)
 Adj (*RNDUP | <u>*TRUNC</u>)
 Pos (Indicator Variable)
 Neg (Indicator Variable)

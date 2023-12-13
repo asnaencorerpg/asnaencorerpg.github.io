@@ -13,13 +13,12 @@ TocOrder: 7
 Note that the first parameter can be either a numeric or character expression and can specify a precision and decimal places, or it can be a date, time or timestamp; in which you can specify a format type. 
 
 ```
-
- **%DEC**  ( **Numeric or Character Expression**  , {Precision, DecimalPlaces})   
+%DEC  ( Numeric or Character Expression  , {Precision, DecimalPlaces})   
 ```
         
 ```
+%DEC  ( Date, Time or Timestamp   , {Format})
 
- **%DEC**  ( **Date, Time or Timestamp**   , {Format})   <br />
 ```
 
 ### Parts

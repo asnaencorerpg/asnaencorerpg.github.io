@@ -11,8 +11,7 @@ TocOrder: 50
 **%TRIMR** [built-in function](Functions_overview.html) returns the given string less any trailing blanks. 
 
 ```
-
- **%TRIMR (String)** 
+%TRIMR (String) 
         
 ```
 

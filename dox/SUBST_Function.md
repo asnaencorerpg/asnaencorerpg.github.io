@@ -11,8 +11,7 @@ TocOrder: 44
 <span style="FONT-WEIGHT: bold">%SUBST</span> [built-in function](Functions_overview.html) returns a portion of argument string. It may also be used as the result of an assignment with the [EVAL](EVAL.html) operation code. 
 
 ```
-
- **%SUBST (String, Start**  {Length})
+%SUBST (String, Start  {Length})
 ```
 
 ### Parts

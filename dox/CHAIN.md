@@ -13,9 +13,9 @@ Retrieves a record from a full procedural file, and places the data into the inp
 Please note that if you want to process a " **Range** " of records, you could use the [READRANGE](READRANGE.html) op code. This op code is especially useful in increasing performance and speed when you are working with large files. Also, if you will be accessing SQL files, you will definitely want to use **READRANGE** . The **READRANGE** op code still only reads 1 record like chain, but remembers the last position. **READRANGE** replaces **CHAIN-** [READE](READE.html) loops. 
 
 ```
- **CHAIN
-From**  (File Name | Format Name)
- **Key**  (KeyList Name | Character Expression)
+ CHAIN
+From  (File Name | Format Name)
+ Key  (KeyList Name | Character Expression)
 Access (<u>*DFT</u>  |*NOLOCK | *CHECKONLY)
 NotFnd (Indicator Variable) 
 Err (Indicator Variable | *EXTENDED) 

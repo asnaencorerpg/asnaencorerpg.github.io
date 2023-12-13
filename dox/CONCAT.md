@@ -11,9 +11,8 @@ TocOrder: 330
 Adds to the end of the character field specified by **Pre** (Prefix) the character field specified by **Suf** (Suffix). he concatenated field is placed in **Target** . Indicators are optional. 
 
 ```
-
- **CONCAT** 
-Pre (*NONE | Character Expression) **Suf**   (String:Blanks) **Target** (Character Expression)
+CONCAT 
+Pre (*NONE | Character Expression) Suf   (String:Blanks) Target (Character Expression)
 BLANK (Numeric Expression)
 Fill (<u>*NOPAD</u> | *PAD)
 Type (<u>*NONE</u>| *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *IND |

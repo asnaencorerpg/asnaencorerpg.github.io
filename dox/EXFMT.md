@@ -13,9 +13,8 @@ In ECR, **EXFMT** shows the form instance as a modal dialog box.
 In Monarch, EXFMT redirects an application to a workstation format web page. 
 
 ```
-
- **EXFMT
-Fmt**  (Form Name)
+EXFMT
+Fmt  (Form Name)
 Err (Indicator Variable | *EXTENDED)
 ```
 

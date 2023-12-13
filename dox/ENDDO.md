@@ -11,8 +11,7 @@ TocOrder: 810
 Ends a [DO](DO.html), [DOUNTIL](DOUNTIL.html) or [DOWHILE](DOWHILE.html) group. 
 
 ```
-
- **ENDDO** 
+ENDDO 
 Incr (Numeric Expression)
 ```
 

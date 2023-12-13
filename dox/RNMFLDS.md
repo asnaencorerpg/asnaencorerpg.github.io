@@ -11,11 +11,10 @@ TocOrder: 1390
 **RNMFLDS** allows fields from an externally described record format to be individually renamed to an internal field name. 
 
 ```
-
- **RNMFLDS** 
- **Fmt**     (Format name)
- **DSName**  (Data Structure name)
- **Flds**    (External field name, Internal field name, ...)
+RNMFLDS 
+ Fmt     (Format name)
+ DSName  (Data Structure name)
+ Flds    (External field name, Internal field name, ...)
 ```
 
 ### Parts

@@ -11,8 +11,7 @@ TocOrder: 29
 **%MINUTES** [built-in function](Functions_overview.html) converts a number into a duration that can be added to a time or timestamp value. 
 
 ```
-
- **%MINUTES (Number)** 
+%MINUTES (Number) 
         
 ```
 

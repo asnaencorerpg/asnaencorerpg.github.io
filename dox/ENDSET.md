@@ -11,8 +11,7 @@ TocOrder: 910
 Terminates a [BEGSET](BEGSET.html) property procedure.
 
 ```
-
- **ENDSET** 
+ENDSET 
         
 ```
 

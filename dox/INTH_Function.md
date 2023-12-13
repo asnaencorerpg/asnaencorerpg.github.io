@@ -11,8 +11,7 @@ TocOrder: 24
 **INTH** [built-in function](Functions_overview.html) is the same as [%INT](INT_Function.html), except that if the numeric expression is a decimal or float value, half-adjust is applied to the value of the numeric expression when converting to integer type. 
 
 ```
-
- **%INTH (NumericExpression)** 
+%INTH (NumericExpression) 
         
 ```
 

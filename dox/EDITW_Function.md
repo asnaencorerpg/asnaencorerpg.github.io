@@ -11,8 +11,7 @@ TocOrder: 15
 <span style="FONT-WEIGHT: bold">%EDITW</span> [built-in function](Functions_overview.html) returns a character result representing the numeric value edited according to the edit word. 
 
 ```
-
- **%EDITW (Numeric, Editword)** 
+%EDITW (Numeric, Editword) 
         
 ```
 

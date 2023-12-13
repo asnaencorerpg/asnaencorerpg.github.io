@@ -11,9 +11,9 @@ TocOrder: 150
 Allows bits to be set off in the **Target** parameter based upon a mask specified in the **Mask** parameter. 
 
 ```
- **BITOFF
-Mask** (Character Expression)
- **Target** (Character Expression)
+ BITOFF
+Mask (Character Expression)
+ Target (Character Expression)
 Type (*BYTE)
 ```
 

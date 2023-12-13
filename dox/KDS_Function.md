@@ -11,8 +11,7 @@ TocOrder: 26
 **%KDS** [built-in function](Functions_overview.html) is allowed as the search argument for any keyed input or output operation ([CHAIN](CHAIN.html), [DELETE](DELETE.html), [READE](READE.html), [READPE](READPE.html), [SETGT](SETGT.html), [SETLL](SETLL.html)). The search argument is specified by the subfields of the data structure name coded as the first argument of the built-in function. 
 
 ```
-
- **%KDS (DSN_name**  {, Number-keys} **)** 
+%KDS (DSN_name  {, Number-keys} ) 
 ```
 
 ### Parts

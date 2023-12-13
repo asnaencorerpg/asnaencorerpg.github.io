@@ -11,8 +11,7 @@ TocOrder: 17
 <span style="FONT-WEIGHT: bold">%EOF</span> [built-in function](Functions_overview.html) returns **True** if the most recent read operation or write to a subfile ended in an end of file or beginning of file condition; otherwise, it returns **False** . 
 
 ```
-
- **%EOF**  {(File_name)}
+%EOF  {(File_name)}
 ```
 
 ### Parts

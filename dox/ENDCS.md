@@ -11,8 +11,7 @@ TocOrder: 800
 Ends a [CASE](CASE.html) operation.
 
 ```
-
- **ENDCS** 
+ENDCS 
         
 ```
 

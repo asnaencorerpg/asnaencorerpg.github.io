@@ -11,9 +11,8 @@ TocOrder: 300
 Allows the user to close a file manually instead of when the program goes to end-of-job. 
 
 ```
-
- **CLOSE
-File** (*ALL| file name )
+CLOSE
+File (*ALL| file name )
 Err (Indicator Variable | *EXTENDED)
 ```
 

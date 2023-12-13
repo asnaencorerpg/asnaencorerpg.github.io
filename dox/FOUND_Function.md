@@ -11,8 +11,7 @@ TocOrder: 21
 **%FOUND** [built-in function](Functions_overview.html) returns **True** if the most recent relevant file operation found a record, a string operation found a match, or a search operation found an element. Otherwise, this function returns False. 
 
 ```
-
- **%FOUND** {(File_name)}
+%FOUND {(File_name)}
 ```
 
 ### Parts

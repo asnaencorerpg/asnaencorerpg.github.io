@@ -11,8 +11,7 @@ TocOrder: 8
 **%DECH** [built-in function](Functions_overview.html) <span style="LETTER-SPACING: -0.25pt" />is the same as [%DEC](DEC_Function.html), except that if the expression is a decimal or float value, half adjust is applied to the value of the expression when converting to the desired precision. No message is issued if half adjust cannot be performed. 
 
 ```
-
- **%DECH**  ( **Numeric or Character Expression** ,{ **Precision, Decimal Places** }) 
+%DECH  ( Numeric or Character Expression ,{ Precision, Decimal Places }) 
 ```
 
 ### Parts

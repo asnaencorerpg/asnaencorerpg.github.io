@@ -11,10 +11,14 @@ TocOrder: 230
 Specifies the default subroutine to be run in a [CASE](CASE.html) group.
 
 ```
-
- **CASEDFT** 
- **Sr**  (Subroutine Name)<br />ParmList (<u>*NONE</u> | Subroutine Name)<br /> **F1**  (Operand)
- **F2**  (Operand)<br />Hi (Indicator Variable)<br />Lo (Indicator Variable)<br />Eq (Indicator Variable)
+CASEDFT 
+ Sr  (Subroutine Name)
+ParmList (<u>*NONE</u> | Subroutine Name)
+ F1  (Operand)
+ F2  (Operand)
+Hi (Indicator Variable)
+Lo (Indicator Variable)
+Eq (Indicator Variable)
 ```
 
 ### Parts

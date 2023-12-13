@@ -11,9 +11,11 @@ TocOrder: 1080
 Starts a FOR/[ENDFOR](ENDFOR.html) loop.
 
 ```
- **FOR
-Index** (index expression)<br />To (Expression)
-DownTo (Expression)<br />By (Expression)
+ FOR
+Index (index expression)
+To (Expression)
+DownTo (Expression)
+By (Expression)
 ```
 
 ### Parts

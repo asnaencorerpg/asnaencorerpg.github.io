@@ -11,9 +11,12 @@ TocOrder: 1200
 Searches for a particular element in an array or table.
 
 ```
-
- **LOOKUP<br />Source** (Character Expression) **Table**  (table name | Array)<br />Result (Character Expression)
-FndIndex (Numeric Variable)  <br />Hi (Indicator Variable)<br />Lo (Indicator Variable)
+LOOKUP
+Source (Character Expression) Table  (table name | Array)
+Result (Character Expression)
+FndIndex (Numeric Variable)  
+Hi (Indicator Variable)
+Lo (Indicator Variable)
 Eq (Indicator Variable)
 ```
 

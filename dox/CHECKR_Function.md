@@ -11,9 +11,8 @@ TocOrder: 4
 **%CHECKR** [built-in function](Functions_overview.html) returns the last position of the string ***Base*** that contains a character that does NOT appear in string ***Comparator*** . If all of the characters in ***Base*** are also in ***Comparator*** , this function returns 0. 
 
 ```
-
- **%CHECKR** 
- **(Comparator, Base** , {Start})   
+%CHECKR 
+ (Comparator, Base , {Start})   
 ```
 
 ### Parts

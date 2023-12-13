@@ -11,9 +11,8 @@ TocOrder: 720
 Begins a group of operations you want to process while the relationship "xx" exists between the two operands. 
 
 ```
-
- **DOWHILE** 
- **Cond**  (Comparison Expression)   
+DOWHILE 
+ Cond  (Comparison Expression)   
 ```
 
 ### Parts

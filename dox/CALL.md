@@ -11,10 +11,10 @@ TocOrder: 190
 Transfers program control to a remote program.
 
 ```
- **CALL
-Pgm** (Character Expression | Form variable)
+ CALL
+Pgm (Character Expression | Form variable)
 ParmList (<u>*NONE</u>| Parameter List Name)
- **Db**  (Database Object)
+ Db  (Database Object)
 Err (Indicator Variable | *EXTENDED)
 Lr (Indicator Variable)    
 ```

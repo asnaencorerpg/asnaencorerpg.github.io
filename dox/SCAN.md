@@ -11,11 +11,10 @@ TocOrder: 1410
 Scans a base string for an occurrence of the compare string. A starting position within the base string can be specified as well as the length of base string to be compared. 
 
 ```
-
- **SCAN
-CmpStr**  (Character Expression)
+SCAN
+CmpStr  (Character Expression)
 CmpLen (<u>*ALL</u> | Numeric Expression)
- **BaseStr**  (Character Expression)
+ BaseStr  (Character Expression)
 StartPos (Numeric Expression | <u>1</u>)
 FndPos (<u>*NONE</u> | Numeric Expression)
 Err (Indicator Variable | *EXTENDED)

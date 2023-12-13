@@ -11,8 +11,7 @@ TocOrder: 1480
 Sets the indicators specified in the resulting indicators OFF.
 
 ```
-
- **SETOFF** 
+SETOFF 
 Hi (Indicator Variable)
 Lo (Indicator Variable)
 Eq (Indicator Variable)

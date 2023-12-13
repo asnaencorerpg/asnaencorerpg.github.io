@@ -11,12 +11,11 @@ TocOrder: 47
 <span style="FONT-WEIGHT: bold">%TLOOKUP</span> [built-in function](Functions_overview.html) sets the current table element to the element that satisfies the condition and returns the value ***ON** , otherwise, ***OFF** is returned if no match is found. 
 
 ```
-
- **%TLOOKUP (Argument, Search_Table**  {, Alternate_Table} **)** 
- **%TLOOKUPLT (Argument, Search_Table**  {, Alternate_Table} **)** 
- **%TLOOKUPGE (Argument, Search_Table**  {, Alternate_Table} **)** 
- **%TLOOKUPGT (Argument, Search_Table**  {, Alternate_Table} **)** 
- **%TLOOKUPLE (Argument, Search_Table**  {, Alternate_Table} **)** 
+%TLOOKUP (Argument, Search_Table  {, Alternate_Table} ) 
+ %TLOOKUPLT (Argument, Search_Table  {, Alternate_Table} ) 
+ %TLOOKUPGE (Argument, Search_Table  {, Alternate_Table} ) 
+ %TLOOKUPGT (Argument, Search_Table  {, Alternate_Table} ) 
+ %TLOOKUPLE (Argument, Search_Table  {, Alternate_Table} ) 
 ```
 
 ### Parts

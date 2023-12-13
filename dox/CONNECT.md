@@ -11,9 +11,9 @@ TocOrder: 340
 Opens a connection to the specified Database object.
 
 ```
-
- **CONNECT** 
- **Db**  (Database Object)<br />Err (Indicator Variable | *EXTENDED)
+CONNECT 
+ Db  (Database Object)
+Err (Indicator Variable | *EXTENDED)
 ```
 
 ### Parts

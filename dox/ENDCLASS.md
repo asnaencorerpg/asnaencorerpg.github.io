@@ -11,8 +11,7 @@ TocOrder: 780
 Marks the **end** of a **class** declaration. 
 
 ```
-
- **ENDCLASS** 
+ENDCLASS 
         
 ```
 

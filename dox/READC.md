@@ -11,9 +11,8 @@ TocOrder: 1330
 Reads the next record that has been changed in a Subfile.
 
 ```
-
- **READC
-From**  (SubfileControl Name)
+READC
+From  (SubfileControl Name)
 Err (*EXTENDED | Indicator Variable)
 Eof (Indicator Variable)
 IntoDS (Data structure)

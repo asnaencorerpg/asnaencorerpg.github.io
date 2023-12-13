@@ -11,9 +11,8 @@ TocOrder: 1820
 **F2** is subtracted from a field of zeros and the sum is placed in **Result** . 
 
 ```
-
- **ZSUB
-F2** (Numeric Expression) **Result**  (Numeric Variable)
+ZSUB
+F2 (Numeric Expression) Result  (Numeric Variable)
 Adj (*RNDUP | <u>*TRUNC</u>)
 Pos (Indicator Variable)
 Neg (Indicator Variable)

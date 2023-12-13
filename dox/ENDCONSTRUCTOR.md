@@ -11,8 +11,7 @@ TocOrder: 790
 Defines the **end** of a **constructor** declaration. 
 
 ```
-
- **ENDCONSTRUCTOR** 
+ENDCONSTRUCTOR 
         
 ```
 

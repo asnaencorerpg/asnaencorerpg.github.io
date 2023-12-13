@@ -11,9 +11,8 @@ TocOrder: 980
 Evaluates an expression. Is useful for trapping errors.
 
 ```
-
- **EVAL
-F2** (Expression, Assignment Expression)
+EVAL
+F2 (Expression, Assignment Expression)
 Adj (<u>*TRUNC</u> | *RNDUP)
 Err (Indicator Variable | *EXTENDED)
 ```

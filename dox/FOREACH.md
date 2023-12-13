@@ -11,10 +11,9 @@ TocOrder: 1100
 Iterates over a group of statements, once for each element in an array or a collection. **FOREACH** is used to iterate through the array or collection to get the desired information, but should not be used to change the contents of the array or collection to avoid unpredictable side effects. The statements that constitute the body of the **FOREACH** are those that follow the **FOREACH** declaration up to the first ENDFOR found. 
 
 ```
-
- **FOREACH
-Name**  (Field name)
- **Collection**  (Expression)
+FOREACH
+Name  (Field name)
+ Collection  (Expression)
 Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *IND |
      *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *ONECHAR | *PACKED | *STRING | *TIME | *TIMESTAMP | *ZONED)
 Len (Integer Literal, Integer Literal)

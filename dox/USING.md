@@ -11,8 +11,7 @@ TocOrder: 1740
 Allocates memory for a file to be processed at run-time. At compile time, the description of the file is read in with its record format. The file name and each record format name must be unique. 
 
 ```
-
- **USING *Namespace* ** 
+USING *Namespace*  
         
 ```
 

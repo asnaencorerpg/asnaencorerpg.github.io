@@ -11,8 +11,7 @@ TocOrder: 11
 <span style="FONT-WEIGHT: bold">%DIGITS</span> [built-in function](Functions_overview.html) can be used to get and set digits of a Fixed Decimal Numeric. When getting, the digits are returned as a decimal number and when used for setting should be assigned a decimal expression. 
 
 ```
-
- **%DIGITS (Source, Start, Length** )
+%DIGITS (Source, Start, Length )
 ```
 
 ### Parts

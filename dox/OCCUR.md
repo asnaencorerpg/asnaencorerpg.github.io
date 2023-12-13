@@ -11,9 +11,8 @@ TocOrder: 1270
 Sets and/or gets the current occurrence of a data structure that is to be used for the next access to the data structure or data structure subfield. 
 
 ```
-
- **OCCUR** 
- **Ds**  (Data Structure)
+OCCUR 
+ Ds  (Data Structure)
 NewIndex (<u>*NONE</u> | Numeric Expression, Numeric Expression,...)
 OldIndex (<u>*NONE</u> | Character Expression)
 Err (Indicator Variable | *EXTENDED)

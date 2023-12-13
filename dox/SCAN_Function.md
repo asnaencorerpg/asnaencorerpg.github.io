@@ -11,8 +11,7 @@ TocOrder: 38
 **%SCAN** [built-in function](Functions_overview.html) returns the first position of the search argument in the source string, or 0 if it was not found. If the start position is specified, the search begins at the starting position. The result is always the position in the source string even if the starting position is specified. The starting position defaults to 1. 
 
 ```
-
- ** *<pos>*  = %SCAN (SearchArgument, SourceString,**  {Start})
+ *<pos>*  = %SCAN (SearchArgument, SourceString,  {Start})
 ```
 
 ### Parts

@@ -11,8 +11,7 @@ TocOrder: 40
 **%SIZE** [built-in function](Functions_overview.html) returns the number of bytes occupied by the constant or field, or the number of digits of *Binary fields. The argument may be a literal, a named constant, a data structure, a data structure subfield, a field, an array or a table name. It cannot, however, contain an expression. 
 
 ```
-
- **%Size (argument | *ALL** )
+%Size (argument | *ALL )
 ```
 
 ### Parts

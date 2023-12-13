@@ -11,7 +11,7 @@ TocOrder: 5
 Performs an arithmetic right shift on a bit pattern.
 
 ```
- ** *result*  = *pattern*  >> *bitCount* **    
+  *result*  = *pattern*  >> *bitCount*     
 ```
 
 ### Parts

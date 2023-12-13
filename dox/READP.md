@@ -11,9 +11,8 @@ TocOrder: 1350
 Reads the prior record from a full procedural file.
 
 ```
-
- **READP
-From**  (File Name | Format Name)
+READP
+From  (File Name | Format Name)
 Access (<u>*DFT</u> | *NOLOCK)    
 Err (*EXTENDED | Indicator Variable)
 Bof (Indicator Variable)

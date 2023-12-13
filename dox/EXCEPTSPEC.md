@@ -11,9 +11,8 @@ TocOrder: 1000
 **EXCEPTSPEC** marks an exception format that is conditioned on the printfile's overflow indicator. It will be written out during execution of [*FetchOverflow](ecrCycle_FetchOverflowMethod.html) method if the file's overflow indicator is *ON. 
 
 ```
-
- **EXCEPTSPEC** 
- **Fmt (Format name)** 
+EXCEPTSPEC 
+ Fmt (Format name) 
         
 ```
 

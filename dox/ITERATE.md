@@ -11,8 +11,7 @@ TocOrder: 1160
 **ITERATE** transfers control from within a loop to the **END** statement of the loop. 
 
 ```
-
- **ITERATE** 
+ITERATE 
         
 ```
 

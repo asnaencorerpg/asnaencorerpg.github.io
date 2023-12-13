@@ -11,9 +11,8 @@ TocOrder: 1780
 Writes a new record to a file.
 
 ```
-
- **WRITE
-File**  (file name | Format Name)
+WRITE
+File  (file name | Format Name)
 At (integer) 
 FromDS (Data structure)
 Err (Indicator Variable | *EXTENDED)
@@ -43,8 +42,7 @@ Write FName  At( 0 )  // inserts record as first in file/table
 ```
                 
 ```
-
- **Note**   If **At**  row is greater than row count, the row is added at [rowcount](SF_RowCount_Property.html) + 1.
+Note   If **At**  row is greater than row count, the row is added at [rowcount](SF_RowCount_Property.html) + 1.
 ```
 
 

@@ -11,8 +11,7 @@ TocOrder: 20
 <span style="FONT-WEIGHT: bold">%FLOAT</span> [built-in function](Functions_overview.html) converts the value of the numeric expression to float format. 
 
 ```
-
- **%FLOAT (NumericExpression)** 
+%FLOAT (NumericExpression) 
 ```
 
 ### Parts

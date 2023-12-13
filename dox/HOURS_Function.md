@@ -11,8 +11,7 @@ TocOrder: 22
 <span style="FONT-WEIGHT: bold">%HOURS</span> [built-in function](Functions_overview.html) converts a number into a duration that can be added to a time or timestamp value. 
 
 ```
-
- **%HOURS**  (Number)
+%HOURS  (Number)
 ```
 
 ### Parts

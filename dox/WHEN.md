@@ -11,9 +11,8 @@ TocOrder: 1760
 Determines where control passes after the [SELECT](SELECT.html) operation is processed. 
 
 ```
-
- **WHEN** 
- **Cond**  (Conditional Expression)
+WHEN 
+ Cond  (Conditional Expression)
 ```
 
 ### Parts

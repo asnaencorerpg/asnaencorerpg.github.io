@@ -11,9 +11,8 @@ TocOrder: 1560
 **TOTALSPEC** is migrated and defines the Heading specs of a print file. It is generated in place of an O-Specs specified with an "H", and placed after a [BEGPRINTATTR](BEGPRINTATTR.html); one for each heading. 
 
 ```
-
- **TOTALSPEC** 
- **Fmt (Format name)** 
+TOTALSPEC 
+ Fmt (Format name) 
 Cond (Conditional indicator)
 FetchOverflow (<u>*No</u>  | *Yes)
 ```

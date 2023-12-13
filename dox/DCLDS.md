@@ -11,9 +11,9 @@ TocOrder: 420
 Declares an internal or external data structure.
 
 ```
-
- **DCLDS
-Name** (Character Expression)<br />Type (Class name)
+DCLDS
+Name (Character Expression)
+Type (Class name)
 Dim (IntegerLiteral, IntegerLiteral, ...)
 FldScope (<u>*GLOBAL</u>  | *LOCAL | *PGMDFT)
 ExtDesc (<u>*NO</u> | (YES)

@@ -11,8 +11,7 @@ TocOrder: 1420
 Conditionally processes one of several alternative sequences of operations. It consists of a **SELECT** statement, zero or more [WHEN](WHEN.html) groups, an optional [OTHER](OTHER.html) group, and an [END](END.html) or [ENDSL](ENDSL.html) statement. 
 
 ```
-
- **SELECT** 
+SELECT 
         
 ```
 
@@ -23,8 +22,7 @@ The **SELECT** group can be specified anywhere in calculations. It can be nested
 /* In this example, if X equals 1, do the operations in sequence 1 (note that no **END** operation is needed before the next WHEN); if X does NOT equal 1, and if Y=2 and X<10, do the operations in sequence 2. If neither condition is true, do the operations in sequence 3. */ 
 
 ```
-
- **SELECT** 
+SELECT 
     When X = 1 
     B = A + B 
     ExSR UpdateMaster

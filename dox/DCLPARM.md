@@ -12,8 +12,8 @@ TocOrder: 540
 Defines the parameters that compose a parameter list ([DCLPLIST](DCLPLIST.html)) that will be passed to a subprogram when a [CALL](CALL.html) or [CALLB](CALLB.html) command is issued, or will be passed to a subroutine when an [EXSR](EXSR.html) command is issued. 
 
 ```
- **DCLPARM
-Name**  (Variable name | *OMIT)
+ DCLPARM
+Name  (Variable name | *OMIT)
 CpyFrom (<u>*NONE</u> | Variable | Literal)
 CpyTo (<u>*NONE</u> |  Variable)
 Type (<u>*NONE</u> | *BINARY | *BOOLEAN | *BYTE | *CHAR | *FLOAT | *FLOAT4 | *FLOAT8 | *IND | *INTEGER |

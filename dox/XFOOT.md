@@ -11,10 +11,9 @@ TocOrder: 1790
 Adds array elements of a single-dimensioned array together and places the sum into **Result** . 
 
 ```
-
- **XFOOT
-Arr** (Array Name)
- **Result** (Numeric Variable)
+XFOOT
+Arr (Array Name)
+ Result (Numeric Variable)
 Adj (<u>*TRUNC</u> | *RNDUP)
 Pos (Indicator Variable)
 Neg (Indicator Variable)

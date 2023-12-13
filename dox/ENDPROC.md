@@ -11,8 +11,7 @@ TocOrder: 890
 **ENDPROC** identifies the end of an ILE procedure. 
 
 ```
-
- **ENDPROC** 
+ENDPROC 
         
 ```
 

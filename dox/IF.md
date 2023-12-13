@@ -11,9 +11,8 @@ TocOrder: 1140
 IF processes a group of calculations if a [comparison expression evaluation](Expression_Operators_and_their_Precedence.html) is True. 
 
 ```
-
- **IF** 
- **Cond**  (Comparison Expression)
+IF 
+ Cond  (Comparison Expression)
 ```
 
 ### Parts

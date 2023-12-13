@@ -11,9 +11,8 @@ TocOrder: 710
 Begins a group of operations you want to process until a condition is True. The [ENDDO](ENDDO.html) command marks the end of the group. 
 
 ```
-
- **DOUNTIL** 
- **Cond**  (Comparison Expression)    
+DOUNTIL 
+ Cond  (Comparison Expression)    
 ```
 
 ### Parts

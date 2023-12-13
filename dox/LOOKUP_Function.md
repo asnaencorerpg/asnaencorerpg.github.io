@@ -11,12 +11,11 @@ TocOrder: 28
 **%LOOKUP** [built-in function](Functions_overview.html) returns the array index of the item in ***Array*** that matches the ** *Argument* ** ; otherwise, negative one is returned if no match is found. 
 
 ```
-
- **%LOOKUP   (Argument, Array** {, Start-index {, Num-elements}} **)** 
- **%LOOKUPLT (Argument, Array** {, Start-index {, Num-elements}} **)** 
- **%LOOKUPGE (Argument, Array** {, Start-index {, Num-elements}} **)** 
- **%LOOKUPGT (Argument, Array** {, Start-index {, Num-elements}} **)** 
- **%LOOKUPLE (Argument, Array** {, Start-index {, Num-elements}} **)** 
+%LOOKUP   (Argument, Array {, Start-index {, Num-elements}} ) 
+ %LOOKUPLT (Argument, Array {, Start-index {, Num-elements}} ) 
+ %LOOKUPGE (Argument, Array {, Start-index {, Num-elements}} ) 
+ %LOOKUPGT (Argument, Array {, Start-index {, Num-elements}} ) 
+ %LOOKUPLE (Argument, Array {, Start-index {, Num-elements}} ) 
 ```
 
 ### Parts

@@ -11,8 +11,7 @@ TocOrder: 1
 **BOOL** [built-in function](Functions_overview.html) returns the boolean value of **True** or **False** . 
 
 ```
-
- **%BOOL**  (value)
+%BOOL  (value)
 ```
 
 ### Remarks

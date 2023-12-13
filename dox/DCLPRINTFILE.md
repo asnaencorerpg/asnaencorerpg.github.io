@@ -11,9 +11,9 @@ TocOrder: 560
 Declares a print file for printing in a program.
 
 ```
- **DCLPRINTFILE
-Name**   (Printerfile name)
- **Db**  (Database Object)
+ DCLPRINTFILE
+Name   (Printerfile name)
+ Db  (Database Object)
 File (<u>*FILEDESC</u>  | Character Expression)
 ImpOpen (<u>*YES</u>  | *NO)
 RnmFmt (<u>*NONE</u> | Old Format name, New Format name, ...)     

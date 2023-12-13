@@ -11,9 +11,8 @@ TocOrder: 660
 **DETAILSPEC** represents an OSpec that is written by the cycle during detail output time. 
 
 ```
-
- **DETAILSPEC** 
- **Fmt (Format name)** 
+DETAILSPEC 
+ Fmt (Format name) 
 Cond (Conditional indicator)
 FetchOverflow (<u>*No</u>  | *Yes)
 ```

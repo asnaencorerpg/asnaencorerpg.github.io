@@ -11,8 +11,9 @@ TocOrder: 990
 Evaluates the assignment expression with right-adjust.
 
 ```
- **EVALR
-F2**  (Assignment Expression)  <br />Err (Indicator Variable | *EXTENDED)
+ EVALR
+F2  (Assignment Expression)
+Err (Indicator Variable | *EXTENDED)
 ```
 
 ### Parts

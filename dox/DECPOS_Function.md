@@ -11,8 +11,7 @@ TocOrder: 9
 **%DECPOS** [built-in function](Functions_overview.html) returns the number of decimal positions of the numeric variable or expression. The value returned is a constant, and so may participate in constant folding. 
 
 ```
-
- **%DECPOS (NumericExpression)** 
+%DECPOS (NumericExpression) 
         
 ```
 

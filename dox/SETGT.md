@@ -11,9 +11,8 @@ TocOrder: 1450
 Positions a file at the next record with a key or relative record number that is greater than the key or relative record number specified in Key. 
 
 ```
-
- **SETGT
-File** (file name | Format Name) **Key**  (KeyList Name | Character Expression)     
+SETGT
+File (file name | Format Name) Key  (KeyList Name | Character Expression)     
 NotFnd (Indicator Variable)
 Err (*EXTENDED | Indicator Variable)
 ```

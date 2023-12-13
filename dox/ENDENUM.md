@@ -11,8 +11,7 @@ TocOrder: 820
 Finishes an [Enumeration](ecrConEnumerationsOverview.html) definition ([BEGENUM](BEGENUM.html)). 
 
 ```
-
- **ENDENUM** 
+ENDENUM 
         
 ```
 

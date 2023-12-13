@@ -11,8 +11,7 @@ TocOrder: 10
 <span style="FONT-WEIGHT: bold">%DIFF</span> [built-in function](Functions_overview.html) produces the difference (duration) between two date or time values. The first and second parameters must be the same or compatible types. 
 
 ```
-
- **%DIFF (Op1, Op2, {*MSECONDS | *SECONDS | *MINUTES | *HOURS | *DAYS | *MONTHS | *YEARS})** 
+%DIFF (Op1, Op2, {*MSECONDS | *SECONDS | *MINUTES | *HOURS | *DAYS | *MONTHS | *YEARS}) 
         
 ```
 
