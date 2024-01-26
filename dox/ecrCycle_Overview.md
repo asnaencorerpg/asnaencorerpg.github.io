@@ -8,7 +8,7 @@ TocOrder: 100
 
 ---
 
-Encore RPG 8.2 and above feature RPG Cycle support for Monarch migrated applications. Since most ECR programmers already "know" the RPG Cycle, only an overview of how the cycle works and is supported with Encore RPG is included. For more information, please see the **Cycle Support** topic in the Monarch Migration manual or the Cocoon help file. 
+Encore RPG feature RPG Cycle support for Monarch migrated applications. Since most ECR programmers already "know" the RPG Cycle, only an overview of how the cycle works and is supported with Encore RPG is included. For more information, please see the **Cycle Support** topic in the Monarch Migration manual or the Cocoon help file. 
 
 The RPG compiler supplies part of the logic for an RPG program. That logic is called the *program cycle* or *RPG cycle* . The program cycle is a series of ordered steps that the main procedure goes through for each record read. 
 
@@ -20,11 +20,11 @@ To control the cycle, you can have:
 
 - One primary file and, optionally, one or more secondary files
 - Only full procedural files
-- A combination of one primary file, optional secondary files, and one or more
-                full procedural files in which some of the input is controlled by the cycle,
-                and other input is controlled by the program.
+- A combination of one primary file, optional secondary files, and one or more full procedural files in which some of the input is controlled by the cycle, and other input is controlled by the program.
 - No files (for example, input can come from a parameter list or a Dataarea
-                Data structure).![](Images/cycle.bmp)
+                Data structure).
+                
+![](images/cycle.jpg)
 
 1. [*StartCycle](ecrCycle_StartCycleMethod.html) is the name of the
                 subroutine that performs the Cycle. It assumes the primary and all secondary

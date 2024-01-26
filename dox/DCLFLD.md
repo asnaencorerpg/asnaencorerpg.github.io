@@ -21,7 +21,6 @@ TimFmt (<u>*PGMDFT</u>  | *DMY | *EUR | *HMS | *ISO | *JIS | *JUL | *MDY | *USA 
 Shared (<u>*NO</u> | *YES) 
 Access (<u>*PRIVATE</u>  |*PUBLIC |*PROTECTED |*INTERNAL) 
 Static (<u>*NO</u> | *YES) 
-WithEvents (<u>*NO</u> | *YES) 
 New (<u>*NOOBJECT</u>  | *DFT | Expression List) 
 Inz (Constant | Constant Expression)
 Attributes (Attribute 1, Attribute 2, ...)
@@ -84,14 +83,6 @@ You can use Static only at procedure level. This means you can declare static fi
 
 - *NO (default) - the declared field will not remain in existence and will not retain its latest values after termination of the procedure in which it is declared.
 - *YES - the declared field will remain in existence and retain its latest values after termination of the procedure in which it is declared.
-
-
-**WithEvents** 
-
-Optional. **WithEvents** allows you to reference and access events that have already been defined in another object. *NO is the default. 
-
-- *NO (default) specifies that even though the object specified may have events, that this program will not be accessing those events.
-- *YES is only allowed on object types that are referenced using Type (Library name.Object name). If Type (*OBJECT) is used, a compiler error will occur. Note that the Library name is actually the project name, and the Object name is the name specified with the Name property. The Type parameter to use can also be found by using Object Browser on the object to reference.
 
 
 **New** 

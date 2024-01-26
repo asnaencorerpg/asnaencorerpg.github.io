@@ -62,7 +62,7 @@ Required. Name can contain either:
 
 - A name of the form Library.Object, where Library is the name of one of the libraries selected in the new up and coming object libraries dialog, and Object is valid object name within that library.
 
-**Note** : Using the DclDiskFile ** *name* ** , you can then get to its **fields** and **properties** . Please note that methods are reserved for use by the ASNA.Encore RPG compiler, so use the corresponding Encore RPG command if applicable. See [DBFile Class Members](ecrLrfDBFileMembers.html) for a listing of available members.
+**Note** : Using the DclDiskFile ** *name* ** , you can then get to its **fields** and **properties** . Please note that methods are reserved for use by the ASNA.Encore RPG compiler, so use the corresponding Encore RPG command if applicable. See [DBFile Class Members](//asnaqsys.github.io/reference/asna-qsys-runtime/classes/database-file.html) for a listing of available members.
 
 
 **Type** 
