@@ -13,7 +13,6 @@ Declares an internal or external data structure.
 ```
 DCLDS
 Name (Character Expression)
-Type (Class name)
 Dim (IntegerLiteral, IntegerLiteral, ...)
 FldScope (<u>*GLOBAL</u>  | *LOCAL | *PGMDFT)
 ExtDesc (<u>*NO</u> | (YES)
@@ -25,6 +24,9 @@ Access (<u>*PRIVATE</u> |*PUBLIC |*PROTECTED |*INTERNAL)
 Attributes (Attribute 1, Attribute 2, ...)
 DataAreaDB (database name)
 DataArea (*Libl/<name> | <string literal> | *YES | *VAR<name> | *LDA)
+Fields (<u>*ALL</u>  | *KEY | *INPUT | *OUTPUT)
+Len (Integral expression)
+DspFile (Character Expression, Character Expression)
 ```
 
 ### Parts
@@ -32,11 +34,6 @@ DataArea (*Libl/<name> | <string literal> | *YES | *VAR<name> | *LDA)
 **Name** 
 
 Required. The **name** of the data structure.
-
-
-**Type** 
-
-Optional. Provide a fully-qualified Class name to be used as the basis for the field descriptions of the data structure. All the public fields and properties of the class become the fields of the datastructure.
 
 
 **Dim** 
@@ -120,13 +117,34 @@ Optional. Defines the database in which the data area resides. DataAreaDB is opt
 Optional. Specifies the data area. Valid values are:
 
 
-- A name - in which case the data area is *LIBL/<name>.
-- A string literal - in which case the data area is <string literal>
-                        or *LIBL/<string literal> if the string literal doesn’t contain a library name.
+- A name - in which case the data area is *LIBL/\<name\>.
+- A string literal - in which case the data area is \<string literal\>
+                        or *LIBL/\<string literal\> if the string literal doesn’t contain a library name.
 - *YES -  to specify that the data area has the same name as the field.
-- *VAR <name> - the name of the data area is whatever the value of
-                        member <name> is at runtime.
+- *VAR \<name\> - the name of the data area is whatever the value of
+                        member \<name\> is at runtime.
 - *LDA to specify the local data area.
+
+
+**Fields** 
+
+Optional. Specifies which external file fields to use to declare the Data Structure. Valid values are:
+
+
+- *ALL - to specify that all of the fields will be part of the data structure.
+- *KEY - only the key fields will be part of the data structure.
+- *INPUT - only the input fields will be part of the data structure.
+- *OUTPUT - only the output fields will be part of the data structure.
+
+
+**Len** 
+
+Optional. If given, **Len** specifies the length of the data structure. If not given, the length in computed out of the lengths of the individual data structure fields.
+
+
+**DspFile** 
+
+Optional. For externally described data structures based on display files, this keyword specifies the display file path and the record format to use. The first character expression may contain an absolute or relative path to where the file is located. A tilde '~' character at the beginning of the path can be used to indicate the compiler to replace it with the 'Display file folder' value from the project settigns. The second character expression is the record format name.
 
 
 ### Remarks
@@ -138,19 +156,19 @@ To externally define the data structure, **ExtDesc** must be *YES, in addition t
 
 ```
 // Declare a simple data structure with two subfields of type *CHAR.
- DCLDS Name(DS1) 
-DCLDSFLD Name(DSFLD1) Type(*CHAR) Len(5)
-DCLDSFLD Name(DSFLD2) Type(*CHAR) Len(10)
+DCLDS Name(DS1) 
+    DCLDSFLD Name(DSFLD1) Type(*CHAR) Len(5)
+    DCLDSFLD Name(DSFLD2) Type(*CHAR) Len(10)
 
 // Declare a 5 occurrence data structure with two subfields of type *CHAR.
- DCLDS Name(DS2) DIM(5)
-DCLDSFLD Name(DSFLD3) Type(*CHAR) Len(5)
-DCLDSFLD Name(DSFLD4) Type(*CHAR) Len(10)
+DCLDS Name(DS2) DIM(5)
+    DCLDSFLD Name(DSFLD3) Type(*CHAR) Len(5)
+    DCLDSFLD Name(DSFLD4) Type(*CHAR) Len(10)
 
 // Declare a simple data structure with two subfields of type *CHAR, which are unique to this data structure.
- DCLDS Name(DS3) FLDSCOPE(*LOCAL)
-DCLDSFLD Name(DSFLD1) Type(*CHAR) Len(5)
-DCLDSFLD Name(DSFLD2) Type(*CHAR) Len(10)
+DCLDS Name(DS3) FLDSCOPE(*LOCAL)
+    DCLDSFLD Name(DSFLD1) Type(*CHAR) Len(5)
+    DCLDSFLD Name(DSFLD2) Type(*CHAR) Len(10)
 
 // Set up DS1 to contain the literal "ABCDEFGHIJKLMNO".
 DSFLD1 = "ABCDE"
@@ -171,38 +189,6 @@ DS3.DSFLD1 = "IIIII"
 DS3.DSFLD2 = "JJJJJJJJ"
 ```
 
-### Example Using Type
-<pre class="prettyprint">
-BegClass Class1
-    DCLDS myLocalDS
-		DclDSFld myfld1 type(*char) len(10)
-	DCLDS myLocalDS2 Dim(10)
-		DclDSFld mylocalfld1 type(*char) len(2)
-	DCLDS myTypeDS2 TYPE( fullQualifiedTypeName2 ) Dim(10)
-EndClass
-
-BegClass fullyQaulifiedTypeName
-    DclFld mydsfld1 type(*char) len(10) access(*public)
-	DclFld mydsfld2 type(*zoned) len(10,2) access(*public)
-EndClass
-
-BegClass fullyQaulifiedTypeName2 Implements (ASNA.VisualRPG.Runtime.IDS )
-	DclFld mydsfld1_2 type(*char) len(10) access(*public)
-	DclFld mydsfld2_2 type(*zoned) len(10,2) access(*public)
-EndClass</pre>
-
-### The Above Code
-
-- Generates a nested class myLocalDS_DS in Class1 for myLocalDS.
-                    This is a public class that can be used as a TYPE on other DS Declarations.
-- Generates a nested class myLocalDS2_MODS in Class1.
-                    myLocalDS2_MODS class contains a nested class myLocalDS2_DS. Also contains
-                    private members, an array of the _DS class to match the dimensions, an array to
-                    maintain the current occurrance and a rank field.
-- Generates two properties mydsfld1 and mydsfld2 that get and
-                    set fullyQualifiedTypeName.mydsfld1 and fullyQualifiedTypeName.mydsfld2.
-- Generates a nested class myTypeDS2_MODS for myTypeDS2 in
-                    Class1.
 
 ### See Also
 [DCLDS](DCLDS.html)
@@ -211,6 +197,6 @@ EndClass</pre>
 
 [DCLOVERLAYGROUP](DCLOVERLAYGROUP.html)
 
-[Time, Date, and Timestamp Variables](MOVEARR"> MOVEARR </a> <br /> <a href="Time_Formats.html)
+[Time, Date, and Timestamp Variables](Time_Formats.html)
 
 [Data Structure Changes](DataStructureChanges.html) 

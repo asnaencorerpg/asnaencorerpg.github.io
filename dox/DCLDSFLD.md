@@ -24,6 +24,7 @@ Overlay (parentField, startPos | *Next)
 OverlayArray (parentField, startPos | *Next) 
 DataAreaDB (database name)
 DataArea (*Libl/<name> | <string literal> | *YES | *VAR<name> | *LDA)
+StartAt (Position)
 ```
 
 ### Parts
@@ -155,6 +156,11 @@ Optional. Specifies the data area. Valid values are:
 - *VAR <name> - the name of the data area is whatever the value of
                         member <name> is at runtime.
 - *LDA to specify the local data area.
+
+
+**StartAt** 
+
+Optional. Specifies the 1-based starting position of this field in the Data Structure buffer. If not given the field starts after the previously declared field in the Data Structure.
 
 
 ### Example
