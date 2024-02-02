@@ -167,24 +167,20 @@ Optional. Specifies the 1-based starting position of this field in the Data Stru
 
 ```
 DCLDS Name(DS1)
-DCLDSFLD Name(DSFLD1)    Type(*CHAR) Len(5)
-DCLDSFLD Name(DSFLD2)    Type(*ZONED) Len(10,0)
-DCLDSFLD Name(OVERDSFLD) Type(*CHAR) Len(10) Overlay(DSFLD2)
+    DCLDSFLD Name(DSFLD1)    Type(*CHAR) Len(5)
+    DCLDSFLD Name(DSFLD2)    Type(*ZONED) Len(10,0)
+    DCLDSFLD Name(OVERDSFLD) Type(*CHAR) Len(10) Overlay(DSFLD2)
 ```
         
 ```
 // Declare a simple data structure with two subfields with one overlay of the 1st five characters of DSFLD2
 DCLDS Name(DS1)
-DCLDSFLD Name(DSFLD1)    Type(*CHAR) Len(5)
-DCLDSFLD Name(DSFLD2)    Type(*CHAR) Len(10)
-DCLDSFLD Name(OVERDSFLD) Type(*CHAR) Len(5) Overlay(DSFLD2,1)
+    DCLDSFLD Name(DSFLD1)    Type(*CHAR) Len(5)
+    DCLDSFLD Name(DSFLD2)    Type(*CHAR) Len(10)
+    DCLDSFLD Name(OVERDSFLD) Type(*CHAR) Len(5) Overlay(DSFLD2,1)
 ```
 
 ### See Also
 [DCLDS](DCLDS.html)
 
-[DclFmtCycleAttr](DCLFMTCYCLEATTR.html)
 
-[DCLOVERLAYGROUP](DCLOVERLAYGROUP.html)
-
-[Time, Date, and Timestamp variables](MOVEARR">MOVEARR</a> <br /> <a href="Time_Formats.html) 
