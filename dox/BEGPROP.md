@@ -16,16 +16,16 @@ Name  (Property name)
 Type (*BOOLEAN | *BINARY | *BYTE | *CHAR | *DATE | *IND | *PACKED | *TIME | *TIMESTAMP | *ZONED |
       *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *STRING | name | Library.Object) 
 Len (Length Integer, [Decimal Positions Integer])
-TimFmt (** \*PGMDFT ** | *MDY | *DMY | *YMD | *JUL| *ISO | *USA | *EUR| *JIS| *HMS)
+TimFmt (*PGMDFT | *MDY | *DMY | *YMD | *JUL| *ISO | *USA | *EUR| *JIS| *HMS)
 Rank (IntegerLiteral)
-Shared (<u>*NO</u> | *YES) 
-Access (<u>*PRIVATE</u> | *INTERNAL | *PUBLIC | *PROTECTED) 
-Modifier (<u>*NONE</u> | *MUSTOVERERIDE | *NOTOVERRIDABLE | *OVERRIDABLE | *OVERRIDES)
+Shared (<ins>*NO</ins> | *YES) 
+Access (<ins>*PRIVATE</ins> | *INTERNAL | *PUBLIC | *PROTECTED) 
+Modifier (<ins>*NONE</ins> | *MUSTOVERERIDE | *NOTOVERRIDABLE | *OVERRIDABLE | *OVERRIDES)
 Implements (Interface name list)  
 Attributes (Attribute 1, Attribute 2, ...)
 Like (Property or field name)
-GetAccess (<u>*DFT</u> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED) 
-SetAccess (<u>*DFT</u> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED)
+GetAccess (<ins>*DFT</ins> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED) 
+SetAccess (<ins>*DFT</ins> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED)
 ```
 
 
