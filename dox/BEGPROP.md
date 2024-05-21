@@ -16,7 +16,7 @@ Name  (Property name)
 Type (*BOOLEAN | *BINARY | *BYTE | *CHAR | *DATE | *IND | *PACKED | *TIME | *TIMESTAMP | *ZONED |
       *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *STRING | name | Library.Object) 
 Len (Length Integer, [Decimal Positions Integer])
-TimFmt (*PGMDFT | *MDY | *DMY | *YMD | *JUL| *ISO | *USA | *EUR| *JIS| *HMS)
+TimFmt (\<ins\>*PGMDFT\</ins\> | *MDY | *DMY | *YMD | *JUL| *ISO | *USA | *EUR| *JIS| *HMS)
 Rank (IntegerLiteral)
 Shared (<ins>*NO</ins> | *YES) 
 Access (<ins>*PRIVATE</ins> | *INTERNAL | *PUBLIC | *PROTECTED) 
