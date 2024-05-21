@@ -8,7 +8,7 @@ TocOrder: 80
 
 ---
 
-Declares a **GET** property procedure used to assign a value to a property. 
+Declares a **GET** property procedure used to retrieve the value of a property. 
 
 ```
 BEGGET 
@@ -17,43 +17,40 @@ BEGGET
 
 ### Remarks
 
- **BEGGET**  allows you to get the value of the property with
-        the [BEGPROP](BEGPROP.html) routine.
-        To set the value of a property, use [BEGSET](BEGSET.html). A **BEGGET** routine
-        must always end with an [ENDGET](ENDGET.html),
-        and **BEGSET**  must always end with an [ENDSET](ENDSET.html).
-
+The **BEGGET** method within a [BEGPROP](BEGPROP.html) block allows you to get the value of the property. A **BEGGET** routine must always end with an [ENDGET](ENDGET.html).
 
 
 ### Example
 
 ```
-dclfld_Firstname    *string           INZ("")
-dclfld_Lastname     *string           INZ("")        
- BegProp Firstname    *string           Access( *public )
-         BegSet
-               _FirstName = *Propval
-         EndSet
+dclfld _FirstName *string INZ("")
+dclfld _LastName  *string INZ("")
 
-         BegGet
-               LeaveSR _FirstName
-         EndGet
- EndProp 
- BegProp Lastname     *string           Access( *public )
-         BegSet NewValname( Lname )
-              _LastName = Lname
-         EndSet
+BegProp Firstname *string Access( *public )
+    BegSet
+        _FirstName = *Propval
+    EndSet
+    BegGet
+        LeaveSR _FirstName
+    EndGet
+EndProp 
 
-         BegGet
-              LeaveSR _LastName
-         EndGet
- EndProp
+BegProp Lastname *string Access( *public )
+    BegSet NewValname( Lname )
+        _LastName = Lname
+    EndSet
+    BegGet
+        LeaveSR _LastName
+    EndGet
+EndProp
+
  // Read only property
- BegProp FullName Type( *string )       Access ( *public )
-         BegGet
-              LeaveSR Value( FirstName + " " + LastName )
-         EndGet
- EndProp
+
+BegProp FullName Type( *string ) Access( *public )
+    BegGet
+        LeaveSR Value( FirstName + " " + LastName )
+    EndGet
+EndProp
 
 ```
 

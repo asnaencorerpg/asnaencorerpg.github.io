@@ -19,7 +19,7 @@ NewValName (Name)
 
 **NewValName** 
 
-Optional. A user-given name for the property value being passed. If **NewValName** is not given, the user can just use *PROPVAL. For instance, if you wish to know the value that is passed to you, you can define a name for *PROPVAL, and just reference the name.
+Optional. A user-given name for the property value being passed. If **NewValName** is not given, the received value is in a parameter with the special name *PROPVAL.
 
 
 ### Remarks
@@ -29,32 +29,33 @@ Optional. A user-given name for the property value being passed. If **NewValName
 ### Example
 
 ```
-dclfld_Firstname    *string           INZ("")
-dclfld_Lastname     *string           INZ("")       
+dclfld _FirstName *string INZ("")
+dclfld _LastName  *string INZ("")       
 
-BegProp Firstname    *string           Access( *public)
-        BegSet
-               _FirstName = *Propval
-        EndSet                       
-        BegGet              
-              LeaveSR _FirstName
-        EndGet
+BegProp Firstname *string Access( *public)
+    BegSet
+        _FirstName = *Propval
+    EndSet                       
+    BegGet              
+        LeaveSR _FirstName
+    EndGet
 EndProp
-BegProp Lastname     *string           Access( *public )
-        BegSet NewValname( Lname )
-              _LastName = Lname
-        EndSet
-        BegGet
-              LeaveSR _LastName
-        EndGet
+
+BegProp Lastname *string Access( *public )
+    BegSet NewValname( Lname )
+        _LastName = Lname
+    EndSet
+    BegGet
+        LeaveSR _LastName
+    EndGet
 EndProp
 
 // Read only property
 
-BegProp FullName Type( *string )       Access ( *public )
-        BegGet
-              LeaveSR Value( FirstName + " " + LastName )
-        EndGet
+BegProp FullName Type( *string ) Access( *public )
+    BegGet
+        LeaveSR Value( FirstName + " " + LastName )
+    EndGet
 EndProp
 ```
 
