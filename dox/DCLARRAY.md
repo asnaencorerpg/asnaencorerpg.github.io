@@ -56,7 +56,7 @@ A name of the form Library.Object, where Library is the name of one of the libra
 
 **Dim** 
 
-Optional. The number of dimensions of a multidimensional array. Each Integer Literal on the **Dim** parameter specifies a dimension for the array. Individual data structures can be accessed with the [OCCUR](OCCUR.html) command or with the [ ] operator.
+Optional. The size of the array. Each value in the **Dim** parameter specifies the size of a dimension for the array.
 
 
 **Type** 
@@ -83,7 +83,7 @@ Optional. **TimFmt**  specifies the format for [time](Time_Formats.html),
 
 **Rank** 
 
-Optional. Rank declares an n-dimensional array of indefinite elements. The value given for Rank defines the number of dimensions for the array.
+Optional. A value given for **Rank** declares the property to be an array, with the value defining the number of dimensions. For example, Rank(2) declares a two-dimensional array. If **Rank** is not specified, the property is a scalar.
 
 
 **Shared** 
@@ -138,8 +138,7 @@ Optional. **New** allows you to specify a value when a field is of a class type 
  Example: DclFld Address type(System.Text.StringBuilder) **New(*Dft)** <br /> *// Constructs a StringBuilder object with the parameterless constructor. See
                             the help for StringBuilder.*
 - Character Expression List - specify a list of expressions for the default class value.
-                        <br /> Example: DclFld Address type(System.Text.StringBuilder) **New("This
-                                is the initial value")** 
+                        <br /> Example: DclFld Address type(System.Text.StringBuilder) **New("This is the initial value")** 
  <br /> *// Constructs a StringBuilder object with initial value* 
                         "This is the initial value". *See the help for StringBuilder.*
 
@@ -162,42 +161,49 @@ A plus sign (+) preceding the number indicates a length increase; a minus sign (
 
 
 ### Remarks
-**DCLARRAY** declares a multidimensional array of simple variables where **Dim** (required) Is the number of dimensions. The array can be accessed by using the **[ ]** operators. 
+**DCLARRAY** declares an array. Either **Dim** or **Rank** must be specified for the array. **Dim** gives the array a fixed size, specifying the number of elements in each of its its dimensions. **Rank** specifies the number of diensions, and the array must be initialized before it can be used. Array elements are accessed by using the **[ ]** operators. 
 
 Use [DCLDSFLD](DCLDSFLD.html) to declare an array within a data structure. 
 
-** For DIM arrays :** <br /> Depending on the type of the array elements, one of the two keywords will contain information for initialization: 
+**For DIM arrays**
+Depending on the type of the array elements, one of the two keywords will contain information for initialization: 
 
 **If the element is scalar** (i.e. a numeric type, a char type, a string, etc) then INZ contains the initial value. 
-<pre class="prettyprint">// this initializes each element of myIntArray to the value 9
-DclArray myIntArray DIM(8) type(*integer) len(4) INZ(9) </pre>
 
-**If the element type is a class** (e.g. System.Text.StringBuilder, or System.Windows.Forms.Form), then the NEW keyword contains the arguments to the constructor. Each element contains its own instance, even though they are all obtained with the same constructor arguments. 
+```
+// this initializes each element of myIntArray to the value 9
+DclArray myIntArray DIM(8) type(*integer) len(4) INZ(9)
+``` 
+
+**If the element type is a class** (e.g. System.Text.StringBuilder), then the NEW keyword contains the arguments to the constructor. Each element contains its own instance, even though they are all obtained with the same constructor arguments. 
 <pre class="prettyprint">
 // this initializes each element of mySBArray // to *new System.Text.StringBuilder("Hello World")
 DclArray mySBArray DIM(10) type(System.Text.StringBuilder) NEW("Hello World")'</pre>
 
-** For RANK arrays: ** <br /> The **INZ** keyword is not allowed, it is an error to use **RANK** and **INZ** in the same **DclArray** . The **NEW** keyword, if given, must contain a comma separated list of indices to give to the array constructor. The list of indices must match the RANK of the array. The array will be initialized to the size specified, and its elements will be initialized to the default value of the element type. 
-<pre class="prettyprint">// this creates myIntArray with 45 (two-dimensional 9 X 5) elements initialized to 0 (the default value for integers) 
+**For RANK arrays**
+The **INZ** keyword is not allowed, it is an error to use **RANK** and **INZ** in the same **DclArray** . The **NEW** keyword, if given, must contain a comma separated list of indices to give to the array constructor. The list of indices must match the RANK of the array. The array will be initialized to the size specified, and its elements will be initialized to the default value of the element type. 
+
+```
+// this creates myIntArray with 45 (two-dimensional 9 X 5) elements initialized to 0 (the default value for integers) 
 DclArray myIntArray RANK(2) type(*integer) len(4) NEW(9,5) 
 // this creates myCharArray with 10 elements initialized to "        " (8 blanks, the default value for *char 8) 
 DclArray myCharArray RANK(1) type(*char) len(8) NEW(10) 
 // this creates mySBArray with 5 elements initialized to *nothing (the default value for class objects) 
 DclArray mySBArray RANK(2) type(System.Text.StringBuilder) NEW(5)
-</pre>
+```
 
 You can initialize the number of elements and their content when the array is instanced using the following syntax: 
-<pre class="prettyprint">Dclarray MyStrArr type(*string) rank(1)
-
+```
+Dclarray MyStrArr type(*string) rank(1)
 // below will create array of 5 elements
 MyStrArr = *new *string[] {"The", "quick", "brown", "fox", "jumped"} 
 Dclarray MyIntArr type(*integer4) rank(1) 
 // below will create array of 3 elements 
 MyIntArr = *new *integer4[] {10, 100, 1000} 
-</pre>
+```
 
 ### Example
-<pre class="prettyprint">
+```
   DCLFLD Name($X) Type(*ZONED) Len(2,0) 
   DCLFLD Name($Y) Type(*ZONED) Len(2,0)<br /> //Declare an 8 x 8 two-dimensional array of characters within a data structure called MyDs. DclDs Name(MyDs)
   DclDsFld Name(Z8by8) DCLFLD(8,8) Type(*char) Len(5) 
@@ -220,7 +226,8 @@ MyIntArr = *new *integer4[] {10, 100, 1000}
       $Y=$Y+1
       ARR1[$X,$Y] = "**********"
     ENDDO
-  ENDDO</pre>
+  ENDDO
+```
 
 ### See Also
 [Arrays Overview](ecrConArraysOverview.html)
