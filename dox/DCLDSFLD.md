@@ -18,12 +18,12 @@ Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 |
       *PACKED | *TIME | *TIMESTAMP | *ZONED)
 Len (Integer Literal, Interger Literal)
 Dim (Integer Literal, Integer Literal, ...)
-TimFmt (<u>*PGMDFT</u> | *DMY | *EUR | *HMS | *ISO | *JIS | *JUL | *MDY | *USA | *YMD)
+TimFmt (<ins>*PGMDFT</ins> | *DMY | *EUR | *HMS | *ISO | *JIS | *JUL | *MDY | *USA | *YMD)
 Like (Field name)
 Overlay (parentField, startPos | *Next)
 OverlayArray (parentField, startPos | *Next) 
 DataAreaDB (database name)
-DataArea (*Libl/<name> | <string literal> | *YES | *VAR<name> | *LDA)
+DataArea (*Libl/<name> | <string literal> | *YES | *VAR, <name> | *LDA)
 StartAt (Position)
 ```
 
@@ -36,7 +36,7 @@ Required. The name of the data structure subfield.
 
 **Type** 
 
-Optional. **Type** can be any of Special Value ( i.e., *CHAR, *BINARY, etc.) or it can be a class name. If **Type** is *BOOLEAN or *IND, you can use *ON, *TRUE, *ON and *FALSE figurative constants to indicate true and false and "1" and "0", respectively. 
+Optional. **Type** can be any of Special Value ( i.e., *CHAR, *BINARY, etc.) or it can be a class name. If **Type** is *BOOLEAN or *IND, you can use the *TRUE and *FALSE, and the *ON and *OFF figurative constants to indicate true and false and '1' and '0', respectively. 
 
 If a **Type** parameter is not given, the **Len** parameter is required. In this case, *CHAR is assumed if there is one integer given and *ZONED is assumed if there are two integers.
 
@@ -149,12 +149,12 @@ Optional. Specifies the database in which the data area resides.
 Optional. Specifies the data area. Valid values are:
 
 
-- A name - in which case the data area is *LIBL/<name>.
-- A string literal - in which case the data area is <string literal>
-                        or *LIBL/<string literal> if the string literal doesn’t contain a library name.
+- A name - in which case the data area is *LIBL/\<name\>.
+- A string literal - in which case the data area is \<string literal\>
+                        or *LIBL/\<string literal\> if the string literal doesn’t contain a library name.
 - *YES -  to specify that the data area has the same name as the field.
-- *VAR <name> - the name of the data area is whatever the value of
-                        member <name> is at runtime.
+- *VAR \<name\> - the name of the data area is whatever the value of
+                        field \<name\> is at runtime.
 - *LDA to specify the local data area.
 
 

@@ -15,7 +15,7 @@ DCLFLD
 Name  (Field name)
 Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8
       | *IND | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *ONECHAR | *PACKED 
-      | *STRING | *TIME | *TIMESTAMP | *ZONED | Field, Array, Array Element, table name, String Literal) 
+      | *STRING | *TIME | *TIMESTAMP | *ZONED ) 
 Len (Integer Literal, Integer Literal) 
 TimFmt (<u>*PGMDFT</u>  | *DMY | *EUR | *HMS | *ISO | *JIS | *JUL | *MDY | *USA | *YMD) 
 Shared (<u>*NO</u> | *YES) 
@@ -40,19 +40,21 @@ Local variables inside a subroutine can have the same name as global variables o
 
 **Type** 
 
-Optional. **Type** can be any of Special Value ( i.e., *CHAR, *BINARY, etc.) or it can be a class name. If Type is *BOOLEAN, you can use the *TRUE or *ON and *FALSE or *OFF special values to indicate **True** or **False** . 
+Optional. **Type** can be any of the Special Values denoting a type ( i.e., *CHAR, *BINARY, etc.) or it can be a class name. 
 
 If a **Type** parameter is not given, the **Len** parameter is required. In this case, *CHAR is assumed if there is one integer given and *ZONED is assumed if there are two integers.
 
 
 **Len** 
 
-Optional. **Len** specifies the length of the field. The length of a *BOOLEAN, *IND, *OBJECT or *STRING type is implicit. The length of a * **INTEGER** Type is 2- or 4-bytes. The length of a * **FLOAT** Type is 4- or 8-bytes.
+Optional. **Len** defines the length of the field. If **Type** is not given, **Len** determines the type of the property: for a one-integer **Len** the type defaults to *CHAR, and a for a two-integer **Len** the type defaults to *ZONED.
 
+Depending upon the **Type** specified, the **Len** parameter may be required. For instance, types of *BINARY, *CHAR, *PACKED, *ZONED, *FLOAT, and *INTEGER will require a **Len**.
+Valid values of **Len** for *INTEGER are 2, 4, and 8 and for *FLOAT are 4 and 8. For the fixed-size decimal types *PACKED, *ZONED, and *BINARY, the two-integer length defines the number of digits and the number of decimal positions.
 
 **TimFmt** 
 
-Optional. **TimFmt** specifies the format for [time](Time_Formats.html), [date](Date_Formats.html), and [timestamp](Timestamp_Data_Type.html) variables. If the TimFmt parameter is not specified, the format specified by the program is assumed.
+Optional. **TimFmt** specifies the format for [time](Time_Formats.html), [date](Date_Formats.html), and [timestamp](Timestamp_Data_Type.html) variables. If the TimFmt parameter is not specified, the default format specified in the project settings is used.
 
 
 **Shared** 
