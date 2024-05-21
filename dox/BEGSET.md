@@ -23,8 +23,7 @@ Optional. A user-given name for the property value being passed. If **NewValName
 
 
 ### Remarks
-**BEGSET**  allows you to Set the value of the property. To **Get** the value of a property, use [BEGGET](BEGGET.html).  A **BEGSET**  routine * must always
- *  end with an [ENDSET](ENDSET.html).
+**BEGSET**  allows you to Set the value of the property. To **Get** the value of a property, use [BEGGET](BEGGET.html).  A **BEGSET**  routine must always end with an [ENDSET](ENDSET.html).
 
 ### Example
 
