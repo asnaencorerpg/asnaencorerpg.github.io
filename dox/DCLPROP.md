@@ -8,7 +8,7 @@ TocOrder: 123
 
 ---
 
-Delcares a property routine.
+Declares an auto-implemented property.
 
 ```
 DCLPROP
