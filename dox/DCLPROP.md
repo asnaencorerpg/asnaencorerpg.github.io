@@ -8,7 +8,7 @@ TocOrder: 123
 
 ---
 
-Declares an auto-implemented property.
+Declares a property .
 
 ```
 DCLPROP
@@ -16,16 +16,16 @@ Name  (Property name)
 Type (*BOOLEAN | *BINARY | *BYTE | *CHAR | *DATE | *IND | *PACKED | *TIME | *TIMESTAMP | *ZONED |
       *DECIMAL | *FLOAT | *FLOAT4 | *FLOAT8 | *INTEGER | *INTEGER2 | *INTEGER4 | *INTEGER8 | *OBJECT | *STRING | name | Library.Object) 
 Len (Length Integer, [Decimal Positions Integer])
-TimFmt (*<ins>PGMDFT</ins> | *MDY | *DMY | *YMD | *JUL| *ISO | *USA | *EUR| *JIS| *HMS)
+TimFmt (<u>*PGMDFT</u> | *MDY | *DMY | *YMD | *JUL| *ISO | *USA | *EUR| *JIS| *HMS)
 Rank (IntegerLiteral)
-Shared (<ins>*NO</ins> | *YES) 
-Access (<ins>*PRIVATE</ins> | *INTERNAL | *PUBLIC | *PROTECTED) 
-Modifier (<ins>*NONE</ins> | *MUSTOVERERIDE | *NOTOVERRIDABLE | *OVERRIDABLE | *OVERRIDES)
+Shared (<u>*NO</u> | *YES) 
+Access (<u>*PRIVATE</u> | *INTERNAL | *PUBLIC | *PROTECTED) 
+Modifier (<u>*NONE</u> | *MUSTOVERERIDE | *NOTOVERRIDABLE | *OVERRIDABLE | *OVERRIDES)
 Implements (Interface name list)  
 Attributes (Attribute 1, Attribute 2, ...)
 Like (Property name)
-GetAccess (<ins>*DFT</ins> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED) 
-SetAccess (<ins>*DFT</ins> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED)
+GetAccess (<u>*DFT</u> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED) 
+SetAccess (<u>*DFT</u> | *PRIVATE | *INTERNAL | *PUBLIC | *PROTECTED)
 ```
 
 
