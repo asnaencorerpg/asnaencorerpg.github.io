@@ -81,10 +81,10 @@ Optional. The type of access to the property. The default is *PRIVATE, indicatin
 Optional. **Modifier** controls how properties and methods are overridden in derived classes. *NONE is the default. 
 
 - *NONE (default) - specifies that none of the override options are available for properties and methods.
-- *MUSTOVERRIDE - specifies a property or procedure (in an abstract base class) that does not have an implementation and must be overridden (*OVERRIDES) in a derived class before it can be used.
+- \*MUSTOVERRIDE - specifies a property or procedure (in an abstract base class) that does not have an implementation and must be overridden (\*OVERRIDES) in a derived class before it can be used.
 - *NOTOVERRIDABLE - specifies that a property or procedure cannot be overridden in a derived class.
 - *OVERRIDABLE - specifies that a property or method can be overridden in a derived class.
-- *OVERRIDES - specifies that a property or method overrides a member inherited from a base class **.** ****
+- *OVERRIDES - specifies that a property or method overrides a member inherited from a base class.
 
 
 **Implements** 

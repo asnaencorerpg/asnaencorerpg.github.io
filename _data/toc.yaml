@@ -673,8 +673,6 @@ Reference:
       path: /dox/BEGPROC.html
     - title: BEGPROP
       path: /dox/BEGPROP.html
-    - title: DCLPROP
-      path: /dox/DCLPROP.html
     - title: BEGSET
       path: /dox/BEGSET.html
     - title: BEGSR
@@ -749,6 +747,8 @@ Reference:
       path: /dox/DCLPLIST.html
     - title: DCLPRINTFILE
       path: /dox/DCLPRINTFILE.html
+    - title: DCLPROP
+      path: /dox/DCLPROP.html
     - title: DCLSRPARM
       path: /dox/DCLSRPARM.html
     - title: DCLWORKSTNFILE
