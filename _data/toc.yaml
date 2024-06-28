@@ -659,6 +659,8 @@ Reference:
       path: /dox/BEGCLASS.html
     - title: BEGCONSTRUCTOR
       path: /dox/BEGCONSTRUCTOR.html
+    - title: BEGCYCLEOUTPUT
+      path: /dox/BEGCYCLEOUTPUT.html
     - title: BEGENUM
       path: /dox/BEGENUM.html
     - title: BEGFUNC
@@ -667,8 +669,6 @@ Reference:
       path: /dox/BEGGET.html
     - title: BEGINTERFACE
       path: /dox/BEGINTERFACE.html
-    - title: BEGPRINTATTR
-      path: /dox/BEGPRINTATTR.html
     - title: BEGPROC
       path: /dox/BEGPROC.html
     - title: BEGPROP
@@ -785,6 +785,8 @@ Reference:
       path: /dox/ENDCONSTRUCTOR.html
     - title: ENDCS
       path: /dox/ENDCS.html
+    - title: ENDCYCLEOUTPUT
+      path: /dox/ENDCYCLEOUTPUT.html
     - title: ENDDO
       path: /dox/ENDDO.html
     - title: ENDENUM
@@ -799,8 +801,6 @@ Reference:
       path: /dox/ENDIF.html
     - title: ENDINTERFACE
       path: /dox/ENDINTERFACE.html
-    - title: ENDPRINTATTR
-      path: /dox/ENDPRINTATTR.html
     - title: ENDPROC
       path: /dox/ENDPROC.html
     - title: ENDPROP
