@@ -15,7 +15,7 @@ BegCycleOutput
 ```
 
 ### Remarks
-The **BegCycleOutput** section contains OSpecs, which are printed during the cycle output phases. **HeadingPrintSpec** s and **DetailPrintSpec** s are written in the order they are specified during detail output. **TotalPrintSpec** s are similarly written during total output. **EXCEPTSPEC** s are used for exception records which are conditioned on the Overlfow indicator. 
+The **BegCycleOutput** section contains OSpecs, which are printed during the cycle output phases. **HeadingPrintSpec** s and **DetailPrintSpec** s are written in the order they are specified during detail output. **TotalPrintSpec** s are similarly written during total output.
 
 The **BegCycleOutput** section must end with an [EndCycleOutput](EndCycleOutput.html). 
 
@@ -45,5 +45,3 @@ EndCycleOutput
 [DetailPrintSpec](DetailPrintSpec.html)
 
 [TotalPrintSpec](TotalPrintSpec.html)
-
-[EXCEPTSPEC](EXCEPTSPEC.html) 

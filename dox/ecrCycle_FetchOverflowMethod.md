@@ -41,5 +41,3 @@ The following operations occur when the overflow indicator is on and the overflo
 [```*TotalCalc``` Method](ecrCycle_TotalCalcMethod.html)
 
 [Cycle Overview](ecrCycle_Overview.html)
-
-[```EXCEPTSPEC```](EXCEPTSPEC.html) 
