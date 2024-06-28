@@ -25,7 +25,7 @@ TocOrder: 10
 
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html) 
 
-[BEGPRINTATTR](BEGPRINTATTR.html) 
+[BegCycleOutput](BegCycleOutput.html) 
 
 [BEGENUM](BEGENUM.html) 
 
@@ -125,7 +125,7 @@ TocOrder: 10
 
 [DELETERANGE](DELETERANGE.html) 
 
-[DETAILSPEC](DETAILSPEC.html) 
+[DetailPrintSpec](DetailPrintSpec.html) 
 
 [DISCONNECT](DISCONNECT.html) 
 
@@ -156,7 +156,7 @@ TocOrder: 10
 
 [ENDCS](ENDCS.html) 
 
-[ENDPRINTATTR](ENDPRINTATTR.html) 
+[EndCycleOutput](EndCycleOutput.html) 
 
 [ENDDO](ENDDO.html) 
 
@@ -225,9 +225,9 @@ TocOrder: 10
 <a href="GOTO.html) 
 <br />
 
-<a name="Ch">H</a> - [HEADINGSPEC](#Top"> Back to Top </a> 
+<a name="Ch">H</a> - [HeadingPrintSpec](#Top"> Back to Top </a> 
 
-<a href="HEADINGSPEC.html) 
+<a href="HeadingPrintSpec.html) 
 <br />
 
 <a name="Ci">I</a> - [IF](#Top"> Back to Top </a> 
@@ -344,7 +344,7 @@ TocOrder: 10
 
 [TIME](TIME.html) 
 
-[TOTALSPEC](TOTALSPEC.html) 
+[TotalPrintSpec](TotalPrintSpec.html) 
 
 [TRY](TRY.html) 
 <br />

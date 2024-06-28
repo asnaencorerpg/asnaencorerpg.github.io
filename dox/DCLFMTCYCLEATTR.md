@@ -63,7 +63,7 @@ DclFmtCycleAttr RMaster   *in77 M1(RMOrder#) L2(RMOrder#)
 ```
 
 ### See Also
-[BEGPRINTATTR](BEGPRINTATTR.html)
+[BegCycleOutput](BegCycleOutput.html)
 
 [Cycle Overview](ecrCycle_Overview.html) 
 

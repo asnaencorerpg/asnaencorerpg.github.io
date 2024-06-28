@@ -78,11 +78,11 @@ BegClass MyCycleProgram Access ( *Public )
       DclFmtCycleAttr ROrder      *in77 M1 (OOrder#)   L2 (OOrder#)
       DclFmtCycleAttr RDetail     *in42 M1 (DOrder#) 
       DclFmtCycleAttr RBackOrder *in43 M1 (BOOrder#)  L1 (BOOrder#,BOItem#) 
-      BEGCYCLEOUTPUT 
-            headerprintspec rptHeader cond (*in1p *or *inOF) 
-            detailprintspec rptDetail fetchOverflow ( *yes ) cond (*inL1)
-            totalprintspec rptTotal fetchOverflow ( *yes ) cond (*inl2) 
-      ENDCYCLEOUTPUT
+      BegCycleOutput 
+            HeadingPrintSpec rptHeader cond (*in1p *or *inOF) 
+            DetailPrintSpec rptDetail fetchOverflow ( *yes ) cond (*inL1)
+            TotalPrintSpec rptTotal fetchOverflow ( *yes ) cond (*inl2) 
+      EndCycleOutput
 
       Begsr Main shared ( *yes ) access ( *public )  
             dclsrparm args type ( *string ) rank (1) 
