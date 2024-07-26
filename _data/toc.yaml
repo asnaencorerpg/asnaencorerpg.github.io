@@ -503,11 +503,11 @@ Reference:
     sectionpath: /dox/ecrLrfClassLibraryMain.html
     section:
     - title: ASNA.QSys.Runtime Namespace
-      path: //asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html
+      path: //asnaqsys.github.io/reference/runtime/qsys-runtime/landing-page-namespace.html
     - title: ASNA.QSys.Runtime.JobSupport Namespace
-      path: //asnaqsys.github.io/reference/asna-qsys-runtime-job-support/asna-qsys-runtime-job-support-section-intro.html
+      path: //asnaqsys.github.io/reference/runtime/qsys-runtime-job-support/landing-page-namespace.html
     - title: ASNA.DataGate.Client Namespace
-      path: //asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html
+      path: //asnaqsys.github.io/reference/datagate/datagate-client/landing-page-namespace.html
   - sectiontitle: Constants
     sectionpath: /dox/ecrLrfConstantsMain.html
     section:
