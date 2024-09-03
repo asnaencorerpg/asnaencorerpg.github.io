@@ -143,8 +143,15 @@ Concepts:
           path: /dox/ecrConIntegralTypes.html
         - title: NonIntegral Types
           path: /dox/ecrConNonintegralTypes.html
-      - title: "*Char Data Type"
-        path: /dox/Character_Data_Type.html
+      - sectiontitle: Text/Character DataTypes
+        sectionpath: /dox/ecrConTextDataTypes.html
+        section:
+        - title: "Character DataType"
+          path: /dox/ecrConCharacterDataType.html
+        - title: "String DataType"
+          path: /dox/ecrConStrings.html
+        - title: "OneChar DataType"
+          path: /dox/ecrConOneChar.html
     - sectiontitle: DataType Implementation
       sectionpath: /dox/ecrConDataTypeImplementation.html
       section:
@@ -232,11 +239,8 @@ Concepts:
     section:
     - title: Setting and Retrieving Properties
       path: /dox/ecrConSettingandRetrievingProperties.html
-  - sectiontitle: Strings
-    sectionpath: /dox/ecrConStrings.html
-    section:
-    - title: Manipulating Strings
-      path: /dox/ecrConManipulatingStrings.html
+  - title: Manipulating Strings
+    path: /dox/ecrConManipulatingStrings.html
   - title: Type Members
     path: /dox/ecrConTypeMembers.html
   - sectiontitle: Variables
@@ -531,6 +535,8 @@ Reference:
       path: /dox/Boolean_Data_Type.html
     - title: "*Byte Data Type"
       path: /dox/Byte_Data_Type.html
+    - title: "*Char Data Type"
+      path: /dox/Character_Data_Type.html
     - title: "*Date Data Type"
       path: /dox/Date_Data_Type.html
     - title: "*Decimal Data Type"

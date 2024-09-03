@@ -5,10 +5,9 @@ Id: aerConUnicode
 TocParent: aerConLanguageConceptsMain
 TocOrder: 70
 
-
 ---
 
-[*Char Data type](http://en.wikipedia.org/wiki/Unicode">Unicode</a> is a worldwide character-encoding standard. Windows 7, 8.x, and 10 use it exclusively at the system level for character and string manipulation. Unicode simplifies localization of software and improves multilingual text processing. Because Unicode is inherent to the .NET Framework, you enable your application with universal data exchange capabilities for global marketing, using a single binary file for every possible character code. Unicode provides several functions: 
+[Unicode](http://en.wikipedia.org/wiki/Unicode) is a worldwide character-encoding standard. .NET use it exclusively at the system level for character and string manipulation. Unicode simplifies localization of software and improves multilingual text processing. Because Unicode is inherent to .NET, you enable your application with universal data exchange capabilities for global marketing, using a single binary file for every possible character code. Unicode provides several functions: 
 
 - defines the semantics for each character
 - standardizes script behavior
@@ -17,10 +16,13 @@ TocOrder: 70
 
 Supported languages include, but are not limited to, German, French, English, Greek, Chinese, and Japanese. Among the scripts supported by Unicode are Latin, Greek, Han, Hiragana, and Katakana. 
 
-Unicode has replaced ascii as the base character set for ```*char```, ```*string```, and ```*onechar```. 
+Unicode has replaced ASCII as the base character set for the ```*CHAR```, ```*STRING```, and ```*ONECHAR``` data types.
 
 ### See Also
-<a href="Character_Data_Type.html)
-[*OneChar Data type](Onechar_Data_Type.html)
+[*Char Data Type](ecrConCharacterDataType.html)
 
-[*String Data type](String_Data_Type.html)<br /> <a href="http://en.wikipedia.org/wiki/Unicode">Unicode on Wikipedia</a> 
+[*OneChar Data type](ecrConOneChar.html)
+
+[*String Data type](ecrConStrings.html)
+
+[Unicode on Wikipedia](http://en.wikipedia.org/wiki/Unicode)
