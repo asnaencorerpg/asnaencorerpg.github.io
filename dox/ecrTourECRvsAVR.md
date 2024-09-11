@@ -26,21 +26,27 @@ Visual RPG produces .NET Framework assemblies while Encore RPG generates .NET as
  + Single character constants use single quotes (what used to be O'f' in AVR):   
        `DclFld MyOneChar *OneChar Init('f')`
 
+ + Some Built-In functions have been renamed:   
+       `%IsOmitted` is now `%Omitted`
+
 ## Opcodes and Keywords
 Several Opcodes and Keywords are not present in ECR.
 
-### Data Structures 
+## Data Structures 
 The implementation of Data Structures in ECR is closer to that of RPG than the one AVR had.
 
 The `DCLDS` opcode can have have `LEN` keyword and it only supports basic RPG types (no `*string`, no `*decimal`, no objects) and the `DCLDSFLD` command has a `START` keyword.
 
- + The following commands are not present in ECR:
+## The following commands are not present in ECR:
  + `DclAlias & DclAliasGroup`
+ + `DclDelegate`
+ + `DclMemoryFile`
  + `DclOverlayGroup`
+ + `DclPrototype`
  + `DsDumpToBuffer/DsLoadFromBuffer`
  + `Set`
 
-### No support for Window and Web Forms
+## No support for Window and Web Forms
 Because ECR does not support the creation of applications with Window Forms, then the following Opcodes are not present in ECR.
 
  + `Show, Hide, NewForm, Unload, MsgBox`
@@ -48,4 +54,5 @@ Because ECR does not support the creation of applications with Window Forms, the
  + `DclEvent, DoEvents, AddHandler, RemoveHandler`
  + `DclSubfile, DclSubfileFld`
 
-Additionally the `BEGSR` and `BEGFUNC` opcodes do not have the `EVENT` keyword.
+## Additional Notes
+ + The `BEGSR` and `BEGFUNC` opcodes do not have the `EVENT` keyword.
