@@ -24,9 +24,9 @@ Required. The name of the parameter containing an **Options (*OMIT)** keyword.
 ### Remarks
 To support **Procedure** parameters, the **DclSrParm** command has an **OPTIONS** keyword. It is **only** valid in **BegProc** subroutines, and it may contain * **OMIT** and/or * **NOPASS** . Please see **DclSrParm** for further information. 
 
-Use the % **ISOMITTED** function to know whether a *OMIT parameter contains a valid value. 
+Use the **%OMITTED** function to know whether a *OMIT parameter contains a valid value. 
 
-**Note** % **ISOMITTED** and [%PARMS](PARMS_Function.html) functions are only valid inside a **BEGPROC** procedure. Also, % **IsOmitted** is only valid on parameters that have the **Options (*OMIT)** keyword. 
+**Note** **%OMITTED** and [%PARMS](PARMS_Function.html) functions are only valid inside a **BEGPROC** procedure. Also, **%Omitted** is only valid on parameters that have the **Options (*OMIT)** keyword. 
 
 ### Example
 
