@@ -413,7 +413,7 @@ Reference:
       path: /dox/DEC_Function.html
     - title: "%DECH Function"
       path: /dox/DECH_Function.html
-    - title: DECPOS Function
+    - title: "%DECPOS Function"
       path: /dox/DECPOS_Function.html
     - title: "%DIFF Function"
       path: /dox/DIFF_Function.html
@@ -458,7 +458,7 @@ Reference:
     - title: "%MONTHS Function"
       path: /dox/MONTHS_Function.html
     - title: "%MSECONDS Function"
-      path: /dox/MSECONDS.html
+      path: /dox/MSECONDS_Function.html
     - title: "%NULLIND Function"
       path: /dox/NULLIND_Function.html
     - title: "%OCCUR Function"
@@ -481,7 +481,7 @@ Reference:
       path: /dox/SQRT_Function.html
     - title: "%SUBDT Function"
       path: /dox/SUBDT_Function.html
-    - title: SUBST Function
+    - title: "%SUBST Function"
       path: /dox/SUBST_Function.html
     - title: "%TIME Function"
       path: /dox/TIME_Function.html
@@ -501,8 +501,6 @@ Reference:
       path: /dox/XLATE_Function.html
     - title: "%YEARS Function"
       path: /dox/YEARS_Function.html
-    - title: "%MSECONDS Function"
-      path: /dox/MSECONDS_Function.html
   - sectiontitle: Runtime Library
     sectionpath: /dox/ecrLrfClassLibraryMain.html
     section:

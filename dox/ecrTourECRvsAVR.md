@@ -29,15 +29,24 @@ Visual RPG produces .NET Framework assemblies while Encore RPG generates .NET as
  + Some Built-In functions have been renamed:   
        `%IsOmitted` is now `%Omitted`
 
-## Opcodes and Keywords
-Several Opcodes and Keywords are not present in ECR.
+## Array  Differences
+AVR and ECR have two ways of declaring an Array. An array is defined with the [DCLARRAY](/dox/DCLARRAY.html) command using either the keyword:
+ - `DIM`
+ - `RANK`
 
-## Data Structures 
+### DIMed Arrays
+In AVR and in ECR, an array defined via the DIM keyword gets its storage allocated as part of the `DCLARRAY` command. In AVR the array can have multiple dimension, however, in ECR the array can only have one dimmension. In ECR, multidimensional arrays have to be defined via the `RANK` keyword.
+
+### RANKed Arrays
+Arrays declared with the `RANK` keyword are similar in AVR and ECR, both implementations allow for one or more dimensions and require the array to be initialized explicitly via the `NEW` keyword, the `*NEW` operator or an assignment.
+
+## Data Structure Differences
 The implementation of Data Structures in ECR is closer to that of RPG than the one AVR had.
 
 The `DCLDS` opcode can have have `LEN` keyword and it only supports basic RPG types (no `*string`, no `*decimal`, no objects) and the `DCLDSFLD` command has a `START` keyword.
 
-## The following commands are not present in ECR:
+## Obsolete Commands
+ The following AVR commands are not present in ECR:
  + `DclAlias & DclAliasGroup`
  + `DclDelegate`
  + `DclMemoryFile`
@@ -46,7 +55,7 @@ The `DCLDS` opcode can have have `LEN` keyword and it only supports basic RPG ty
  + `DsDumpToBuffer/DsLoadFromBuffer`
  + `Set`
 
-## No support for Window and Web Forms
+### No support for Window and Web Forms
 Because ECR does not support the creation of applications with Window Forms, then the following Opcodes are not present in ECR.
 
  + `Show, Hide, NewForm, Unload, MsgBox`

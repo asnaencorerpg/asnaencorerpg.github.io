@@ -11,8 +11,7 @@ TocOrder: 30
 <span style="FONT-WEIGHT: bold">%MONTHS</span> [built-in function](Functions_overview.html) converts a number into a duration that can be added to a date or timestamp value. 
 
 ```
-%MONTHS (Number) 
-        
+%MONTHS (Number)        
 ```
 
 ### Parts
