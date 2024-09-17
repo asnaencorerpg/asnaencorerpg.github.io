@@ -68,3 +68,4 @@ Because ECR does not support the creation of applications with Window Forms, the
 
 ## Additional Notes
  + The `BEGSR` and `BEGFUNC` opcodes do not have the `EVENT` keyword.
+ + Procedures (`BEGPROC`) are allowed only on classes extending **ASNA.QSys.Runtime.JobSupport.Module**. Use `BEGSR` or `BEGFUNC` instead.
