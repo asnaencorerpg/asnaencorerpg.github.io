@@ -29,6 +29,9 @@ Visual RPG produces .NET Framework assemblies while Encore RPG generates .NET as
  + Some Built-In functions have been renamed:   
        `%IsOmitted` is now `%Omitted`
 
+ + Obsolete Built-In functions:   
+       `%SubArr`
+
 ## Array  Differences
 AVR and ECR have two ways of declaring an Array. An array is defined with the [DCLARRAY](/dox/DCLARRAY.html) command using either the keyword:
  - `DIM`
