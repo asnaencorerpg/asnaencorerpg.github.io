@@ -56,6 +56,7 @@ The `DCLDS` opcode can have have `LEN` keyword and it only supports basic RPG ty
  + `DclOverlayGroup`
  + `DclPrototype`
  + `DsDumpToBuffer/DsLoadFromBuffer`
+ + `ExitApp`
  + `Set`
 
 ### No support for Window and Web Forms
