@@ -26,11 +26,8 @@ Visual RPG produces .NET Framework assemblies while Encore RPG generates .NET as
  + Single character constants use single quotes (what used to be O'f' in AVR):   
        `DclFld MyOneChar *OneChar Init('f')`
 
- + Some Built-In functions have been renamed:   
+ + Built-In functions have been renamed:   
        `%IsOmitted` is now `%Omitted`
-
- + Obsolete Built-In functions:   
-       `%SubArr`
 
 ## Array  Differences
 AVR and ECR have two ways of declaring an Array. An array is defined with the [DCLARRAY](/dox/DCLARRAY.html) command using either the keyword:
