@@ -93,6 +93,34 @@ Manuals:
         path: /dox/ecrTourSettingandRetrievingProperties.html
       - title: Performing Actions with Methods
         path: /dox/ecrTourPerformingActionswithMethods.html
+  - sectiontitle: Encore RPG for Visual Studio
+    sectionpath: /dox/ecrVsMainIntro.html
+    section:
+    - sectiontitle: Projects
+      sectionpath: /dox/ecrVsProjects.html
+      section:
+      - title: Hello Encore!
+        path: /dox/ecrVsHelloWorld.html
+      - title: Add New Item
+        path: /dox/ecrVsProjAddNewItem.html
+      - title: Generate C# Project
+        path: /dox/ecrVsProjGenCSharp.html
+      - title: Advanced Topics
+        path: /dox/ecrVsProjAdvanced.html
+    - sectiontitle: Debugging
+      sectionPath: /dox/ecrVsDebugging.html
+      section: 
+      - title: Breakpoints
+        path: /dox/ecrVsDebugBreakpoints.html
+      - title: Examining Variables
+        path: /dox/ecrVsDebugExpressions.html
+    - sectiontitle: Editor Features
+      sectionpath: /dox/ecrVsEditorIntro.html
+      section:
+      - title: IntelliSense®
+        path: /dox/ecrVsSourceEditing.html
+      - title: Navigation
+        path: /dox/ecrVsSourceNav.html
   - title: Help Resources
     path: /dox/help-resources.html
 

@@ -14,13 +14,25 @@ sass:
   style: expanded
   
 defaults:
-  - scope:
+  - 
+    scope:
       path: ""
       type: "pages"
     values:
       layout: docs
       toc_min: 2
       toc_max: 3
+  - 
+    scope:
+      path: "dox"
+      type: "pages"
+    values:
+      vssku: "Visual Studio 2022"
+      vsver_min: "17.8"
+      dotnetver1: ".NET 6"
+      dotnetver2: ".NET 8"
+      dotnetverNext: ".NET 9"
+      vsImagesPath: "images/vs/"
 
       
 collections:
