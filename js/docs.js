@@ -54,12 +54,12 @@ function walkTree(tree) {
             // this is a branch with an optional branch description page
             let sectionHasPath = pageIsInSection(page.section);
             let pagePath = page.sectionpath ? `'${page.sectionpath}'` : "''" ;
-            outputLetNav.push('<li><a onclick="navClicked(' + pagePath +',' + totalTopics + ')" data-target="#item' + totalTopics + '" data-toggle="collapse" data-parent="#stacked-menu"')
+            outputLetNav.push('<li><a href="#item' + totalTopics + '" onclick="navClicked(' + pagePath +',' + totalTopics + ')" data-target="#item' + totalTopics + '" data-toggle="collapse" data-parent="#stacked-menu"')
             let classes = ""
             if (sectionHasPath) {
-                outputLetNav.push('aria-expanded="true"')
+                //outputLetNav.push('aria-expanded="true"')
             } else {
-                outputLetNav.push('aria-expanded="false"')
+                //outputLetNav.push('aria-expanded="false"')
                 classes = 'collapsed '
             }
             // highlight the branch if we are on its page
@@ -74,11 +74,11 @@ function walkTree(tree) {
             outputLetNav.push( `>${page.sectiontitle}<span onclick="navCaretToggle(event,${totalTopics})" class="caret arrow"></span></a>` );
             outputLetNav.push('<ul class="nav collapse');
             if (sectionHasPath) outputLetNav.push(" in");
-            outputLetNav.push('" id="#item' + totalTopics + '" aria-expanded="');
+            outputLetNav.push('" id="#item' + totalTopics /*+ '" aria-expanded="'*/);
             if (sectionHasPath) {
-                outputLetNav.push("true");
+                //outputLetNav.push("true");
             } else {
-                outputLetNav.push("false");
+                //outputLetNav.push("false");
             }
             outputLetNav.push('">');
             walkTree(page.section);
