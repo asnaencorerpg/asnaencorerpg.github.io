@@ -25,5 +25,4 @@ Encore RPG for Visual Studio language services provide the essentials for editin
 
 [Finding code references.](ecrVsSourceNav)
 
----
 {% include er4vs_foot_links.html %}

@@ -101,9 +101,9 @@ Manuals:
       section:
       - title: Hello Encore!
         path: /dox/ecrVsHelloWorld.html
-      - title: Add New Item
+      - title: Managing Project Items
         path: /dox/ecrVsProjAddNewItem.html
-      - title: Generate C# Project
+      - title: Generate C# Projects
         path: /dox/ecrVsProjGenCSharp.html
       - title: Advanced Topics
         path: /dox/ecrVsProjAdvanced.html

@@ -26,14 +26,14 @@ It enhances and extends many features of the C# project system:
 The basics: create an Encore RPG application from scratch.
 
 ---
-### Add New Item
+### Manage the Project
 
-[Add a new Encore class or other project item.](ecrVsProjAddNewItem)
+[Modify the project and track changes.](ecrVsProjAddNewItem)
 
-In addition to Encore files, add settings, resources, or even C# code.
+Add and remove Encore and other project items, and create a Git repository.
 
 ---
-### Generate C# Project
+### Generate C# Projects
 
 [Ready to Migrate?](ercVsPrjGenCSharp)
 
@@ -44,9 +44,6 @@ Create a C# project instantly from any Encore project in the solution.
 
 [More features...](ecrVsProjAdvanced)
 
-Scale up Encore CI/CD with DataGate™ caching.
-
----
-### Additional Information
+Scale up Encore CI/CD with DataGate™ caching in the Encore compiler.
 
 {% include er4vs_foot_links.html %}

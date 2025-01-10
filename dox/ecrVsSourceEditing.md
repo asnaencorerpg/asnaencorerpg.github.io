@@ -17,8 +17,6 @@ TocOrder: 15
 > Note: .NET 8 SDK is an essential component of current Visual Studio 2022 releases. If in doubt, use the Visual Studio Installer to ensure your installation is current.
 
 
-$$TODO!
+\$$TODO!
 
-
----
 {% include er4vs_foot_links.html %}
