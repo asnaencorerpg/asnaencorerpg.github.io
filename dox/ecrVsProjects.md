@@ -42,8 +42,8 @@ Create a C# project instantly from any Encore project in the solution.
 ---
 ### Advanced Topics
 
-[More features...](ecrVsProjAdvanced)
+[Project Configuration](ecrVsProjConfig)
 
-Scale up Encore CI/CD with DataGate™ caching in the Encore compiler.
+A tour of the configuration settings for Encore development and migration.
 
 {% include er4vs_foot_links.html %}

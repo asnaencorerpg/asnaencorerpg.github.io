@@ -105,8 +105,8 @@ Manuals:
         path: /dox/ecrVsProjAddNewItem.html
       - title: Generate C# Projects
         path: /dox/ecrVsProjGenCSharp.html
-      - title: Advanced Topics
-        path: /dox/ecrVsProjAdvanced.html
+      - title: Project Configuration
+        path: /dox/ecrVsProjConfig.html
     - sectiontitle: Debugging
       sectionPath: /dox/ecrVsDebugging.html
       section: 

@@ -29,8 +29,8 @@ Use Encore code templates and project items.
 #### [Migrate to C#](ecrVsPrjGenCSharp)
 Migrate your entire Encore project to C# in a single click.
 <br/><br/>
-#### [Advanced Features](ecrVsProjAdvanced)
-Get the most out of your development processes.
+#### [Project Configuration](ecrVsProjConfig)
+Get the most out of your development processes with the Visual Studio Project Designer.
 
 ---
 ### [Editor Features](ecrVsEditorIntro)
