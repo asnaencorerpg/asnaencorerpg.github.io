@@ -1,5 +1,6 @@
 ---
 title: DCLFLD
+description: Reference document for Encore DCLFLD, which may be used to declare code block variables, and class and instance field members.
 
 Id: DCLFLD
 TocParent: aerLrfOpCodesMain
