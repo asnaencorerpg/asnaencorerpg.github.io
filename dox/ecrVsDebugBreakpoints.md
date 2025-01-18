@@ -1,15 +1,15 @@
 ---
 title: Source Debugging with Breakpoints
-description: One bottleneck in the Encore development cycle is the compiler's resolution of externally-described file definitions via ASNA DataGate™. This page presents a potential remediation and its costs.
+description: This topic discusses using the Visual Studio debugger to create breakpoints and tracepoints, and commands to step through code in the Encore editor.
 
-Id: aerVsDbugBreakpoints
+Id: aerVsDebugBreakpoints
 TocParent: Projects
 TocOrder: 5
 
 
 ---
 
-The most basic feature of any debugging experience is the ability to stop execution of running applications with breakpoints.  Visual Studio provides best-in-class breakpoint features including conditionals, toggling, tracepoints, cascading, and hit counts. Encore RPG extends these features into its IntelliSense®-enabled editor.  Here are some quick walkthroughs.
+The most basic feature of any debugging experience is the ability to stop execution of running applications with breakpoints.  Visual Studio provides best-in-class breakpoint features including conditionals, toggling, tracepoints, cascades, and hit counts. Encore RPG extends these features into its IntelliSense®-enabled editor.  Below are some quick walkthroughs.
 
 ---
 ### Set a Breakpoint

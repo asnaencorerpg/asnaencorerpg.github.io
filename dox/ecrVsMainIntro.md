@@ -35,7 +35,7 @@ Get the most out of your development processes with the Visual Studio Project De
 ---
 ### [Editor Features](ecrVsEditorIntro)
 
-#### [IntelliSense™](ecrVsSourceEditing)
+#### [IntelliSense®](ecrVsSourceEditing)
 Introducing Encore-enabled [IntelliSense](https://learn.microsoft.com/en-us/visualstudio/ide/using-intellisense).
 <br/><br/>
 #### [Navigation](ecrVsSourceNav)
@@ -47,7 +47,7 @@ Easy ways to get to your code fast.
 #### [Breakpoints](ecrVsDebugBreakpoints)
 Set breakpoints and tracepoints in your code.
 <br/><br/>
-#### [Examine Variables](ecrVsDebugExpressions)
-Analyze the state of your application in the editor.
+#### [Examine Variables](ecrVsDebugInspect)
+Analyze the state of your application in the editor and Visual Studio debugger windows.
 
 {% include er4vs_foot_links.html %}

@@ -107,13 +107,15 @@ Manuals:
         path: /dox/ecrVsProjGenCSharp.html
       - title: Project Configuration
         path: /dox/ecrVsProjConfig.html
+      - title: File Definition Caching
+        path: /dox/ecrVsProjFileDefCaching.html
     - sectiontitle: Debugging
       sectionPath: /dox/ecrVsDebugging.html
       section: 
       - title: Breakpoints
         path: /dox/ecrVsDebugBreakpoints.html
       - title: Examining Variables
-        path: /dox/ecrVsDebugExpressions.html
+        path: /dox/ecrVsDebugInspect.html
     - sectiontitle: Editor Features
       sectionpath: /dox/ecrVsEditorIntro.html
       section:

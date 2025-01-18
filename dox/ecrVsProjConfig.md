@@ -76,7 +76,7 @@ Any file containing valid JSON-encoded text may be specified here. Database name
 
 When enabled, each compilation will use the Encore SDK externally-described file cache feature, which may improve overall build performance in large solutions and when accessing databases with high response latency. 
 
-Note: this feature should only be used with an understanding of its potential side-effects. Please see [File Definition Caching]() before enabling this feature.
+Note: this feature should only be used with an understanding of its potential side-effects. Please see [File Definition Caching](ecrVsProjFileDefCaching) before enabling this feature.
 
 ![The file definition cache is shown "disabled"]({{ page.vs_images_path }}FileDefCacheDisabled.png)
 
@@ -91,7 +91,7 @@ Note: this feature should only be used with an understanding of its potential si
 
 > This option is only visible in **Project Properties** when the File Definition Cache option is [enabled](#enable-file-definition-cache).
 
-Specifies the folder containing file definition cache. See [File Definition Caching]() for more details. The **Open file definition cache folder** hyperlink appears as shown below, allowing immediate inspection of the designated folder using the system file browser.
+Specifies the folder containing file definition cache. See [File Definition Caching](ecrVsProjFileDefCaching) for more details. The **Open file definition cache folder** hyperlink appears as shown below, allowing immediate inspection of the designated folder using the system file browser.
 
 ![File definition cache folder and hyperlink.]({{ page.vs_images_path }}FileDefCacheDirectoryOption.png)
 

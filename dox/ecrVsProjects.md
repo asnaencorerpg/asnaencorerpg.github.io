@@ -46,4 +46,8 @@ Create a C# project instantly from any Encore project in the solution.
 
 A tour of the configuration settings for Encore development and migration.
 
+[File Definition Caching](ecrVsProjFileDefCaching)
+
+Externally-described file caching can enhance build speed for large projects. 
+
 {% include er4vs_foot_links.html %}
