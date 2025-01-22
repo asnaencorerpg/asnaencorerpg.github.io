@@ -1,5 +1,6 @@
 ---
 title: Shared Members
+description: Discusses shared members, which are shared by all instances of an Encore class. Shared members are equivalent to  `static` members in C#.
 
 Id: aerTourSharedMembers
 TocParent: aerTourObjectOrientedProgrammingMain
@@ -14,7 +15,7 @@ Shared fields and properties are useful when you have information that is part o
 
 Shared procedures are not implicitly passed instances of the class. For this reason, no unqualified references to non-shared data members are allowed in shared methods. 
 
-### Shared Members Example
+## Shared Members Example
 The following example creates a shared field (```Barney```) in another class (```PublicFields```), and demonstrates how shared members operate in code: 
 
 ```

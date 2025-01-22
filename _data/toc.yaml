@@ -93,6 +93,36 @@ Manuals:
         path: /dox/ecrTourSettingandRetrievingProperties.html
       - title: Performing Actions with Methods
         path: /dox/ecrTourPerformingActionswithMethods.html
+  - sectiontitle: Encore RPG for Visual Studio
+    sectionpath: /dox/ecrVsMainIntro.html
+    section:
+    - sectiontitle: Projects
+      sectionpath: /dox/ecrVsProjects.html
+      section:
+      - title: Hello Encore!
+        path: /dox/ecrVsHelloWorld.html
+      - title: Managing Project Items
+        path: /dox/ecrVsProjAddNewItem.html
+      - title: Generate C# Projects
+        path: /dox/ecrVsProjGenCSharp.html
+      - title: Project Configuration
+        path: /dox/ecrVsProjConfig.html
+      - title: File Definition Caching
+        path: /dox/ecrVsProjFileDefCaching.html
+    - sectiontitle: Debugging
+      sectionPath: /dox/ecrVsDebugging.html
+      section: 
+      - title: Breakpoints
+        path: /dox/ecrVsDebugBreakpoints.html
+      - title: Examining Variables
+        path: /dox/ecrVsDebugInspect.html
+    - sectiontitle: Editor Features
+      sectionpath: /dox/ecrVsEditorIntro.html
+      section:
+      - title: IntelliSense®
+        path: /dox/ecrVsSourceEditing.html
+      - title: Navigation
+        path: /dox/ecrVsSourceNav.html
   - title: Help Resources
     path: /dox/help-resources.html
 
@@ -143,8 +173,15 @@ Concepts:
           path: /dox/ecrConIntegralTypes.html
         - title: NonIntegral Types
           path: /dox/ecrConNonintegralTypes.html
-      - title: "*Char Data Type"
-        path: /dox/Character_Data_Type.html
+      - sectiontitle: Text/Character DataTypes
+        sectionpath: /dox/ecrConTextDataTypes.html
+        section:
+        - title: "Character DataType"
+          path: /dox/ecrConCharacterDataType.html
+        - title: "String DataType"
+          path: /dox/ecrConStrings.html
+        - title: "OneChar DataType"
+          path: /dox/ecrConOneChar.html
     - sectiontitle: DataType Implementation
       sectionpath: /dox/ecrConDataTypeImplementation.html
       section:
@@ -232,11 +269,8 @@ Concepts:
     section:
     - title: Setting and Retrieving Properties
       path: /dox/ecrConSettingandRetrievingProperties.html
-  - sectiontitle: Strings
-    sectionpath: /dox/ecrConStrings.html
-    section:
-    - title: Manipulating Strings
-      path: /dox/ecrConManipulatingStrings.html
+  - title: Manipulating Strings
+    path: /dox/ecrConManipulatingStrings.html
   - title: Type Members
     path: /dox/ecrConTypeMembers.html
   - sectiontitle: Variables
@@ -409,7 +443,7 @@ Reference:
       path: /dox/DEC_Function.html
     - title: "%DECH Function"
       path: /dox/DECH_Function.html
-    - title: DECPOS Function
+    - title: "%DECPOS Function"
       path: /dox/DECPOS_Function.html
     - title: "%DIFF Function"
       path: /dox/DIFF_Function.html
@@ -454,7 +488,7 @@ Reference:
     - title: "%MONTHS Function"
       path: /dox/MONTHS_Function.html
     - title: "%MSECONDS Function"
-      path: /dox/MSECONDS.html
+      path: /dox/MSECONDS_Function.html
     - title: "%NULLIND Function"
       path: /dox/NULLIND_Function.html
     - title: "%OCCUR Function"
@@ -477,7 +511,7 @@ Reference:
       path: /dox/SQRT_Function.html
     - title: "%SUBDT Function"
       path: /dox/SUBDT_Function.html
-    - title: SUBST Function
+    - title: "%SUBST Function"
       path: /dox/SUBST_Function.html
     - title: "%TIME Function"
       path: /dox/TIME_Function.html
@@ -497,17 +531,15 @@ Reference:
       path: /dox/XLATE_Function.html
     - title: "%YEARS Function"
       path: /dox/YEARS_Function.html
-    - title: "%MSECONDS Function"
-      path: /dox/MSECONDS_Function.html
   - sectiontitle: Runtime Library
     sectionpath: /dox/ecrLrfClassLibraryMain.html
     section:
     - title: ASNA.QSys.Runtime Namespace
-      path: //asnaqsys.github.io/reference/asna-qsys-runtime/asna-qsys-runtime-section-intro.html
+      path: //asnaqsys.github.io/reference/runtime/qsys-runtime/landing-page-namespace.html
     - title: ASNA.QSys.Runtime.JobSupport Namespace
-      path: //asnaqsys.github.io/reference/asna-qsys-runtime-job-support/asna-qsys-runtime-job-support-section-intro.html
+      path: //asnaqsys.github.io/reference/runtime/qsys-runtime-job-support/landing-page-namespace.html
     - title: ASNA.DataGate.Client Namespace
-      path: //asnaqsys.github.io/reference/datagate-client/datagate-client-namespace.html
+      path: //asnaqsys.github.io/reference/datagate/datagate-client/landing-page-namespace.html
   - sectiontitle: Constants
     sectionpath: /dox/ecrLrfConstantsMain.html
     section:
@@ -531,6 +563,8 @@ Reference:
       path: /dox/Boolean_Data_Type.html
     - title: "*Byte Data Type"
       path: /dox/Byte_Data_Type.html
+    - title: "*Char Data Type"
+      path: /dox/Character_Data_Type.html
     - title: "*Date Data Type"
       path: /dox/Date_Data_Type.html
     - title: "*Decimal Data Type"
