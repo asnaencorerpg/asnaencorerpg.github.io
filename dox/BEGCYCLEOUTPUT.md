@@ -8,7 +8,7 @@ TocOrder: 100
 
 ---
 
-Defines the beginning of a **cycle's** print attributes.
+Defines the beginning of the declaration block for output specifications in classes that use the RPG program cycle.
 
 ```c
 BegCycleOutput    
@@ -38,8 +38,6 @@ EndCycleOutput
 
 ### See Also
 
-[DclFmtCycleAttr](DCLFMTCYCLEATTR.html)
-
 [EndCycleOutput](EndCycleOutput.html)
 
 [HeadingPrintSpec](HeadingPrintSpec.html)
@@ -53,3 +51,5 @@ EndCycleOutput
 [DetailDiskSpec](DetailDiskSpec.html)
 
 [TotalDiskSpec](TotalDiskSpec.html)
+
+[DclFmtCycleAttr](DCLFMTCYCLEATTR.html)
