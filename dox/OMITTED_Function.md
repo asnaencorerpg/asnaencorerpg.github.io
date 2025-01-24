@@ -14,7 +14,7 @@ TocOrder: 25
 %OMITTED (ParameterName)   
 ```
 
-### Parts
+### Parameters
 
 **ParameterName** 
 

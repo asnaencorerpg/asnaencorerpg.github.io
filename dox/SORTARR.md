@@ -15,7 +15,7 @@ SORTARR
 Arr  (Array Name)
 ```
 
-### Parts
+### Parameters
 
 **Arr** 
 

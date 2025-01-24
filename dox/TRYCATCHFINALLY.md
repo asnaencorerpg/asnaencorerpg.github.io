@@ -24,7 +24,7 @@ TRY
  ENDTRY 
 ```
 
-### Parts
+### Parameters
 
 **Try statements** 
 

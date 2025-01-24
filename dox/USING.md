@@ -15,7 +15,7 @@ USING *Namespace*
         
 ```
 
-### Parts
+### Parameters
 
 ** *Namespace* ** 
 

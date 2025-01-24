@@ -15,7 +15,7 @@ Used to perform a logical disjunction on two Boolean expressions, or a bitwise d
 ```
 
 
-### Parts
+### Parameters
 
 **result** 
 

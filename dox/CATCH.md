@@ -16,7 +16,7 @@ Name (Variable name)
 Type  (Class filter type)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

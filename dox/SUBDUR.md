@@ -24,7 +24,7 @@ Err (Indicator Variable | *Extended)
 
 ```
 
-### Parts
+### Parameters
 
 **F1** 
 

@@ -48,7 +48,7 @@ OnInput (Method name)
 OnOutput (Method name)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

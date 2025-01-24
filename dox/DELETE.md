@@ -20,7 +20,7 @@ NotFnd (Indicator Variable)
 Err (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **From** 
 

@@ -14,7 +14,7 @@ TocOrder: 12
 %DIV ( N,M )
 ```
 
-### Parts
+### Parameters
 
 **N,M** 
 

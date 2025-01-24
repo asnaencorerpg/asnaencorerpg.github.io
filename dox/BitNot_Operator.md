@@ -14,7 +14,7 @@ The ***BitNot** operator specifies the result of a bitwise NOT operation perform
 *BitNot ( *nExpression* )   
 ```
 
-### Parts
+### Parameters
 
 *nExpression* 
 

@@ -15,7 +15,7 @@ BEGSET
 NewValName (Name)
 ```
 
-### Parts
+### Parameters
 
 **NewValName** 
 

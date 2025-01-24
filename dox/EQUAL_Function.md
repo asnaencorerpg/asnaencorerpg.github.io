@@ -14,7 +14,7 @@ TocOrder: 19
 % EQUAL  {(File_name)}
 ```
 
-### Parts
+### Parameters
 
 **File_name** 
 

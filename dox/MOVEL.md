@@ -24,7 +24,7 @@ Len (length integer, decimal integer)
 TimFmt (*NONE | *DMY | *EUR | *HMS | *ISO | *JIS | *JUL | *MDY | *USA | *YMD)
 ```
 
-### Parts
+### Parameters
 
 **Source** 
 

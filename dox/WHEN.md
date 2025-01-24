@@ -15,7 +15,7 @@ WHEN
  Cond  (Conditional Expression)
 ```
 
-### Parts
+### Parameters
 
 **Cond** 
 

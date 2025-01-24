@@ -15,7 +15,7 @@ TocOrder: 4
  (Comparator, Base , {Start})   
 ```
 
-### Parts
+### Parameters
 
 **Comparator** 
 

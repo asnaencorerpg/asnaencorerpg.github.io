@@ -19,7 +19,7 @@ Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 |
 Len (Integer Literal, Integer Literal)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

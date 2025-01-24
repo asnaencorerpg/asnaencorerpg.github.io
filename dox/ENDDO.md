@@ -15,7 +15,7 @@ ENDDO
 Incr (Numeric Expression)
 ```
 
-### Parts
+### Parameters
 
 **Incr** 
 

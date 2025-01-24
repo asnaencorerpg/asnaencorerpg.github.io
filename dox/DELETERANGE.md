@@ -24,7 +24,7 @@ Err (Indicator Variable | *EXTENDED)
 NotAll (Indicator Variable)
 ```
 
-### Parts
+### Parameters
 
 **File** 
 

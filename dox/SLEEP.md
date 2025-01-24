@@ -15,7 +15,7 @@ SLEEP
  Interval  (Expression)
 ```
 
-### Parts
+### Parameters
 
 **Interval** 
 

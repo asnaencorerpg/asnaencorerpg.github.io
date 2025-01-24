@@ -16,7 +16,7 @@ DCLPLIST
 Name   (ParmListName)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

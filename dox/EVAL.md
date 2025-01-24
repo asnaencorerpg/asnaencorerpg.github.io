@@ -17,7 +17,7 @@ Adj (<u>*TRUNC</u> | *RNDUP)
 Err (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **F2** 
 

@@ -12,7 +12,7 @@ Returns a **Type** object for the specified type. The **Type** object can be use
 <pre class="prettyprint">  *Typeof(typename)<br /></pre>
 
 
-### Parts
+### Parameters
 
 *typename* 
 

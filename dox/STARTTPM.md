@@ -19,7 +19,7 @@ ExtraParms (Parm List)
 Err (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **Db** 
 

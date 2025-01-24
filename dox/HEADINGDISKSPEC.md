@@ -1,20 +1,20 @@
 ---
-title: TotalPrintSpec
+title: HeadingDiskSpec
 
-Id: TotalPrintSpec
+Id: HeadingDiskSpec
 TocParent: aerLrfOpCodesMain
-TocOrder: 1560
+TocOrder: 1115
 
 
 ---
 
-**TotalPrintSpec** is migrated and defines the Heading specs of a print file. It is generated in place of an O-Specs specified with an "H", and placed after a [BegCycleOutput](BegCycleOutput.html); one for each heading. 
+**HeadingDiskSpec** is migrated and defines the Heading specs of a print file. It is generated in place of an O-Specs specified with an "H", and placed after a [BegCycleOutput](BegCycleOutput.html); one for each heading. 
 
 ```
-TotalPrintSpec 
+HeadingDiskSpec 
  Fmt (Format name) 
 Cond (Conditional indicator)
-FetchOverflow (<u>*No</u>  | *Yes)
+FetchOverflow (<u>*No</u>  | *Yes)      
 ```
 
 ### Parameters
@@ -31,16 +31,16 @@ Optional. Contains the conditional indicators. More than 1 condition can be spec
 
 **FetchOverflow** 
 
-Optional. Indicates if the page is full and has reached overflow. Only the overflow lines for the file are checked for output. All total lines conditioned by the overflow indicator are rewritten.
+Optional. Indicates if the page is full and has reached overflow. Only the overflow lines for the file are checked for output. All total lines conditioned by the overflow indicator is written.
 
 
 ### Example
 
 ```
-
 BegCycleOutput
-   HeadingPrintSpec   CpyHdr   cond(*in1p *or *inOF)    HeadingPrintSpec   OrdHdr   cond(*in77) fetchOverflow(*yes)
-   HeadingPrintSpec   DetdHdr  cond(*in77) fetchOverflow(*yes)
+   HeadingDiskSpec   CpyHdr   cond(*in1p *or *inOF)    
+   HeadingDiskSpec   OrdHdr   cond(*in77) fetchOverflow(*yes)
+   HeadingDiskSpec   DetdHdr  cond(*in77) fetchOverflow(*yes)
    DetailPrintSpec    PDetail  cond(*in42) fetchOverflow(*yes)
    TotalPrintSpec     DetTot   cond(*inL1 *and detInd) fetchOverflow(*yes)
    TotalPrintSpec     BoHdr    cond(*inL1 *and detInd *and *in43) fetchOverflow(*yes)
@@ -48,7 +48,7 @@ BegCycleOutput
    TotalPrintSpec     BoSubT   cond(*inL1 *and boInd) fetchOverflow(*yes)
    TotalPrintSpec     BoTot    cond(*inL2 *and boInd) fetchOverflow(*yes)
    TotalPrintSpec     OrdTot   cond(*inL2) fetchOverflow(*yes)
-EndCycleOutput  
+EndCycleOutput 
 ```
 
 ### See Also
@@ -56,8 +56,8 @@ EndCycleOutput
 
 [DCLFMTCYCLEATTR](DCLDISKFILE.html) 
 
+[DetailPrintSpec](DetailPrintSpec.html) 
+
 [EndCycleOutput](EndCycleOutput.html) 
 
-[HeadingPrintSpec](HeadingPrintSpec.html) 
-
-[DetailPrintSpec](DetailPrintSpec.html) 
+[TotalPrintSpec](TotalPrintSpec.html) 

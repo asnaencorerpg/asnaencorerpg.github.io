@@ -15,7 +15,7 @@ GOTO
 Label (label name)
 ```
 
-### Parts
+### Parameters
 
 **Label** 
 

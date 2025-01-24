@@ -12,7 +12,7 @@ TocOrder: 13
 <pre class="prettyprint">
  **%EDITC (NumericExpression, EditCode,**  {*ASTFill | *CURSYM | Currency-symbol} **)** <br /></pre>
 
-### Parts
+### Parameters
 
 **NumericExpression, EditCode** 
 

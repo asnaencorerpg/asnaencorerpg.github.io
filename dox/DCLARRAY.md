@@ -31,7 +31,7 @@ Attributes (Attribute 1, Attribute 2, ...)
 Like (Field name)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

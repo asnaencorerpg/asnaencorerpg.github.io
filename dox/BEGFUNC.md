@@ -30,7 +30,7 @@ ReturnAttributes (attribute 1, attribute 2, ...)
 ```
 
 
-### Parts
+### Parameters
 
 **Name** 
 

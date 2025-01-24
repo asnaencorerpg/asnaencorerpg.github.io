@@ -12,7 +12,7 @@ TocOrder: 46
 <pre class="prettyprint">
  **%TIMESTAMP**  ((Expression {, <u>*ISO</u> | *ISO0}))<br /></pre>
 
-### Parts
+### Parameters
 
 **Expression** 
 

@@ -22,7 +22,7 @@ Type (*BINARY | *BOOLEAN | *BYTE | *CHAR | *DATE | *DECIMAL | *FLOAT | *FLOAT4 |
 Len (Length Integer, [Decimal Integer])
 ```
 
-### Parts
+### Parameters
 
 **Source** 
 

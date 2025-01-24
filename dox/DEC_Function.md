@@ -21,7 +21,7 @@ Note that the first parameter can be either a numeric or character expression an
 
 ```
 
-### Parts
+### Parameters
 
 **Expression** 
 

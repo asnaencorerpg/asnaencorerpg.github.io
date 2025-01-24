@@ -16,7 +16,7 @@ DCLNAMESPACE
 Name (Character Expression)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

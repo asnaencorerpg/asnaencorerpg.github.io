@@ -30,7 +30,7 @@ DataAreaDB (database name)
 DataArea (*Libl/<name> | <string literal> | *YES | *VAR<name> | *LDA)      
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

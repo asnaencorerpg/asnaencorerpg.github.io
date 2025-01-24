@@ -19,7 +19,7 @@ Attributes (Attribute 1, Attribute 2, ...)
 ```
 
 
-### Parts
+### Parameters
 
 **Name** 
 

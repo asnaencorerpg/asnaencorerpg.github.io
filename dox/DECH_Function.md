@@ -14,7 +14,7 @@ TocOrder: 8
 %DECH  ( Numeric or Character Expression ,{ Precision, Decimal Places }) 
 ```
 
-### Parts
+### Parameters
 
 **Numeric or Character Expression** 
 

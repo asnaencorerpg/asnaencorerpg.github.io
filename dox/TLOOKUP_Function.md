@@ -18,7 +18,7 @@ TocOrder: 47
  %TLOOKUPLE (Argument, Search_Table  {, Alternate_Table} ) 
 ```
 
-### Parts
+### Parameters
 
 **Argument, Search_Table** 
 

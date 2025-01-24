@@ -28,7 +28,7 @@ Options (*OMIT | *NOPASS)
 [Support for Procedure Parameters]
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

@@ -15,7 +15,7 @@ DOWHILE
  Cond  (Comparison Expression)   
 ```
 
-### Parts
+### Parameters
 
 **Cond** 
 

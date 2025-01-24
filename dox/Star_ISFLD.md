@@ -15,7 +15,7 @@ The * **ISFLD** operator evaluates to * **True** if <expression> can be cast to 
         
 ```
 
-### Parts
+### Parameters
 
 *expression* 
 

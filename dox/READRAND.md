@@ -20,7 +20,7 @@ Err (*EXTENDED | Indicator Variable)
 IntoDS (Data structure)  
 ```
 
-### Parts
+### Parameters
 
 **From** 
 

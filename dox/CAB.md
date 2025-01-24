@@ -16,7 +16,7 @@ Cond  (Expression)
  Label  (Character expression)
 ```
 
-### Parts
+### Parameters
 
 **Cond** 
 

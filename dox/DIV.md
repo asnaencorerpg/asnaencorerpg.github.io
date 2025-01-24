@@ -25,7 +25,7 @@ Type (<u>*NONE</u> | *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *F
 Len (Length Integer, [Decimal Integer])
 ```
 
-### Parts
+### Parameters
 
 **F1** 
 

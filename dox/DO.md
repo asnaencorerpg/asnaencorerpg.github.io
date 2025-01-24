@@ -20,7 +20,7 @@ Type (<u>*NONE</u> | *BINARY | *BOOLEAN | *BYTE | *CHAR | *FLOAT | *FLOAT4 | *FL
 Len (Length Integer, [Decimal Integer])
 ```
 
-### Parts
+### Parameters
 
 **FromVal** 
 

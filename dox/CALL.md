@@ -19,7 +19,7 @@ Err (Indicator Variable | *EXTENDED)
 Lr (Indicator Variable)    
 ```
 
-### Parts
+### Parameters
 
 **Pgm** 
 

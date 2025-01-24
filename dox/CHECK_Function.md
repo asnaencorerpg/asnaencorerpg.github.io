@@ -14,7 +14,7 @@ TocOrder: 3
 %CHECK (Comparator, Base , {Start})
 ```
 
-### Parts
+### Parameters
 
 **Comparator** 
 

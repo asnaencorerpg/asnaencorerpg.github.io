@@ -14,7 +14,7 @@ TocOrder: 36
  *<result>*  = %REM  (n,m)
 ```
 
-### Parts
+### Parameters
 
 **n,m** 
 

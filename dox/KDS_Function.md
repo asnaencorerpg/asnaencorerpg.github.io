@@ -14,7 +14,7 @@ TocOrder: 26
 %KDS (DSN_name  {, Number-keys} ) 
 ```
 
-### Parts
+### Parameters
 
 **DSN_name** 
 

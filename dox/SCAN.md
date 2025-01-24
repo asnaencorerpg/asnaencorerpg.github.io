@@ -21,7 +21,7 @@ Err (Indicator Variable | *EXTENDED)
 Fnd (Indicator Variable)
 ```
 
-### Parts
+### Parameters
 
 **CmpStr** 
 

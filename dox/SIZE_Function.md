@@ -14,7 +14,7 @@ TocOrder: 40
 %Size (argument | *ALL )
 ```
 
-### Parts
+### Parameters
 
 ** *Argument* ** 
 

@@ -17,7 +17,7 @@ BITON
  Type (*BYTE)
 ```
 
-### Parts
+### Parameters
 
 **Mask** 
 

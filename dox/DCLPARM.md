@@ -22,7 +22,7 @@ Len (Length Integer, [Decimal Integer])
 DbDirection (<u>*BOTH</u> | *INPUT | *OUTPUT)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

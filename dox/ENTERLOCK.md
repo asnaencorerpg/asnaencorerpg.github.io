@@ -15,7 +15,7 @@ ENTERLOCK
 Object (expression)
 ```
 
-### Parts
+### Parameters
 
 **Object** 
 

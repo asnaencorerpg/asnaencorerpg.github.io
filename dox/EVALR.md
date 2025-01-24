@@ -16,7 +16,7 @@ F2  (Assignment Expression)
 Err (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **F2** 
 

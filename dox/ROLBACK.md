@@ -21,7 +21,7 @@ ROLLBACK
 Err (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **Db** 
 

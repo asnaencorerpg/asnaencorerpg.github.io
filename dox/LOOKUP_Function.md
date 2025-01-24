@@ -18,7 +18,7 @@ TocOrder: 28
  %LOOKUPLE (Argument, Array {, Start-index {, Num-elements}} ) 
 ```
 
-### Parts
+### Parameters
 
 **Argument, Array** 
 

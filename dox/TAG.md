@@ -14,7 +14,7 @@ Declares a label that identifies the destination of a [GOTO](GOTO.html) operatio
 TAG Name  (Label name)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

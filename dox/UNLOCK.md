@@ -16,7 +16,7 @@ Obj (Oject Name | *DTAARA)
 Err (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **Obj** 
 

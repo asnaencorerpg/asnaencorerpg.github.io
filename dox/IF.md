@@ -15,7 +15,7 @@ IF
  Cond  (Comparison Expression)
 ```
 
-### Parts
+### Parameters
 
 **Cond** 
 

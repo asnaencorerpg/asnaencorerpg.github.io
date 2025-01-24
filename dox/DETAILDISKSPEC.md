@@ -1,17 +1,17 @@
 ---
-title: DetailPrintSpec
+title: DetailDiskSpec
 
-Id: DetailPrintSpec
+Id: DetailDiskSpec
 TocParent: aerLrfOpCodesMain
-TocOrder: 660
+TocOrder: 655
 
 
 ---
 
-**DetailPrintSpec** represents an OSpec that is written by the cycle during detail output time. 
+**DetailDiskSpec** represents an OSpec that is written by the cycle during detail output time. 
 
 ```
-DetailPrintSpec 
+DetailDiskSpec 
  Fmt (Format name) 
  Cond (Conditional indicator)
  FetchOverflow (<u>*No</u>  | *Yes)
@@ -41,10 +41,10 @@ BegCycleOutput
    HeadingPrintSpec CpyHdr	cond(*in1p *or *inOF)  
    HeadingPrintSpec OrdHdr   cond(*in77) fetchOverflow(*yes)
    HeadingPrintSpec DetdHdr  cond(*in77) fetchOverflow(*yes)
-   DetailPrintSpec  PDetail  cond(*in42) fetchOverflow(*yes)
+   DetailDiskSpec  PDetail  cond(*in42) fetchOverflow(*yes)
    TotalPrintSpec   DetTot   cond(*inL1 *and detInd) fetchOverflow(*yes)
    TotalPrintSpec   BoHdr    cond(*inL1 *and detInd *and *in43) fetchOverflow(*yes)
-   DetailPrintSpec  PBo      cond(*in43) fetchOverflow(*yes)
+   DetailDiskSpec  PBo      cond(*in43) fetchOverflow(*yes)
    TotalPrintSpec   BoSubT   cond(*inL1 *and boInd) fetchOverflow(*yes) 
    TotalPrintSpec   BoTot    cond(*inL2 *and boInd) fetchOverflow(*yes)
    TotalPrintSpec   OrdTot   cond(*inL2) fetchOverflow(*yes)

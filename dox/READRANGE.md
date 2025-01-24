@@ -26,7 +26,7 @@ Err (*EXTENDED | Indicator Variable)
 Eof (Indicator Variable)
 ```
 
-### Parts
+### Parameters
 
 **File** 
 

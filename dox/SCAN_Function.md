@@ -14,7 +14,7 @@ TocOrder: 38
  *<pos>*  = %SCAN (SearchArgument, SourceString,  {Start})
 ```
 
-### Parts
+### Parameters
 
 **SearchArgument** 
 

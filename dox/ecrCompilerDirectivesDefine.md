@@ -14,7 +14,7 @@ TocOrder: 0
  /DEFINE <symbol>      
 ```
 
-### Parts
+### Parameters
 
 **symbol** 
 

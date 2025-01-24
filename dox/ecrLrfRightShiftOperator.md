@@ -14,7 +14,7 @@ Performs an arithmetic right shift on a bit pattern.
   *result*  = *pattern*  >> *bitCount*     
 ```
 
-### Parts
+### Parameters
 
 *result* 
 

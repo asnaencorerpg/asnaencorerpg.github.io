@@ -12,7 +12,7 @@ TocOrder: 45
 <pre class="prettyprint">
  **%TIME**  ((Expression {, <u>*ISO</u> | *HMS | *USA | *EUR | *JIS}))<br /></pre>
 
-### Parts
+### Parameters
 
 **Expression** 
 

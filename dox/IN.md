@@ -18,7 +18,7 @@ DB (database objectt)
 ERR (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

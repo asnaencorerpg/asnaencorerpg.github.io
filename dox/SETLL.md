@@ -18,7 +18,7 @@ Err (*EXTENDED | Indicator Variable)
 KeyEq (Indicator Variable)
 ```
 
-### Parts
+### Parameters
 
 **File** 
 

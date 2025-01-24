@@ -15,7 +15,7 @@ ExitAPP
 ExitCode (Numeric Expression)
 ```
 
-### Parts
+### Parameters
 
 **ExitCode** 
 

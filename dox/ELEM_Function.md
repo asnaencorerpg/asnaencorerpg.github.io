@@ -16,7 +16,7 @@ TocOrder: 16
  %ELEM (Multiple_occurrence_data_structure_name) 
 ```
 
-### Parts
+### Parameters
 
 **Table_name, Array_name, Multiple_occurrence_data_structure_name** 
 

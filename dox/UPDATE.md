@@ -18,7 +18,7 @@ Err (Indicator Variable | *EXTENDED)
 Flds (field1, field2, ... , fieldn)
 ```
 
-### Parts
+### Parameters
 
 **File** 
 

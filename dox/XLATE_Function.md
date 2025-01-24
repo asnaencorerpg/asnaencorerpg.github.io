@@ -14,7 +14,7 @@ TocOrder: 52
 %XLATE (From, To, String   {,Start_position} ) 
 ```
 
-### Parts
+### Parameters
 
 **From** 
 

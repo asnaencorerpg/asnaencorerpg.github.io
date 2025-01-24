@@ -18,7 +18,7 @@ Eq (Indicator Variable)
 IndList (Indicator Variable, Indicator Variable, ...)
 ```
 
-### Parts
+### Parameters
 
 **Hi** 
 

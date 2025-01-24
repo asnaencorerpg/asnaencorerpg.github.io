@@ -26,7 +26,7 @@ Wait (<u>*NO</u> | *YES | Indicator Expression)
 ExitCode(Numeric Variable)  
 ```
 
-### Parts
+### Parameters
 
 **CmdLine** 
 

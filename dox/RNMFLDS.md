@@ -17,7 +17,7 @@ RNMFLDS
  Flds    (External field name, Internal field name, ...)
 ```
 
-### Parts
+### Parameters
 
 **Fmt** 
 

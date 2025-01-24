@@ -14,7 +14,7 @@ TocOrder: 5
 %DATE  ((Expression {, <u>*ISO</u> | *JUL | *USA | *EUR | *JIS | *MDY | *DMY | *YMD }))
 ```
 
-### Parts
+### Parameters
 
 **Expression** 
 

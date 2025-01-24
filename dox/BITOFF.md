@@ -17,7 +17,7 @@ Mask (Character Expression)
 Type (*BYTE)
 ```
 
-### Parts
+### Parameters
 
 **Mask** 
 

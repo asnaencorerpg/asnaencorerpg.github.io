@@ -15,7 +15,7 @@ The ***Is** operator is used to check whether the run-time type of an object is 
         
 ```
 
-### Parts
+### Parameters
 
 *expression* 
 

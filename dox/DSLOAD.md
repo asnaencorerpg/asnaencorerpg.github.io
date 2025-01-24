@@ -12,7 +12,7 @@ Populates the fields of the **data structure** specified in **Name** using the *
 <pre class="prettyprint">
         <span style="FONT-WEIGHT: bold">DSLOAD<br />Name </span>(DS name)<br /> **Source**  (String)<br /></pre>
 
-### Parts
+### Parameters
 
 **Name** 
 

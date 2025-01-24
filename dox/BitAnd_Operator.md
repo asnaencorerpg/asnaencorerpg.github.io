@@ -14,7 +14,7 @@ Used to perform a logical conjunction on two Boolean expressions, or a bitwise c
  result  = expression1 *BitAnd expression2 
 ```
 
-### Parts
+### Parameters
 
 **result** 
 

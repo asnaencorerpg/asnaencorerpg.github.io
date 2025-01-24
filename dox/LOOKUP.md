@@ -20,7 +20,7 @@ Lo (Indicator Variable)
 Eq (Indicator Variable)
 ```
 
-### Parts
+### Parameters
 
 **Source** 
 

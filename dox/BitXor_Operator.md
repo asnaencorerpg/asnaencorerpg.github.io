@@ -15,7 +15,7 @@ Used to perform a logical exclusive OR on two Boolean expressions, or a bitwise 
 ```
 
 
-### Parts
+### Parameters
 
 **result** 
 

@@ -18,7 +18,7 @@ Len (Length Integer [, Decimal Integer])
 ResultTimFmt(<u>*ISO</u> | *DMY | *EUR | *JIS | *JUL | *MDY | *USA | *YMD) 
 ```
 
-### Parts
+### Parameters
 
 **Target** 
 

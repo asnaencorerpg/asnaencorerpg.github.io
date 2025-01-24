@@ -17,7 +17,7 @@ Lock ( <u>*NO</u> | *YES)
 ERR (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

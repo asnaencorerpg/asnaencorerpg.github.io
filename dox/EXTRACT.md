@@ -26,7 +26,7 @@ Len (Length Integer, [Decimal Integer])
 Err (Indicator Variable | *EXTENDED)
 ```
 
-### Parts
+### Parameters
 
 **F2** 
 

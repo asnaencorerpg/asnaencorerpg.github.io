@@ -15,7 +15,7 @@ THROW
  Exception  (Type of class filter)
 ```
 
-### Parts
+### Parameters
 
 **Exception** 
 

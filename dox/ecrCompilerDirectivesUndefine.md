@@ -14,7 +14,7 @@ TocOrder: 7
  /UNDEFINE <symbol>       
 ```
 
-### Parts
+### Parameters
 
 **symbol** 
 

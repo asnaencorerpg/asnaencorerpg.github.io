@@ -17,7 +17,7 @@ Err (Indicator Variable | *EXTENDED)
 Reset (Indicator Expression | <u>*NO</u> | *YES)
 ```
 
-### Parts
+### Parameters
 
 **File** 
 

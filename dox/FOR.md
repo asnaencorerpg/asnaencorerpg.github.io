@@ -18,7 +18,7 @@ DownTo (Expression)
 By (Expression)
 ```
 
-### Parts
+### Parameters
 
 **Index** 
 

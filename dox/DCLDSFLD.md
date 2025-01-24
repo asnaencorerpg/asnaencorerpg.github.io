@@ -27,7 +27,7 @@ DataArea (*Libl/<name> | <string literal> | *YES | *VAR, <name> | *LDA)
 StartAt (Position)
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 

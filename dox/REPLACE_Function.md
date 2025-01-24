@@ -14,7 +14,7 @@ TocOrder: 37
 <stringVal> = %REPLACE (ReplaceString, SourceString,  {StartPos, {SourceLengthToReplace})
 ```
 
-### Parts
+### Parameters
 
 **ReplaceString, SourceString** 
 

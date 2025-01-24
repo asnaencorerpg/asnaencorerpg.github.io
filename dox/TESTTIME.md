@@ -20,7 +20,7 @@ Len (Length Integer, [Decimal Integer])
 ResultType(<u>*NONE</u> | *DATE | *TIME | *TIMESTAMP)     
 ```
 
-### Parts
+### Parameters
 
 **TimFmt** 
 

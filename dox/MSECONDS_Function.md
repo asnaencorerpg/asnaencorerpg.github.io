@@ -14,7 +14,7 @@ TocOrder: 60
  %MSECONDS (Number)
 ```
 
-### Parts
+### Parameters
 
 **Number** 
 

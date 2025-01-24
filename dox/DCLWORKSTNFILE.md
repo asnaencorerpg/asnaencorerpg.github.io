@@ -28,7 +28,7 @@ InfSR (Subroutine Name)
 
 ```
 
-### Parts
+### Parameters
 
 **Name** 
 
