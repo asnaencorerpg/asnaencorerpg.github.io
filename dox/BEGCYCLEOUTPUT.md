@@ -38,18 +38,18 @@ EndCycleOutput
 
 ### See Also
 
-[EndCycleOutput](EndCycleOutput.html)
+[ENDCYCLEOUTPUT](EndCycleOutput.html)
 
-[HeadingPrintSpec](HeadingPrintSpec.html)
+[HEADINGPRINTSPEC](HeadingPrintSpec.html)
 
-[DetailPrintSpec](DetailPrintSpec.html)
+[DETAILPRINTSPEC](DetailPrintSpec.html)
 
-[TotalPrintSpec](TotalPrintSpec.html)
+[TOTALPRINTSPEC](TotalPrintSpec.html)
 
-[HeadingDiskSpec](HeadingDiskSpec.html)
+[HEADINGDISKSPEC](HeadingDiskSpec.html)
 
-[DetailDiskSpec](DetailDiskSpec.html)
+[DETAILDISKSPEC](DetailDiskSpec.html)
 
-[TotalDiskSpec](TotalDiskSpec.html)
+[TOTALDISKSPEC](TotalDiskSpec.html)
 
-[DclFmtCycleAttr](DCLFMTCYCLEATTR.html)
+[DCLFMTCYCLEATTR](DCLFMTCYCLEATTR.html)

@@ -98,6 +98,6 @@ EndClass
 
 [Custom Attributes](ecrConCustomAttributes.html)
 
-[EndClass](ENDCLASS.html)
+[ENDCLASS](ENDCLASS.html)
 
 [Understanding Classes](ecrTourUnderstandingClassesMain.html)

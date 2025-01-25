@@ -61,13 +61,13 @@ Optional. Allows a constructor to call another constructor in this same class. I
 
 Optional. Allows you to list one or more attributes on the constructor. To specify more than one attribute, simply separate them with commas.
 
-Attributes use both required and optional arguments. The required parameters are provided in positional fashion. Positional arguments are arguments that are specified in the order they are declared for the constructor of an attribute. For example, the following code specifies the `Description` attribute:
+Example:
 
 ```c
 BegConstructor Customer Attributes(Description("Constructs an instance of the customer class"))
 ```
 
-**Note &#8211;** You must use positional arguments for arguments that are used with the attribute's constructor. Named arguments can only be used to set the values of fields and properties of attribute classes.
+**Note &#8211;** You must provide all arguments that are defined in the attribute's constructor. Use named arguments to set the values of properties in the attribute class.
 
 ### Remarks
 
@@ -80,6 +80,6 @@ A **BegConstructor** routine must end with the [EndConstructor](ENDCONSTRUCTOR.h
 ### See Also
 [Custom Attributes](ecrConCustomAttributes.html)
 
-[EndConstructor](ENDCONSTRUCTOR.html)
+[ENDCONSTRUCTOR](ENDCONSTRUCTOR.html)
 
 [Using Constructors](ecrConUsingConstructors.html) 

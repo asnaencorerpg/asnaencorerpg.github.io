@@ -26,10 +26,10 @@ Required. The name of the enumeration definition.
 
 #### Access
 
-Optional. Allows the enumeration definition to be accessible to the "outside world". *PUBLIC is the default.
+Optional. Defines the accessibility of the enumeration:
 
-- *INTERNAL – enumeration definition is accessible by the whole assembly (all the classes in the same dll or exe).
-- *PUBLIC (default) – enumeration definition is accessible by everybody.
+- `*INTERNAL` – enumeration definition is accessible by the current assembly (all the classes in the same dll or exe).
+- `*PUBLIC` (default) – enumeration definition is accessible outside of the current assembly.
 
 #### BaseType
 
@@ -37,21 +37,21 @@ Optional. Declares the base type for the values in this enumeration. It defaults
 
 #### Attributes
 
-Optional. Allows you to list one or more attributes on the object being defined by the command. To specify more than one attribute, simply separate them with commas.
+Optional. Allows you to list one or more attributes on the enumeration. To specify more than one attribute, simply separate them with commas.
 
-Attributes use required, and optional arguments. The required parameters are provided in positional fashion. Positional arguments are arguments that are specified in the order they are declared for the constructor of an attribute. For example, the following code specifies the `Description` attribute:
+Example:
 
 ```c
-BEGENUM SevenDwarves Attributes(Description("Enumeration of Snow White's 7 dwarf friends"))
+BegEnum SevenDwarves Attributes(Description("Enumeration of Snow White's 7 dwarf friends"))
 ```
 
-Note &#8211; You must use positional arguments for arguments that are used with the attribute’s interface. Named arguments can only be used to set the values of fields and properties of attribute classes.
+**Note &#8211;** You must provide all arguments that are defined in the attribute's constructor. Use named arguments to set the values of properties in the attribute class.
 
 ### Remarks
 
 Enums are used to describe enumeration constants. Their only members are [DclEnumFld](DCLENUMFLD.html) fields.
 
-The **BEGENUM** routine must end with the [ENDENUM](ENDENUM.html) command.
+A `BegEnum` block must end with an [`EndEnum`](ENDENUM.html) command.
 
 ### Example
 
@@ -64,8 +64,8 @@ EndEnum
 
 ### See Also
 
-[EndEnum](ENDENUM.html)
+[ENDENUM](ENDENUM.html)
 
-[DclEnumFld](DCLENUMFLD.html)
+[DCLENUMFLD](DCLENUMFLD.html)
 
 [Enumeration Definition](ecrConEnumerationsOverview.html)
