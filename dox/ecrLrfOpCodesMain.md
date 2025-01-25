@@ -23,8 +23,6 @@ TocOrder: 10
 
 <a name="Cb">B</a> - <a href="#Top"> Back to Top </a>
 
-[BEEP](BEEP.html) 
-
 [BEGCLASS](BEGCLASS.html) 
 
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html) 
@@ -131,6 +129,8 @@ TocOrder: 10
 
 [DELETERANGE](DELETERANGE.html) 
 
+[DETAILDISKSPEC](DetailDiskSpec.html) 
+
 [DETAILPRINTSPEC](DetailPrintSpec.html) 
 
 [DISCONNECT](DISCONNECT.html) 
@@ -234,6 +234,8 @@ TocOrder: 10
 <br/>
 
 <a name="Ch">H</a> - <a href="#Top"> Back to Top </a>
+
+[HEADINGDISKSPEC](HeadingDiskSpec.html) 
 
 [HEADINGPRINTSPEC](HeadingPrintSpec.html) 
 
@@ -356,6 +358,8 @@ TocOrder: 10
 [THROW](THROW.html) 
 
 [TIME](TIME.html) 
+
+[TOTALDISKSPEC](TotalDiskSpec.html) 
 
 [TOTALPRINTSPEC](TotalPrintSpec.html) 
 
