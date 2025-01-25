@@ -687,8 +687,6 @@ Reference:
       path: /dox/ADD.html
     - title: ADDDUR
       path: /dox/ADDDUR.html
-    - title: BEEP
-      path: /dox/BEEP.html
     - title: BEGCLASS
       path: /dox/BEGCLASS.html
     - title: BEGCONSTRUCTOR
@@ -791,8 +789,10 @@ Reference:
       path: /dox/DELETE.html
     - title: DELETERANGE
       path: /dox/DELETERANGE.html
-    - title: DETAILSPEC
-      path: /dox/DETAILSPEC.html
+    - title: DETAILDISKSPEC
+      path: /dox/DETAILDISKSPEC.html
+    - title: DETAILPRINTSPEC
+      path: /dox/DETAILPRINTSPEC.html
     - title: DISCONNECT
       path: /dox/DISCONNECT.html
     - title: DIV
@@ -879,8 +879,10 @@ Reference:
       path: /dox/FOREACH.html
     - title: GOTO
       path: /dox/GOTO.html
-    - title: HEADINGSPEC
-      path: /dox/HEADINGSPEC.html
+    - title: HEADINGDISKSPEC
+      path: /dox/HEADINGDISKSPEC.html
+    - title: HEADINGPRINTSPEC
+      path: /dox/HEADINGPRINTSPEC.html
     - title: IF
       path: /dox/IF.html
     - title: IN
@@ -975,8 +977,10 @@ Reference:
       path: /dox/THROW.html
     - title: TIME
       path: /dox/TIME.html
-    - title: TOTALSPEC
-      path: /dox/TOTALSPEC.html
+    - title: TOTALDISKSPEC
+      path: /dox/TOTALDISKSPEC.html
+    - title: TOTALPRINTSPEC
+      path: /dox/TOTALPRINTSPEC.html
     - title: TRY
       path: /dox/TRY.html
     - title: UDATE

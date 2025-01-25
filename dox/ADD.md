@@ -22,7 +22,7 @@ Type (<u>*NONE</u>| *BINARY | *BOOLEAN | *BYTE | *CHAR | *DECIMAL | *FLOAT | *FL
 Len (Length [, Decimals])
 ```
 
-### Parts
+### Parameters
 
 #### F1
 
