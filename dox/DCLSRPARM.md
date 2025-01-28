@@ -124,10 +124,7 @@ The data type ( **Type** ) and length ( **Len** ) can be specified.
 
 Subroutine parameters are declared as local variables to your subroutine. Thus, multiple subroutines can declare the same parameter name, and the names won't clash. 
 
-When parameters are passed on the **EXSR** , they don't necessarily need to be the same type as specified on the **DCLSRPARM** statement. Encore RPG will coerce the parameter to the type you give. For example, many parameters are four-byte integers, but if you declare the parm as zoned, the value will be converted/possibly truncated accordingly. Likewise, if you specify character, the parm will be copied to the character as if you were doing a [MOVEL](MOVEL.html) with Pad. The programmer is responsible to make sure that values are not truncated because the receiving parameter is too small. 
-
-Some events have parameters that tell you more specific information about the event. **MouseDown** for example, passes the X and Y coordinates, and a code that tells which mouse button was pressed. See [Event Subroutine Parameters](Event_Subroutine_Parameters.html) for more information.
-
+When parameters are passed on the **EXSR** , they don't necessarily need to be the same type as specified on the **DCLSRPARM** statement. Encore RPG will attempt to coerce the parameter to the type you give. For example, many parameters are four-byte integers, but if you declare the parm as zoned, the value will be converted/possibly truncated accordingly. Likewise, if you specify character, the parm will be copied to the character as if you were doing a [MOVEL](MOVEL.html) with Pad. The programmer is responsible to make sure that values are not truncated when the receiving parameter is too small.
 
 ### See Also
 [%OMITTED Function](OMITTED_Function.html)

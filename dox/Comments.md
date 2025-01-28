@@ -8,41 +8,37 @@ TocOrder: 0
 
 ---
 
-As you're writing code or reading the code examples, you will encounter the comment symbols (// or start with a **/*** and ended with a ***/'** ). These symbols tells the Encore RPG compiler to ignore the text following it, or the *comment* . Comments are brief explanatory notes added to code for the benefit of those reading it. 
+As you're writing code or reading the code examples, you will encounter the comment symbols `//` or starting with a `\*` and ending with a `*/`. These symbols tell the Encore RPG compiler to ignore the text following it, or *comment*. Comments are brief explanatory notes added to the code for the benefit of those reading it.
 
-The comment to occupy an entire line starts with //. You do not need to add anything at the end of the comment. 
+Encore RPG recognizes two types of comments:
 
-The comment symbol to occupy multiple lines, or to include a comment on the same line as code starts with a **/*** and ends with a ***/.** This type of comment can go anywhere white space (tab, new-line, and carriage return) is permitted and is treated as such. 
+- Line comments start with `//` and continue to the end of the line.
+- Multiline comments start with a `/*` and end with `*/`.
 
-It is good practice to begin all subroutines and functions with a brief comment describing the functional characteristics of the procedure (what it does), for your own benefit and the benefit of anyone else who examines the code. 
+Comments can appear anywhere in the source file:
 
-Comments can follow a statement on the same line, or occupy an entire line. Both are illustrated in the following code: 
+- As stand alone in a line
 
-**Comments that occupy an entire line (using //):** 
-<pre class="prettyprint"><code class="language=avr">// This comment occupies an entire line. 
-System.Windows.Forms.Application.DoEvents()
-      - or -
-System.Windows.Forms.Application.DoEvents()  //This comment is on the same line.```</pre>
- **<br />Comments using /* to Start and */ to End Comment:** 
-        <pre class="prettyprint"><code class="language=avr">/* This comment occupies an entire line.  You must end with a */.        
- System.Windows.Forms.Application.DoEvents() 
-<br />- or - System.Windows.Forms.Application.DoEvents() /* This comment is on the same line. */```</pre>
-        If your comment expands more than one line, simply use the // symbol at the beginning or each <br />line, or add the */ symbol at the end of the last line of comments.
+```c
+// This subroutine computes the income taxes
 
-        
-```
-// This text is too long to fit on one line, so we'll add
-// another line. Routines, and procedures should be named clearly enough that **inline** 
-		commenting is needed only for complex implementation details.
-		
+/* This class represents a sales record and has the
+functionallity associated with the sale, like computing totals and
+sales tax */
 ```
 
-- Comments cannot follow a **line-continuation**  sequence ( +) on
-                the same line.
+- In the same line with code
 
-You can add or remove comment symbols for a block of code by selecting two or more lines of code and choosing the **Comment** <img id="IMG1" alt="" src="Images/comments.JPG" border="0" height="22" width="23" /> and **Uncomment** <img alt="" src="Images/uncomment.JPG" border="0" /> buttons on the **Edit** toolbar. 
+```c
+DclFld Name Type(*char) Len(30) // Name of the starship
+
+BegSr Liftoff /* Shoot the rocket!*/ Access(*Public)
+```
+
+Sometimes it is very convenient to comment blocks of lines, e.g. when debugging. You can use Visual Studio's **Comment selection** and **Uncomment selection** menu options for this.
 
 ### See Also
+
 [Continuation Lines](Continuation_Lines.html)
 
 [Language Elements](ecrLrfLangElementsMain.html)

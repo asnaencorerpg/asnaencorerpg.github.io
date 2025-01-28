@@ -404,11 +404,6 @@ Reference:
       path: /dox/Programs.html
     - title: Functions
       path: /dox/ecrLrfFunctionsMain.html
-    - sectiontitle: Event Subroutines
-      sectionpath: /dox/Event_Subroutines.html
-      section:
-      - title: Event Subroutine Parameters
-        path: /dox/Event_Subroutine_Parameters.html
     - title: Properties
       path: /dox/ecrLrfPropertiesMain.html
     - title: Control Properties

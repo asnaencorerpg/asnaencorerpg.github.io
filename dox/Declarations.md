@@ -15,8 +15,6 @@ You can place variable, constant, type and DLL subroutine **declarations** at th
 ### See Also
 [Language Elements](ecrLrfLangElementsMain.html)
 
-[Event Subroutines](Event_Subroutines.html)
-
 [General Subroutines](General_Subroutines.html)
 
 [Mainline Code](Mainline_Code.html) 

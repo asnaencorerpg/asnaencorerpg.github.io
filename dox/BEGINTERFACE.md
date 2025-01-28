@@ -36,7 +36,7 @@ Optional. Allows the interface definition to be accessible to the "outside world
 
 **Implements** 
 
-Optional. Indicates that this class implements the members of an interface. An interface defines a set of properties, events and methods, but does not provide an implementation of them, just a definition. You must implement every member of every interface you specify in this keyword.
+Optional. Indicates that this class implements the members of an interface. An interface defines a set of properties and methods, but does not provide an implementation of them, just a declaration. You must implement every member of every interface you specify in this keyword.
 
 
 **Attributes** 
@@ -54,7 +54,7 @@ BEGINTERFACE MyClass Attributes(Developer("John Smith", 35))
 
 
 ### Remarks
-Interfaces can only contain methods (functions and subroutines), properties, and TYPE-declared events. Fields and PARM-declared events are not allowed. In addition to this, the interface methods (including properties' get-and set-methods) must not have a body. 
+Interfaces can only contain methods (functions and subroutines), and properties. Fields are not allowed. In addition to this, the interface methods (including properties' get-and set-methods) must not have a body. 
 
 Interface members must not define their Access, Modifier and Shared keywords, as they are *Public, *MustOverride, and Shared (*No) by default. 
 
@@ -72,7 +72,6 @@ The **BEGINTERFACE** routine must end with the [ENDINTERFACE](ENDINTERFACE.html)
 
   BegFunc Function Type( *integer4 )
   EndFunc
-  DclEvent EVENT type( System.EventHandler )
 EndInterface
 
  // Interface Usage BegClass Overloaded Access (*Public) Implements( **myInterface**  )
