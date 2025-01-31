@@ -8,19 +8,24 @@ TocOrder: 10
 
 ---
 
-**Time** **literals** take the form **T"HH.MM.SS"** where: 
+**Time** **literals** take the form **`T"HH.MM.SS"`** where: 
 
-- **T** indicates that the literal is of type time.
-- **"HH.MM.SS"** is a valid time in the ISO format.
-- **HH** - Implies a 2 digit hour (0-23).
-- **MM** - Implies a 2 digit minute.
-- **SS** - Implies a 2 digit second (0-59).
+- **`T`** indicates that the literal is of type **`*Time`**.
+- **`"HH.MM.SS"`** is a valid time in the ISO format (24-hour clock).
+- **`HH`** - the hour (0-23).
+- **`MM`** - the minute of the hour (0-59).
+- **`SS`** - the second of the minute (0-59).
 
 ### Remarks
-Single or double quotes are valid. 
+**`HH.MM.SS`** must be enclosed by double-quote characters (") (see [Examples](#examples) below).
 
-### Example
-T"05:10:00" 
+All digits are significant numeric decimal characters, e.g., for `HH` the sixth hour must be specified as `06`.
+
+### Examples
+`T"05:10:00"`
+
+`T"22:39:59"`
+
 
 ### See Also
 [Numeric Literal](Numeric_Literal.html)
