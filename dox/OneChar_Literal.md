@@ -13,7 +13,7 @@ A **\*OneChar** **literal** specifies a **[*OneChar](Onechar_Data_Type.html)** c
 ### Remarks
 The format of the literal value is `'c'` where `c` is any *single* character. **\*OneChar** literals are distinguished from other character-type literals by the single character surrounded by two single-quote characters.
 
->Note the difference between literals **`'c'`** and **`"c"`**. The former is of type **[*OneChar](Onechar_Data_Type.html)**, while the latter is of type **[*Char](Character_Data_Type.html)** (or **[*String](String_Data_Type.html)**). 
+>Note the difference between literals **`'c'`** and **`"c"`**. The former is of type [**\*OneChar**](Onechar_Data_Type.html), while the latter is of type [**\*Char**](Character_Data_Type.html) (or [**\*String**](String_Data_Type.html)). 
 
 ### Examples
 `'w'`
