@@ -8,18 +8,17 @@ TocOrder: 5
 
 ---
 
-A **OneChar** **literal** allows the specification to write [***** OneChar Data Type](Onechar_Data_Type.html) constants. 
+A **\*OneChar** **literal** specifies a **[*OneChar](Onechar_Data_Type.html)** constant. 
 
 ### Remarks
-The format is ' *<char>* ' where *<char>* is any single character. OneChar literals are surrounded by single quotes. The difference between ' *<char>* ' and " *<char>* " is that the former is of type [*OneChar](Onechar_Data_Type.html), while the latter is of type [*Char](Character_Data_Type.html) (or [*String](String_Data_Type.html)). 
+The format of the literal value is `'c'` where `c` is any *single* character. **\*OneChar** literals are distinguished from other character-type literals by the single character surrounded by two single-quote characters.
 
-### Example
-<dl class="Code" />
-        
-```
-'w'
-'4'
-```
+>Note the difference between literals **`'c'`** and **`"c"`**. The former is of type [**\*OneChar**](Onechar_Data_Type.html), while the latter is of type [**\*Char**](Character_Data_Type.html) (or [**\*String**](String_Data_Type.html)). 
+
+### Examples
+`'w'`
+
+`'4'`
 
 ### See Also
 [*Char Data Type](Character_Data_Type.html)
