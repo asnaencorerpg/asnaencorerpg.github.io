@@ -538,13 +538,10 @@ Reference:
   - sectiontitle: Constants
     sectionpath: /dox/ecrLrfConstantsMain.html
     section:
+    - title: Figurative Constants
+      path: /dox/Figurative_Constants.html
     - title: Hexadecimal Numeric Constant
       path: /dox/Hexadecimal_Numeric_Constants.html
-    - sectiontitle: Figurative Constants
-      sectionpath: /dox/Figurative_Constants.html
-      section:
-      - title: Figurative Constants Rules
-        path: /dox/Fig_Constants_Rules.html
     - title: Literals
       path: /dox/Literals.html
   - sectiontitle: DataTypes

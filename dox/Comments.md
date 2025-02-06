@@ -17,14 +17,15 @@ Encore RPG recognizes two types of comments:
 
 Comments can appear anywhere in the source file:
 
-- As stand alone in a line
+- As stand alone in a line or block of lines
 
 ```c
 // This subroutine computes the income taxes
+// and finds the net salary
 
 /* This class represents a sales record and has the
-functionallity associated with the sale, like computing totals and
-sales tax */
+functionality associated with the sale, like computing
+totals and sales tax */
 ```
 
 - In the same line with code
@@ -35,7 +36,7 @@ DclFld Name Type(*char) Len(30) // Name of the starship
 BegSr Liftoff /* Shoot the rocket!*/ Access(*Public)
 ```
 
-Sometimes it is very convenient to comment blocks of lines, e.g. when debugging. You can use Visual Studio's **Comment selection** and **Uncomment selection** menu options for this.
+Sometimes it is very convenient to comment blocks of lines, e.g. when debugging. For this, you can use Visual Studio's **Comment selection** and **Uncomment selection** menu options.
 
 ### See Also
 
