@@ -94,38 +94,38 @@ Manuals:
       - title: Performing Actions with Methods
         path: /dox/ecrTourPerformingActionswithMethods.html
   - sectiontitle: Encore RPG for Visual Studio
-    sectionpath: /dox/manuals/vs/MainIntro.html
+    sectionpath: /manuals/vs/MainIntro.html
     section:
     - sectiontitle: Projects
-      sectionpath: /dox/manuals/vs/projects/Projects.html
+      sectionpath: /manuals/vs/projects/Projects.html
       section:
       - title: Hello Encore!
-        path: /dox/manuals/vs/projects/HelloWorld.html
+        path: /manuals/vs/projects/HelloWorld.html
       - title: Managing Project Items
-        path: /dox/manuals/vs/projects/AddNewItem.html
+        path: /manuals/vs/projects/AddNewItem.html
       - title: Generate C# Projects
-        path: /dox/manuals/vs/projects/GenCSharp.html
+        path: /manuals/vs/projects/GenCSharp.html
       - sectiontitle: Project Configuration
-        sectionpath: /dox/manuals/vs/projects/Config.html
+        sectionpath: /manuals/vs/projects/Config.html
         section:
         - title: DevOps and Database Names
-          path: /dox/manuals/vs/projects/devops-dbnames.html
+          path: /manuals/vs/projects/devops-dbnames.html
       - title: File Definition Caching
-        path: /dox/manuals/vs/projects/FileDefCaching.html
+        path: /manuals/vs/projects/FileDefCaching.html
     - sectiontitle: Debugging
-      sectionPath: /dox/manuals/vs/debugging/Debugging.html
+      sectionPath: /manuals/vs/debugging/Debugging.html
       section: 
       - title: Breakpoints
-        path: /dox/manuals/vs/debugging/DebugBreakpoints.html
+        path: /manuals/vs/debugging/DebugBreakpoints.html
       - title: Examining Variables
-        path: /dox/manuals/vs/debugging/DebugInspect.html
+        path: /manuals/vs/debugging/DebugInspect.html
     - sectiontitle: Editor Features
-      sectionpath: /dox/manuals/vs/editor/EditorIntro.html
+      sectionpath: /manuals/vs/editor/EditorIntro.html
       section:
       - title: IntelliSense®
-        path: /dox/manuals/vs/editor/SourceEditing.html
+        path: /manuals/vs/editor/SourceEditing.html
       - title: Navigation
-        path: /dox/manuals/vs/editor/SourceNav.html
+        path: /manuals/vs/editor/SourceNav.html
   - title: Help Resources
     path: /dox/help-resources.html
 

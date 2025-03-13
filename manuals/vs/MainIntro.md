@@ -18,18 +18,18 @@ Additionally, Encore RPG for Visual Studio provides a simple command gateway to 
 The topics below assume the product is installed.  Please review [Installation and Setup](ecrInstallationandsetup) before proceeding.
 
 ---
-### [Projects](ecr-vs/projects/Projects.html)
+### [Projects](projects/Projects.html)
 
-#### [Hello Encore!](ecr-vs/projects/HelloWorld.html)
+#### [Hello Encore!](projects/HelloWorld.html)
 The basics: Create an Encore RPG application from scratch.
 <br/><br/>
-#### [Managing Projects](ecr-vs/projects/AddNewItem.html)
+#### [Managing Projects](projects/AddNewItem.html)
 Use Encore code templates and project items.
 <br/><br/>
-#### [Migrate to C#](ecr-vs/projects/GenCSharp.html)
+#### [Migrate to C#](projects/GenCSharp.html)
 Migrate your entire Encore project to C# in a single click.
 <br/><br/>
-#### [Project Configuration](ecr-vs/projects/Config.html)
+#### [Project Configuration](projects/Config.html)
 Get the most out of your development processes with the Visual Studio Project Designer.
 
 ---

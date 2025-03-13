@@ -62,7 +62,7 @@ Optional. Indicates if the class is partial, (that is, declared in parts); possi
 
 #### DatEdit
 
-Optional. Indicates the default date format in use for this class. If not given, the class uses the [project's default date format](/dox/manuals/vs/projects/Config.html#default-datedit-format).
+Optional. Indicates the default date format in use for this class. If not given, the class uses the [project's default date format](/manuals/vs/projects/Config.html#default-datedit-format).
 
 #### UsesCycle
 
