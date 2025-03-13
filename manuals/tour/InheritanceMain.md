@@ -14,24 +14,24 @@ Extensibility allows you to write and debug a class once, and then reuse that co
 
 ### In This Section
 
-[Inheritance Basics](ecrTourInheritanceBasics.html)
+[Inheritance Basics](InheritanceBasics.html)
 
 Covers extend modifiers, overriding methods and properties.
 
 
-[When to Use Inheritance](ecrTourWhentoUseInheritance.html)
+[When to Use Inheritance](WhentoUseInheritance.html)
 
 Discusses when to use inheritance instead of interfaces.
 
 
-[Inheritance and the .NET Framework](ecrTourInheritanceandtheNETFramework.html)
+[Inheritance and the .NET Framework](InheritanceandtheNETFramework.html)
 
 Explains how the .NET framework supports inheritance.
 
 
 ### Related Sections
 
-[Object-Oriented Programming in Encore RPG](ecrTourObjectOrientedProgrammingMain.html)
+[Object-Oriented Programming in Encore RPG](ObjectOrientedProgrammingMain.html)
 
 Introduces the concepts of object-oriented programming as they are used in
                 Encore RPG.

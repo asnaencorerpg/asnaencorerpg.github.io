@@ -19,6 +19,6 @@ You should use early-bound objects whenever possible, because they allow the com
 
 ### See Also
 
-[Object Lifetime](ecrTourObjectLifetime.html)
+[Object Lifetime](ObjectLifetime.html)
 
-[Object Data Type](ecrConObjects.html) 
+[Object Data Type](/dox/ecrConObjects.html) 

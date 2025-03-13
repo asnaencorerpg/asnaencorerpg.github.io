@@ -38,6 +38,4 @@ DclSRParm Args Type( *string ) Rank( 1 )
 
 [Declarations](Declarations.html)
 
-[Event Subroutines](Event_Subroutines.html)
-
 [General Subroutines](General_Subroutines.html) 

@@ -54,4 +54,4 @@ By default, a derived class inherits methods from its base class. If an inherite
 
 [DCLEVENT](DCLEVENT.html)
 
-[Inheritance and the .NET Framework](ecrTourInheritanceandtheNETFramework.html) 
+[Inheritance and the .NET Framework](InheritanceandtheNETFramework.html) 

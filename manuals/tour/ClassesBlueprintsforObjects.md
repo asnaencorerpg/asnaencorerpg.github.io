@@ -26,13 +26,13 @@ Like Encore RPG .NET structures, classes let you define data types that encapsul
 ### Shared Members
 By default, class data is specific to each instance of the class, but there may be occasions when you want a single data item to be shared among all objects created from a class. In such cases, you can use the **Shared** keyword to cause a variable to share the same value in all instances of a class. (Shared members are sometimes referred to as "static members" in other programming languages.) You can call shared methods directly using a class name without first creating an instance of the class. 
 
-For more information about shared members, see [Shared Members](ecrTourSharedMembers.html). 
+For more information about shared members, see [Shared Members](SharedMembers.html). 
 
 ### See Also
-[Creating and Using Objects](ecrTourCreatingandUsingObjectsMain.html)
+[Creating and Using Objects](CreatingandUsingObjectsMain.html)
 
-[Inheritance](ecrTourInheritanceMain.html)
+[Inheritance](InheritanceMain.html)
 
-[Inheritance Basics](ecrTourInheritanceBasics.html)
+[Inheritance Basics](InheritanceBasics.html)
 
-[Shared Members](ecrTourSharedMembers.html) 
+[Shared Members](SharedMembers.html) 

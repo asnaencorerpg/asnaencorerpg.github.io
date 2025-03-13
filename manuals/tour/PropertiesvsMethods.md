@@ -29,4 +29,4 @@ MyObject.MyProperty(Index,NewValue)
 Another factor to consider when choosing how to implement a class member is what kind of messages will be generated when your class is used incorrectly. If someone accidentally attempts to assign a value to a read-only property, a different error message is returned than in response to a similar call to a method. Class members that are implemented correctly return error messages that are easier to interpret. 
 
 ### See Also
-[Adding Fields and Properties to a Class](ecrTourAddingFieldsandPropertiestoaClass.html) 
+[Adding Fields and Properties to a Class](AddingFieldsandPropertiestoaClass.html) 

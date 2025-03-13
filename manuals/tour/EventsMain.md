@@ -16,5 +16,3 @@ The types of events raised by an object vary, but many types are common to most 
 
 > **Note** &#8211; Many events occur in conjunction with other events. For example, in the course of the ```DoubleClick``` event occurring, the ```MouseDown```,  ```MouseUp```, and ```Click``` events occur.
 
-### See Also
-[Event Subroutines](Event_Subroutines.html) 

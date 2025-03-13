@@ -14,7 +14,7 @@ Encore RPG is a complete suite of tools for building both Console applications a
 
 ### In the Encore RPG Documentation
 
-[Getting Started](ecrGettingStartedMain.html)
+[Getting Started](/manuals/getting-started/GettingStartedMain.html)
 
 Find out about topics to assist you with getting started with Encore RPG. Also contains the installation
                 procedures for Encore RPG.

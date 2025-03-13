@@ -70,7 +70,7 @@ Optional. Indicates the default date format in use for this class. If not given,
 
 A class declaration must end with an [EndClass](ENDCLASS.html) command, which must be the last command in the class.
 
-For more information on classes, see topics within [Understanding Classes](ecrTourUnderstandingClassesMain.html).
+For more information on classes, see topics within [Understanding Classes](/manuals/UnderstandingClassesMain.html).
 
 For more information on attributes, see [Custom Attributes](ecrConCustomAttributes.html).
 
@@ -100,4 +100,4 @@ EndClass
 
 [ENDCLASS](ENDCLASS.html)
 
-[Understanding Classes](ecrTourUnderstandingClassesMain.html)
+[Understanding Classes](/manuals/UnderstandingClassesMain.html)

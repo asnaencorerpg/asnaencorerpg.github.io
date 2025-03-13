@@ -13,7 +13,7 @@ This section of the documentation helps you get started with getting started wit
 
 ### In This Section
 
-[Installation and Setup](ecrInstallationandsetup.html)
+[Installation and Setup](Installationandsetup.html)
 
 Describes the features, installation and setup of Encore RPG.
 

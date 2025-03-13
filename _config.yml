@@ -22,11 +22,6 @@ defaults:
       layout: docs
       toc_min: 2
       toc_max: 3
-  - 
-    scope:
-      path: "dox"
-      type: "pages"
-    values:
       vs_sku: "Visual Studio 2022"
       vs_requirements_url: "https://learn.microsoft.com/visualstudio/releases/2022/system-requirements"
       vs_ver_min: "17.8"

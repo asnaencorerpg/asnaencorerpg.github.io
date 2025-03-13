@@ -8,7 +8,7 @@ TocOrder: 10
 
 ---
 
-Inheritance is a useful programming concept, but it is easy to use inappropriately, as interfaces often do the job better. Refer to this topic and [When to Use Interfaces](ecrTourWhentouseInterfaces.html) to help you understand when each should be used. 
+Inheritance is a useful programming concept, but it is easy to use inappropriately, as interfaces often do the job better. Refer to this topic and [When to Use Interfaces](WhentouseInterfaces.html) to help you understand when each should be used. 
 
 Inheritance is a good choice when: 
 
@@ -47,4 +47,4 @@ One of the most powerful features of inheritance is the ability to make changes 
 The safest way to change a base class is to simply add new members. For example, you could add a new field to store the additional 4 digits in the zip code example discussed previously. That way, client applications can be updated to use the new field without breaking existing applications. The ability to extend base classes in an inheritance hierarchy is an important benefit that does not exist with interfaces. 
 
 ### See Also
-[When to Use Interfaces](ecrTourWhentouseInterfaces.html) 
+[When to Use Interfaces](WhentouseInterfaces.html) 

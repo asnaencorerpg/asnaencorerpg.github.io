@@ -57,4 +57,4 @@ The following example declares a property in a class:
 When you create an instance of ```ThisClass``` and set the value of the property ```One```, the **Set** property procedure is called and the value is passed in the ```Value``` parameter, which is stored in a local variable named ```Myname```. When the value of this property is retrieved, the ```Get``` property procedure is called like a function and returns the value stored in the local variable ``` Prop1. ``` 
 
 ### See Also
-[Properties and Property Procedures](ecrTourPropertiesandPropertyProcedures.html) 
+[Properties and Property Procedures](PropertiesandPropertyProcedures.html) 

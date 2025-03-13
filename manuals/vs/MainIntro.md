@@ -15,7 +15,7 @@ This integration leverages the .NET project system and Encore SDK to provide a r
 
 Additionally, Encore RPG for Visual Studio provides a simple command gateway to migrate Encore applications to first-class C# applications, free of Encore SDK.
 
-The topics below assume the product is installed.  Please review [Installation and Setup](ecrInstallationandsetup) before proceeding.
+The topics below assume the product is installed.  Please review [Installation and Setup](/manuals/getting-started/Installationandsetup.html) before proceeding.
 
 ---
 ### [Projects](projects/Projects.html)

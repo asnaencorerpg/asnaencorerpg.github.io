@@ -17,48 +17,48 @@ The following topics describe the mechanisms for adding properties, fields, and 
 [
                     Adding Fields and Properties
                     to a Class
-                ](ecrTourAddingFieldsandPropertiestoaClass.html)
+                ](AddingFieldsandPropertiestoaClass.html)
 
 Provides information on declaring fields and properties.
 
 
-[Properties and Property Procedures](ecrTourPropertiesandPropertyProcedures.html)
+[Properties and Property Procedures](PropertiesandPropertyProcedures.html)
 
 Explains how Property procedures work, and how to implement common property
                 types.
 
 
-[Property Procedures vs. Fields](ecrTourPropertyProceduresvsFields.html)
+[Property Procedures vs. Fields](PropertyProceduresvsFields.html)
 
 Helps you decide when to use fields to store data in a class, and when
                 properties are a better choice.
 
 
-[Properties vs. Methods](ecrTourPropertiesvsMethods.html)
+[Properties vs. Methods](PropertiesvsMethods.html)
 
 Helps you decide whether your desired functionality is best implemented as a
                 property or a method.
 
 
-[Overloaded Properties and Methods](ecrTourOverloadedProperties.html)
+[Overloaded Properties and Methods](OverloadedProperties.html)
 
 Covers how to define multiple properties or methods that have the same name,
                 but work with different data types.
 
 
-[Overriding Properties and Methods](ecrTourOverridingPropertiesandMethodsMain.html)
+[Overriding Properties and Methods](OverridingPropertiesandMethodsMain.html)
 
 Discusses redefining an inherited property or method.
 
 
 ### Related Sections
 
-[Creating and Using Objects](ecrTourCreatingandUsingObjectsMain.html)
+[Creating and Using Objects](CreatingandUsingObjectsMain.html)
 
 Demonstrates how to create and use instances of classes.
 
 
-[Events](ecrTourEventsMain.html)
+[Events](EventsMain.html)
 
 Demonstrates how to declare and use events.
 

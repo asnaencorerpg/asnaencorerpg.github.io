@@ -51,6 +51,6 @@ EndClass
 
 ### See Also
 
-[Class Properties, Fields, and Methods](ecrTourClassPropertiesFieldsandMethodsMain.html)
+[Class Properties, Fields, and Methods](ClassPropertiesFieldsandMethodsMain.html)
 
 [DCLFLD](DCLFLD.html) 

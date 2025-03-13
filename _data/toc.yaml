@@ -4,7 +4,7 @@ horizontalnav:
   path: /
   node: home
 - title: Manuals
-  path: /dox/Welcome.html
+  path: /manuals/Welcome.html
   node: Manuals
 - title: Concepts
   path: /dox/ecrConLanguageConceptsMain.html
@@ -18,81 +18,81 @@ home: {}
 ##
 Manuals:
 - sectiontitle: ASNA Encore RPG
-  sectionpath: /dox/Welcome.html
+  sectionpath: /manuals/Welcome.html
   section:
   - sectiontitle: Introducing Encore RPG
-    sectionpath: /dox/ecrIntroducingECR.html
+    sectionpath: /manuals/intro/IntroducingECR.html
     section:
     - title: Using Visual Studio
-      path: /dox/VisualStudioMain.html
+      path: /manuals/intro/VisualStudioMain.html
   - sectiontitle: Getting Started in Encore RPG
-    sectionpath: /dox/ecrGettingStartedMain.html
+    sectionpath: /manuals/getting-started/GettingStartedMain.html
     section:
     - title: Installation and Setup
-      path: /dox/ecrInstallationandsetup.html
+      path: /manuals/getting-started/Installationandsetup.html
   - sectiontitle: Language Tour
-    sectionpath: /dox/ecrLanguageTourMain.html
+    sectionpath: /manuals/tour/LanguageTourMain.html
     section:
     - title: Encore RPG vs. Visual RPG Language
-      path: /dox/ecrTourECRvsAVR.html
+      path: /manuals/tour/ECRvsAVR.html
     - sectiontitle: Object-Oriented Programming in Encore RPG
-      sectionpath: /dox/ecrTourObjectOrientedProgrammingMain.html
+      sectionpath: /manuals/tour/ObjectOrientedProgrammingMain.html
       section:
       - title: Early and Late Binding
-        path: /dox/ecrTourEarlyandLateBinding.html
+        path: /manuals/tour/EarlyandLateBinding.html
       - title: Shared Members
-        path: /dox/ecrTourSharedMembers.html
+        path: /manuals/tour/SharedMembers.html
       - sectiontitle: Understanding Classes
-        sectionpath: /dox/ecrTourUnderstandingClassesMain.html
+        sectionpath: /manuals/tour/UnderstandingClassesMain.html
         section:
         - title: Classes
-          path: /dox/ecrTourClassesBlueprintsforObjects.html
+          path: /manuals/tour/ClassesBlueprintsforObjects.html
         - title: Classes vs. Standard Programs
-          path: /dox/ecrTourClassesvsStandardPrograms.html
+          path: /manuals/tour/ClassesvsStandardPrograms.html
         - title: Object Lifetime
-          path: /dox/ecrTourObjectLifetime.html
+          path: /manuals/tour/ObjectLifetime.html
         - title: Using Constructors
-          path: /dox/ecrTourUsingConstructors.html
+          path: /manuals/tour/UsingConstructors.html
         - sectiontitle: Class Properties, Fields and Methods
-          sectionpath: /dox/ecrTourClassPropertiesFieldsandMethodsMain.html
+          sectionpath: /manuals/tour/ClassPropertiesFieldsandMethodsMain.html
           section:
           - title: Adding Fields and Properties to a Class
-            path: /dox/ecrTourAddingFieldsandPropertiestoaClass.html
+            path: /manuals/tour/AddingFieldsandPropertiestoaClass.html
           - title: Properties and Property Procedures
-            path: /dox/ecrTourPropertiesandPropertyProcedures.html
+            path: /manuals/tour/PropertiesandPropertyProcedures.html
           - title: Property Procedures vs. fields
-            path: /dox/ecrTourPropertyProceduresvsFields.html
+            path: /manuals/tour/PropertyProceduresvsFields.html
           - title: Properties vs. Methods
-            path: /dox/ecrTourPropertiesvsMethods.html
+            path: /manuals/tour/PropertiesvsMethods.html
           - title: Overloaded Properties
-            path: /dox/ecrTourOverloadedProperties.html
+            path: /manuals/tour/OverloadedProperties.html
           - sectiontitle: Overriding Properties and Methods
-            sectionpath: /dox/ecrTourOverridingPropertiesandMethodsMain.html
+            sectionpath: /manuals/tour/OverridingPropertiesandMethodsMain.html
             section:
             - title: Override Modifiers
-              path: /dox/ecrTourOverrideModifiers.html
+              path: /manuals/tour/OverrideModifiers.html
       - title: Events
-        path: /dox/ecrTourEventsMain.html
+        path: /manuals/tour/EventsMain.html
       - sectiontitle: Inheritance
-        sectionpath: /dox/ecrTourInheritanceMain.html
+        sectionpath: /manuals/tour/InheritanceMain.html
         section:
         - title: Inheritance (Extensibility) Basics
-          path: /dox/ecrTourInheritanceBasics.html
+          path: /manuals/tour/InheritanceBasics.html
         - title: When to Use Inheritance
-          path: /dox/ecrTourWhentoUseInheritance.html
+          path: /manuals/tour/WhentoUseInheritance.html
         - title: When to Use Interfaces
-          path: /dox/ecrTourWhentouseInterfaces.html
+          path: /manuals/tour/WhentouseInterfaces.html
         - title: Inheritance and the .NET Framework
-          path: /dox/ecrTourInheritanceandtheNETFramework.html
+          path: /manuals/tour/InheritanceandtheNETFramework.html
     - sectiontitle: Creating and Using Objects
-      sectionpath: /dox/ecrTourCreatingandUsingObjectsMain.html
+      sectionpath: /manuals/tour/CreatingandUsingObjectsMain.html
       section:
       - title: Introduction to Objects in Encore RPG
-        path: /dox/ecrTourIntroductiontoObjects.html
+        path: /manuals/tour/IntroductiontoObjects.html
       - title: Setting and Retrieving Properties
-        path: /dox/ecrTourSettingandRetrievingProperties.html
+        path: /manuals/tour/SettingandRetrievingProperties.html
       - title: Performing Actions with Methods
-        path: /dox/ecrTourPerformingActionswithMethods.html
+        path: /manuals/tour/PerformingActionswithMethods.html
   - sectiontitle: Encore RPG for Visual Studio
     sectionpath: /manuals/vs/MainIntro.html
     section:
@@ -127,7 +127,7 @@ Manuals:
       - title: Navigation
         path: /manuals/vs/editor/SourceNav.html
   - title: Help Resources
-    path: /dox/help-resources.html
+    path: /manuals/help-resources.html
 
 ## Concepts
 Concepts:

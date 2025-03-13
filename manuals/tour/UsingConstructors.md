@@ -21,4 +21,4 @@ When you define a class derived from another class, the first line of a construc
 After writing code to call the parent object's constructor, you can add any additional initialization code to the **```BegConstructor```** procedure. **```BegConstructor```** can accept arguments when called as a parameterized constructor. These parameters are passed from the procedure calling the constructor. 
 
 ### See Also
-[Object Lifetime: How Objects Are Created and Destroyed](ecrTourObjectLifetime.html) 
+[Object Lifetime: How Objects Are Created and Destroyed](ObjectLifetime.html) 

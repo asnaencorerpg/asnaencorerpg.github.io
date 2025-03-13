@@ -48,4 +48,4 @@ TextBox1.Text = "Hello World"  //Displays *"Hello World* " in the text box.
 ### See Also
 [Basics of Working with Objects](ecrConBasicsofObjects.html)
 
-[Creating and Using Objects](ecrTourCreatingandUsingObjectsMain.html) 
+[Creating and Using Objects](CreatingandUsingObjectsMain.html) 

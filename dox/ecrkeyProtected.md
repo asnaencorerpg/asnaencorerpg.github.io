@@ -41,4 +41,4 @@ The ```*Protected``` access type is used in the following operation codes:
 
 [*Public](ecrkeyPublic.html)
 
-[Understanding Classes](ecrTourUnderstandingClassesMain.html) 
+[Understanding Classes](/manuals/UnderstandingClassesMain.html) 

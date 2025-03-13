@@ -1,9 +1,6 @@
 ---
 title: Creating and Using Objects
 
-Id: aerTourCreatingandUsingObjectsMain
-TocParent: aerLanguageTourMain
-TocOrder: 10
 
 
 ---
@@ -14,23 +11,23 @@ TocOrder: 10
 
 ### In This Section
 
-[Objects from Encore RPG and Other Sources](ecrTourIntroductiontoObjects.html)
+[Objects from Encore RPG and Other Sources](IntroductiontoObjects.html)
 
  Discusses how to use objects from Microsoft Word, Microsoft Excel, and other applications.
 
 
-[Setting and Retrieving Properties](ecrTourSettingandRetrievingProperties.html)
+[Setting and Retrieving Properties](SettingandRetrievingProperties.html)
 
 Discusses how to change and obtain property values.
 
-[Performing Actions with Methods](ecrTourPerformingActionswithMethods.html)
+[Performing Actions with Methods](PerformingActionswithMethods.html)
 
 Describes what methods are and how to use them.
 
 
 ### Related Sections
 
-[Objects](ecrConObjects.html)
+[Objects](/dox/ecrConObjects.html)
 
 Covers object-oriented programming fundamentals.
 

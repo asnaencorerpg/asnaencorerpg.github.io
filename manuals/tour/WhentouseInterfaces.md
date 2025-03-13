@@ -8,7 +8,7 @@ TocOrder: 11
 
 ---
 
-Interfaces allow you to separate the definition of objects from their implementation, allowing your objects to evolve without risk of breaking existing applications. This is extremely powerful. Both interfaces and class inheritance each have advantages and disadvantages, and you may end up using a combination of both in your projects. This topic and [When to Use Inheritance](ecrTourWhentoUseInheritance.html) will help you determine which approach is best for your situation. 
+Interfaces allow you to separate the definition of objects from their implementation, allowing your objects to evolve without risk of breaking existing applications. This is extremely powerful. Both interfaces and class inheritance each have advantages and disadvantages, and you may end up using a combination of both in your projects. This topic and [When to Use Inheritance](WhentoUseInheritance.html) will help you determine which approach is best for your situation. 
 
 ### Safe Changes to Code
 Interfaces eliminate a significant problem of class inheritance: the likelihood of breaking code when you make changes to your design. Even though class inheritance allows your classes to inherit implementation from a base class, it also forces you to make most of your design decisions when the class is first published. If your original assumptions turn out to be incorrect, you cannot always change your code safely in later versions. 
@@ -31,4 +31,4 @@ There are several other reasons why you might want to use interfaces instead of 
                 implementation that can implement multiple interfaces.
 
 ### See Also
-[When to Use Inheritance](ecrTourWhentoUseInheritance.html) 
+[When to Use Inheritance](WhentoUseInheritance.html) 

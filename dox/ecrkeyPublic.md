@@ -41,4 +41,4 @@ The ```*Public``` access type is used in the following operation codes:
 
 [*Protected](ecrkeyProtected.html)
 
-[Understanding Classes](ecrTourUnderstandingClassesMain.html) 
+[Understanding Classes](/manuals/UnderstandingClassesMain.html) 

@@ -12,40 +12,40 @@ Classes are important in object-oriented programming because they allow you to g
 
 ### In This Section
 
-[Classes - Blueprints for Objects](ecrTourClassesBlueprintsforObjects.html)
+[Classes - Blueprints for Objects](ClassesBlueprintsforObjects.html)
 
 Provides an overview of encapsulation, inheritance, and shared members.
 
 
-[Classes vs. Standard Modules](ecrTourClassesvsStandardPrograms.html)
+[Classes vs. Standard Modules](ClassesvsStandardPrograms.html)
 
 Explains the differences between classes and standard modules.
 
 
-[Object Lifetime: How Objects Are Created and Destroyed](ecrTourObjectLifetime.html)
+[Object Lifetime: How Objects Are Created and Destroyed](ObjectLifetime.html)
 
 Discusses creating and disposing of class instances.
 
 
-[Using Constructors](ecrTourUsingConstructors.html)
+[Using Constructors](UsingConstructors.html)
 
 Discusses how to initialize new instances of classes and dispose of resources
                 when they are no longer needed.
 
 
-[Class Properties, Fields, and Methods](ecrTourClassPropertiesFieldsandMethodsMain.html)
+[Class Properties, Fields, and Methods](ClassPropertiesFieldsandMethodsMain.html)
 
 Explains the fields, properties, and methods that make up a class.
 
 
 ### Related Sections
 
-[Creating and Using Objects](ecrTourCreatingandUsingObjectsMain.html)
+[Creating and Using Objects](CreatingandUsingObjectsMain.html)
 
 Demonstrates how to create and use instances of classes.
 
 
-[Inheritance](ecrTourInheritanceMain.html)
+[Inheritance](InheritanceMain.html)
 
 Describes how to define classes that serve as the basis for other classes.
 

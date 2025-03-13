@@ -18,6 +18,6 @@ The following rules apply to overriding methods.
                 the base class.
 
 ### See Also
-[Overloaded Properties and Methods](ecrTourOverloadedProperties.html)
+[Overloaded Properties and Methods](OverloadedProperties.html)
 
-[Override Modifiers](ecrTourOverrideModifiers.html) 
+[Override Modifiers](OverrideModifiers.html) 

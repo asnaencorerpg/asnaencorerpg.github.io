@@ -35,7 +35,7 @@ skip_read_time: true
   <section class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card guides" href="/dox/ecrGettingStartedMain.html">
+        <a class="card guides" href="/manuals/getting-started/GettingStartedMain.html">
           <h5 class="title">Get started</h5>
           <p>
             Learn the basic of ASNA Encore RPG.
@@ -43,7 +43,7 @@ skip_read_time: true
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card download-ecr" href="/dox/ecrInstallationandsetup.htmll">
+        <a class="card download-ecr" href="/manuals/getting-started/Installationandsetup.html">
           <h5 class="title">Download and install</h5>
           <p>
             Download and install ASNA Encore RPG on your machine.
@@ -51,7 +51,7 @@ skip_read_time: true
         </a>
       </div>
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card manuals" href="/dox/Welcome.html">
+        <a class="card manuals" href="/manuals/Welcome.html">
           <h5 class="title">Manuals</h5>
           <p>
             Learn how to setup and operate the ASNA Encore RPG.

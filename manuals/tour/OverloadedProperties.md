@@ -25,4 +25,4 @@ You create an overloaded member for a class by adding two or more properties or 
 ### See Also
 [*ByRef](StarByRef.html)
 
-[Overriding Properties and Methods](ecrTourOverridingPropertiesandMethodsMain.html) 
+[Overriding Properties and Methods](OverridingPropertiesandMethodsMain.html) 

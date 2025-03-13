@@ -36,4 +36,4 @@ Use **fields** when:
 
 [Data Types (Language Reference)](ecrLrfDataTypesMain.html)
 
-[Properties and Property Procedures](ecrTourPropertiesandPropertyProcedures.html) 
+[Properties and Property Procedures](PropertiesandPropertyProcedures.html) 

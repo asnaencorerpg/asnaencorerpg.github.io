@@ -13,7 +13,7 @@ For Visual Studio veterans, development with Encore RPG is a snap. For others, i
 
 All new Encore users may benefit from this quick hands-on illustration of the potential of combining Encore, .NET SDK tools, and Visual Studio.
 
-> This demo assumes Encore RPG for Visual Studio has been installed. Please review [Installation and Setup](ecrInstallationandsetup) if necessary.
+> This demo assumes Encore RPG for Visual Studio has been installed. Please review [Installation and Setup]/manuals/getting-started/Installationandsetup.html) if necessary.
 
 * [Create the Project](#create-the-project)
 * [Modify and Run the Project](#modify-and-run-the-project)

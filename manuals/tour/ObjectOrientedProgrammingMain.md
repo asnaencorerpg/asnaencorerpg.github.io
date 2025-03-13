@@ -1,9 +1,6 @@
 ---
 title: Object-Oriented Programming in Encore RPG
 
-Id: aerTourObjectOrientedProgrammingMain
-TocParent: aerLanguageTourMain
-TocOrder: 5
 
 
 ---
@@ -14,51 +11,51 @@ In the following topics, you'll see how easy it is to create your own objects fr
 
 ### In This Section
 
-[Introduction to Objects in Encore RPG](ecrConObjects.html)
+[Introduction to Objects in Encore RPG](/dox/ecrConObjects.html)
 
 Provides an introduction to the terms and concepts used in object-oriented
                 programming.
 
 
-[Early and Late Binding](ecrTourEarlyandLateBinding.html)
+[Early and Late Binding](EarlyandLateBinding.html)
 
 Describes binding, which is performed by the compiler when an object is
                 assigned to an object variable, and the differences between early-bound and
                 late-bound objects.
 
 
-[Shared Members](ecrTourSharedMembers.html)
+[Shared Members](SharedMembers.html)
 
 Describes members that can be used without instances.
 
 
-[Creating and Using Objects](ecrTourCreatingandUsingObjectsMain.html)
+[Creating and Using Objects](CreatingandUsingObjectsMain.html)
 
 Shows how to create and use instances of classes.
 
 
-[Understanding Classes](ecrTourUnderstandingClassesMain.html)
+[Understanding Classes](UnderstandingClassesMain.html)
 
 Covers object creation and lifetime issues in a step-by-step procedure.
 
 
-[Events](ecrTourEventsMain.html)
+[Events](EventsMain.html)
 
 Shows how to declare and use events.
 
 
-[Inheritance](ecrTourInheritanceMain.html)
+[Inheritance](InheritanceMain.html)
 
 Describes how to define classes that serve as the basis for other classes.
 
 
 ### Related Sections
-[Objects](ecrConObjects.html) 
+[Objects](/dox/ecrConObjects.html) 
 
 Describes what objects are and how they are used.
 
 
-[Object-Oriented Programming (Concepts)](ecrConObjectOrientedProgramming.html) 
+[Object-Oriented Programming (Concepts)](/dox/ecrConObjectOrientedProgramming.html) 
 
 Describes what objects are and how they are used.
 
