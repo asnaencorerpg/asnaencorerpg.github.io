@@ -42,17 +42,17 @@ EndClass
 
 In the example application, instances of `WeatherForecast` are created on-demand to build an array representing "5 day" weather predictions, using the following code running in the debugger. At line 42, the program will assign an array element with the value of the `forecast` reference created in the preceding lines.
 
-![This running application hit a breakpoint just after constructing a `WeatherForecast` object.]({{ page.vs_images_path }}InspectSetup.png)
+![This running application hit a breakpoint just after constructing a `WeatherForecast` object.](images/InspectSetup.png)
 
 We could use the **Watch** window to monitor the creation of WeatherForecast objects in the code above. Or, if we just want a quick summary view of the `forecast` value, we can hover the mouse cursor over a code reference to the variable, and let the editor's IntelliSense® features do the job:
 
-![Hovering over `forecast` causes the editor to display a condensed watch window view.]({{ page.vs_images_path }}InspectCursorQuickWatch.png)
+![Hovering over `forecast` causes the editor to display a condensed watch window view.](images/InspectCursorQuickWatch.png)
 
 > Encore class objects implicitly define indicator members `*IN`. Also, note that the value for `Date` is shown in the *YMD format defined by the property declaration in `WeatherForecast`.
 
 Now, right-click on a `forecast` reference in the code, and select the **Add Watch...** command. A similar display is shown in the **Watch** window tool, which includes a Search box useful for finding certain members or values in complex objects. You can optionally type in `forecast` in the last row of the **Watch** window to with the same effect:
 
-![Adding the `forecast` variable to the Watch window tool.]({{ page.vs_images_path }}InspectWatchWindow.png)
+![Adding the `forecast` variable to the Watch window tool.](images/InspectWatchWindow.png)
 
 > Most syntactic elements can be observed in watch windows, including member variables, arrays, and in some cases simple method calls.
 
@@ -63,6 +63,6 @@ Now, right-click on a `forecast` reference in the code, and select the **Add Wat
 
 The **Locals** window provides similar capabilities as the **Watch** window. However, the only variables shown by **Locals** are the local "automatic" variables in the scope of the current code. Member variables are excluded by **Locals**, when in a member method, the `*this` reference can be accessed:
 
-![Viewing the value of `*this` in the **Locals** window.]({{ page.vs_images_path }}InspectThisViaLocals.png)
+![Viewing the value of `*this` in the **Locals** window.](images/InspectThisViaLocals.png)
 
 {% include er4vs_foot_links.html %}

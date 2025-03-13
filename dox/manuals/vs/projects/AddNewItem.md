@@ -39,7 +39,7 @@ The Encore source code items available to be added are shown in the **Add New It
 3. Give the item a useful name, for example, the name of a new class. 
 4. Click the **Add** button.
 
-![Controls on the Add New Item dialog.]({{ page.vs_images_path }}AddNewItem.png)
+![Controls on the Add New Item dialog.](images/AddNewItem.png)
 
 ---
 ### Remove Items
@@ -49,7 +49,7 @@ Deleting an item from the project is a simple as selecting the item in **Solutio
 > **CAUTION!** Using the **Delete** command not only removes the item from the project, it also removes it from the file system. Source control recommended!
 > Alternatively, use the **Exclude From Project** command shown on the menu below. This removes the project item without deleting the source file.
 
-![Context menu options for removing a project item.]({{ page.vs_images_path }}RemoveItem.png)
+![Context menu options for removing a project item.](images/RemoveItem.png)
 
 ---
 ### Create a Git Repo
@@ -60,19 +60,19 @@ Creating a source control repository for your projects makes good sense, particu
  
 1. Select the **Solution** node in **Solution Explorer**. Then, on the **Git** menu, select **Create Git Repository...**.
 
-    ![Start the Create a Git Repo wizard in Visual Studio.]({{ page.vs_images_path }}SolutionToRepo.png)
+    ![Start the Create a Git Repo wizard in Visual Studio.](images/SolutionToRepo.png)
 
 
 2. The Git repository "wizard" dialog should appear similar to the one below. In this example, we chose "Local only" for the "Push to a new remote" option. We also elected to include the "MIT License" template and add a default "README" file.  Click **Create** to create the repository.
 
     > Beyond scope here is creation of a "remote" repository. This option is recommended when the project is to be shared with others. Credentials are typically required to access a remote server such as [GitHub](https://github.com). You can add a remote GitHub repo [later](https://docs.github.com/en/migrations/importing-source-code/using-the-command-line-to-import-source-code/adding-locally-hosted-code-to-github), if desired.
 
-    ![Create a local Git repo.]({{ page.vs_images_path }}CreateGitRepoWiz.png)
+    ![Create a local Git repo.](images/CreateGitRepoWiz.png)
 
 3. Modify something in the project. In the example shown below, we added the string "Absolute Zero" to an array. Note that the Git Changes window shows that the edited source file has been modified. In this window, you can commit, shelve (a.k.a. "stash"), or roll-back the modification to the repo. Also note that the editor shows a glyph in the left margin indicating that the corresponding line was changed.
 
     > Many of the most important features of Git not shown here are extended into the Visual Studio IDE and third-party Git tools. [Learn more about Git integration in Visual Studio](https://learn.microsoft.com/visualstudio/version-control/git-with-visual-studio).
 
-    ![Modify the Git repo.]({{ page.vs_images_path}}GitRepoMod.png)
+    ![Modify the Git repo.](images/GitRepoMod.png)
 
 {% include er4vs_foot_links.html %}

@@ -23,21 +23,21 @@ The Encore RPG project system provides a few options for creating C# projects, a
 
 1. Select the project to migrate in Solution Explorer, and Right-Click to show the context menu. Note the **Translate to C# Project** command as shown below.  Invoke the command.
 
-    ![Display the project context menu, and click the command.]({{ page.vs_images_path }}TranslateToCSharp.png)
+    ![Display the project context menu, and click the command.](images/TranslateToCSharp.png)
 
 2. The command starts a project build specifying an option to create a C# project rather than an application. The output, which displays the location of the new project, is shown in the Output window, as shown below.
 
     > Note that this command is implemented in Encore SDK via an [MSBuild](https://learn.microsoft.com/en-us/visualstudio/msbuild/msbuild) compiler option.
 
-    ![Observe the command result in the Output window.]({{ page.vs_images_path }}TrekkerSuccessOutput.png)
+    ![Observe the command result in the Output window.](images/TrekkerSuccessOutput.png)
 
 3. Observe the produced project files in the directory mentioned in the command output.
 
-    ![Windows Explorer view of the produced project directory.]({{ page.vs_images_path }}TrekkerProducedFiles.png)
+    ![Windows Explorer view of the produced project directory.](images/TrekkerProducedFiles.png)
 
 4. Open the project file (with the `.csproj` extension) in Visual Studio to use the new project. Use the **Build Solution** command on the **Build** menu (or default key shortcut `Ctrl+Shift+B`) to verify that the project builds the application successfully.
 
-    ![Observing the migrated project build result.]({{ page.vs_images_path }}MigrationSuccessOutput.png)
+    ![Observing the migrated project build result.](images/MigrationSuccessOutput.png)
 
 ---
 ### Project Designer Options
@@ -46,13 +46,13 @@ Using the Encore project migrated in the prior section as an example, suppose so
 
 1. As in the prior section, the **Translate to C# Project** command is invoked. In this case however, build output below shows a failure, due to the presence of files in the "default" project output location.
 
-    ![Translate to C# command fails due to non-empty directory.]({{ page.vs_images_path }}TrekkerBlockedOutput.png)
+    ![Translate to C# command fails due to non-empty directory.](images/TrekkerBlockedOutput.png)
 
     > The error can be remedied in several ways, including simply deleting the contents, or the target directory entirely from the file system then re-running the command. 
 
 2. Instead of throwing away the prior migration, we can modify a project property to resolve this. On the **Project** menu, select **Properties** as shown below.
 
-    ![Open the project designer.]({{ page.vs_images_path }}GetProjectDesigner.png)
+    ![Open the project designer.](images/GetProjectDesigner.png)
 
 3. The .NET project "designer" appears. In the left margin, navigate to the **Encore RPG** section, and then to **Translation to C#**, as shown below. This presents two options, only one of which allows us to keep the prior migration:
 
@@ -60,11 +60,11 @@ Using the Encore project migrated in the prior section as an example, suppose so
 
     B. Set the **Overwrite output folder** option.
 
-    ![Options for handling translation output]({{ page.vs_images_path }}TrekkerTargetOptions.png)
+    ![Options for handling translation output](images/TrekkerTargetOptions.png)
 
 4. Since we want to save the prior migration, change the output folder name to `$(MSBuildProjectDirectory)_CS_New` in the text box marked 'A' above, and re-run the **Translate to C# Project** command.  The output should now show a successful migration in the folder specified.
 
-    ![Successful migration output to the new output directory.]({{ page.vs_images_path }}TrekkerNewProducedFiles.png)
+    ![Successful migration output to the new output directory.](images/TrekkerNewProducedFiles.png)
 
 
 {% include er4vs_foot_links.html %}

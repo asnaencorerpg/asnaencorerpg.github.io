@@ -18,36 +18,36 @@ Additionally, Encore RPG for Visual Studio provides a simple command gateway to 
 The topics below assume the product is installed.  Please review [Installation and Setup](ecrInstallationandsetup) before proceeding.
 
 ---
-### [Projects](ecrVsProjects)
+### [Projects](ecr-vs/projects/Projects.html)
 
-#### [Hello Encore!](ecrVsHelloWorld)
+#### [Hello Encore!](ecr-vs/projects/HelloWorld.html)
 The basics: Create an Encore RPG application from scratch.
 <br/><br/>
-#### [Managing Projects](ecrVsAddNewItem)
+#### [Managing Projects](ecr-vs/projects/AddNewItem.html)
 Use Encore code templates and project items.
 <br/><br/>
-#### [Migrate to C#](ecrVsPrjGenCSharp)
+#### [Migrate to C#](ecr-vs/projects/GenCSharp.html)
 Migrate your entire Encore project to C# in a single click.
 <br/><br/>
-#### [Project Configuration](ecrVsProjConfig)
+#### [Project Configuration](ecr-vs/projects/Config.html)
 Get the most out of your development processes with the Visual Studio Project Designer.
 
 ---
-### [Editor Features](ecrVsEditorIntro)
+### [Editor Features](editor/EditorIntro.html)
 
-#### [IntelliSense®](ecrVsSourceEditing)
+#### [IntelliSense®](editor/SourceEditing.html)
 Introducing Encore-enabled [IntelliSense](https://learn.microsoft.com/en-us/visualstudio/ide/using-intellisense).
 <br/><br/>
-#### [Navigation](ecrVsSourceNav)
+#### [Navigation](editor/SourceNav.html)
 Easy ways to get to your code fast.
 
 ---
 ### Source Debugging
 
-#### [Breakpoints](ecrVsDebugBreakpoints)
+#### [Breakpoints](debugging/DebugBreakpoints.html)
 Set breakpoints and tracepoints in your code.
 <br/><br/>
-#### [Examine Variables](ecrVsDebugInspect)
+#### [Examine Variables](debugging/DebugInspect.html)
 Analyze the state of your application in the editor and Visual Studio debugger windows.
 
 {% include er4vs_foot_links.html %}

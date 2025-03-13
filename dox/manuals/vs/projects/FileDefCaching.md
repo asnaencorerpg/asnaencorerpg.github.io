@@ -42,7 +42,7 @@ Even if caching seems attractive, there are pitfalls to be aware of if your deve
 
 File definition caching is configured per-project. When the MSBuild property `<UseFileDefinitionCache/>` is set to `True`, Encore compiler will use the cache. You can set the property in several ways:
 
-1. [**Project Settings**](ecrVsProjConfig#enable-file-definition-cache). Configuration in the IDE is simplest if your application has only one or very few projects. Enabling the cache this way sets the `<UseFileDefinitionCache/>` directly in the Encore project file.
+1. [**Project Settings**](Config#enable-file-definition-cache). Configuration in the IDE is simplest if your application has only one or very few projects. Enabling the cache this way sets the `<UseFileDefinitionCache/>` directly in the Encore project file.
 
 2. [**Directory.Build.props**](https://learn.microsoft.com/visualstudio/msbuild/customize-by-directory#directorybuildprops-and-directorybuildtargets). If your build already has such a file for "default" settings, put the `<UseFileDefinitionCache/>` property there. Otherwise, create the file in a "root" folder that is an ancestor of all of the application's Encore projects. Thus, every project in the build inherits the property. This is the "only way to go" in development builds with many projects. Currently, `Directory.Build.props` cannot be managed by Visual Studio's Project Designer.
 
@@ -63,8 +63,8 @@ The only maintenance to be performed by the user is flushing the cache "periodic
 
 2. **Clear File Definition Cache** command as shown below. This command is available on the **Build** menu and context menus for solutions and projects.  Typically this is used when it is clear that a database change occurred that requires a cache refresh, but a solution rebuild is not desired.
 
-    ![Using a Visual Studio menu command to clear the cache.]({{ page.vs_images_path }}FileDefCacheClearCommand.png)
+    ![Using a Visual Studio menu command to clear the cache.](images/FileDefCacheClearCommand.png)
 
-3. **Delete the Cache Folder**. A single transient folder is dedicated for cache use only. Use any Windows method to delete the folder (or its *entire* contents). Be sure no builds using the cache are in-progress. To determine its location, you can use the [Visual Studio Project Designer](ecrVsProjConfig#file-definition-cache-location). The UI includes a handy link to open the folder in Windows Explorer to perform the flush.
+3. **Delete the Cache Folder**. A single transient folder is dedicated for cache use only. Use any Windows method to delete the folder (or its *entire* contents). Be sure no builds using the cache are in-progress. To determine its location, you can use the [Visual Studio Project Designer](Config#file-definition-cache-location). The UI includes a handy link to open the folder in Windows Explorer to perform the flush.
 
 {% include er4vs_foot_links.html %}

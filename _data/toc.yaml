@@ -94,35 +94,38 @@ Manuals:
       - title: Performing Actions with Methods
         path: /dox/ecrTourPerformingActionswithMethods.html
   - sectiontitle: Encore RPG for Visual Studio
-    sectionpath: /dox/ecrVsMainIntro.html
+    sectionpath: /dox/manuals/vs/MainIntro.html
     section:
     - sectiontitle: Projects
-      sectionpath: /dox/ecrVsProjects.html
+      sectionpath: /dox/manuals/vs/projects/Projects.html
       section:
       - title: Hello Encore!
-        path: /dox/ecrVsHelloWorld.html
+        path: /dox/manuals/vs/projects/HelloWorld.html
       - title: Managing Project Items
-        path: /dox/ecrVsProjAddNewItem.html
+        path: /dox/manuals/vs/projects/AddNewItem.html
       - title: Generate C# Projects
-        path: /dox/ecrVsProjGenCSharp.html
-      - title: Project Configuration
-        path: /dox/ecrVsProjConfig.html
+        path: /dox/manuals/vs/projects/GenCSharp.html
+      - sectiontitle: Project Configuration
+        sectionpath: /dox/manuals/vs/projects/Config.html
+        section:
+        - title: DevOps and Database Names
+          path: /dox/manuals/vs/projects/devops-dbnames.html
       - title: File Definition Caching
-        path: /dox/ecrVsProjFileDefCaching.html
+        path: /dox/manuals/vs/projects/FileDefCaching.html
     - sectiontitle: Debugging
-      sectionPath: /dox/ecrVsDebugging.html
+      sectionPath: /dox/manuals/vs/debugging/Debugging.html
       section: 
       - title: Breakpoints
-        path: /dox/ecrVsDebugBreakpoints.html
+        path: /dox/manuals/vs/debugging/DebugBreakpoints.html
       - title: Examining Variables
-        path: /dox/ecrVsDebugInspect.html
+        path: /dox/manuals/vs/debugging/DebugInspect.html
     - sectiontitle: Editor Features
-      sectionpath: /dox/ecrVsEditorIntro.html
+      sectionpath: /dox/manuals/vs/editor/EditorIntro.html
       section:
       - title: IntelliSense®
-        path: /dox/ecrVsSourceEditing.html
+        path: /dox/manuals/vs/editor/SourceEditing.html
       - title: Navigation
-        path: /dox/ecrVsSourceNav.html
+        path: /dox/manuals/vs/editor/SourceNav.html
   - title: Help Resources
     path: /dox/help-resources.html
 

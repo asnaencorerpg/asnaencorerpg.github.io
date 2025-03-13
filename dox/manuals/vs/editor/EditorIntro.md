@@ -18,11 +18,11 @@ Encore RPG for Visual Studio language services provide the essentials for editin
 ---
 ### IntelliSense®
 
-[Code completion, QuickInfo, code blocks and more.](ecrVsSourceEditing)
+[Code completion, QuickInfo, code blocks and more.](SourceEditing.html)
 
 ---
 ### Navigation
 
-[Finding code references.](ecrVsSourceNav)
+[Finding code references.](SourceNav.html)
 
 {% include er4vs_foot_links.html %}

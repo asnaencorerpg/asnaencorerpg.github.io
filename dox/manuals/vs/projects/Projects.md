@@ -21,32 +21,32 @@ It enhances and extends many features of the C# project system:
 ---
 ### Hello World
 
-[Hello Encore!](ecrVsHelloWorld)
+[Hello Encore!](HelloWorld.html)
 
 The basics: create an Encore RPG application from scratch.
 
 ---
 ### Manage the Project
 
-[Modify the project and track changes.](ecrVsProjAddNewItem)
+[Modify the project and track changes.](AddNewItem.html)
 
 Add and remove Encore and other project items, and create a Git repository.
 
 ---
 ### Generate C# Projects
 
-[Ready to Migrate?](ercVsPrjGenCSharp)
+[Ready to Migrate?](GenCSharp.html)
 
 Create a C# project instantly from any Encore project in the solution.
 
 ---
 ### Advanced Topics
 
-[Project Configuration](ecrVsProjConfig)
+[Project Configuration](Config.html)
 
 A tour of the configuration settings for Encore development and migration.
 
-[File Definition Caching](ecrVsProjFileDefCaching)
+[File Definition Caching](FileDefCaching.html)
 
 Externally-described file caching can enhance build speed for large projects. 
 

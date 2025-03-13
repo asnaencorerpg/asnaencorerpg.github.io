@@ -25,7 +25,7 @@ Sometimes you just need a hint about an item in the code. This IntelliSense® fe
 
 > If the animation below has stopped, please [refresh the page](#quick-info).
 
-![Discovering the type of `Summaries` with Quick Info]({{ page.vs_images_path }}EditorQuickInfo.gif)
+![Discovering the type of `Summaries` with Quick Info](images/EditorQuickInfo.gif)
 
 > Font and color modifications are saved in the user's [Visual Studio settings](https://learn.microsoft.com/visualstudio/ide/personalizing-the-visual-studio-ide), and are applied only to the current theme.
 
@@ -45,7 +45,7 @@ An icon indicating the kind of item is shown in each list entry. The member list
 
 > Selecting an item in either list moves the keyboard cursor to the declaration for the item.
 
-![The properties of the current class are shown.]({{ page.vs_images_path }}EditorNavigator.png)
+![The properties of the current class are shown.](images/EditorNavigator.png)
 
 > The code navigator UI can be enabled/disabled in **Tools\|Options**, with the "Navigation bar" setting.
 
@@ -58,14 +58,14 @@ The command opens the definition's file in the editor (if it is not already open
 
 > If the animation below has stopped, please [refresh the page](#go-to-definition).
 
-![Using Go To Definition to edit an item's code definition.]({{ page.vs_images_path }}EditorGoToDefinition.gif)
+![Using Go To Definition to edit an item's code definition.](images/EditorGoToDefinition.gif)
 
 > Note: If the item's definition is not found in any currently loaded Encore project, the command cannot be invoked, and will not appear in the context menu.
 
 ---
 ### F1 Encore Opcode Help
 
-Online help is available for most Encore [opcodes](ecrLrfOpCodesMain) and many [built-in functions](Functions_overview). You can access this information with the editor via `F1` when the keyboard cursor is on the item to query help for.
+Online help is available for most Encore [opcodes](/dox/ecrLrfOpCodesMain.html) and many [built-in functions](/dox/Functions_overview.html). You can access this information with the editor via `F1` when the keyboard cursor is on the item to query help for.
 
 > Encore RPG support for `F1` help is a work-in-progress. If you find discrepancies, please contact ASNA Support.
 
