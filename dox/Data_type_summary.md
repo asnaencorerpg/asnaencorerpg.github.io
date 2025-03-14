@@ -164,4 +164,4 @@ An **Object** referring to any elementary or composite data type uses 4 bytes in
 
 [*String Data Type](String_Data_Type.html)
 
-[.NET Framework Data Types Comparison](ecrConFrameworkDataTypesComparison.html) 
+[.NET Framework Data Types Comparison](/concepts/datatypes/FrameworkDataTypesComparison.html) 

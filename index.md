@@ -59,7 +59,7 @@ skip_read_time: true
         </a>
       </div> 
       <div class="col-xs-12 col-sm-6 col-lg-4 card-holder">
-        <a class="card concepts" href="/dox/ecrConLanguageConceptsMain.html">
+        <a class="card concepts" href="/concepts/LanguageConceptsMain.html">
           <h5 class="title">Concepts</h5>
           <p>
             Learn the concepts behind ASNA Encore RPG.

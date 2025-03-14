@@ -182,7 +182,7 @@ and
 
 [BEGSR](BEGSR.html)
 
-[Custom Attributes](ecrConCustomAttributes.html)
+[Custom Attributes](/concepts/assemblies/CustomAttributes.html)
 
 [DCLSRPARM](DCLSRPARM.html)
 

@@ -7,7 +7,7 @@ horizontalnav:
   path: /manuals/Welcome.html
   node: Manuals
 - title: Concepts
-  path: /dox/ecrConLanguageConceptsMain.html
+  path: /concepts/LanguageConceptsMain.html
   node: Concepts
 - title: Reference
   path: /dox/ecrLrfLangRefMain.html
@@ -132,214 +132,215 @@ Manuals:
 ## Concepts
 Concepts:
 - sectiontitle: Language Concepts
-  sectionpath: /dox/ecrConLanguageConceptsMain.html
+  sectionpath: /concepts/LanguageConceptsMain.html
   section:
   - sectiontitle: Arrays
-    sectionpath: /dox/ecrConArrays.html
+    sectionpath: /concepts/arrays/intro.html
     section:
     - title: Arrays Overview
-      path: /dox/ecrConArraysOverview.html
+      path: /concepts/arrays/ArraysOverview.html
     - title: Array Usage
-      path: /dox/ecrConArraysUsage.html
+      path: /concepts/arrays/ArraysUsage.html
   - sectiontitle: Assemblies
-    sectionpath: /dox/ecrConAssemblies.html
+    sectionpath: /concepts/assemblies/Assemblies.html
     section:
     - title: Allocating Memory
-      path: /dox/ecrConAllocatingMemory.html
+      path: /concepts/assemblies/AllocatingMemory.html
     - title: Namespaces
-      path: /dox/ecrConNamespacesStart.html
+      path: /concepts/assemblies/NamespacesStart.html
     - title: Custom Attributes
-      path: /dox/ecrConCustomAttributes.html
+      path: /concepts/assemblies/CustomAttributes.html
     - title: Strong-Named Assemblies
-      path: /dox/ecrLrfStrongNamedAssembly.html
+      path: /concepts/assemblies/StrongNamedAssembly.html
   - sectiontitle: Control Flow
-    sectionpath: /dox/ecrConControlFlow.html
+    sectionpath: /concepts/control-flow/ControlFlow.html
     section:
     - title: Decision Structures
-      path: /dox/ecrConDecisionStructures.html
+      path: /concepts/control-flow/DecisionStructures.html
     - title: Loop Structures
-      path: /dox/ecrConLoopStructures.html
+      path: /concepts/control-flow/LoopStructures.html
     - title: Nested Control Statements
-      path: /dox/ecrConNestedControlOpCodes.html
+      path: /concepts/control-flow/NestedControlOpCodes.html
   - sectiontitle: DataTypes
-    sectionpath: /dox/ecrConDataTypes.html
+    sectionpath: /concepts/datatypes/DataTypes.html
     section:
     - title: DataType Declaration
-      path: /dox/ecrConDataTypeDeclaration.html
+      path: /concepts/datatypes/DataTypeDeclaration.html
     - sectiontitle: Elementary DataTypes
-      sectionpath: /dox/ecrConElementaryDataTypes.html
+      sectionpath: /concepts/datatypes/ElementaryDataTypes.html
       section:
       - sectiontitle: Numeric DataTypes
-        sectionpath: /dox/ecrConNumericDataTypes.html
+        sectionpath: /concepts/datatypes/NumericDataTypes.html
         section:
         - title: Integral Types
-          path: /dox/ecrConIntegralTypes.html
+          path: /concepts/datatypes/IntegralTypes.html
         - title: NonIntegral Types
-          path: /dox/ecrConNonintegralTypes.html
+          path: /concepts/datatypes/NonintegralTypes.html
       - sectiontitle: Text/Character DataTypes
-        sectionpath: /dox/ecrConTextDataTypes.html
+        sectionpath: /concepts/datatypes/TextDataTypes.html
         section:
         - title: "Character DataType"
-          path: /dox/ecrConCharacterDataType.html
+          path: /concepts/datatypes/CharacterDataType.html
         - title: "String DataType"
-          path: /dox/ecrConStrings.html
+          path: /concepts/datatypes/Strings.html
         - title: "OneChar DataType"
-          path: /dox/ecrConOneChar.html
+          path: /concepts/datatypes/OneChar.html
     - sectiontitle: DataType Implementation
-      sectionpath: /dox/ecrConDataTypeImplementation.html
+      sectionpath: /concepts/datatypes/DataTypeImplementation.html
       section:
       - title: Values Types and Reference Types
-        path: /dox/ecrConValuesTypesandReferenceTypes.html
+        path: /concepts/datatypes/ValuesTypesAndReferenceTypes.html
       - title: Value Types vs. Reference Types
-        path: /dox/ecrConValueTypesvsReferenceTypes.html
+        path: /concepts/datatypes/ValueTypesVsReferenceTypes.html
       - title: DataTypes as Classes and Structures
-        path: /dox/ecrConDataTypesasStructuresandClasses.html
+        path: /concepts/datatypes/DataTypesAsStructuresAndClasses.html
     - title: DataType Comparison
-      path: /dox/ecrConFrameworkDataTypesComparison.html
+      path: /concepts/datatypes/FrameworkDataTypesComparison.html
     - title: Data Structure Changes
-      path: /dox/DataStructureChanges.html
+      path: /concepts/datatypes/DataStructureChanges.html
   - sectiontitle: Declared Elements
-    sectionpath: /dox/ecrConDeclaredElements.html
+    sectionpath: /concepts/declared-elements/DeclaredElements.html
     section:
     - title: Declared Element Characteristics
-      path: /dox/ecrConDeclaredElementCharacteristics.html
+      path: /concepts/declared-elements/DeclaredElementCharacteristics.html
     - sectiontitle: Declared Element Lifetime
-      sectionpath: /dox/ecrConDeclaredElementsLifetime.html
+      sectionpath: /concepts/declared-elements/DeclaredElementsLifetime.html
       section:
       - title: Static Variable Initialization
-        path: /dox/ecrConStaticVariableInitialization.html
+        path: /concepts/declared-elements/StaticVariableInitialization.html
     - sectiontitle: Declared Element Scope
-      sectionpath: /dox/ecrConDeclaredElementsScope.html
+      sectionpath: /concepts/declared-elements/DeclaredElementsScope.html
       section:
       - title: Levels of Scope
-        path: /dox/ecrConLevelsofScope.html
+        path: /concepts/declared-elements/LevelsOfScope.html
     - title: Accessibility
-      path: /dox/ecrConAccessibility.html
+      path: /concepts/declared-elements/Accessibility.html
   - title: Enumerations Overview
-    path: /dox/ecrConEnumerationsOverview.html
+    path: /concepts/EnumerationsOverview.html
   - title: Events
-    path: /dox/ecrConEvents.html
+    path: /concepts/Events.html
+  - sectiontitle: Files
+    sectionpath: /concepts/files/intro.html
+    section:
+    - title: Using NetBlockFactor
+      path: /concepts/files/UsingNetblockfactor.html
   - title: Generic Types Overview
-    path: /dox/ecrGenericTypesOverview.html
+    path: /concepts/GenericTypesOverview.html
   - sectiontitle: Expressions
-    sectionpath: /dox/ecrConExpressions.html
+    sectionpath: /concepts/expressions/Expressions.html
     section:
     - title: Calculating Numeric Values
-      path: /dox/ecrConCalculatingNumericValues.html
+      path: /concepts/expressions/CalculatingNumericValues.html
     - title: Value Comparisons
-      path: /dox/ecrConValueComparisons.html
+      path: /concepts/expressions/ValueComparisons.html
     - title: Boolean Expressions
-      path: /dox/ecrConBooleanExpressions.html
-  - sectiontitle: Objects
-    sectionpath: /dox/ecrConObjects.html
-    section:
-    - title: What is an Object?
-      path: /dox/ecrConWhatisanObject.html
-    - title: Relation of Objects to Each Other
-      path: /dox/ecrConRelationofObjects.html
-    - title: The Basics of Working with Objects
-      path: /dox/ecrConBasicsofObjects.html
-    - title: Objects, Properties, Methods, and Events
-      path: /dox/ecrConObjPropMethodsandEvents.html
-    - title: Using Constructors
-      path: /dox/ecrConUsingConstructors.html
-    - title: Object-Oriented Programming
-      path: /dox/ecrConObjectOrientedProgramming.html
-    - title: Using NetBlockFactor
-      path: /dox/ecrConUsingNetblockfactor.html
-    - title: Performing Multiple Actions on an Object
-      path: /dox/ecrConPerformingMultipleActionsonObject.html
+      path: /concepts/expressions/BooleanExpressions.html
   - sectiontitle: Namespaces
-    sectionpath: /dox/ecrConNamespaces.html
+    sectionpath: /concepts/namespaces/Namespaces.html
     section:
     - title: Namespace Declarations
-      path: /dox/ecrConNamespaceDeclarations.html
+      path: /concepts/namespaces/NamespaceDeclarations.html
     - title: Namespace Concepts
-      path: /dox/ecrConNamespacesConcepts.html
+      path: /concepts/namespaces/NamespacesConcepts.html
+  - sectiontitle: Objects
+    sectionpath: /concepts/objects/Objects.html
+    section:
+    - title: What is an Object?
+      path: /concepts/objects/WhatIsAnObject.html
+    - title: Relation of Objects to Each Other
+      path: /concepts/objects/RelationOfObjects.html
+    - title: The Basics of Working with Objects
+      path: /concepts/objects/BasicsOfObjects.html
+    - title: Objects, Properties, Methods, and Events
+      path: /concepts/objects/ObjPropMethodsandEvents.html
+    - title: Using Constructors
+      path: /concepts/objects/UsingConstructors.html
+    - title: Object-Oriented Programming
+      path: /concepts/objects/ObjectOrientedProgramming.html
+    - title: Performing Multiple Actions on an Object
+      path: /concepts/objects/PerformingMultipleActionsonObject.html
   - sectiontitle: Operators
-    sectionpath: /dox/ecrConOperators.html
+    sectionpath: /concepts/operators/Operators.html
     section:
     - title: Arithmetic Operators
-      path: /dox/ecrConArithmeticOperators.html
+      path: /concepts/operators/ArithmeticOperators.html
     - title: Comparison Operators
-      path: /dox/ecrConComparisonOperators.html
+      path: /concepts/operators/ComparisonOperators.html
     - title: Concatenation Operators
-      path: /dox/ecrConConcatenationOperators.html
+      path: /concepts/operators/ConcatenationOperators.html
     - title: Logical Operators
-      path: /dox/ecrConLogicalOperators.html
+      path: /concepts/operators/LogicalOperators.html
   - sectiontitle: Properties
-    sectionpath: /dox/ecrConProperties.html
+    sectionpath: /concepts/properties/Properties.html
     section:
     - title: Setting and Retrieving Properties
-      path: /dox/ecrConSettingandRetrievingProperties.html
+      path: /concepts/properties/SettingandRetrievingProperties.html
   - title: Manipulating Strings
-    path: /dox/ecrConManipulatingStrings.html
+    path: /concepts/ManipulatingStrings.html
   - title: Type Members
-    path: /dox/ecrConTypeMembers.html
+    path: /concepts/TypeMembers.html
   - sectiontitle: Variables
-    sectionpath: /dox/ecrConVariables.html
+    sectionpath: /concepts/variables/Variables.html
     section:
     - title: Variable Declaration
-      path: /dox/ecrConVariableDeclaration.html
+      path: /concepts/variables/VariableDeclaration.html
     - sectiontitle: Object Variables
-      sectionpath: /dox/ecrConObjectVariables.html
+      sectionpath: /concepts/variables/ObjectVariables.html
       section:
       - title: Object Variable Assignment
-        path: /dox/ecrConObjectVariableAssignment.html
+        path: /concepts/variables/ObjectVariableAssignment.html
       - sectiontitle: Object Variable Declaration
-        sectionpath: /dox/ecrConObjectVariableDeclaration.html
+        sectionpath: /concepts/variables/ObjectVariableDeclaration.html
         section:
         - title: BegUsing/EndUsing Blocks
-          path: /dox/BEGUSINGENDUSING.html
+          path: /concepts/variables/BEGUSINGENDUSING.html
       - title: Object Variable Values
-        path: /dox/ecrConObjectVariableValues.html
+        path: /concepts/variables/ObjectVariableValues.html
   - title: Collapsing and Hiding Code
-    path: /dox/ecrConHidingandCollapsingCode.html
+    path: /concepts/HidingandCollapsingCode.html
   - sectiontitle: DataGate Print File Designer Overview
-    sectionpath: /dox/ecrConDataGatePrintfileOverview.html
+    sectionpath: /concepts/print/DataGatePrintfileOverview.html
     section:
     - title: Renderer Command Options
-      path: /dox/ecrLrfRendererCommandOptions.html
+      path: /concepts/print/RendererCommandOptions.html
     - title: Using the InfSR keyword
-      path: /dox/ecrConInfSRKeyword.html
-    - title: Considerations for OLE Print File Conversion
-      path: /dox/ecrConsiderationsforOLEPrintFileSupport.html
+      path: /concepts/print/InfSRKeyword.html
   - title: Rules of Subroutine Overloading
-    path: /dox/ecrConRulesofSubroutineOverloading.html
+    path: /concepts/RulesOfSubroutineOverloading.html
   - title: Unicode
-    path: /dox/ecrConUnicode.html
+    path: /concepts/Unicode.html
   - sectiontitle: RPG Cycle
-    sectionpath: /dox/ecrCycle_Overview.html
+    sectionpath: /concepts/rpg-cycle/Overview.html
     section:
     - title: Level Break Indicator (*INL1...*INL9)
-      path: /dox/ecrCycle_LevelBreakIndicators.html
+      path: /concepts/rpg-cycle/LevelBreakIndicators.html
     - title: "*DetailCalc Method"
-      path: /dox/ecrCycle_DetailCalcMethod.html
+      path: /concepts/rpg-cycle/DetailCalcMethod.html
     - title: "*FetchOverflow Method"
-      path: /dox/ecrCycle_FetchOverflowMethod.html
+      path: /concepts/rpg-cycle/FetchOverflowMethod.html
     - title: Matching Record Indicator (*INMR)"
-      path: /dox/ecrCycle_MatchingRecordIndicators.html
+      path: /concepts/rpg-cycle/MatchingRecordIndicators.html
     - title: Handling Cycle Output to Database Files
-      path: /dox/ecrCycle_New_Output_Handling.html
+      path: /concepts/rpg-cycle/New_Output_Handling.html
     - title: Overflow Indicators
-      path: /dox/ecrCycle_OverflowIndicators.html
+      path: /concepts/rpg-cycle/OverflowIndicators.html
     - title: "*StartCycle Method"
-      path: /dox/ecrCycle_StartCycleMethod.html
+      path: /concepts/rpg-cycle/StartCycleMethod.html
     - title: "*TotalCalc Method"
-      path: /dox/ecrCycle_TotalCalcMethod.html
+      path: /concepts/rpg-cycle/TotalCalcMethod.html
   - title: Interfaces in Encore RPG
-    path: /dox/ecrConInterface.html
+    path: /concepts/Interface.html
   - sectiontitle: Operation Codes
-    sectionpath: /dox/ecrConOpCodes.html
+    sectionpath: /concepts/operation-codes/OpCodes.html
     section:
     - title: Operation Codes Overview
-      path: /dox/ecrConOpCodesOverview.html
+      path: /concepts/operation-codes/OpCodesOverview.html
     - title: Assignment Operation Codes
-      path: /dox/ecrConAssignmentOpCodes.html
+      path: /concepts/operation-codes/AssignmentOpCodes.html
     - title: Declaration Operation Codes
-      path: /dox/ecrConDeclarationOpCodes.html
+      path: /concepts/operation-codes/DeclarationOpCodes.html
     - title: Executable Operation Codes
-      path: /dox/ecrConExecutableOpCodes.html
+      path: /concepts/operation-codes/ExecutableOpCodes.html
 
 
 ## Language Reference

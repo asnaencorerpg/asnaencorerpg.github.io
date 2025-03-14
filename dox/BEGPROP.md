@@ -181,7 +181,7 @@ A **BEGPROP** block must always end with an [ENDPROP](ENDPROP.html), and the [BE
 
 [BEGSR](BEGSR.html)
 
-[Custom Attributes](ecrConCustomAttributes.html)
+[Custom Attributes](/concepts/assemblies/CustomAttributes.html)
 
 [DCLSRPARM](DCLSRPARM.html)
 

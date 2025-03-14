@@ -24,4 +24,4 @@ See [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html) example.
 ### See Also
 [BEGCONSTRUCTOR](BEGCONSTRUCTOR.html)
 
-[Using Constructors](ecrConUsingConstructors.html) 
+[Using Constructors](/concepts/objects/singConstructors.html) 

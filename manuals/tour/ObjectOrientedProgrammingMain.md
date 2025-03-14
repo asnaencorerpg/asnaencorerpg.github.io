@@ -11,7 +11,7 @@ In the following topics, you'll see how easy it is to create your own objects fr
 
 ### In This Section
 
-[Introduction to Objects in Encore RPG](/dox/ecrConObjects.html)
+[Introduction to Objects in Encore RPG](/concepts/objects/Objects.html)
 
 Provides an introduction to the terms and concepts used in object-oriented
                 programming.
@@ -50,12 +50,12 @@ Describes how to define classes that serve as the basis for other classes.
 
 
 ### Related Sections
-[Objects](/dox/ecrConObjects.html) 
+[Objects](/concepts/objects/Objects.html) 
 
 Describes what objects are and how they are used.
 
 
-[Object-Oriented Programming (Concepts)](/dox/ecrConObjectOrientedProgramming.html) 
+[Object-Oriented Programming (Concepts)](/concepts/objects/ObjectOrientedProgramming.html) 
 
 Describes what objects are and how they are used.
 

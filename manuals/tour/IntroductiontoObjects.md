@@ -43,7 +43,7 @@ Overloading and overriding are similar concepts that can be easy to confuse. Alt
                 inherit overridden members.
 
 ### See Also
-[Objects](/dox/ecrConObjects.html)
+[Objects](/concepts/objects/Objects.html)
 
 [Creating and Using Objects](CreatingandUsingObjectsMain.html)
 

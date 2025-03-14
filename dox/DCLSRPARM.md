@@ -53,7 +53,7 @@ Optional. **Type** can be any of the "*" Types (*CHAR, *BINARY, etc.) or it can 
 - If **Type** is *BOOLEAN, you can use the *TRUE or *ON and *FALSE or *OFF special values to indicate True or False.
 
 - If a **Type** parameter is not given, the **Len** parameter is required. In this case, *CHAR is assumed if there is one integer, and *ZONED is assumed if there are two integers.
-- See [Encore RPG Assemblies](ecrConAssemblies.html) for more information.
+- See [Encore RPG Assemblies](/concepts/assemblies/Assemblies.html) for more information.
 
 
 **Len** 

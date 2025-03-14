@@ -68,4 +68,4 @@ EndEnum
 
 [DCLENUMFLD](DCLENUMFLD.html)
 
-[Enumeration Definition](ecrConEnumerationsOverview.html)
+[Enumeration Definition](/concepts/EnumerationsOverview.html)

@@ -33,9 +33,9 @@ Code that is passed over due to a /IF /ELSE /ENDIF isn’t just skipped during e
 See example in [/DEFINE](ecrCompilerDirectivesDefine.html).
 
 ### Requirements
-**Namespace:** ASNA.VisualRPG. Runtime 
+**Namespace:** ASNA.QSys.Runtime 
 
-**Assembly:** ASNA Encore RPG Runtime (in ASNA.VisualRPG. Runtime .dll) 
+**Assembly:** ASNA Encore RPG Runtime (in ASNA.QSys.Runtime .dll) 
 
 **Platforms:** Windows server 2012, Windows server 2012 R2, Windows Server 2016, Windows 7, Windows 8, Windows 10. 
 

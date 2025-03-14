@@ -230,9 +230,9 @@ MyIntArr = *new *integer4[] {10, 100, 1000}
 ```
 
 ### See Also
-[Arrays Overview](ecrConArraysOverview.html)
+[Arrays Overview](/concepts/ArraysOverview.html)
 
-[Custom Attributes](ecrConCustomAttributes.html)
+[Custom Attributes](/concepts/assemblies/CustomAttributes.html)
 
 [DCLDS](DCLDS.html)
 

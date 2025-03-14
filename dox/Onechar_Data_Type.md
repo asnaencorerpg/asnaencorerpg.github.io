@@ -17,6 +17,6 @@ The default initialization value for a * **OneChar** field is 0x0000. See also *
 
 [*Char Data Type](Character_Data_Type.html)
 
-[Unicode](ecrConUnicode.html)
+[Unicode](/concepts/ConUnicode.html)
 
 [OneChar Literals](OneChar_Literal.html) 

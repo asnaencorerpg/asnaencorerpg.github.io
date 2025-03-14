@@ -124,7 +124,7 @@ You can also optionally specify a numeric value (length) to indicate the number 
 Optional. **OverFlowInd** contains the name of an indicator used to specify if the print file has reached the Overflow area. The indicator-name must be a previous declared field of Type (*Ind). After each ‘write’ to the print file, the cursor is positioned in the overflow area (line number as defined by the .NET Print file). The indicator named will then be set on (*ON), and the program may then test for the indicator specified to Write to other formats, such as Page Headers. Page Headers, or other formats should include properties to start a new page before printing, causing the cursor to be positioned outside the overflow area, ready for the next Write. For the next ‘write’ that is not within the overflow area, the indicator named will be turned off (*OFF).
 
 
-For Monarch programs migrated using the RPG Cycle, the indicators ***INOA - *INOG and *INOV** are supported. These overflow indicators condition the lines to be printed when overflow occurs on a program described printer file. See [Overflow Indicators](ecrCycle_OverflowIndicators.html) for more information.
+For Monarch programs migrated using the RPG Cycle, the indicators ***INOA - *INOG and *INOV** are supported. These overflow indicators condition the lines to be printed when overflow occurs on a program described printer file. See [Overflow Indicators](/concepts/rpg-cycle/OverflowIndicators.html) for more information.
 
 
 **IndDS** 
@@ -176,7 +176,7 @@ Optional. Shared specifies whether or not this file is to be shared. *NO is the 
 
 Optional. A subroutine that is called when a file error occurs in a file operation that is NOT using an error indicator. 
 
-- For more detail see the related Concepts page: [Using the InfSR Keyword](ecrConInfSRKeyword.html)
+- For more detail see the related Concepts page: [Using the InfSR Keyword](/concepts/print/InfSRKeyword.html)
 
 
 ### Remarks

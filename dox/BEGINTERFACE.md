@@ -83,4 +83,4 @@ EndInterface
 ### See Also
 [ENDINTERFACE](ENDINTERFACE.html)
 
-[Interface Definition](ecrConInterface.html) 
+[Interface Definition](/concepts/Interface.html) 

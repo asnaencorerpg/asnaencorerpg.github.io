@@ -199,4 +199,4 @@ DS3.DSFLD2 = "JJJJJJJJ"
 
 [Time, Date, and Timestamp Variables](Time_Formats.html)
 
-[Data Structure Changes](DataStructureChanges.html) 
+[Data Structure Changes](/concepts/datatypes/DataStructureChanges.html) 

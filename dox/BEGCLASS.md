@@ -72,7 +72,7 @@ A class declaration must end with an [EndClass](ENDCLASS.html) command, which mu
 
 For more information on classes, see topics within [Understanding Classes](/manuals/UnderstandingClassesMain.html).
 
-For more information on attributes, see [Custom Attributes](ecrConCustomAttributes.html).
+For more information on attributes, see [Custom Attributes](/concepts/assemblies/CustomAttributes.html).
 
 ### Example
 
@@ -96,7 +96,7 @@ EndClass
 
 ### See Also
 
-[Custom Attributes](ecrConCustomAttributes.html)
+[Custom Attributes](/concepts/assemblies/CustomAttributes.html)
 
 [ENDCLASS](ENDCLASS.html)
 

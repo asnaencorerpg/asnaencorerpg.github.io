@@ -51,7 +51,7 @@ The language service identifies various "regions" in the Encore ile being edited
 
 ![Animation displaying the collapsibility of code regions.](images/EditorRegionCollapseToggle.gif)
 
-> Non-code regions may also be created and similarly used with the [`/Region` and `/EndRegion`](ecrConHidingandCollapsingCode) compiler directives.
+> Non-code regions may also be created and similarly used with the [`/Region` and `/EndRegion`](/concepts/HidingandCollapsingCode) compiler directives.
 
 Some regions identify code "braces": sections of code that are "scoped" by Encore keywords such as `If`/`Endif`, or `BegFunc`/`DclSrParm`/`EndFunc`. Identifying the "partner" elements of braced code sections is easy. Move the cursor to one of the keywords, as shown below with `EndConstructor`.  The keyword and its scope-defining partners are moderately highlighted in the editor. This is particularly useful in large or deeply-nested scope constructs.
 

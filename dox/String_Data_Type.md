@@ -15,4 +15,4 @@ The * **String** data type (unicode) allows you to pass a parameter to a procedu
 
 [*Char Data Type](Character_Data_Type.html)
 
-[Unicode](ecrConUnicode.html) 
+[Unicode](/concepts/ConUnicode.html) 

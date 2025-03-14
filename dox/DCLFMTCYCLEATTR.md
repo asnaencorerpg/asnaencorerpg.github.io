@@ -65,10 +65,10 @@ DclFmtCycleAttr RMaster   *in77 M1(RMOrder#) L2(RMOrder#)
 ### See Also
 [BegCycleOutput](BegCycleOutput.html)
 
-[Cycle Overview](ecrCycle_Overview.html) 
+[Cycle Overview](/concepts/rpg-cycle/Overview.html) 
 
 [DclFmtCycleAttr](DCLFMTCYCLEATTR.html)
 
-[Level Break Indicators](ecrCycle_LevelBreakIndicators.html) 
+[Level Break Indicators](/concepts/rpg-cycle/LevelBreakIndicators.html) 
 
-[Matching Record Indicators](ecrCycle_MatchingRecordIndicators.html) 
+[Matching Record Indicators](/concepts/rpg-cycle/MatchingRecordIndicators.html) 

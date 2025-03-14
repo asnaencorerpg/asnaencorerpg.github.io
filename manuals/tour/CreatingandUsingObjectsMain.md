@@ -27,7 +27,7 @@ Describes what methods are and how to use them.
 
 ### Related Sections
 
-[Objects](/dox/ecrConObjects.html)
+[Objects](/concepts/objects/Objects.html)
 
 Covers object-oriented programming fundamentals.
 

@@ -18,4 +18,4 @@ An **assignment** defines or reassigns the contents of a field. An **assignment*
 ```
 
 ### See Also
-[Object Variables](ecrConObjectVariableAssignment.html) 
+[Object Variables](/concepts/variables/ObjectVariableAssignment.html) 

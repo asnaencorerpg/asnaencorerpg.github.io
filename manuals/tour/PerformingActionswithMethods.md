@@ -13,6 +13,6 @@ TocOrder: 10
 When you use a method in code, the way you write the statement depends on how many arguments the method requires and whether it returns a value. Generally, you use methods just like you use subroutines or function calls. More specifically, you invoke methods in the same way as module procedures, except that you can qualify methods with an expression specifying the object instance whose method is to be called. 
 
 ### See Also
-[The Basics of Working with Objects](ecrConBasicsofObjects.html)
+[The Basics of Working with Objects](/concepts/objects/BasicsOfObjects.html)
 
-[Setting and Retrieving Properties](ecrConSettingandRetrievingProperties.html) 
+[Setting and Retrieving Properties](/concepts/properties/SettingandRetrievingProperties.html) 

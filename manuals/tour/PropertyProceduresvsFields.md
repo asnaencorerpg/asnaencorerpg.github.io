@@ -32,7 +32,7 @@ Use **fields** when:
                 size or value of the string.
 
 ### See Also
-[Data Types (Conceptual)](ecrConDataTypes.html)
+[Data Types (Conceptual)](/concepts/datatypes/DataTypes.html)
 
 [Data Types (Language Reference)](ecrLrfDataTypesMain.html)
 

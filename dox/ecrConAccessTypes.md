@@ -10,7 +10,7 @@ TocOrder: 0
 
 A declaration specifies the **access type** of the entity it declares. An entity's access type does not change the scope of an entity's name. 
 
-To specify an access type, use the **Access** keyword for any of the [declaration op codes](ecrConDeclarationOpCodes.html). The four access types of the **Access** keyword are * **Public, *Private, *Protected, and *Internal.** * **Public** is the most permissive access type, and the other three types are all subsets of * **Public** . 
+To specify an access type, use the **Access** keyword for any of the [declaration op codes](/concepts/operation-codes/DeclarationOpCodes.html). The four access types of the **Access** keyword are * **Public, *Private, *Protected, and *Internal.** * **Public** is the most permissive access type, and the other three types are all subsets of * **Public** . 
 
 The default **Access** type is *PRIVATE, indicating that the entity being declared will not be shared. 
 
@@ -22,6 +22,6 @@ The default **Access** type is *PRIVATE, indicating that the entity being declar
 The accessibility in a declaration does not depend on the accessibility of the declaration context. For example, a type declared with * **Private** access may contain a type member with * **Public** access. 
 
 ### See Also
-[Accessibility](ecrConAccessibility.html)
+[Accessibility](/concepts/declared-elements/Accessibility.html)
 
-[Declaration Op Codes](ecrConDeclarationOpCodes.html) 
+[Declaration Op Codes](/concepts/operation-codes/DeclarationOpCodes.html) 

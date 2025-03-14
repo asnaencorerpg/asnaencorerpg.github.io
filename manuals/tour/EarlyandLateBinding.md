@@ -21,4 +21,4 @@ You should use early-bound objects whenever possible, because they allow the com
 
 [Object Lifetime](ObjectLifetime.html)
 
-[Object Data Type](/dox/ecrConObjects.html) 
+[Object Data Type](/concepts/objects/Objects.html) 

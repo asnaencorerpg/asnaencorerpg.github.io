@@ -24,7 +24,7 @@ Find out about topics to assist you with getting started with Encore RPG. Also c
 ### Additional Information
 
 
-[Language Concepts](ecrConLanguageConceptsMain.html)
+[Language Concepts](/concepts/LanguageConceptsMain.html)
 
 Find out about the new Language Concepts when using Encore RPG.
 

@@ -55,7 +55,7 @@ TocOrder: 3
 Provides a reference of the Encore RPG language.
 
 
-[DataTypes Comparison](ecrConFrameworkDataTypesComparison.html)
+[DataTypes Comparison](/concepts/datatypes/FrameworkDataTypesComparison.html)
 
 Comparison list of Encore RPG, .NET Framework, C#, and Visual Basic DataTypes.
 

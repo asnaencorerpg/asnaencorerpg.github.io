@@ -46,6 +46,6 @@ TextBox1.Text = "Hello World"  //Displays *"Hello World* " in the text box.
 ```
 
 ### See Also
-[Basics of Working with Objects](ecrConBasicsofObjects.html)
+[Basics of Working with Objects](/concepts/objects/BasicsOfObjects.html)
 
 [Creating and Using Objects](CreatingandUsingObjectsMain.html) 
