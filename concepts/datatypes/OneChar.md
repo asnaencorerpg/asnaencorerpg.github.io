@@ -19,6 +19,6 @@ When Territory = "JAPAN"
 ```
 
 ### See Also
-[Data Types](ecrLrfDataTypesMain.html)
+[Data Types](/dox/ecrLrfDataTypesMain.html)
 
 [Unicode](/concepts/ConUnicode.html) 

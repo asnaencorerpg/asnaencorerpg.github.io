@@ -67,7 +67,7 @@ Discusses how to declare variables and use them to refer to objects.
 
 
 ### See Also
-[Encore RPG Language Reference](ecrLrfLangRefMain.html) 
+[Encore RPG Language Reference](/dox/ecrLrfLangRefMain.html) 
 
 Provides a complete reference for the Encore RPG language and its run-time elements.
 

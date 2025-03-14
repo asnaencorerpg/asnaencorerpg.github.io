@@ -43,4 +43,4 @@ Explains control-flow commands inside other control-flow commands.
 
 
 ### See Also
-[Encore RPG Language Reference](ecrLrfLangRefMain.html) 
+[Encore RPG Language Reference](/dox/ecrLrfLangRefMain.html) 

@@ -40,6 +40,6 @@ Summarizes the construction of objects.
 ### See Also
 [Object-Oriented Programming](ObjectOrientedProgramming.html)
 
-[Encore RPG Language Reference](ecrLrfLangRefMain.html)
+[Encore RPG Language Reference](/dox/ecrLrfLangRefMain.html)
 
 [Language Concepts](/concepts/LanguageConceptsMain.html) 

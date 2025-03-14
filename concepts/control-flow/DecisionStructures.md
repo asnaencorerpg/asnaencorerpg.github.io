@@ -56,4 +56,4 @@ Explains control-flow commands inside other control-flow commands.
 
 [FINALLY](/dox/FINALLY.html)
 
-[Encore RPG Language Reference](ecrLrfLangRefMain.html) 
+[Encore RPG Language Reference](/dox/ecrLrfLangRefMain.html) 

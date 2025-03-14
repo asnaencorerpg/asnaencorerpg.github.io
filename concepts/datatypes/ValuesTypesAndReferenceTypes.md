@@ -31,6 +31,6 @@ Describes how Encore RPG datatypes are implemented in the underlying .NET 	Frame
 ### See Also
 [Language Concepts](/concepts/LanguageConceptsMain.html)
 
-[DataTypes Main Topics](ecrLrfDataTypesMain.html)
+[DataTypes Main Topics](/dox/ecrLrfDataTypesMain.html)
 
 [DataType Summary](Data_type_summary.html) 

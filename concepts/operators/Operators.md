@@ -56,7 +56,7 @@ Provides information on operators that compare **Boolean**
 Shows how to combine elements with operators to yield new values.
 
 
-[Operators](ecrLrfOperatorsMain.html)
+[Operators](/dox/ecrLrfOperatorsMain.html)
 
 Provides links to Language Reference topics covering all Encore RPG operators, 	listed by category.
 

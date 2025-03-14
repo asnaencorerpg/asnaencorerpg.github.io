@@ -33,6 +33,6 @@ Explains the difference between value and reference types, and which data
 ### See Also
 [Language Concepts](/concepts/LanguageConceptsMain.html)
 
-[Data types Main Topics](ecrLrfDataTypesMain.html)
+[Data types Main Topics](/dox/ecrLrfDataTypesMain.html)
 
 [Data type Summary](Data_type_summary.html) 

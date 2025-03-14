@@ -11,7 +11,7 @@ TocOrder: 35
 Type members can be methods, constructors, events, constants, variables, and properties. 
 
 ### See Also
-[Methods](ecrLrfMethodsMain.html)
+[Methods](/dox/ecrLrfMethodsMain.html)
 
 [Events](/concepts/Events.html)
 

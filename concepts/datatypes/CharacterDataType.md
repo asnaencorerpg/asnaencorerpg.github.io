@@ -19,6 +19,6 @@ myStr = CustName.Trim()     // trim white space
 ```
 
 ### See Also
-[Data Types](ecrLrfDataTypesMain.html)
+[Data Types](/dox/ecrLrfDataTypesMain.html)
 
 [Unicode](/concepts/ConUnicode.html) 

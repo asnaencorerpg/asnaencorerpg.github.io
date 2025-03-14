@@ -37,7 +37,7 @@ Provides links to Language Reference topics covering assignment operators such
                 as **=** , ***=** , and **&=** .
 
 
-[Operators](ecrLrfOperatorsMain.html)
+[Operators](/dox/ecrLrfOperatorsMain.html)
 
 Provides links to Language Reference topics covering all Encore RPG operators, 	listed by category.
 
