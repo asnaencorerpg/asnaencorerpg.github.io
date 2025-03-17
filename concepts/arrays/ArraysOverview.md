@@ -49,7 +49,7 @@ Example:  ```array1 = array2 + 5 - field3```
 >  ```5``` is added and ```field3``` is subtracted to every element of ```array2``` and the result is assigned to every corresponding element of ```array2```.  If ```array1``` and ```array2``` have different element counts, the operation is done using the minimum count.
 
 - [ADD](/dox/ADD.html), [DIV](/dox/DIV.html), [MULT](/dox/MULT.html), [SQRT](/dox/SQRT.html), [SUB](/dox/SUB.html), [ZADD](/dox/ZADD.html) and [ZSUB](/dox/Z_SUB.html) commands.
-- [EXTRACT](/dox/EXTRACT.html), [ADDDUR](/dox/ADDHANDLER.html), and [SUBDUR](/dox/SUBDUR.html) commands.
+- [EXTRACT](/dox/EXTRACT.html), [ADDDUR](/dox/ADDDUR.html), and [SUBDUR](/dox/SUBDUR.html) commands.
 - [MOVE](/dox/MOVE.html) commands.
 
 Every array that is used by stating its name with these operators will participate in the "array indexing" of the expression. Array properties and functions that return arrays are not automatically indexed.

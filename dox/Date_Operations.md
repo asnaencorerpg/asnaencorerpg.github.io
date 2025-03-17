@@ -14,7 +14,7 @@ The date operation codes are used for date, time, timestamp fields, and characte
 
 The date operation codes are:
 
-[ADDDUR](ADDHANDLER.html)
+[ADDDUR](ADDDUR.html)
 
 Add a duration to a date or time.
 
