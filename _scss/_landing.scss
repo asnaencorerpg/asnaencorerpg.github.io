@@ -91,28 +91,33 @@ body.landing {
       line-height: 32px;
       margin-bottom: 14px;
     }
+  }
 
-    input {
-      font-size: 18px;
-      height: 50px;
-      line-height: 24px;
-      padding: 13px 20px;
+  .pagefind-ui__results-area {
+    background-color: var(--pagefind-ui-background);
+    margin-left: 0;
+  }
 
-      &:focus {
-        box-shadow: none;
-        outline: none;
-      }
-    }
+  .pagefind-ui__button { 
+    border-color: var(--pagefind-ui-text) !important;
+ }
 
-    #autocompleteResults {
-      left: 14px;
-      right: 14px;
-      width: unset;
+  .pagefind-ui__drawer {
+    position: fixed;
+    overflow-y: scroll !important;
+    /* max-height: 90vh; */
+    height: 68%;
+    z-index: 1000;
+  }
 
-      @include before-lg-width {
-          padding: 0;
-      }
-    }
+  .pagefind-ui__search-clear {
+    padding: 0 calc(1rem * var(--pagefind-ui-scale)) 0 calc(1rem * var(--pagefind-ui-scale)) !important;
+    /* border-color: lightgray; */
+    border-width: 0;
+  }
+
+  .pagefind-ui__results {
+    padding-left: 0 !important;
   }
 
   .card-holder {
@@ -159,7 +164,7 @@ body.landing {
     }
   }
 
-  $icons: download-ecr, guides, concepts, manuals, reference, monarch-base-docs, whats-new;
+  $icons: download-asna-qsys, guides, concepts, manuals, reference, examples, whats-new;
 
   .card {
     color: $body-text;
