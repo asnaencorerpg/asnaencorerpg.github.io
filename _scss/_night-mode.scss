@@ -2,6 +2,12 @@ body.night {
     background-color: $bg-body-night;
     color:            $body-text-night;
 
+    --pagefind-ui-primary: #eeeeee;
+    --pagefind-ui-text: #eeeeee;
+    --pagefind-ui-background: #152028;
+    --pagefind-ui-border: #152028;
+    --pagefind-ui-tag: #152028;
+
     &.landing {
         background-color: $bg-body-landing-night;
         .header > .container {
@@ -110,6 +116,7 @@ body.night {
     .toc-nav i.fa {
         color: $body-text-night;
     }
+    /*
     #autocompleteResults {
         background: $bg-search-results-night;
         border: 1px solid $black;
@@ -126,26 +133,8 @@ body.night {
           color: #b7a4de;
         }
     }
+    */
 
-    /* for google results styles - forgive us css gods */
-    .gsc-control-cse .gsc-webResult.gsc-result, .gsc-results .gsc-imageResult {
-        border-color: #192837!important;
-        background-color: #192837!important;
-    }
-    .gsc-webResult.gsc-result:hover, .gsc-imageResult:hover {
-        border-color: #25374a!important;
-        background-color: #192837!important;
-    }
-    a.gs-title {
-        color: #cccccc !important;
-        text-decoration: none;
-    }
-    .gs-webResult .gs-snippet, .gs-imageResult .gs-snippet, .gs-fileFormatType {
-        color: #a8b0b7!important;
-    }
-    .gs-webResult.gs-result a.gs-title:link, .gs-webResult.gs-result a.gs-title:link b, .gs-imageResult a.gs-title:link, .gs-imageResult a.gs-title:link b {
-        color: #a9e4ff!important;
-    }
     .component {
         background: $bg-component-night;
         img {
