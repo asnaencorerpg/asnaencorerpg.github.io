@@ -1,5 +1,6 @@
 ---
-description: Home page for ASNA Encore RPG documentation
+title: "Home page for ASNA Encore RPG documentation"
+description: "Explore the official ASNA Encore RPG for guides, commands, and more. Get all the information you need to get started."
 layout: landing
 title: ASNA Encore RPG™ - Docs
 notoc: true
@@ -83,4 +84,11 @@ skip_read_time: true
         </a>
       </div>
     </div>
+    <script>
+        window.addEventListener('DOMContentLoaded', (event) => {
+            new PagefindUI({ element: "#search-div-hero", translations: { placeholder: "Search for concepts, topics, examples, and more in this documentation site."},
+            showSubResults: false, showImages: false, resetStyles: false });
+        });
+        document.documentElement.style.setProperty('--pagefind-ui-scale','1');
+    </script>
   </section>

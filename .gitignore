@@ -11,3 +11,6 @@ ProjectSettings.json
 
 ### Mac OS ###
 .DS_Store
+
+### Gem vendor ###
+vendor/
