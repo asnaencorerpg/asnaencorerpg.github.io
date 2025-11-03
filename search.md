@@ -14,7 +14,7 @@ skip_read_time: true
 <script defer>
   window.addEventListener('DOMContentLoaded', function () {
     if (window.PagefindUI) {
-      new PagefindUI({
+      const ui = new PagefindUI({
         element: '#pagefind-search',
         translations: { placeholder: 'Search the docs' },
         showSubResults: false,
@@ -22,6 +22,15 @@ skip_read_time: true
         resetStyles: false
       });
       document.documentElement.style.setProperty('--pagefind-ui-scale','1');
+
+      const q = new URLSearchParams(location.search).get('q');
+      if (q) {
+        const input = document.querySelector('#pagefind-search input[type="text"]');
+        if (input) {
+          input.value = q;
+          input.dispatchEvent(new Event('input', { bubbles: true }));
+        }
+      }
     }
   });
 </script>
