@@ -34,3 +34,6 @@ collections:
   samples:
     output: true
 
+# Disable legacy local search (prevents /js/search.js being used anywhere)
+local_search: false
+
