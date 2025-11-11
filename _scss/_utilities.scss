@@ -84,7 +84,9 @@ img.inline {
 .asna-search {
   float: left;
   margin: 5px 0 0;
-  width: 20rem;
+  width: 100%;
+  max-width: 400px;
+  min-width: 250px;
 } 
 
 .asna-search form:not(:has(input[type=text]:focus))::before {
@@ -95,15 +97,22 @@ img.inline {
   background-color: rgba(0, 0, 0, 0.17);
   color: #0C5176;
   border: 0;
-  border-radius: 0;
+  border-radius: 4px;
   margin: 0;
+  /* Let Pagefind render its own icon; avoid duplicate background */
+  padding: 8px 12px;
+  height: 36px;
+  width: 100%;
+  font-size: 14px;
   transition: all 0.2s ease;
 }
 
 .asna-search input[type=text]:focus {
   background-color: var(--pagefind-ui-background);
   color: var(--pagefind-ui-text);
-  box-shadow: none;
+  box-shadow: 0 0 0 2px rgba(102, 175, 233, 0.3);
+  border-color: #66afe9;
+  outline: none;
 }
 
 .asna-search input[type=text]::placeholder {
@@ -113,25 +122,28 @@ img.inline {
 }
 
 .asna-search-hero {
-  font-size: 18px;
-  height: 50px;
-  line-height: 24px;
-  padding: 13px 20px;
+  font-size: 16px;
 } 
 
 .asna-search-hero input[type=text] {
   color: #0C5176;
   border: thin solid rgb(102, 175, 233);
-  border-radius: 4px;
+  border-radius: 6px;
   margin: 0;
+  /* Let Pagefind render its own icon; avoid duplicate background */
+  padding: 12px 16px;
+  height: 44px;
+  width: 100%;
+  font-size: 16px;
   transition: all 0.2s ease;
 }
 
 .asna-search-hero input[type=text]:focus {
   background-color: var(--pagefind-ui-background);
   color: var(--pagefind-ui-text);
-  box-shadow: none;
+  box-shadow: 0 0 0 2px rgba(102, 175, 233, 0.3);
   border-color: #66afe9;
+  outline: none;
 }
 
 
@@ -139,6 +151,100 @@ input[type=search]::placeholder
 {
     color: var(--pagefind-ui-background);
     opacity: 1;
+}
+
+/* Responsive adjustments for search input */
+@media (max-width: 768px) {
+  .asna-search {
+    width: 100%;
+    max-width: 100%;
+    min-width: auto;
+    margin: 8px 0 0;
+  }
+  
+  .asna-search input[type=text] {
+    height: 32px;
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+  
+  .asna-search-hero input[type=text] {
+    height: 40px;
+    padding: 10px 14px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .asna-search input[type=text] {
+    height: 30px;
+    padding: 5px 8px;
+    font-size: 13px;
+  }
+  
+  .asna-search-hero input[type=text] {
+    height: 36px;
+    padding: 8px 12px;
+    font-size: 14px;
+  }
+}
+
+/* Make the Home (hero) search span wider across the page */
+#search-div-hero {
+  width: 100% !important;   /* override grid width */
+  max-width: 1000px;        /* readable max */
+  margin-left: auto !important;
+  margin-right: auto !important;
+  float: none !important;
+}
+
+/* Pagefind UI icon alignment and input spacing */
+.asna-search .pagefind-ui__form,
+.asna-search-hero .pagefind-ui__form {
+  position: relative; /* anchor for absolute icon */
+}
+
+.asna-search .pagefind-ui__search-icon {
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 16px;
+  height: 16px;
+  pointer-events: none;
+  opacity: .85;
+}
+
+.asna-search-hero .pagefind-ui__search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-54%); /* slight nudge up for visual centering */
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  opacity: .85;
+}
+
+.asna-search .pagefind-ui__search-input {
+  padding-left: 40px !important; /* space for 16px icon */
+}
+
+.asna-search-hero .pagefind-ui__search-input {
+  padding-left: 56px !important; /* space for 20px icon */
+}
+
+@media (max-width: 480px) {
+  .asna-search .pagefind-ui__search-icon,
+  .asna-search-hero .pagefind-ui__search-icon {
+    left: 10px;
+    width: 16px;
+    height: 16px;
+  }
+  .asna-search .pagefind-ui__search-input,
+  .asna-search-hero .pagefind-ui__search-input {
+    padding-left: 38px !important;
+  }
 }
 
 @media print {
