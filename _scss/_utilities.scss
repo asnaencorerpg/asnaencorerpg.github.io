@@ -146,6 +146,14 @@ img.inline {
   outline: none;
 }
 
+.asna-search .pagefind-ui__search-clear {
+    height: 2rem !important;
+    align-self: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
 
 input[type=search]::placeholder
 {
@@ -228,6 +236,7 @@ input[type=search]::placeholder
 
 .asna-search .pagefind-ui__search-input {
   padding-left: 40px !important; /* space for 16px icon */
+  height: 36px;
 }
 
 .asna-search-hero .pagefind-ui__search-input {
