@@ -155,6 +155,11 @@ img.inline {
     margin-bottom: auto;
 }
 
+.asna-search .pagefind-ui__results-area {
+  background-color: var(--pagefind-ui-background);
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
 input[type=search]::placeholder
 {
     color: var(--pagefind-ui-background);
