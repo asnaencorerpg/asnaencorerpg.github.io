@@ -123,7 +123,16 @@ img.inline {
 
 .asna-search-hero {
   font-size: 16px;
-} 
+}
+
+/* Align Pagefind's pseudo-element search icon vertically */
+.asna-search-hero .pagefind-ui__form::before {
+    top: calc(17px * var(--pagefind-ui-scale)) !important;
+}
+
+.asna-search .pagefind-ui__form::before {
+    top: calc(11px * var(--pagefind-ui-scale)) !important;
+}
 
 .asna-search-hero input[type=text] {
   color: #0C5176;
