@@ -39,7 +39,7 @@ is also valid with Encore RPG code.
 
 Arguments for the function may be variables, constants, expressions, a prototyped procedure, or other built-in functions. An expression argument can include a built-in function. 
 
-**Note** – In syntax samples and elsewhere, optional arguments are surrounded by curly braces ({}). These braces are not used in actual code, they only serve as a visual indicator that an argument is optional. 
+> In syntax samples and elsewhere, optional arguments are surrounded by curly braces ({}). These braces are not used in actual code, they only serve as a visual indicator that an argument is optional. 
 
 See the individual built-in function descriptions for details on what arguments are allowed. 
 <br />
