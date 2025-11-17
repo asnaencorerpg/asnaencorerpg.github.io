@@ -41,7 +41,10 @@ Arguments for the function may be variables, constants, expressions, a prototype
 
 > In syntax samples and elsewhere, optional arguments are surrounded by curly braces ({}). These braces are not used in actual code, they only serve as a visual indicator that an argument is optional. 
 
+<br />
+
 See the individual built-in function descriptions for details on what arguments are allowed. 
+
 <br />
 
 | Built-In Function | Argument(s) | Value Returned |
