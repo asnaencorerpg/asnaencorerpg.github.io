@@ -12,12 +12,12 @@ Encore RPG **built-in functions** are similar to RPG operation codes in that the
 
 ### Usage
 
-```
+**function-name{(argument{:argument...})}** 
 
- **function-name{(argument{:argument...})}** 
-- or -
+    - or -
+
  **function-name{(argument{,argument...})}** 
-```
+
 
 As defined by IBM, built-in functions use a colon ( **:** ) to delimit arguments being passed to a function. For example, the formal IBM syntax for using the %EDITC function is: 
 
@@ -51,15 +51,15 @@ See the individual built-in function descriptions for details on what arguments 
 | [%CHAR](CHAR_Function.html) | numeric, date, time or timestamp expression | Value in character format. |
 | [%CHECK](CHECK_Function.html) | comparator, base {, start} | The first position of base (start, then left to right) that contains a character that does NOT appear in comparator; otherwise 0. start default is 1. |
 | [%CHECKR](CHECKR_Function.html) | comparator, base {, start} | The last position of base (start, then right to left) that contains a character that does NOT appear in comparator; otherwise 0. start default is the length of the string. |
-| [%DATE](DATE_Function.html) | (character, numeric, or timestamp expression {, *ISO | *JUL | *USA | *EUR | *JIS | *MDY | *DMY | *YMD}) | Value of expression converted to type date or the current system date in ISO date format. |
+| [%DATE](DATE_Function.html) | (character, numeric, or timestamp expression {, *ISO \| *JUL \| *USA \| *EUR \| *JIS \| *MDY \| *DMY \| *YMD}) | Value of expression converted to type date or the current system date in ISO date format. |
 | [%DAYS](DAYS_Function.html) | number | A date or timestamp value with the appropriate number of days added or subtracted. |
 | [%DEC](DEC_Function.html) | numeric expression {, digits, decpos} | Value in packed numeric format. |
 | [%DECH](DECH_Function.html) | numeric expression, digits, decpos | Half-adjusted value in packed numeric format. |
 | [%DECPOS](DECPOS_Function.html) | numeric expression | Number of decimal digits. |
-| [%DIFF](DIFF_Function.html) | op1, op2, { *MSECONDS | *SECONDS | *MINUTES | *HOURS | *DAYS | *MONTHS | *YEARS } | The difference (duration) between two date, time, or timestamp values. |
+| [%DIFF](DIFF_Function.html) | op1, op2, { *MSECONDS \| *SECONDS \| *MINUTES \| *HOURS \| *DAYS \| *MONTHS \| *YEARS } | The difference (duration) between two date, time, or timestamp values. |
 | [%DIGITS](Digits_Function.html) | Numeric, start {, length} | Value in integer format. |
 | [%DIV](DIV_Function.html) | dividend, divisor | The quotient from the division of two arguments; packed numeric if either operand is a packed, zoned, or binary numeric value, or integer if either operand is an integer numeric value. |
-| [%EDITC](EDITC_Function.html) | non-float numeric expression, edit code {, *ASTFill | *CURSYM | currency-symbol} | Value in string format representing the edited value. |
+| [%EDITC](EDITC_Function.html) | non-float numeric expression, edit code {, *ASTFill \| *CURSYM \| currency-symbol} | Value in string format representing the edited value. |
 | [%EDITFLT](EDITFLT_Function.html) | numeric expression | Character external display representation of float. |
 | [%EDITW](EDITW_Function.html) | non-float numeric expression, edit word | Value in string format representing the edited value. |
 | [%ELEM](ELEM_Function.html) | array, table, or multiple occurrence data structure name | Number of elements or occurrences. |
@@ -87,10 +87,10 @@ See the individual built-in function descriptions for details on what arguments 
 | [%SCAN](SCAN_Function.html) | Search argument, string to be searched {, start position} | First position of search argument in string, or zero if not found. |
 | [%SECONDS](SECONDS_Function.html) | number | A time or timestamp value with the appropriate number of seconds added or subtracted. |
 | [%SQRT](SQRT_Function.html) | numeric expression | The square root of the numeric expression. |
-| [%SUBDT](SUBDT_Function.html) | date, time, or timestamp value, { *MSECONDS | *SECONDS | *MINUTES | *HOURS | *DAYS | *MONTHS | *YEARS } | An unsigned numeric value with the extracted portion of a date, time, or timestamp value. |
+| [%SUBDT](SUBDT_Function.html) | date, time, or timestamp value, { *MSECONDS \| *SECONDS \| *MINUTES \| *HOURS \| *DAYS \| *MONTHS \| *YEARS } | An unsigned numeric value with the extracted portion of a date, time, or timestamp value. |
 | [%SUBST](SUBST_Function.html) | String, start {, length} | Substring. |
-| [%TIME](TIME_Function.html) | (character, numeric, or timestamp expression {, *ISO | *HMS | *USA | *EUR | *JIS}) | Value of expression converted to type time or the current system time in ISO format. |
-| [%TIMESTAMP](TIMESTAMP_Function.html) | (character, numeric, or timestamp expression {, *ISO | *ISO0}) | Value of expression converted to type timestamp or the current system timestamp in ISO format. |
+| [%TIME](TIME_Function.html) | (character, numeric, or timestamp expression {, *ISO \| *HMS \| *USA \| *EUR \| *JIS}) | Value of expression converted to type time or the current system time in ISO format. |
+| [%TIMESTAMP](TIMESTAMP_Function.html) | (character, numeric, or timestamp expression {, *ISO \| *ISO0}) | Value of expression converted to type timestamp or the current system timestamp in ISO format. |
 | [%TLOOKUP](TLOOKUP_Function.html) | argument, search-table {, alternate_table} | Sets the current table element to the element that satisfies the condition and returns `*ON`, otherwise `*OFF` if no match is found. |
 | [%TRIM](TRIM_Function.html) | string | String with left and right blanks trimmed. |
 | [%TRIML](TRIML_Function.html) | string | String with left blanks trimmed. |
