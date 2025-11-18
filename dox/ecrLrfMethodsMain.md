@@ -8,7 +8,7 @@ TocOrder: 40
 
 ---
 
-### In This Section
+## In This Section
 
 [CreateName Method](CreateName_Method.html)
 
@@ -20,8 +20,6 @@ TocOrder: 40
 
 ### Related Sections
 
-[Encore RPG Language Reference](ecrLrfLangRefMain.html)
-
-Provides a reference of the Encore RPG language.
+[Encore RPG Language Reference](ecrLrfLangRefMain.html) Provides a reference of the Encore RPG language.
 
 

@@ -13,10 +13,11 @@ Database control operation codes are incorporated into the Encore RPG language s
 
 | Op code | Description |
 |---------|-------------|
-| [OSEXEC </span>](OsExec.html) | Launch execution of another Windows .EXE. |
+| [OSEXEC](OsExec.html) | Launch execution of another Windows .EXE. |
 
 
 ### See Also
+
 [Language Elements](ecrLrfLangElementsMain.html)
 
 [OSEXEC](OsExec.html)
