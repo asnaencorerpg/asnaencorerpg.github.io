@@ -4,7 +4,7 @@ title: Encore RPG vs. Visual RPG Language
 
 ## Similar But Different
 
-If you have ever used ASNA's other programming language [**ASNA Visual RPG**](//docs.asna.com/documentation/Help170/AVRRuntime/_HTML/Welcome.htm){:target="_blank"}&#x1F875; (AVR), you will find **ASNA Encore RPG** (ECR) to be similar to AVR, however there are some differences on its [lexical elements](#lexical-elements) and supported [opcodes](#opcodes-and-keywords).
+If you have ever used ASNA's other programming language [ASNA Visual RPG](//docs.asna.com/documentation/Help170/AVRRuntime/_HTML/Welcome.htm) (AVR), you will find **ASNA Encore RPG** (ECR) to be similar to AVR, however there are some differences on its [lexical elements](#lexical-elements) and supported [opcodes](#opcodes-and-keywords).
 
 Visual RPG produces .NET Framework assemblies while Encore RPG generates .NET assemblies.
 

@@ -15,9 +15,10 @@ Overloading is especially useful when your object model dictates that you employ
 Overloading makes it easier to use properties or methods because it provides a choice of data types that can be used. 
 
 ### Overloading Rules
+
 You create an overloaded member for a class by adding two or more properties or methods with the same name. Except for overloaded derived members,each overloaded member must have different parameter lists, and the following items cannot be used as a differentiating feature when overloading a property or procedure: 
 
-- Special value ```*ByRef```, that applies to a member, or parameters
+- Special value `*ByRef`, that applies to a member, or parameters
                 of the member.
 - Names of parameters.
 - Return types of procedures.

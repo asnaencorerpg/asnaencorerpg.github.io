@@ -7,11 +7,11 @@ Encore RPG supplies several datatypes to store text or character values.
 
 ### In This Section
 
-[*CHAR Type ](CharacterDataType.html)
+[*CHAR](CharacterDataType.html) Type. 
 
-[*STRING Type](Strings.html)
+[*STRING](Strings.html) Type.
 
-[*ONECHAR Type](OneChar.html)
+[*ONECHAR](OneChar.html) Type.
 
 
 ### Related Sections

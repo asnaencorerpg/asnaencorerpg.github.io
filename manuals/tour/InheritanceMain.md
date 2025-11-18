@@ -8,7 +8,7 @@ TocOrder: 30
 
 ---
 
-Due to the .NET Framework, the Encore RPG language supports *inheritance (extensibility)* , the ability to define classes that serve as the basis for derived classes. Derived classes inherit, or can **extend** , the properties, methods, and events of the base class. In Encore RPG, the **```Extends```** keyword in used when declaring a class (```BEGCLASS```) to inherit, or extend. Derived classes can also override inherited methods with new implementations. All classes created with Encore RPG are extendable by default. 
+Due to [.NET](https://dotnet.microsoft.com/en-us/download), the Encore RPG language supports *inheritance (extensibility)* , the ability to define classes that serve as the basis for derived classes. Derived classes inherit, or can **extend** , the properties, methods, and events of the base class. In Encore RPG, the `Extends` keyword in used when declaring a class (`BEGCLASS`) to inherit, or extend. Derived classes can also override inherited methods with new implementations. All classes created with Encore RPG are extendable by default. 
 
 Extensibility allows you to write and debug a class once, and then reuse that code over and over as the basis of new classes. Inheritance also allows you the ability to define classes that can be used interchangeably by client code at run-time, but with functionally different, yet identically named methods or properties. 
 
@@ -24,9 +24,9 @@ Covers extend modifiers, overriding methods and properties.
 Discusses when to use inheritance instead of interfaces.
 
 
-[Inheritance and the .NET Framework](InheritanceandtheNETFramework.html)
+[Inheritance and the .NET](InheritanceandtheNETFramework.html)
 
-Explains how the .NET framework supports inheritance.
+Explains how **.NET** supports inheritance.
 
 
 ### Related Sections

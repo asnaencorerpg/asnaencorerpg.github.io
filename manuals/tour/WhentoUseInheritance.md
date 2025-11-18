@@ -12,8 +12,7 @@ Inheritance is a useful programming concept, but it is easy to use inappropriate
 
 Inheritance is a good choice when: 
 
-- Your inheritance hierarchy represents an *is-a*  relationship and not a *has-a* 
-                relationship.
+- Your inheritance hierarchy represents an *is-a*  relationship and not a *has-a* relationship.
 - You can reuse code from the base classes.
 - You need to apply the same class and methods to different data types.
 - You want to make global changes to derived classes by changing a base class.
@@ -35,7 +34,7 @@ Derived classes in a class hierarchy can sometimes be used interchangeably with 
 
 This approach poses some problems. If someone decides to add an ellipse option later, it will be necessary to alter the source code; it is possible that your target users will not even have access to your source code. A more subtle problem is that drawing an ellipse requires another parameter (ellipses have both a major and a minor diameter) that would be irrelevant to the line case. If someone then wants to add a polyline (multiple connected lines), then another parameter would be added, and it would be irrelevant to the other cases. 
 
-Inheritance solves most of these problems. Well-designed base classes leave the implementation of specific methods up to the derived classes, so that any kind of shape can be accommodated. Other developers can implement methods in derived classes by using the documentation for the base class. Other class items (such as the x- and y-coordinates) can be built into the base class because all descendants use them. For example, <code class="ce">Draw``` could be a ```MustOverride``` method: 
+Inheritance solves most of these problems. Well-designed base classes leave the implementation of specific methods up to the derived classes, so that any kind of shape can be accommodated. Other developers can implement methods in derived classes by using the documentation for the base class. Other class items (such as the x- and y-coordinates) can be built into the base class because all descendants use them. For example, `Draw` could be a `MustOverride` method: 
 
 This approach is useful because other developers, who do not have access to your source code, can extend your base class with new derived classes as needed. 
 
