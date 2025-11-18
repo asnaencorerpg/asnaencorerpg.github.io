@@ -21,7 +21,7 @@ A DataGate Printer File is composed of one or more record formats, each defining
 
 The following diagram shows the processes of editing, printing and rendering print files and their output. 
 
-![](Images/image002.gif) 
+![Printfile Designer Process](/images/printfile-edit-process.gif) 
 
 ## Editing
 DataGate provides an editor (DataGate Print File Designer) to facilitate the creation and modification of print files. The editor is hosted inside Visual Studio and operates very similarly to the forms designer. With the editor a developer can create new files and record formats. A record format gets populated with fields taken from the tool palette where the developer will find DataGate provided controls and third party controls installed on the machine. 
