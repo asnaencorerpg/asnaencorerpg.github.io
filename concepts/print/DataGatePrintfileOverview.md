@@ -9,6 +9,7 @@ TocOrder: 70
 ---
 
 ### DataGate Print Files
+
 A DataGate Printer File is composed of one or more record formats, each defining a template of what is to be shown in a segment of the page. A record format is a collection of fields. In DataGate Classic, each field was embodied by an OLE ActiveX. One of the main enhancements of the new print files is the use of .NET controls to embody fields within records. These are the other major differences: 
 
 - XML representation of file definition
@@ -24,11 +25,13 @@ The following diagram shows the processes of editing, printing and rendering pri
 ![Printfile Designer Process](/images/printfile-edit-process.gif) 
 
 ## Editing
+
 DataGate provides an editor (DataGate Print File Designer) to facilitate the creation and modification of print files. The editor is hosted inside Visual Studio and operates very similarly to the forms designer. With the editor a developer can create new files and record formats. A record format gets populated with fields taken from the tool palette where the developer will find DataGate provided controls and third party controls installed on the machine. 
 
 An alternate way of editing a print file is to request the XML description from DataGate and manipulate it directly via normal XML processing; afterwards, a new print file can be created using the new XML description. 
 
 ## Printing
+
 The user program issues operations against the print file to create a report. After connecting to the database, the program opens the print file. As the program executes, multiple write operations against different record formats are made, additionally, the control property values might be set. The write operations cause DataGate to record the values of fields and properties in a manuscript. 
 
 The manuscript is an XML document composed of four sections:
@@ -43,9 +46,11 @@ The Schema defines the data fields found in the document pages. The References l
 When the print file is open, it is possible to provide an actual location to store the manuscript at; if no location is provided, it is left to DataGate to determine whether to create the manuscript in a default disk location or to keep it in memory. 
 
 ## Rendering
+
 The final phase in the process of creating a printout is the rendering of the manuscript. DataGate provides a default renderer which yields a printout in the image of the original print file definition produced to a System installed printer. The Renderer is executed automatically when a print file is closed. There are command options that can also be set to control certain aspects of the rendering operation when Renderer.exe is executed from the Command Line. 
 
 It is possible to use alternate renderers which can process the manuscript in arbitrary ways. For instance it is possible to use a third party product to create a printout from the data in the manuscript. There is also the possibility of using the manuscript as input to a process which "grabs" the data from the report much like traditional report "scraping". 
 
 ### See Also
+
 [Renderer Command Line Options](RendererCommandOptions.html) 
