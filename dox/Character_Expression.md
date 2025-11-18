@@ -17,11 +17,11 @@ An indicator variable can be used in a character expression, and is implicitly c
 
 ```
 	MyFieldName
-        ¢Literal¢
+        "Literal"
 
         (MyLibName + MyFileName)
-	(¢Literal1¢	+ ¢Literal2)
-        (MyState + ¢¢ + MyZipCode
+        ("Literal1" + "Literal2")
+        (MyState + """" + MyZipCode)
 ```
 
 ### See Also

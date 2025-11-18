@@ -8,7 +8,7 @@ TocOrder: 0
 
 ---
 
-The underlying class for the [*String Type](./datatypes/Strings.html) is the .NET [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string) class which provides many built-in methods to facilitate the comparison and manipulation of strings. It is now a trivial matter to get data about a string, or to create new strings by manipulating current strings. 
+The underlying class for the [\*String Type](./datatypes/Strings.html) is the .NET [System.String](https://learn.microsoft.com/en-us/dotnet/api/system.string) class which provides many built-in methods to facilitate the comparison and manipulation of strings. It is now a trivial matter to get data about a string, or to create new strings by manipulating current strings. 
 
 ### Types of String Manipulation Methods
 In this section you will read about several different ways to analyze and manipulate your strings. Some of the methods are part of the Encore RPG language, and others are inherent in the <a href="https://msdn.microsoft.com/en-us/library/System.String.aspx">.NET String</a> class. 
@@ -20,20 +20,21 @@ DclFld a string  Type(*String)
   Inz("SomeString") DclFld bString Type(*String)
 ```
 
-You can also manipulate strings with the methods of the <a href="https://msdn.microsoft.com/en-us/library/System.String(v=vs.90).aspx">String</a> class. 
+You can also manipulate strings with the methods of the [System.String](https://learn.microsoft.com/en-us/dotnet/fundamentals/runtime-libraries/system-string) class.
 
-There are two types of methods in ```String```: *shared* methods and *instance* methods. 
 
-a shared method is a method that stems from the **String** class itself and does not require an instance of that class to work. These methods can be qualified with the name of the class ( **String** ) rather than with an instance of the **String** class. For example: 
+There are two types of methods in `String`: *shared* methods and *instance* methods. 
+
+A *shared* method is a method that stems from the `String` class itself and does not require an instance of that class to work. These methods can be qualified with the name of the class ( `String` ) rather than with an instance of the `String` class. For example: 
 
 ```
 DclFld a string Type (*String)
   bString = String.Copy("a literal string")
 ```
 
-In the preceding example, the ```String.Copy``` method is a static method, which acts upon an expression it is given and assigns the resulting value to <code class="ce"> bString ```. 
+In the preceding example, the `String.Copy` method is a static method, which acts upon an expression it is given and assigns the resulting value to `bString`. 
 
-Instance methods, by contrast, stem from a particular instance of ```String``` and must be qualified with the instance name. For example: 
+Instance methods, by contrast, stem from a particular instance of `String` and must be qualified with the instance name. For example: 
 
 ```
 DclFld aString Type(*String) Inz("A String") 
@@ -41,9 +42,10 @@ DclFld bString Type(*String)
 bString = aString.SubString(2,6) // bString = "String"
 ```
 
-In this example, the ```SubString``` method is a method of the instance of `String` (that is, `aString`). It performs an operation on `aString` and assigns that value to `bString`. 
+In this example, the `SubString` method is a method of the instance of `String` (that is, `aString`). It performs an operation on `aString` and assigns that value to `bString`. 
 
 ### Nothing and Strings
+
 The Encore RPG runtime and the .NET Framework evaluate `*Nothing` differently when it comes to strings. Consider the following example: 
 
 ```
@@ -57,10 +59,11 @@ DclFld MyString Type (*String) Inz("This is my string")
     stringLength = MyString.Length
 ```
 
-An un-instanced string is evaluated as **Nothing** , and an empty string is evaluated as *Blanks or "". 
+An un-instanced string is evaluated as `*Nothing` , and an empty string is evaluated as *Blanks or "". 
 
 ### Comparing Strings
-You can compare two strings by using the <a href="https://msdn.microsoft.com/en-us/library/system.string.compare(v=vs.90).aspx">String.Compare</a> method. This is a static, overloaded method of the base string class. In its most common form, this method can be used to directly compare two strings based on their alphabetical sort order. The following example illustrates how this method is used: 
+
+You can compare two strings by using the [Systm.String.Compare](https://learn.microsoft.com/en-us/dotnet/api/system.string.compare?view=net-9.0) method. This is a static, overloaded method of the base string class. In its most common form, this method can be used to directly compare two strings based on their alphabetical sort order. The following example illustrates how this method is used: 
 
 ```
 DclFld myString Type(*String)
@@ -71,10 +74,11 @@ DclFld result As Integer
 
 This method returns an integer that indicates the relationship between the two compared strings based on the sorting order. A positive value for the result indicates that the first string is greater than the second string. A negative result indicates the first string is smaller, and zero indicates equality between the strings. Any string, including an empty string, evaluates to greater than a null reference. 
 
-Additional overloads of the ```String.Compare``` method allow you to indicate whether or not to take case or culture formatting into account, and to compare substrings within the supplied strings. For more information on how to compare strings, see <a href="https://msdn.microsoft.com/en-us/library/system.string.compare(v=vs.90).aspx">String.Compare</a> method. 
+Additional overloads of the `String.Compare` method allow you to indicate whether or not to take case or culture formatting into account, and to compare substrings within the supplied strings. For more information on how to compare strings, see [Systm.String.Compare](https://learn.microsoft.com/en-us/dotnet/api/system.string.compare?view=net-9.0) method. 
 
 ### Searching for Strings Within Your Strings
-There are times when it is useful to have data about the characters in your string and the positions of those characters within your string. A string can be thought of as an array of characters ( **Char** instances); you can retrieve a particular character by referencing the index of that character through the **Chars** property. For example: 
+
+There are times when it is useful to have data about the characters in your string and the positions of those characters within your string. A string can be thought of as an array of characters ( `*Char` instances); you can retrieve a particular character by referencing the index of that character through the `*Chars` property. For example: 
 
 ```
 DclFld myString Type(*String)
@@ -82,7 +86,7 @@ DclFld myString Type(*String)
   myChar = myString.Chars(3) // myChar = "D"
 ```
 
-You can use the <a href="https://msdn.microsoft.com/en-us/library/system.string.indexof(v=vs.90).aspx">String.IndexOf</a> method to return the index where a particular character is encountered, as in the following example: 
+You can use the [String.IndexOf](https://learn.microsoft.com/en-us/dotnet/api/system.string.indexof?view=net-9.0) method to return the index where a particular character is encountered, as in the following example: 
 
 ```
 DclFld myString Type(*String) 
@@ -91,12 +95,13 @@ DclFld myInteger Type(*Integer)
     myInteger = myString.IndexOf("D) // myInteger = 3
 ```
 
-In the previous example, the ```IndexOf``` method of `myString` was used to return the index corresponding to the first instance of the character "C" in the string. `IndexOf` is an overloaded method, and the other overloads provide methods to search for any of a set of characters, or to search for a string within your string, among others. The Encore RPG command `InStr` also allows you to perform similar functions. 
+In the previous example, the `IndexOf` method of `myString` was used to return the index corresponding to the first instance of the character "C" in the string. `IndexOf` is an overloaded method, and the other overloads provide methods to search for any of a set of characters, or to search for a string within your string, among others. The Encore RPG command `InStr` also allows you to perform similar functions. 
 
 ### Creating New Strings from Old
+
 When using strings, you may want to modify your strings and create new ones. You may want to do something as simple as convert the entire string to uppercase, or trim off trailing spaces; or you may want to do something more complex, such as extracting a substring from your string. The `System.String` class provides a wide range of options for modifying, manipulating, and making new strings out of your old ones. 
 
-To combine multiple strings, you can use the concatenation operators ( **&** or **+** ). You can also use the **String.Concat** Method to concatenate a series of strings or strings contained in objects. An example of the **String.Concat** method follows: 
+To combine multiple strings, you can use the concatenation operators ( `&` or `+` ). You can also use the `String.Concat` Method to concatenate a series of strings or strings contained in objects. An example of the `String.Concat` method follows: 
 
 ```
 DclFld a string Type(*String)
@@ -107,7 +112,7 @@ DclFld a string Type(*String)
   myString = String.Concat(a string, bString, cString, dString) 
 ```
 
-You can convert your strings to all uppercase or all lowercase strings using either the Encore RPG functions `UCase` and `LCase` or the **String.ToUpper** Method and **String.ToLower** Method methods. An example is shown below: 
+You can convert your strings to all uppercase or all lowercase strings using either the Encore RPG functions `UCase` and `LCase` or the `String.ToUpper` Method and `String.ToLower` Method methods. An example is shown below: 
 
 ```
 DclFld myString Type(*String) Inz("UpPeR oR LoWeR cAsE") DclFld newString Type(*String)
@@ -131,12 +136,12 @@ DclFld oneString Type(*String)
   OneString = myString.Trim("#")
 ```
 
-You can also add leading or trailing characters by using the [String.PadLeft](//msdn.microsoft.com/en-us/library/system.string.padleft.aspx) Method or the [String.PadRight](msdn.microsoft.com/en-us/library/system.string.padright(v=vs.90).aspx) Method. 
+You can also add leading or trailing characters by using the [String.PadLeft](https://learn.microsoft.com/en-us/dotnet/api/system.string.padleft?view=net-9.0) Method or the [String.PadRight](https://learn.microsoft.com/en-us/dotnet/api/system.string.padright?view=net-9.0) Method. 
 
-If you have excess characters within the body of your string, you can excise them by using the ```String.Remove``` Method, or you can replace them with another character using the [String.Replace](//msdn.microsoft.com/en-us/library/system.string.replace(v=vs.90).aspx) Method. For example: 
+If you have excess characters within the body of your string, you can excise them by using the `String.Remove` Method, or you can replace them with another character using the [String.Replace](https://learn.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-9.0) Method. For example: 
 
 ```
- DclFld a_string Type(*String) Inz("This is My Str@o@o@ing") 
+ DclFld a_string Type(*String) Inz("This is My String") 
  DclFld myString Type(*String) 
  DclFld anotherString Type(*String)
   // myString = "This is My String"
@@ -145,9 +150,9 @@ If you have excess characters within the body of your string, you can excise the
   anotherString = myString.Replace("my", "Another")
 ```
 
-You can use the [String.Replace](//msdn.microsoft.com/en-us/library/system.string.replace(v=vs.90).aspx) method to replace either individual characters or strings of characters. The Encore RPG Mid Statement can also be used to replace an interior string with another string. 
+You can use the [String.Replace](https://learn.microsoft.com/en-us/dotnet/api/system.string.replace?view=net-9.0) method to replace either individual characters or strings of characters. The Encore RPG Mid Statement can also be used to replace an interior string with another string. 
 
-You can also use the [String.Insert](//msdn.microsoft.com/en-us/library/system.string.insert(v=vs.90).aspx) Method to insert a string within another string, as in the following example: 
+You can also use the [String.Insert](https://learn.microsoft.com/en-us/dotnet/api/system.string.insert?view=net-9.0) Method to insert a string within another string, as in the following example: 
 
 ```
 DclFld a_string Type(*String) Inz("This is My Stng") 
@@ -156,9 +161,9 @@ DclFld myString Type(*String)
   myString = a_string.Insert(13, "ri")
 ```
 
-The first parameter that the [String.Insert](//msdn.microsoft.com/en-us/library/system.string.insert(v=vs.90).aspx) method takes is the index of the character the string is to be inserted after, and the second parameter is the string to be inserted. 
+The first parameter that the [String.Insert](https://learn.microsoft.com/en-us/dotnet/api/system.string.insert?view=net-9.0) method takes is the index of the character the string is to be inserted after, and the second parameter is the string to be inserted. 
 
-You can concatenate an array of strings together with a separator string by using the [String.Join](//msdn.microsoft.com/en-us/library/system.string.join(v=vs.90).aspx) Method. Here is an example: 
+You can concatenate an array of strings together with a separator string by using the [String.Join](https://learn.microsoft.com/en-us/dotnet/api/system.string.join?view=net-9.0) Method. Here is an example: 
 
 ```
  DclFld shoppingItem(2)
@@ -179,11 +184,11 @@ DclArray shoppingItem Type( *String ) Rank( 1 )
 shoppingItem = shoppingList.Split( ",".ToCharArray() )
 ```
 
-Substrings of your string can also be generated using the [String.Substring](//msdn.microsoft.com/en-us/library/system.string.substring(v=vs.90).aspx) Method. This method takes two arguments:
+Substrings of your string can also be generated using the [String.Substring](https://learn.microsoft.com/en-us/dotnet/api/system.string.substring?view=net-9.0) Method. This method takes two arguments:
  + the character index where the substring is to start, 
  + and the length of the substring. 
  
- The [String.Substring](//msdn.microsoft.com/en-us/library/system.string.substring(v=vs.90).aspx) method operates much like the **Mid** function. 
+ The [String.Substring](https://learn.microsoft.com/en-us/dotnet/api/system.string.substring?view=net-9.0) method operates much like the `Mid` function. 
  An example is shown below: 
 
 ```
@@ -195,4 +200,5 @@ DclFld subString Type (*String)
 ```
 
 ### See Also
+
 [String](aerConStrings.html)
