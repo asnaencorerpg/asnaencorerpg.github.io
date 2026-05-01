@@ -4,7 +4,7 @@ description: "Call a Bound Procedure "
 ---
 
 
-**CALLB - Call a Bound Procedure**
+CALLB - Call a Bound Procedure
 
 CALLB is used to call [BEGPROC](BEGPROC.html) procedures.
 
@@ -12,10 +12,10 @@ CALLB is used to call [BEGPROC](BEGPROC.html) procedures.
 
 ```
 CALLB
-        Proc (<Class or Class.Procedure or Procedure name>)
-        ParmList (*NONE| Parameter List Name)
-        Err (Indicator Variable | *EXTENDED)
-        LR (Indicator Variable)
+    Proc (<Class or Class.Procedure or Procedure name>)
+    ParmList (*NONE| Parameter List Name)
+    Err (Indicator Variable | *EXTENDED)
+    LR (Indicator Variable)
 ```
 
 ## Parameters
@@ -53,12 +53,12 @@ Because a procedure may return a value, you may also use a free-form expression 
 
 ```
 // Call to a procedure with a ParmList.
-              CallB Proc(MyProcedure) ParmList(Listout)
+    CallB Proc(MyProcedure) ParmList(Listout)
 
 // Call to a procedure with parameters.
-              CallB Proc(MyProcedure)
-              DclParm CustName(*Omit)
-              DclParm CustPhone(*Omit)
+    CallB Proc(MyProcedure)
+        DclParm CustName(*Omit)
+        DclParm CustPhone(*Omit)
 ```
 
 ## See Also

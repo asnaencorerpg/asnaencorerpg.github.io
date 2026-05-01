@@ -6,15 +6,15 @@ description: "Call a remote program on a server"
 Transfers program control to a remote program.
 
 ```
- CALL
-Pgm (Character Expression | Form variable)
-ParmList (<u>*NONE</u>| Parameter List Name)
- Db  (Database Object)
-Err (Indicator Variable | *EXTENDED)
-Lr (Indicator Variable)    
+CALL
+    Pgm (Character Expression | Form variable)
+    ParmList (<u>*NONE</u>| Parameter List Name)
+    Db  (Database Object)
+    Err (Indicator Variable | *EXTENDED)
+    LR (Indicator Variable)    
 ```
 
-### Parameters
+## Parameters
 
 **Pgm** 
 
@@ -45,7 +45,7 @@ Optional. **Err** determines what the runtime will do if an error occurs while e
 Optional. The **Lr** parameter will be set when the last record is read.
 
 
-### Remarks
+## Remarks
 Use CALL to call an AS/400 program. To call a local program, use [CALLB](CALLB.html).
 
 **Note** *Currently, a CALL with no DB parameter is converted (by the Compiler) to a CALLB. Programmers are encouraged to use CALLB for local calls in the future.* 
@@ -58,34 +58,37 @@ The **maximum number** of parameters that can be passed in an AS/400 call is **3
 
 The AS/400 provides for three parameter data types for Commands (e.g., QCMDEXC) and Programs (CL, RPG, etc): Character, Boolean and Numeric. Typically, numeric parameters are always Packed. You must explicitly declare numeric parameters as Type(*packed) in your Encore RPG code. It may not be presumed that the Encore RPG compiler generates packed numerics. 
 
-You can also call AS/400 APIs which can require a data structure as a Parm. This is supported and all required data types are permitted. When redefining data structure subfields, only the first definition is processed and converted between ASCII and EBCDIC. 
+You can also call AS/400 APIs which can require a data structure as a Parm. This is supported and all required data types are permitted. When redefining data structure subfields, only the first definition is processed and converted between Unicode and EBCDIC. 
 
 For Example:
 
 ```
-dclDS Name(MYparmDS)
-dcldsfld FieldA *char 10 // This value is passed and converted
-dcldsfld FieldB *packed len(7,2) // Ignored dcldsfld FieldC *zoned len(9,2) // Ignored  
+DclDS Name(MYparmDS)
+    DclDsFld FieldA *char 10                    // This value is passed and converted
+    DclDsFld FieldB *packed len(7,2) StartAt(1) // Ignored 
+    DclDsFld FieldC *zoned len(9,2)  StartAt(1) // Ignored  
 ```
 
-### Example
+## Example
 
 ```
- dclDB Name ( ProdDB ) DBName ( "DG Net iSeries" )
- DclPlist Listout
- Dclparm TimeOfDay Type (*char) Len (10)
- Dclparm DayOfWeek Type (*packed) Len (1,0)
- Dclparm MonthOfYear Type (*packed) Len (2,0)
+// Call to a program with a PList. 
+    DclDB Name ( ProdDB ) DBName ( "MyIbmServer" )
+    DclPlist Listout
+        Dclparm TimeOfDay   Type (*char)    Len (10)
+        Dclparm DayOfWeek   Type (*packed)  Len (1,0)
+        Dclparm MonthOfYear Type (*packed)  Len (2,0)
 
- // Call to a program with a PList. Call Pgm ( "LIBL/MyProgram" ) DB (ProdDB) ParmList (Listout)
+    Call Pgm ( "LIBL/MyProgram" ) DB (ProdDB) ParmList (Listout)
 
- // Call to a program with parms. Call Pgm ( "LIBL/MyProgram" ) DB (ProdDB) ParmList (Listout)
- Dclparm TimeOfDay Type (*char) Len (10)
- Dclparm DayOfWeek Type (*packed) Len (1,0)
- Dclparm MonthOfYear Type (*packed) Len (2,0)			
+// Call to a program with parms. 
+    Call Pgm ( "LIBL/MyProgram" ) DB (ProdDB) 
+        Dclparm TimeOfDay   Type (*char)    Len (10)
+        Dclparm DayOfWeek   Type (*packed)  Len (1,0)
+        Dclparm MonthOfYear Type (*packed)  Len (2,0)
 ```
 
-### See Also
+## See Also
 
 [CALLB](CALLB.html)
 
