@@ -1,11 +1,6 @@
 ---
 title: CALL
-
-Id: CALL
-TocParent: aerLrfOpCodesMain
-TocOrder: 190
-
-
+description: "Call a remote program on a server"
 ---
 
 Transfers program control to a remote program.
@@ -91,16 +86,11 @@ dcldsfld FieldB *packed len(7,2) // Ignored dcldsfld FieldC *zoned len(9,2) // I
 ```
 
 ### See Also
+
 [CALLB](CALLB.html)
-
 [CONNECT](CONNECT.html)
-
 [DCLDB](DCLDB.html)
-
 [DCLPARM](DCLPARM.html)
-
 [DCLPLIST](DCLPLIST.html)
-
 [HIDE](HIDE.html)
-
 [UNLOAD](UNLOAD.html) 

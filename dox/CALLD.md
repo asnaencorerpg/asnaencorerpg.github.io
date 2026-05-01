@@ -1,26 +1,22 @@
 ---
 title: CALLD
-
-Id: CALLD
-TocParent: aerLrfOpCodesMain
-TocOrder: 210
-
-
+description: "Call a program dynamically"
 ---
 
-        Used to dynamically
-        invoke a procedure. [Only used with Monarch ILE Procedures]. 
+Used to dynamically invoke the ENTRY procedure. [Only used with Monarch migrated programs]. 
+
+## Syntax
+
 ```
-CALLD 
-Pgm  (Character expression)
-ParmList (<u>*NONE</u>| Parameter List Name)
-Assembly (Character expression)
-Prototype (Name)
-Err (Indicator Variable | *EXTENDED)
-Lr (Indicator Variable)    
+CALLD   Pgm  (Character expression)
+        ParmList (<u>*NONE</u>| Parameter List Name)
+        Assembly (Character expression)
+        Prototype (Name)
+        Err (Indicator Variable | *EXTENDED)
+        Lr (Indicator Variable)    
 ```
 
-### Parameters
+## Parameters
 
 **Pgm** 
 
@@ -62,7 +58,7 @@ Optional. Err determines what the runtime will do if an error occurs while execu
 Optional. The specified indicator is set to the value of * **INLR** of the called program.
 
 
-### Remarks
+## Remarks
 **CALLD** is basically the same as [CALLB](CALLB.html), except that you can specify an assembly or prototype of the program to call. 
 
 **Dynamic references** are used together with **CALLD** . They are the set of libraries (dll’s) the runtime searches for the class invoked in a **CALLD** . These libraries **must** be available at runtime, but not necessarily at compile time. During compilation of **CALLD** , if the **PGM** keyword is a constant, the compiler searches the available dynamic references to obtain the signature of the * **Entry** method of the class, and match it against the parameters of the **CALLD** . If they're not found, the parameters are assumed to be of the same type as the **DclParm** argument passed by reference, and with **Option(*nopass)** . 
@@ -96,20 +92,25 @@ Example: CALLD Pgm( " MyNamespace.MyProgram " )
                     The .NET Framework rules for probing are documented in MSDN .NET Framework
                     Developer Center. Search for "Locating Assembly through Probing".
 
-### Example
+## Example
 
 ```
- // Dynamic call to a dynamic program as a constant. CALLD Pgm (" M yNameSpace.MyProgram" ) ParmList (MyParmList)			
+ // Dynamic call to a dynamic program as a constant. 
+        CALLD Pgm("MyNameSpace.MyProgram") ParmList(MyParmList)			
 
- // Dynamic call to a program as constant with the same Namespace as the caller. CALLD Pgm (*NS + "MyProgram") // Dynamic call to a program as a variable. DclFld PgmToCall type( *string ) PgmToCall = "MyProgram" CALLD Pgm ( *NS + PgmToCall ) ParmList ( Listout)			
+ // Dynamic call to a program as constant with the same Namespace as the caller. 
+        CALLD Pgm(*NS + "MyProgram") 
+        
+ // Dynamic call to a program as a variable. 
+        DclFld PgmToCall type( *string ) 
+        PgmToCall = "MyProgram" 
+        CALLD Pgm( *NS + PgmToCall ) ParmList( Listout)			
 ```
 
-### See Also
+## See Also
+
 [BEGPROC](BEGPROC.html)
-
 [CALLB](CALLB.html)
-
 [DCLPARM](DCLPARM.html)
-
-[*NS](StarNS.html)<!--Fix-->
+[*NS](StarNS.html)
 
