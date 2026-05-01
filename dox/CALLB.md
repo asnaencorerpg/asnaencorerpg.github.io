@@ -4,9 +4,9 @@ description: "Call a Bound Procedure "
 ---
 
 
-CALLB - Call a Procedure**
+**CALLB - Call a Bound Procedure**
 
-Used to call [BEGPROC](BEGPROC.html) procedures.
+CALLB is used to call [BEGPROC](BEGPROC.html) procedures.
 
 ## Syntax
 
@@ -63,6 +63,8 @@ Because a procedure may return a value, you may also use a free-form expression 
 
 ## See Also
 
-[BEGPROC](BEGPROC.htm>)
-[CALLD](CALLD.htm>)
-[DCLPARM](DCLPARM.htm>)
+[BEGPROC](BEGPROC.htm)
+
+[CALLD](CALLD.htm)
+
+[DCLPARM](DCLPARM.htm)
